@@ -5,6 +5,7 @@
 \usepackage{lmodern}
 \usepackage[spanish]{babel}
 \usepackage{amsmath}
+\usepackage{graphicx}
 
 \title{\LaTeX\ \textsc{notas}}
 
@@ -135,7 +136,7 @@ Huge
 Para crear secciones dentro de un documento usamos:
 
 \begin{verbatim}
-\section{Nombre de la seccion}
+\section{Nombre de la secci\'on}
 \end{verbatim}
 
 Por ejemplo esta seccion se llama \textbf{Secciones}.
@@ -146,7 +147,7 @@ Tambien podemos crear subsecciones \& subsubsecciones:
 
 \subsection{Soy una subsección}
 \begin{verbatim}
-\subsection{Nombre de la subseccion}
+\subsection{Nombre de la subsecci\'on}
 \end{verbatim}
 
 \subsubsection{Soy una subsubsección}
@@ -210,10 +211,51 @@ La anterior sintaxis arrojaria el siguiente resultado:
 
 Donde el label me permire referenciar la ecuaci\'on desde cualquier parte del texto así Eq.\ref{eq:1.1}  
 
+\section*{Figuras}
 
+Es necesario incluir el paquete \verb"graphicx" para tener las herramientas basicas para hacer graficas.:
+
+\verb"\usepackage{graphicx}"\\
+
+Ahora pongamos una grafica:
+
+\begin{verbatim}
+\begin{figure}\label{fig:PhDComics}
+\includegraphics[scale=0.8]{f1.png}
+\caption{Your vacations?}
+\end{figure}
+\end{verbatim}
+
+\begin{figure}\label{fig:PhDComics}
 \begin{center}
-\section*{Tips:}
+\includegraphics[scale=0.8]{f1.png}
+\caption{Your vacations?}
 \end{center}
+\end{figure}
+
+En la Fig.\ref{fig:PhDComics} vemos unas lindas vacaciones$!$
+
+\section*{Tablas}
+
+Ahora hagamos algunas tablas:
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+hola & que mas \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\section*{Bibliograf\'ia}
+
+
+
+%\begin{center}
+\section*{Tips:}
+%-\end{center}
 
 \begin{itemize}
 \item Para dejar un espacio distanciado entre lineas se debe usar \verb"\\" al final de cada linea.
