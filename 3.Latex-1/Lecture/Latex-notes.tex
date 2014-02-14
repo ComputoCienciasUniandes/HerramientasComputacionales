@@ -279,16 +279,31 @@ Murakami is a marathon runner and triathlon enthusiast, though he did not start 
 
 La Bibliografia se puede hacer de dos maneras, corta para trabajos e informes, o larga para articulos y libros.\\
 
+Esta es al forma corta:\\
 Se referencia así \cite{Latex} \verb"\cite{Taylor}".
 
 
 
-\begin{thebibliography}{4}
-\bibitem{Tutorial}http://www.latex-tutorial.com/\\
-\bibitem[LatexOficial]{Latex}http://www.latex-project.org/\\
-\bibitem{Templates}http://www.latextemplates.com/\\
-\bibitem{Wiki}https://en.wikipedia.org/wiki/Haruki\verb"_"Murakami
-\end{thebibliography}
+
+Para libros y art\'iculos:\\
+
+Se crea un archivo .bib donde esta toda la bibliograf\'ia en este formato:
+
+\begin{verbatim}
+@BOOK{book,
+	    AUTHOR = "author",
+	    TITLE = "book title",
+	    PUBLISHER = {publishing company},
+	    ADDRESS = {where published},
+	    YEAR = year published}
+
+\end{verbatim}
+
+Y se referencia as\'i:\\
+\cite{book}
+\verb"\cite{book}"
+
+Ver mas en: \cite{wiki}
 
 %\begin{center}
 \section*{Tips:}
@@ -300,6 +315,16 @@ Se referencia así \cite{Latex} \verb"\cite{Taylor}".
 \item Para comentar lineas se utiliza el simbolo de porcentaje \%.
 \end{itemize}
 
+\bibliography{references}
+
+
+
+\begin{thebibliography}{5}
+\bibitem{Tutorial}http://www.latex-tutorial.com/\\
+\bibitem[LatexOficial]{Latex}http://www.latex-project.org/\\
+\bibitem{Templates}http://www.latextemplates.com/\\
+\bibitem{Wiki}https://en.wikipedia.org/wiki/Haruki\verb"_"Murakami
+\bibitem{wiki}\verb"https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management"
+\end{thebibliography}
 
 \end{document}
-
