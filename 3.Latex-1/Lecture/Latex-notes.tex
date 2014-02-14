@@ -6,6 +6,7 @@
 \usepackage[spanish]{babel}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{multicol}
 
 \title{\LaTeX\ \textsc{notas}}
 
@@ -257,13 +258,37 @@ Tiempo ($s$) & Distancia $m$ \\
 
 Table \ref{tab:distance} muestra..
 
+\section*{Columnas}
+
+Agregar \verb"\usepackage{multicol}"
+
+\begin{multicols}{2}
+"Murakami was born in Japan during the post–World War II baby boom. Although born in Kyoto, he spent his youth in Shukugawa (Nishinomiya), Ashiya and Kobe. His father was the son of a Buddhist priest, and his mother the daughter of an Osaka merchant. Both taught Japanese literature.
+
+Since childhood, Murakami has been heavily influenced by Western culture, particularly Western music and literature. He grew up reading a wide range of works by American writers, such as Kurt Vonnegut, Richard Brautigan and Jack Kerouac. These Western influences distinguish Murakami from other Japanese writers.
+
+Murakami studied drama at Waseda University in Tokyo, where he met his wife, Yoko. His first job was at a record store, much like Toru Watanabe, the narrator of Norwegian Wood. Shortly before finishing his studies, Murakami opened a coffeehouse and jazz bar, the Peter Cat, in Kokubunji, Tokyo, which he ran with his wife from 1974 to 1981—again, not unlike the protagonist in his later novel South of the Border, West of the Sun.
+
+Many of his novels have themes and titles that invoke classical music, such as the three books making up The Wind-Up Bird Chronicle: The Thieving Magpie (after Rossini's opera), Bird as Prophet (after a piano piece by Robert Schumann usually known in English as The Prophet Bird), and The Bird-Catcher (a character in Mozart's opera The Magic Flute). Some of his novels take their titles from songs: Dance, Dance, Dance (after The Dells' song, although it is widely thought it was titled after the Beach Boys tune), Norwegian Wood (after The Beatles' song) and South of the Border, West of the Sun (after the song "South of the Border").
+
+Murakami is a marathon runner and triathlon enthusiast, though he did not start running until he was 33 years old. On June 23, 1996, he completed his first ultramarathon, a 100-kilometer race around Lake Saroma in Hokkaido, Japan. He discusses his relationship with running in his 2008 memoir What I Talk About When I Talk About Running" \cite{Wiki}
+\end{multicols}
+
+
 \section*{Bibliograf\'ia}
 
 La Bibliografia se puede hacer de dos maneras, corta para trabajos e informes, o larga para articulos y libros.\\
 
+Se referencia así \cite{Latex} \verb"\cite{Taylor}".
 
 
 
+\begin{thebibliography}{4}
+\bibitem{Tutorial}http://www.latex-tutorial.com/\\
+\bibitem[LatexOficial]{Latex}http://www.latex-project.org/\\
+\bibitem{Templates}http://www.latextemplates.com/\\
+\bibitem{Wiki}https://en.wikipedia.org/wiki/Haruki\verb"_"Murakami
+\end{thebibliography}
 
 %\begin{center}
 \section*{Tips:}
@@ -273,17 +298,8 @@ La Bibliografia se puede hacer de dos maneras, corta para trabajos e informes, o
 \item Para dejar un espacio distanciado entre lineas se debe usar \verb"\\" al final de cada linea.
 \item Para escribir simbolos o ecuaciones matemáticas en el texto se debe usar el simbolo \$ \verb"$\dfrac{dx}{dt}$"   $\dfrac{dx}{dt}$
 \item Para comentar lineas se utiliza el simbolo de porcentaje \%.
-
-
-
-\begin{center}
-\section*{Referencias:}
-\end{center}
-
-http://www.latex-tutorial.com/\\
-http://www.latex-project.org/\\
-http://www.latextemplates.com/
 \end{itemize}
+
 
 \end{document}
 
