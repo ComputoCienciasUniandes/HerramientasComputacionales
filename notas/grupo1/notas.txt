@@ -1,0 +1,22 @@
+Nombre:                    Tarea1       Tarea2      Tarea3     Tarea4
+=================================================================================
+Aguilera Huertas            4.4
+Arango Ruiz                  -
+Caceres Torres              4.0
+Castillo Ruiz               4.4
+Cortes Calderon              - 
+Diaz Meza                   4.8
+Farfan Romero               4.4
+Garzon Alvarado             4.4
+Gonzalez Lozano             4.4
+Gonzalez Sanchez            4.8
+Jauregui Sarmiento          4.0
+Lobo Bolano                  -
+Munoz Giraldo               4.4
+Perez Angel                  -
+Plaza Bermudez              3.0
+Quiroga Fonseca             4.4
+Ricci Vasquez               4.4
+Rodriguez Diaz              1.5
+Rodriguez Parra             4.2
+Velasquez Garcia            4.4
