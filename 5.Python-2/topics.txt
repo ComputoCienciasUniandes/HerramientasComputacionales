@@ -1,6 +1,0 @@
-1. sys function 
-2. read and write files
-3. numpy
-4. scipy
-5. HW (units changes, matrix eigen values!)
-
