@@ -1,3 +1,6 @@
+wget https://raw2.github.com/jngaravitoc/HerramientasComputacionales/master/2.Unix-TextEditors/Hands-on/metamorphosis.txt
+wget https://raw.github.com/jngaravitoc/HerramientasComputacionales/master/2.Unix-TextEditors/Hands-on/Sainte-Beuve.txt
+
 grep -o -i 'a' metamorphosis.txt | wc -l > a.dat
 grep -o -i 'e' metamorphosis.txt | wc -l > e.dat
 grep -o -i 'i' metamorphosis.txt | wc -l > i.dat
@@ -42,3 +45,5 @@ awk '{if($1>2)print "a aparece mas en meta con = "$1" veces"}' data.dat
 rm meta.dat
 rm sainte.dat
 rm data.dat
+rm metamorphosis.txt
+rm Sainte-Beuve.txt
