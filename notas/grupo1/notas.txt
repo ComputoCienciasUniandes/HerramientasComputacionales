@@ -13,7 +13,7 @@ Gonzalez Sanchez            4.8
 Jauregui Sarmiento          4.0
 Lobo Bolano                  -
 Munoz Giraldo               4.4
-Perez Angel                  -
+Perez Angel                 5.0
 Plaza Bermudez              3.0
 Quiroga Fonseca             4.4
 Ricci Vasquez               4.4
