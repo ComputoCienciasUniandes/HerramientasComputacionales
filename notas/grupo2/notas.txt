@@ -1,18 +1,18 @@
 Nombre              Tarea1    Tarea2   Tarea3   Tarea4   Tarea5   Tarea6
 ===============================================================================
-AguilarMoreno        4.4       5.0      
+AguilarMoreno        4.4       5.0              4.2      
 AguirrePatiño         -        3.3
-ArizaMejia           4.3       5.0      5.0
-BeronOrtiz           4.4       5.0      5.0
-CardozoBolivar        -        5.0      3.5
+ArizaMejia           4.3       5.0      5.0     5.0       5.0
+BeronOrtiz           4.4       5.0      5.0     4.6
+CardozoBolivar        -        5.0      3.5     5.0
 ErasoChavez           -        4.0      
 FajardoFajardo        -        2.0      3.5
-HenriquezBernal      3.3       4.5      3.5
+HenriquezBernal      3.3       4.5      3.5     4.8       5.0
 HerranGonzalez        -        5.0      5.0
-MolanoParrado        2.5       3.3
-PatiñoPaz            4.1       5.0      5.0
-PereiroGiraldo       4.4       5.0      5.0
-SaldarriagaTrejos    3.0       5.0      5.0
-VargasAlvarez         -        5.0      4.2
-VelasquezMoros        -        5.0      5.0
-ZunigaCervantes      3.0       5.0      5.0
+MolanoParrado        2.5       3.3       -      4.8
+PatiñoPaz            4.1       5.0      5.0     4.4
+PereiroGiraldo       4.4       5.0      5.0     4.4       4.8
+SaldarriagaTrejos    3.0       5.0      5.0     4.0
+VargasAlvarez         -        5.0      4.2     3.5
+VelasquezMoros        -        5.0      5.0     4.0       4.8
+ZunigaCervantes      3.0       5.0      5.0     5.0
