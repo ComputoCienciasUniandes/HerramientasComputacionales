@@ -1,22 +1,25 @@
 Nombre:                    Tarea1       Tarea2      Tarea3     Tarea4
 =================================================================================
-Aguilera Huertas            4.4
-Arango Ruiz                  -
-Caceres Torres              4.0
-Castillo Ruiz               4.4
-Cortes Calderon             4.4
-Diaz Meza                   4.8
-Farfan Romero               4.4
-Garzon Alvarado             4.4
-Gonzalez Lozano             4.4
-Gonzalez Sanchez            4.8
-Jauregui Sarmiento          4.0
+Aguilera Huertas            4.4         4.0
+Arango Ruiz                  -          4.1
+Caceres Torres              4.0         4.1
+Castillo Ruiz               4.4         4.8
+Cortes Calderon             4.4         4.7
+Diaz Meza                   4.8          * 
+Farfan Romero               4.4          -
+Garzon Alvarado             4.4         5.0
+Gonzalez Lozano             4.4         4.9
+Gonzalez Sanchez            4.8          -
+Jauregui Sarmiento          4.0         4.0
 Lobo Bolano                  -
-Munoz Giraldo               4.4
-Perez Angel                 5.0
-Plaza Bermudez              3.0
-Quiroga Fonseca             4.4
-Ricci Vasquez               4.4
-Rodriguez Diaz              1.5
-Rodriguez Parra             4.2
-Velasquez Garcia            4.4
+Munoz Giraldo               4.4         4.5
+Perez Angel                 5.0         5.0
+Plaza Bermudez              3.0         2.5
+Quiroga Fonseca             4.4         3.8
+Ricci Vasquez               4.4         5.0
+Rodriguez Diaz              1.5         5.0
+Rodriguez Parra             4.2         5.0
+Velasquez Garcia            4.4         4.5
+
+
+* Archivo dañado, no se puede abrir
