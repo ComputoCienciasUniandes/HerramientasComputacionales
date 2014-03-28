@@ -6,7 +6,7 @@ ArizaMejia           4.3       5.0      5.0     5.0       5.0      4.0
 BeronOrtiz           4.4       5.0      5.0     4.6                5.0
 CardozoBolivar        -        5.0      3.5     5.0                3.5
 ErasoChavez           -        4.0      
-FajardoFajardo        -        2.0      3.5*    pendiente 5.0      4.0
+FajardoFajardo        -        2.0      3.5*    pendiente 4.5	   4.0
 HenriquezBernal      3.3       4.5      3.5     4.8       5.0      3.7
 HerranGonzalez       4.4       5.0      5.0                        5.0
 MolanoParrado        2.5       3.3       -      4.8                4.0
