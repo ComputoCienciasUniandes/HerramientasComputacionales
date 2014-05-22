@@ -23,7 +23,7 @@ Velasquez Garcia,    4.4,    4.5,    4.5,    4.5,    5.0,    5.0,     -,     5.0
 [3]: No hace la marcha aleatoria correctamente, la grafica esta invertida, el ajuste no es una linea recta!, no se grafica la esfera en el 3dplot. ,,,,,,,,,
 [4]: No hace bien, las graficas, ni el ajuste.,,,,,,,,,,
 [5]: Tarde!,,,,,,,,,,,,
-[6]: El programa no escribe, el archivo de datos! ,,,,,,,,,,,
+[6]: El programa no escribe, el archivo de datos! ,,,,,,,,,,,,
 [7]: No es el ajuste adecuado, falta la esfera en la grafica de matplotlib, faltan labels en las graficas,,,,,,,,,,,
 [8]: No es el ajuste adecuado, la funcion seno en python es sin(), en al grafica 3d la, esfera , es mas, pequeña , en radio , que la caminata.,,,,,,
 [9]: No esta bien hecha la caminata, el ajuste no es el adecuado, la grafica 3d, no tiene la esfera.,,,,,,,,,
