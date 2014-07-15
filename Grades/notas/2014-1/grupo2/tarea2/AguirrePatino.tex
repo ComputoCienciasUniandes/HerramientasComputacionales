@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc} 
+\usepackage{amssymb}
+\title{Matemática Estructural}
+\begin{document}
+ 
+\maketitle
+
+\subsection{Operaciones sobre conjuntos}
+
+Definición: Dados A y B conjuntos definimos la unión, la intersección y la resta de estos
+de la siguiente manera:
+
+\begin{center} A$\cup$B := $\{$x$|$ x $\in$ A o x $\in$ B$\}$\\ 
+A$\cap$B := $\{$x$|$ x $\in$ A y x $\in$ B$\}$\\
+A$\backslash$B := $\{$x$|$ x $\in$ A y x $\notin$ B$\}$
+\end{center}
+1. Pruebe que: $\forall$A,B conjuntos, (A$\backslash$B)$\backslash$B = (A$\backslash$B)\\
+\begin{center}
+``$\subseteq$'' Sea x $\in$ (A$\backslash$B)$\backslash$B. Para ver que x $\in$ (A$\backslash$B) que, en otras palabras es equivalente a decir (A$\backslash$B)$\backslash$B $\subseteq$ (A$\backslash$B). Por definición de resta de conjuntos, x $\in$ A$\backslash$B
+y x $\notin$ B $\Longrightarrow$ x $\in$ A$\backslash$B como queriamos.\\
+``$\supseteq$'' Sea x $\in$ (A$\backslash$B). Para ver que x $\in$ (A$\backslash$B)$\backslash$B lo cual, en otras palabras es lo
+mismo que decir (A$\backslash$B) $\subseteq$ (A$\backslash$B)$\backslash$B. Por definición de resta de conjuntos, x $\in$ A y x $\notin$ B $\Longrightarrow$ x $\in$ A$\backslash$B y, por extensión, x $\in$ (A$\backslash$B)$\backslash$B como queriamos.\\
+Por el PE (Principio de Extensionalidad), (A$\backslash$B)$\backslash$B = (A$\backslash$B). $\blacksquare$
+\\
+\end{center}
+2. Demostrar: $\forall$A, B, C conjuntos, (A$\cap$B)$\cup$C = (A$\cup$C)$\cap$(B$\cup$C)
+\begin{center}
+``$\subseteq$''Sea x $\in$ (A$\cap$B)$\cup$C para ver, x $\in$ (A$\cup$C)$\cap$(B$\cup$C), es decir (A$\cap$B)$\cup$C $\subseteq$ (A$\cup$C)$\cap$(B$\cup$C).
+Por hipótesis, hay dos casos:\\
+a. Caso 1: x $\in$ (A$\cap$B) $\longrightarrow$ x $\in$ A y x $\in$ B (por definición de intersección de conjuntos) $\longrightarrow$ por definición de unión, x $\in$ (A$\cup$C)
+y, a su vez, x $\in$ (B$\cup$C) $\Longrightarrow$ x $\in$ (A$\cup$C)$\cap$(B$\cup$C).\\
+b. Caso 2: x $\in$ C $\longrightarrow$ por definición, x $\in$ (A$\cup$C) y x $\in$ (B$\cup$C) $\Longrightarrow$ x $\in$ (A$\cup$C)$\cap$(B$\cup$C) como queriamos.\\
+En todos los casos ocurre que x $\in$ (A$\cup$C)$\cap$(B$\cup$C).\\
+``$\supseteq$''La prueba es análoga.\\
+Por el PE podemos concluir que (A$\cap$B)$\cup$C = (A$\cup$C)$\cap$(B$\cup$C) como queríamos.$\blacksquare$\\
+\end{center}
+\textbf{Teorema:} $\forall$A, B conjuntos tenemos:\\
+  a. B $\subseteq$ A $\Leftrightarrow$ A$\cup$B = A\\
+  b. B $\subseteq$ A $\Leftrightarrow$ A$\cap$B = B\\
+
+\textit{Prueba:}\\
+``$\Rightarrow$'' Asuma B $\subseteq$ A para ver A$\cup$B = A.  
+\begin{center}
+``$\subseteq$'' Sea x $\in$ A$\cup$B. Hay dos casos:\\
+1. Caso 1 : x $\in$ A $\Longrightarrow$ x $\in$ A.\\
+2. Caso 2: x $\in$ B, pero, como por hipótesis B $\subseteq$ A $\Longrightarrow$ por definición de subconjuntos, x $\in$ A.\\
+En ambos casos A$\cup$B $\subseteq$ A como necesitábamos.\\
+``$\supseteq$'' Sea X $\in$ A $\longrightarrow$ por definición de unión de conjuntos, x $\in$ A$\cup$B $\Rightarrow$ A $\subseteq$ A$\cup$B como queriamos.\\
+Por el PE, podemos decir que A$\cup$B = A.
+\end{center}
+``$\Leftarrow$'' Asuma A$\cup$B = A para ver B $\subseteq$ A.
+\begin{center}
+``$\subseteq$'' Sea x $\in$ B $\longrightarrow$ x $\in$ A$\cup$B por definición de unión de conjuntos, pero, por hipótesis A$\cup$B = A
+entonces tenemos que x $\in$ A $\Longrightarrow$ B $\subseteq$ A. $\blacksquare$
+\end{center}
+Definición: Para un determinado A conjunto definimos A^c = $\varOmega$ $\backslash$A, o, de otra manera:
+\begin{center}
+A^c = $\{$x $\in$ $\varOmega$ $|$ x $\notin$ A$\}$
+\end{center}
+Donde $\varOmega$ representa el universo de los elementos matemáticos.\\
+
+\textbf{Teorema:} $\forall$A, B $\subseteq$ $\varOmega$, tenemos:
+\begin{center}
+a. A$\cap$A^c = $\emptyset$
+b. A$\cup$A^c = $\varOmega$
+c. A$\backslash$B = A$\cap$B^c
+d. (A^c)^c = A
+e. A $\subseteq$ B $\Leftrightarrow$ B^c $\subseteq$ A^c
+\end{center}
+Este teorema respeta las mismas convenciones que se han venido siguiendo.\\
+
+\subparagraph{Juan Sebastian Aguirre Patiño Cód.: 201313006}
+
+
+
+
+\end{document}

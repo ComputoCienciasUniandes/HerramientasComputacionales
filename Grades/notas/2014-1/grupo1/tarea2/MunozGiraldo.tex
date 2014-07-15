@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage [margin=0.5in]{geometry}
+\usepackage {amsmath}
+\title{C\'ALCULO INTEGRAL}
+
+
+\begin{document}
+\date{Febrero 10/2013}
+\maketitle
+
+\section{Sustituci\'on.}
+
+\begin{equation}
+\int f(x) dx \rightarrow g(t)=x\rightarrow \int f(g(t)) \times g'(t) dt    
+\end{equation}
+
+\begin{equation}
+\int f(g(t)) \times g'(t) dt \rightarrow x=g(t)\rightarrow \int f(x) dx  
+\end{equation}
+
+\subsection{Ejemplo 1.}
+
+\begin{eqnarray}
+\int \sqrt {(a^{2}-x^{2})} \rightarrow x=asen(t)\rightarrow \int \sqrt {(a^{2}-a^{2}sen^{2}t)} \times acos(t) dt = \\
+\int \sqrt {(a^{2}\times (1-sen^{2}t))} \times acos(t) dt= \\ 
+\int a \times cos(t) \times acos(t) dt =\\
+\int a^{2}cos^{2}t dt =\\
+\int a^{2} \times \frac{1+cos(2t)}{2} dt= \\
+\int \frac{a^{2}}{2} + \frac{a^{2}cos(2t)}{2} dt = \\
+\frac{a^{2}t}{2} + \frac{a^{2}sen(2t)}{4} +c
+\end{eqnarray}
+
+\subsection{Ejemplo 2.}
+
+\begin{eqnarray}
+\int \sqrt \frac{(9-x^{2})}{x^{2}} \rightarrow x=3sen(t)\rightarrow \int \sqrt \frac {(9-9sen^{2}t)}{9sen^{2}t} \times 3cost dt = \\
+\int \sqrt \frac{(9\times (1-sen^{2}t))}{9sen^{2}t} \times 3cost dt= \\ 
+\int \frac{3cos(t) \times 3cos(t)}{9sen^{2}t} dt =\\
+\int cot^{2}t dt =\\
+-cot(t)-t+c 
+\end{eqnarray}
+
+\subsection{Ejemplo 3.}
+
+\begin{eqnarray}
+\sqrt {(x^{2}+a^{2})} \rightarrow x=atan(t)\rightarrow \sqrt {(a^{2}+a^{2}tan^{2}t)}  = \\
+\sqrt {a^{2}\times (tan^{2}t+1)} = \\ 
+\sqrt {a^{2} \times sec^{2}t } =\\
+a \times sec(t)  
+\end{eqnarray}
+
+\subsection{Ejemplo 4.}
+
+\begin{eqnarray}
+\int \frac{dx}{x^{2}\times \sqrt{x^{2}+4}} \rightarrow x=2tan(t) \rightarrow \int \frac{2sec^{2}t}{4tan^{2}t \times2sec(t)}dt= \\
+\frac{1}{4} \int \frac{sec(t)}{tan^{2}t}dt = \\
+u=sen(t), du=cos(t)dt \leftarrow \frac{1}{4} \int \frac{cos(t)}{sen^{2}t}= \\
+\frac{1}{4} \int  \frac{du}{u^{2}}=\\
+\frac{-1}{4u}=\\
+\frac{-1}{4sen(t)}=\\
+\frac{-csc(t)}{4}
+\end{eqnarray}
+
+\subsection{Ejemplo 5.}
+
+\begin{eqnarray}
+\sqrt {(x^{2}-a^{2})} \rightarrow x=asec(t)\rightarrow \sqrt {(a^{2}sec^{2}t)-a^{2}}  = \\
+\sqrt {a^{2}\times (sec^{2}t-1)} = \\ 
+\sqrt {a^{2} \times tan^{2}t } =\\
+a \times tan(t)  
+\end{eqnarray}
+
+\subsection{Ejemplo 6.}
+
+\begin{eqnarray}
+\int \frac{dx}{\sqrt{x^{2}-a^{2}}} \rightarrow x=asec(t) \rightarrow \int \frac{asec(t) \times tan(t)}{atan(t)}= \\
+\int sec(t) dt= \\
+\ln (sec(t)+tan(t))
+\end{eqnarray}
+
+
+
+\end{document}

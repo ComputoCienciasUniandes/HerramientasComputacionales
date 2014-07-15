@@ -1,0 +1,49 @@
+import sys
+import numpy as np
+
+R= float(sys.argv[1])
+
+x=[]
+y=[]
+z=[]
+rf=[]
+pasos=0
+n=[]
+
+def angulosAleatorios():
+ y= np.random.random()  
+ x=2*3.1416
+ return x*y                           
+
+r=0
+while(r<R):
+ xi=0
+ yi=0
+ zi=0
+ th=angulosAleatorios()
+ ph=angulosAleatorios()
+ x1=(np.sin(th))*(np.sin(ph))
+ y1=(np.sin(th))*(np.cos(ph))
+ z1=(np.cos(th))
+
+ xi+=x1
+ yi+=y1
+ zi+=z1
+
+ r=np.sqrt((xi*xi)+(yi*yi)+(zi*zi))
+
+ pasos+=1
+ x.append(x1)
+ y.append(y1)
+ z.append(z1)
+ rf.append(r)
+ n.append(pasos)
+ 
+f=open("Marcha-Aleatoria.dat","w")
+for i in range(len(x)):
+    f.write(str(x[i])+" "+str(y[i])+" "+str(z[i])+" "+str(rf[i])+" "+str(n[i])+"\n")
+f.close
+
+ 
+
+    

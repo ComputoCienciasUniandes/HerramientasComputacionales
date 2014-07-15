@@ -1,0 +1,142 @@
+\documentclass{article}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\title{Notas Ecuaciones Diferenciales}
+
+\begin{document}
+\date{Febrero7 de 2014}
+\maketitle
+Nataly Catillo 
+Cod.  201126924
+ 
+\section{Ecuacion de Rikati}
+
+Si se tiene una ecuacion de la forma
+\begin{equation}
+  \frac{dy}{dx}= a_{1}(t)+a_{2}(t)y+a_{3}(t)y^{2}
+\end{equation}
+condiciones:
+
+ y es una variable dependiente que NO aparece explicitamnete 
+
+
+ t es una variable independiente que NO aparece explicitamente 
+
+y posee una soluci\'on particular de (1),  y_{1} 
+
+ Entonces: 
+
+\begin{equation}
+ y=y_{1}+\frac{1}{v_{(t)}}
+\end{equation}
+
+\begin{equation}
+  \dot{y}=\dot{y_{1}}-\frac{\dot{v}_{t}}{v^{2}} 
+\end{equation}
+
+si
+
+ 
+\begin{equation}
+ \dot{y_{1}}-\frac{\dot{v_{t}}}{v^{2}}=a_{1}(t)+a_{2}(t)[y_{1}+\frac{1}{v_{(t)}}]+a_{3}(t)[y^{2}_{1}]
+\end{equation}
+
+
+Sabemos que  \ a_{1}(t),\ a_{2}(t) y \ a_{3}(t) \ son iguales  a  \ \dot{y_{1}}\ ya  que este ultimo es solucion entonces 
+
+
+\begin{equation}
+ -\frac{\dot{v_{t}}}{v^{2}}=\frac{a_{2}(t)}{v_{(t)}}+\frac{2a_{3}(t)y_{1}}{v_{(t)}}+\frac{a_{3}(t)}{v^{2}}
+\end{equation}
+
+Entonces 
+
+\begin{equation}
+ \dot{v_{t}}=-v(a_{2}(t)+2a_{3}(t)y_{1})-a_{3}(t)
+\end{equation}
+
+
+La anterior es una ecuacion diferencial lineal de primer orden que se  puede  resolver por los  m\'etodos  vistos en clase. Esta formula se  puede utilizar siempre y cuando la solucion particular sea evidente o fasil de calcular.
+
+
+\section{reduccion de orden}
+
+
+Si y[variable dependiente] No aparece explicitamente. Entoces se puede hacer  un cambio de variable de la forma:
+
+\begin{equation}
+ v=\dot{y_{(t)}} , 
+\dot{v}=\ddot{y_{(t)}}
+\end{equation}
+
+Y si t[variable dependiente] que No aparece explicitamente 
+
+\begin{equation}
+ \dot{y}=v,
+ \ddot{y}=\frac{dv}{dy}
+\end{equation}
+
+\begin{equation}
+ \frac{dy}{dt}=v\frac{dv}{dy}
+\end{equation}
+
+
+entonces:
+
+si 
+\begin{equation}
+ A_{(t)}\ddot{y}+B_{(t)}\dot{y}+C_{te}=0
+\end{equation}
+
+\begin{equation}
+ A_{(t)}\dot{R}+B_{(t)}{R}+C_{te}=0
+\end{equation}
+
+
+\section*{Ejemplo}
+
+si  se  tiene la siguiente ecuacion de segundo orden
+
+\begin{equation}
+ t^{2}\ddot{y}+t\dot{y}-1=0
+\end{equation}
+
+se puede convertir en primer orden  haciendo la sustituci\'on (7) y  convertirla en:
+
+\begin{equation}
+ t^{2}\dot{y}+t{y}=1
+\end{equation}
+ 
+si la simplificamos 
+
+\begin{equation}
+ \dot{v}+ \frac{v}{t}=\frac{1}{t^{2}}
+\end{equation}
+
+La  ecuaci\'on (14) se  puede  resolver por  factor integrante. Donde: 
+\[
+\mu=e^{\int\frac{1}{t}dt}=t
+ \]
+
+se  multiplica (14) por \mu\  y se resuelve, teniendo 
+
+\begin{equation}
+ tv=\int\frac{1}{t}dt=\ln(t)+C_{te}
+\end{equation}
+\[
+ v=\frac{\ln(t)}{t}+\frac{C_{te}}{t}
+\]
+
+Como sabemos que por la sustitucion se cumple (7). Entonces
+
+\begin{equation}
+ y=\int\frac{\ln(t)}{t}+\frac{C_{te}}{t}dt
+\end{equation}
+\[
+ y=\int\frac{\ln(t)}{t}dt + \int\frac{C_{te}}{t}dt
+\]
+\[
+ y=\frac{1}{2}\ls(t^{2})+C\ln(t)
+\]
+
+\end{document}

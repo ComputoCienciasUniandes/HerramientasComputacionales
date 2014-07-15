@@ -1,0 +1,101 @@
+\documentclass{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\title{CLASE MECANICA DE FLUIDOS - HIDROSTÁTICA}
+
+\begin{document}
+\date{03 de Febrero de 2014}
+\maketitle 
+\subsection{Manometria}
+
+El metodo utiliza el cambio de presiòn con la elevaciòn
+\subsubsection{Piezòmetrico}
+Tambien llamado manòmetro simple
+\begin{equation}
+ Pa = {\gamma}h
+\end{equation}
+este tiene limitaciones: presiones altas y flujo de gas...
+\subsubsection{Manòmetro Diferencial}
+o tubo en U 
+\begin{equation}
+ P2 = 0 +{\gamma}{\varDelta}h
+\end{equation}
+\begin{equation}
+ P2 = P3
+\end{equation}
+\begin{equation}
+ P3 = P4 + {\gamma}l
+\end{equation}
+en un Liquido manòmetrico $ {\gamma}m > \gamma  $
+
+Ejemplo: 
+para un manometro en u, la presion en un punto Pa es igual a: 
+\begin{equation}
+ Pa = Patm + {\gamma}Hg{\varDelta}H - {\gamma}H2O{\varDelta}H - {\gamma}H2O * H  
+\end{equation}
+
+\subsection{Medicion de la presiòn - Flexiòn de membranas elàsticas y transductores de presiòn}
+\subsubsection{Medidor Tubo De Bourdon }
+tubo de secciòn transversar elìptica doblado en forma de arco circular. Cuando se aplica presión el tubo curvo tiende a enderezarse actuando sobre una aguja de medición
+\subsubsection{Transductores de presiòn}
+Diseñados para producir señales electronicas que pueden ser transmitidas a osciloscopios o aparatos digitales para almacenamiento de registros y  controlar otros apartatos para operaciòn de procesos
+
+De diafragma flexible conectado a un sensor. Ejemplo: Cable defromable de resitencia variable (deformimetro). Al cambiar la longitud cambia la resistencia del cable lo cual es utilizado electronicamente para producir un cambio de voltaje.
+
+Se utilizan sistemas de adquisiciòn de datos con los transductores de presión. La señal analóga del transductor se convierte a señal digital. 
+
+\subsection{Fuerzas hidrostáticas sobre superficies planas}
+Son superficies HORIZONTALES inmeresa en un liquido o expuestas a la presión uniforme sobre la superficie.
+
+La fuerza total resultante es igual al producto de la presión y el área de la superficie.
+
+La fuerza resultante actúa sobre el centroide del área y su linea de acción es normal al área.
+
+\subsubsection{Centroide}
+
+\begin{equation}
+ UAT= (U1A1 + U2A2)
+\end{equation}
+
+\begin{equation}
+ u=\dfrac {(U1A1 + U2A2)}{A1 + A2}
+\end{equation}
+
+ Sobre una superficie plana inclinada la presión se distribuye linealmente, Se utiliza un preocedimiento general para evaluar la magnitud de la fuerza resultante y la localización de su línea de acción.
+
+\subsubsection{Magnitud de la fuerza resultante}
+Considere una superficie plana inclinada un ángulo $\alpha$ con la horizontal, sumergida en agua
+
+la fuerza total sobre el área es: 
+
+\begin{equation}
+ F = \int p dA  = \int{\gamma} y {\sin}{\alpha}dA
+\end{equation}
+
+La magnitud de la resultante de la fuerza hidrostática sobre un área plana es el producto de la presión en el centroide del área y el área de dicha superficie
+
+\begin{equation}
+F = Pcentroide * A 
+\end{equation}
+
+\subsection{Localización vertical de acción de la resultante de la fuerza hidrostática}
+En general, la localización de la línea de acción de la fuerza hidrostática resultante es abajo del centroide pues la presión aumenta con la profundidad.
+
+Esta determinada por: 
+
+\begin{equation}
+Ycp = Ycentroide + \dfrac {I}{Ycentroide*A}
+\end{equation}
+
+\begin{equation}
+Ycp - Ycentroide = \dfrac {I}{Ycentroide*A}
+\end{equation}
+
+\end{document}
+
+
+

@@ -1,0 +1,21 @@
+import sys
+import numpy as np
+import matplotlib as plt
+import math
+
+a=sys.argv[1]
+data=np.load(a)
+
+x=data[:,3]
+y=data[:,4]
+
+figura=plt.polyfit(x,y,1)
+plt.plot(x,y*figura[0] + figura[i], label=str(fit[0]+'x+'+'('str(fit[1])+')')
+plt.scatter(x,y)
+plt.xlabel("Pasos (x)", frontsize=20)
+plt.ylabel("Distancia (y)"), frontsize =20)
+plt.tittle("Numero de Pasos VS Distancia con la Regresion", frontsize =15)
+plt.savefig('ajuste.png')
+
+
+

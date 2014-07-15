@@ -1,0 +1,77 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\author{Santiago Saldarriaga}
+
+
+\title{Clase Anadec}
+
+\begin{document}
+
+\maketitle
+
+\section{Intereses}
+Existen diferentes tipos de intereses para las entidades prestamistas y financieras
+\begin{itemize}
+ \item{1)} Simple/Compuesto
+ \item{2)} Nominal /Efectivo los cuales deben ser:Vencido/anticipado
+ \item{3)} Corriente/Constante
+ \item{4)} Capitalizacion discreta/ Capitalizacion continua
+\end{itemize}
+\subsection{Interes Nominal}
+\begin{itemize}
+ \item Usado para la liquidacion comercial de operaciones de credito donde el interes se paga periodicamnete
+ \item Normalmente se expresa en terminos anuales (nominal anual- NA) y se indica la periodicidad de capitalizacion de los intereses (periodos distintos a un año)
+ \item Periodicidad de pago = vencido o anticipado
+\end{itemize}
+\subsubsection{Ejemplo:}
+Se desea abrir un fondo de inversion. Existen dos alternativas de intereses:
+\begin{itemize}
+ \item{1)} 12 porciento NA/SV
+ \item{2)} 12 porciento NA/MV
+\end{itemize}
+\subsubsection{Solucion:}
+Para resolver esto, se le debe quitar el nombre al interes con la siguiente formula
+\begin{equation}
+ \dfrac {Interes}{Periodo} \equiv Interes por periodo  
+\end{equation}
+
+\begin{equation}
+ I(ea)=(1+Interespor periodo)^2-1
+\end{equation}
+
+\begin{itemize}
+ \item{1)} 
+Aqui el interes por semestre vencido es 6 porciento. Ahora se busca encontrar el interes efectivo anual (ea):
+\begin{equation}
+ I(ea)=(1+0.06)^2-1=12.36 i(ea)
+\end{equation}
+  \item{2)} 
+Aqui el interes por mes vencido es 1 porciento. Ahora se busca encontrar el interes efectivo anual (ea):
+\begin{equation}
+ I(ea)=(1+0.01)^2-1=12.68 i(ea)
+\end{equation}
+\end{itemize}
+De este ejemplom se puede concluir que a mayor frecuencia de pago, mayor valor acumuladon de interes.
+\subsubsection{Problemas con el interes nominal}
+Aunque es muy usado, este tiene las siguientes desventajas:
+\begin{itemize}
+ \item No captura directamente el valor del dinero en el tiempo
+ \item No permite la comparacion directa de operaciones financieras
+ \item Siempre requiere el periodo de pago y la forma de pago.
+
+\end{itemize}
+
+\section{Plana para calcular el interes efectivo anual:}
+\begin{itemize}
+ \item{1)} Si encuentro NA/Periodo o NS/Periodo
+ \item{2)} Se le quita el nombre al interes dependiendo del numero de periodos que tiene el interes
+ \item{3)} Dividir por el numero de periodos para obtener el interes vencido
+ \item{4)} Usar la formula para el interes efectivo anual:
+\begin{equation}
+ (1+ interes-efectivo)=(1+Interes-vencido)^2
+\end{equation}
+\end{itemize}
+
+\end{document}

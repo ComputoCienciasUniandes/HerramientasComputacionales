@@ -1,0 +1,101 @@
+\documentclass[12pt]{article}
+\title{Notas de APO II}
+\usepackage[margin=1.0in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish]{babel}
+
+\begin{document}
+ \maketitle
+\section*{NIVEL 7}
+\begin{itemize}
+ \item Algoritmos de bùsqueda\\
+ \item Algoritmos de ordenamiento\\
+ 
+ - Burbuja (intercambio)
+   
+   1. Tomar un elemento (primero)
+   
+   2. Comparar el elemento con el siguente\\
+     - Si estàn ordenados no se hace nada\\
+     - Si estàn desordenados se intercambian\\
+
+   3. Repetir hasta llegar al ùltimo
+
+   4. Repetir tantas veces como elementos existan
+
+   
+
+   Ejemplo:
+  
+   for (int i = animales.size(); i>0; i- -)\\
+   {\\
+    for (int j = 0; j<i-1; j++)\\
+    {\\
+     Animal a1 = (Animal) animales.get(j);\\
+     Animal a2 = (Animal) animales.get(j+1);\\
+     
+     if (a1.compararPorPeso(a2)>0)\\
+     {\\
+      animales.set(j,a2);\\
+      animales.set(j+1,a1);\\
+     }\\
+    }\\
+   }\\
+
+
+  - Selecciòn
+
+    1. Buscar el menor de la parte desordenada
+
+    2. se intercambia el menor con el primero de la parte desordenada
+
+    3. Repetir hasta acabar con todos los elementos
+
+
+
+    Ejemplo:
+
+    for (int i = 0; i<animales.size()-1; i++)\\
+    {\\
+     int posMenor = i;\\
+     Animal menor = (Animal) animales.get(i);\\
+
+     for (int j = i+ 1; j<animales.size(); j++)\\
+     {\\
+      Animal a1 = (Animal) animales.get(j);\\
+      
+      if (a1.compararPorPeso(menor) <0)\\
+      {\\
+       menor = a1;\\
+       posMenor = j;\\
+      }
+     }
+     Animal prim = (Animal) animales.get(i);\\
+     animales.set(i,menor);\\
+     animales.set(posMenor,prim);\\
+    }
+
+     
+
+
+ \item Pruebas unitarias\\
+
+ \item El invariante de una clase\\
+ - Nunca cambia
+  
+ - Las propiedades de una clase que nunca deben variar
+ 
+ - Se define sobre los atributos de la clase
+ 
+ - Se verifica en los mètodos que modifican datos (incluyendo el constructor)
+
+\end{itemize}
+
+
+
+
+
+
+\end{document}

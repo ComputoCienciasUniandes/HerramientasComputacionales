@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{amsmath}
+
+
+\title{\textbf{Balances de materia y energ\'ia en un sistema abierto estacionario}}
+
+\begin{document}
+
+\date{}
+\maketitle
+
+\begin{center}
+Dado que para un sistema abierto existe el transporte de materia, el primer paso antes de realizar el balance de energía es aplicar la ley de conservación de la materia, la cual establece que la materia no se crea ni se destruye, se transforma.
+\end{center}
+
+
+
+\section{Balance de materia}
+Antes de realizar el balance de masa se define el flujo másico $\dot{m} $ como la cantidad de masa que pasa por unidad de tiempo.\\ 
+
+Si tenemos un sistema en el que entran dos flujos de materia $\dot{m_{1}} $ y  $\dot{m_{2}} $, y sale uno $\dot{m_{3}} $, y el sistema es estacionario, es decir no hay acumulaci\'on. \\
+
+Aplicando el concepto de conservación de la materia al volumen de control (volumen que contiene lo que se quiere estudiar) se tiene  que "Lo que entra m\'as lo que sale es igual a lo que se acumula":
+\begin{equation}
+\dot{m_{1}} + \dot{m_{2}} -\dot{m_{3}} = \dfrac{dM_{VC}}{dT}
+\end{equation}
+reorganizando,
+\begin{equation}
+\dfrac{dM_{VC}}{dT} + \bigtriangleup \dot{m} = 0
+\end{equation}
+\\
+\begin{footnotesize}
+
+Donde:\\
+
+$ \dfrac{dM_{VC}}{dT} $representa el cambio de la masa que está dentro del volumen de control en el tiempo (es decir   es la derivada de la masa con respecto al tiempo).\\
+
+$ \bigtriangleup \dot{m} $ este término hace referencia a la diferencia de entre los flujos que entran y salen del volumen de control. \\
+
+\end{footnotesize}
+\begin{center}
+\textbf{IMPORTANTE: Recordar que la condición de referencia es: lo que entra al sistema es positivo (+) y lo que sale es negativo (-).}
+\end{center}
+
+
+\section{Balance de Energ\'ia}
+
+Con el balance de masa, se puede plantear el balance de energía se puede representar como:\\
+
+\begin{equation}
+ \bigtriangleup{E_{sistema}} =  \bigtriangleup{E_{alrededores}}
+\end{equation}
+\\
+
+\begin{equation}
+ \bigtriangleup{E_{sistema}} =  \bigtriangleup{(\dot{m}(U + \dfrac{V ^{2}}{2} + gz))} + \dfrac{dM_{VC}}{dT}
+\end{equation}
+\\
+
+\begin{equation}
+ \bigtriangleup{E_{alrededores}} =  \dot{Q ^{t}} + \dot{W ^{t}_{S}}
+\end{equation}
+\\
+
+\begin{equation}
+ \dot{Q ^{t}_{S}} + \dot{W ^{t}} =  \bigtriangleup{(\dot{m}(U + \dfrac{V ^{2}}{2} + gz))} + \dfrac{dM_{VC}}{dT}
+\end{equation}
+\\
+
+Esta última expresión corresponde a la primera ley de la termodinámica para un sistema abierto
+
+
+
+\end{document}
+
+
+

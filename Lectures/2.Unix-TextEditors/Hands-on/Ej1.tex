@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath, amsthm}
+\usepackage[spanish] {babel}
+
+
+\title{\textsc{Editores de texto en UNIX}}
+
+\begin{document}
+
+\date{}
+\maketitle
+
+
+Usar lo visto en clase para hacer un script con el nombre de "susapellidos.sh" (en mi caso seria: \texttt{garavitocamargo.sh}).
+El script debe hacer lo siguiente:\\
+
+\begin{itemize}
+
+\item Bajar el archivo \texttt{metamorphosis.txt} de:\\
+\begin{scriptsize}
+\verb"https://raw2.github.com/jngaravitoc/HerramientasComputacionales/master/2.Unix-TextEditors/Hands-on/metamorphosis.txt"
+\end{scriptsize}  
+
+\item Cuantes veces aparece cada una de las vocales en el archivo?
+
+\item Bajar el archivo \texttt{Sainte-Beuve.txt} de: 
+
+\begin{scriptsize}
+\verb"https://raw2.github.com/jngaravitoc/HerramientasComputacionales/master/2.Unix-TextEditors/Hands-on/Sainte-Beuve.txt"
+\end{scriptsize} 
+
+\item Cual libro tiene mas veces la vocal \texttt{a} repetida y cuantas veces aparece?
+
+
+\end{itemize}
+
+\texttt{Tips:}\\
+
+Como volver ejecutable un script: \texttt{chmod u+x garavitocamargo.sh}\\
+
+Ejecutar el script: \texttt{./garavitocamargo.sh}\\
+
+El comando \texttt{paste} sirve para pegar archivos como columnas i.e:\\
+
+\texttt{cat data1.dat}\\
+\texttt{> hola}\\
+
+\texttt{cat data2.dat} \\
+\texttt{> mundo}\\
+
+\texttt{paste data1.dat data2.dat >\ data.dat}\\
+\texttt{cat data.dat}\\
+\texttt{> hola mundo}\\
+
+
+
+
+Enviar el script a: \texttt{jn.garavito57} $[at]$ uniandes $[dot]$ edu $[dot]$ co  \\
+
+Poner como asunto: ej1.HerramientasComputaciones y sus nombres.
+
+
+\end{document}

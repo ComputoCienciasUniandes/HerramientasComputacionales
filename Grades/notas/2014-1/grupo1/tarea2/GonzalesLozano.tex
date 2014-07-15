@@ -1,0 +1,113 @@
+\documentclass{article}
+\usepackage[margin=1.0in]{geometry}       
+\usepackage{amsmath}                                                                                                                                                                                                                                                                                                                                                            
+\title{Movimiento con aceleracion constante }%\latex}
+
+\begin{document}
+\maketitle
+
+
+\section{Ecuaciones}
+Es el movimiento en el que la velocidad cambia a ritmo constante con el tiempo.Cuando la aceleracion media para cualquier intervalo es la aceleracion.
+Para encontrar una expresion para la velocidad primero sustituimos aceleracion media por aceleracion:
+
+\begin{equation}
+ a_{x}= \frac {v_{2X} - v_{1X}}{ t_{2} - t_{1}}
+\end{equation}
+
+Sea t$1$=0 y t$2$ cualquier instante posterior t. Simbolizamo von v$0x$ la componete x de la velocidad en el instante inicial t=0; la componente de la velocidad en el instante posterior t es v$x$. Entonces la ecuacion a se convierte en
+\begin{equation}
+ a_{x}= \frac {v_{x}-v_{0x}}{t-0}
+\end{equation}
+
+Solo con aceleracion constante:
+\begin{equation}
+ v_{x}= v_{0x} + a_{x}t
+\end{equation}
+
+Ahora deducieremos una ecuacion para la posicion x en funcion del tiempo cuando la aceleracion es constante. Para ello, usaremos
+dos expresiones distintas para la velocidad media a$med-x$ en el intervalo de t=0 a cualquier t posterior. \\
+La primera proviene de la definicion de v$med-x$, que se cumple sea constante o no la aceleracion. La posicion inicial es la posicion en t=0, denotada
+con x$0$. La posicion en el t posterior es simplemente x. Asi, para el intervalo 
+
+\begin{equation}
+ \bigtriangleup{t} = t-0
+\end{equation}
+y el desplazamiento
+\begin{equation}
+ \bigtriangleup{x}= x- x_{0}
+\end{equation}
+
+La ecuacion da:
+\begin{equation}
+ v_{med-x} =\frac {x-x_{0}}{t}
+\end{equation}
+Tambien podemos obetener otra expresion para v$med-x$ que sea valida solo si la aceleracion es constante, de mnodo que la grafica v$x$-t sea una linea recta
+y la velocidad cambie a ritmo constante. En este caso, la velocidad media en cualquier intervalo es solo el promedio de las velocidades al principio y al final del intervalo. 
+Para el intervalo de 0 a t,
+\begin{equation}
+ v_{med-x} =\frac {v_{ox}+v_{x}}{2}
+\end{equation}
+
+Tambien sabemos que con aceleracion constante, la velocidad v$x$ en un instante t esta dada por la ecuacion (3). Sustituyendo esa expresion por v$x$ en la ecuacion
+(7), solo con aceleracion constante:
+\begin{equation}
+ v_{med-x} =(v_{0x}+ v_{0x} + a_{x}t)\div2 = v_{0x} + a_{x}t\div{2}
+\end{equation}
+Por ultimo, igualamos las ecuaciones (6) y (8) y simplificamos el resultado:
+\begin{equation}
+ \frac {x-x_{0}}{t} = v_{0x} + a_{x}t\div{2}
+\end{equation}
+o
+\begin{equation}
+ x = x_{0} + v_{0x}t + a_{x}t\wedge{2}\div{2}
+\end{equation}
+
+Esta ecuacion (10) indica que si en el instante t=0, una particula esta en x$0$ y tiene velocidad v$0x$, su nueva posicion x en un t posterior es la suma de tres terminos: su posicion inicial
+x$0$, mas la distancia v$0$t que recorreria si su velocidad fuera constante, y una distancia adicional 
+\begin{equation}
+ (a_{x}t\wedge{2})\div{2} 
+\end{equation}
+causada por el cambio develocidad.
+Las ecuaciones anteriores se pueden comprobar con el supuesto de aceleracion constante derivando la ecuacion (10). Obtenemos:
+\begin{equation}
+ v_{x}= \frac{dx}{dt}= v_{0x}+ a_{x}t
+\end{equation}
+que es la ecuacion (10). Diferenciando otra vez, tenemos simplemente
+\begin{equation}
+\frac{dv_{x}}{dt}= a_{x}
+\end{equation}
+que concuerda con la deficion de aceleracion instantanea.
+Con frecuencia es util tener una relacion entre posicion, velocidad y aceleracion que no incluya el tiempo. Para obetenerla, despejamos t en la ecuacion 
+(3), sustituimos la expresion resultante en la ecuacion (10) y simplificamos:
+\begin{equation}
+t= \frac{v_{x}-v_{0x}}{a_{x}}
+\end{equation}
+\begin{equation}
+ x = x_{0} + v_{0x}(\frac{v_{x}-v_{0x}}{a_{x}}) + a_{x}(\frac{v_{x}-v_{0x}}{a_{x}})\wedge2\div{2}
+\end{equation}
+Trasnferimos el termino x$0$ al miembro izquierdo y multiplicamos la ecuacion por 2a$x$:
+\begin{equation}
+2a_{x}(x-x_{0})= 2v_{0x}v_{x} -2(v_{ox})\wedge{2} + v_{x}\wedge{2} -2v_{0x}v_{x} + v_{0}\wedge{2}
+\end{equation}
+Por ultimo, al simplificar obtenemos:
+\begin{equation}
+v_{x}\wedge{2}= v_{0x}\wedge{2} +2a_{x}(x-x_{0})
+\end{equation}
+Para obtener una relacion mas util igualando dos expresiones para v$med-x$, y multimplicando por t. Al hacerlo, obtenemos: 
+\begin{equation}
+x-x_{0} = \frac{(v_{0x}+v_{x})t}{2}
+\end{equation}
+Observe que la ecuacion (18) no contiene la aceleracion a$x$. Esta ecaucion es util cuando a$x$ es constante pero se desconoce su valor.
+Las ecuaciones (3),(10), (17) y (18) son las ecuaciones del movimiento con aceleracion constante. Con ellas, podemos resulver cualquier problema que implique movimiento 
+rectilineo de una particula con aceleracion constante.
+\\En el caso especifico de movimiento con aceleracion constante, los valores de x$0$, v$0x$ y a$x$ son positivos. Un caso especial de movimiento con aceleracion constante 
+se da cuando la aceleracion es cero.
+La velocidad es entonces constante, y las ecuaciones del movimiento se convierten sencillamente en:
+\begin{equation}
+v_{x}= v_{0x}=constante
+\end{equation}
+\begin{equation}
+x = x_{0} + v_{x}t
+\end{equation}
+\end{document}

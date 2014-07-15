@@ -1,0 +1,104 @@
+\documentclass[12Pt]{article}
+\begin{document}
+ 
+
+
+\title{}
+\begin{titlepage}
+\begin{Huge}
+ MECANICA DE MATERIALES
+\end{Huge}
+
+\section{Tipos de esfuerzo}
+\subsection{Esfuerzo normal}
+
+Se define como la fuerza promedio por unidad de area transversal perpendicular a la fuerza que recorre el elemto:
+
+$\sigma = F/A $
+
+\subsection{Esfuerzo cortante}
+
+Se define como la fuerza perpendicular a la superficie del elemto por unidad de area transversal paralela a la fuerza:
+
+$ \sigma = V/A $
+
+\subsection{Esfuerzo de contacto}
+
+Se define como la fuerza de compresion por unidad del area perpendicular en contacto de ambos elemntos:
+
+$ \sigma = F/td $
+
+
+
+\section{Transformacion de esfuerzos}
+
+\subsection{Esfuerzo plano (visto en 2D)}
+
+CONVENCION DE SIGNOS:
+
+-El esfuerzo es positivo si va hacia afuera (tension).
+
+-El esfuerzo es negativo si va hacia adentro (compresion).
+
+-El esfuerzo cortante es positivo si va en contra de las manecillas del reloj.
+
+-El esfuerzo cortantees positivo si va con las manecilas del reloj.
+
+\subsubsection{Esfuerzos fundamentales}
+
+El plano de esfuerzos fundamentales del material se encuentran en el plano en que el cortante es cero y los esfuerzos en x y en y son iguales al minimo y maximo esfuerzo posible:
+
+$
+\tau = 0 $
+
+$ 
+\sigma x = \sigma (max/min) $
+
+$
+\sigma y = \sigma (max/min) $
+
+\subsubsection{Cortante maximo}
+
+El plano de esfuerzos que contiene a el cortante maximo se encuentra cuando tanto el esfuerzo en x como el esfuerzo en y son iguales a el promedio entre ambos:
+
+$ \sigma x = \sigma y $
+
+$ \tau = \tau max $
+
+\subsection{Circulo de Mohr}
+
+El circulo de Mohr es un metodo sencillo y practico para describir todos los esfuerzos posibles de todos los planos de esfuerzo mediante la geometria de un circulo. Este circulo se coloca en un plano con eje y correspondiente al esfuerzo cortante (positivo hacia abajo) y con eje x correspondiente a los esfuerzos
+normales x o y. El centro de este circulo se colo ca siempre en el punto:
+
+$ (0, \sigma promedio) $
+
+siendo $ \sigma promedio = (\sigma x + \sigma y) / 2 $
+
+\subsubsection{Radio de Mohr}
+
+Una vez establecido el centro, el radio se puede determinar mediante geometria con cualquier estado inicial dado, el cual tendra una coordenada de cortante y de esfuerzo normal de modo tal que siempre va a quedar en uno de los puntos del perimetro del circulo. Luego siempre se cumple por geometria que el cuadrado del radio R del circulo es la mitad de la diferencia entre $\sigma x$ y $\sigma y$ elevado al cuadrado, mas el esfuerzo cortante en ese mismo estado al cuadrado.
+
+\subsubsection{Esfuerzos fundamentales en el circulo de Mohr}
+
+Como los estados de esfuerzo fundamentales son los de cortante igual a cero, con el circulo de Mohr se puede sacar muy facilmente tomando los dos puntos sobre el eje de cortante siendo estos dos puntos en el circulo correspondientes al esfuerzo minimo y maximo posibles. A partir de esto, y teniendo en cuenta que el esfuerzo promedio es la cordenada de esfuerzo del centro del circulo, se deducen las expresiones:
+
+$ \sigma max = \sigma promedio + R $
+
+$ \sigma min = \sigma promedio - R $
+
+\subsubsection{Cortante maximo en el circulode Mohr}
+
+La magnitud maxima de todo los esfuerzos cortante posibles es simplemente la magnitud del radio, ya que en el circulo se puede ver claramente que tanto la parte superior como inferior del circulo corresponden a las magnitudes mas grandes de cortante y don de los esfuerzos en x y en y correspondientes a cada mitad del circulo convergen en el mismo punto alineado con el centro, es decir, que ambos son iguales a el esfuerzo promedio como se planteo anteriormente.
+
+$ \tau max = R $
+
+
+
+
+
+
+
+\end{titlepage}
+\end{document}
+
+

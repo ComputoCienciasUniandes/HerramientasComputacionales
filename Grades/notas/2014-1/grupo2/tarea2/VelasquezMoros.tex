@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1.0in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+
+\title{Física II}
+\date{}
+\author{Andrea Velásquez}
+
+\begin{document}
+
+\maketitle
+
+\section*{Termodinámica}
+La termodinámica es el estudio de las variaciones en temperatura y los cambios de estado de cualquier sistema debido al intercambio de energía con su entorno.
+\subsection*{Gases ideales}
+\begin{itemize}
+\item Están compuestos por moléculas puntuales que no interactúan entre ellas.
+\item La distancia entre moléculas es grande
+\item Tienen baja densidad
+\item Se rigen por medio de la siguiente ecuación:
+
+\begin{equation}\label{eq:1.1}
+\ PV = nRT
+\end{equation}
+en la que R es la constante de gas ideal. \\\\
+
+\item Si la masa del gas se mantiene constante, también su número de moles, $n$, se mantendrá constante, y así 
+\begin{equation}
+\dfrac{PV}{T} = nR = c
+\end{equation}
+donde c es alguna constante, y por consiguiente: 
+\begin{equation}
+\dfrac{P_iV_i}{T_i} = \dfrac{P_fV_f}{T_f}
+\end{equation}
+\item $PV = nRT$ es una ecuación con aproximación, porque no se está considerando el tamaño de las moléculas ni la interacción entre ellas. 
+\item La ecuación corregida sería la de Van der Waals:
+\begin{equation}
+\ (P+\dfrac{an^2}{V})(V-nb) = nRT
+\end{equation}
+\item ¿De qué depende la presión y la temperatura? 
+\item Asumimimos:
+\subitem $V = $ constante; paredes rígidas
+\subitem moléculas puntuales (tamaño = 0)
+\subitem no hay interacción entre moléculas
+\subitem las colisiones son elásticas
+\subitem movimiento en direcciones aleatorias
+\item ¿Qué fuerza siente la pared cuando hay muchas moléculas golpeándola en un tiempo d$t$?
+\begin{equation}
+\vec{F} = \dfrac{d\vec{p}}{dt}
+\end{equation}
+\begin{footnotesize}
+\begin{equation}
+\ d\vec{p_y}= 0  
+\end{equation}
+\begin{equation}
+ d\vec{p_x}= m\vec{v_x}-m(-\vec{v_x})= 2m\vec{v_x}
+\end{equation}
+\end{footnotesize}
+\item El número de moléculas en un cilindro está dado por la ecuación:
+\begin{equation}
+\dfrac{N}{Vol}
+\end{equation}
+\item El número de moléculas golpeando en un área $A$ y un tiempo d$t$ está dado por la ecuación:
+\begin{equation}
+\dfrac{1}{2}\dfrac{N}{V}Adt
+\end{equation}
+\item Por consiguiente,
+\begin{equation}
+d\vec{p_x} = 2m\vec{v_x}(\dfrac{1}{2}\dfrac{N}{V}Adt)
+\end{equation}
+\begin{equation}
+\vec{F_x} = \dfrac{d\vec{p_x}}{dt} = m\vec{v_x}\dfrac{N}{V}A
+\end{equation}
+se usa $V_x$ promedio porque no todas las moléculas tienen la misma velocidad en $x$ $\vec{v_x}$.
+\item Como el movimiento es aleatorio, en todas las direcciones el movimientode las moléculasen promedio se ve igual.
+\end{itemize}
+
+\end{document}

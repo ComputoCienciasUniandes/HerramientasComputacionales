@@ -1,0 +1,110 @@
+\documentclass{article}
+\usepackage[margin=3.0cm]{geometry}
+\usepackage{amsmath}
+\title{ Notas Mecanica de Materiales}
+
+\begin{document}
+
+\begin{huge}
+ Notas Mec\'anica de Materiales
+\end{huge}
+
+Laura Catalina C\'aceres Torres
+
+\section{Transformaci\'on de Esfuerzos}
+
+Esfuerzo Plano:  Estado de esfuerzo en el cual el esfuerzo normal en el eje  de Z, perpendicular al plano  x-y y todos los esfuerzos cortantes asociados perpendiculares 
+al plano x-y son asumidos como de magnitud 0.
+
+\subsection{Ecuaciones Generales de la transformaci\'on de esfuerzo plano}
+
+
+
+\begin{equation}
+ \Sigma F_{X}= 0:   \sigma_{\dot{x}}=\frac{\sigma_{x}+ \sigma_{y}}{2} + \frac{\sigma_{x} -\sigma_{y}}{2}  cos2\theta + \tau_{xy}sen2\theta 
+\end{equation}
+
+
+
+\begin{equation}
+  \Sigma F_{X}= 0:   \tau_{\dot{xy}}= - \frac{\sigma_{x}-\sigma_{y}}{2}  sen2\theta + \tau_{xy}cos2\theta 
+\end{equation}
+
+entonces 
+
+
+
+\begin{equation} 
+\sigma_{\dot{y}} = \frac{\sigma_{x}+ \sigma_{y}}{2}-\frac{\sigma_{x}-\sigma_{y}}{2} cos2\theta -\tau_{xy}sen2\theta
+\end{equation}
+
+donde se reemplaza 
+
+
+\begin{equation} 
+\theta = \theta + 90 en (1)
+\end{equation}
+
+
+
+\section{Esfuerzos Principales Axiales y Maximo de Corte}
+
+Como puedo encontrar el plano que me produce los esfuerzos normales maximos y minimos?
+
+
+\begin{equation}
+   \sigma_{\dot{x}}=\frac{\sigma_{x}+ \sigma_{y}}{2} + \frac{\sigma_{x} -\sigma_{y}}{2}  cos2\theta + \tau_{xy}sen2\theta
+\end{equation}
+
+
+
+\begin{equation}
+ \frac{d\sigma_{x}}{d\theta} = - \frac{\sigma_{x}+ \sigma_{y}}{2} 2sen2\theta + 2\tau_{xy}cos2\theta  = 0
+\end{equation}
+
+ resolviendo
+
+
+\begin{equation}
+Tan2\theta_{p}=\frac{\tau_{xy}}{\sigma_{x}+\sigma_{y}/2}
+\end{equation}
+
+
+
+\section{Circulo de Morh para Esfuerzo Plano}
+
+
+En dos dimensiones, la Circunferencia de Mohr permite determinar la tensi\'on m\'axima  y m\'inima, a partir de dos mediciones de la tensi\'on normal
+ y tangencial sobre  dos \'angulos que forman 90grados. 
+
+
+Es importante recordar que el ejevertical se encuentra invertido, por lo que esfuerzos positivos van hacia abajo y esfuerzos 
+negativos se ubican en laparte superior.El eje horizontal presenta la tension normal (sigma) y el eje vertical representa la tension cortante o tangencial (tao
+
+
+\subsection{Centro del Circulo de Mohr}
+
+\begin{equation}
+C= ( \sigma_{prom} , 0) = \frac{\sigma_{x}+ \sigma_{y}}{2}
+\end{equation}
+
+\subsection{Radio de la Circunferencia del Cicurlo de Mohr}
+
+\begin{equation}
+ R=\sqrt{\frac{(\sigma_{x}+\sigma_{y}}{2})^2 +{\tau_{xy}}^2}
+\end{equation}
+
+
+\subsection{Pasos para la construcci\'o del C\'iculo de Mohr para esfuerzo plano}
+
+1.Dibuje un eje de coordenadas como SIGMA como abscisa (positivo hacia la derecha) y TAO como ordenada(positivo hacia abajo).
+
+2.Localice el centro C del ciculo en el punto como coordenadas ( \sigma_{prom} , 0).
+
+3.Localizar el Punto A (Represente las condiciones de esfuerzo sobre la cara A del elemento) con coordenadas (\sigma_{x} , \tau_{xy}).
+
+4.Localizar el punto B (representa las condiciones de esfuerzo sobre la cara B del elemento) se localiza diametral con respecto a A (\sigma_{y},-{\tau_{xy})
+
+5. Con C como centro, trace el circulo de Mohr por los puntos A y B. 
+
+\end{document}

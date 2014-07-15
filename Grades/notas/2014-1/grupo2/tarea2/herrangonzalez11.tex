@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1.0in]{geometry}
+\usepackage{amsmath}
+\title{Notas de clase: Integral}
+
+\begin{document}
+
+\maketitle
+
+\section{Integrales}
+es un concepto fundamental del cálculo y del análisis matemático. 
+Básicamente, una integral es una generalización de la suma de infinitos sumandos, infinitamente pequeños.
+Estas se puedes resolver de diferentes maneras:
+
+\subsection{Por Partes}
+Esta tecnica se usa cuando se nota que la integral contiene dos funciones, o que se estan multiplicando 
+se utiliza la formula de $\int u dv = u v - \int v du $ en donde uno escoje cual de las dos funciones quiere reemplazar por u y dv.\\
+
+\begin{itemize}
+ \item \textbf{Ejemplo}
+\end{itemize}
+
+
+
+$\int x sin(x) dx$ 
+\begin{center}
+ $ =-xcos(x)+ \int cos(x)dx$ \\ $ = -xcos(x)+ sen(x) + c$ \\
+\end{center}
+
+
+
+
+Aqui tomamos $u=x$ y $dv = sin(x)dx$. El $du$ es la derivada de $u$ y $v$ es la integral de $dv$
+
+\subsection{Integracion de funciones trigonometricas.}
+Esta forma de resolver una integral solo se usa cuando tenemos funciones trigonometricas ($sin(x), cos(x), sec(x), tan(x)$ son las mas comunes). En este caso se muestran 2 posibilidades:\\
+
+\textbf{Cuando encontramos en la integral $sin^n(x) cos^m (x)$}\\
+
+\begin{itemize}
+ \item Puede que ambos exponentes ($n$ y $m$) o uno solo sean impares.
+ \item En donde ambos tengas potencias pares.
+ \item En donde las potencias varien.\\
+\end{itemize}
+
+\textbf{Cuando tengamos  $sec^n(x) tan^m(x)$}\\
+En este caso, las condiciones aplican al igual que en el caso de $sin^n(x) cos^m (x)$\\
+
+Principalmente lo que se busca con este tipo de estrategias, es simplificar la integral (tambien usando las identidades trigonometricas), para que quede mas simple de integrar. Tambien se tiene en cuenta que la derivada de alguna sustitucion este presente, asi se facilitan las cuentas.\\
+
+\begin{itemize}
+ \item \textbf{Ejemplo}
+\end{itemize}
+
+$ \int sin^3(x) cos^6(x) dx$ 
+\begin{center}
+$=\int sin^2(x) sin(x) cos^6(x) dx$\\  
+
+$=\int sin(x) (1-cos^2(x)) cos^6(x) dx $ \\
+
+$=\int sin(x) cos^6(x) - cos^8(x) dx$\\
+\end{center}
+En este punto se hace una sustitucion de $u = cos(x)$ y $du = -sin(x) dx$. Asi como mencionamos antes ahora la integral sera mas facil de calcular.
+
+\begin{center}
+$-\int u^6 - u^8 du$ \\ $-\dfrac{u^7}{7} + \dfrac {u^9}{9} + C $
+\end{center}
+Volviendo a la variable original.
+\begin{center}
+ $- \dfrac {cos^7 (x)}{7} + \dfrac {cos^9 (x)}{9} + C$
+\end{center}
+Donde $C$ es la constante de integracion.
+
+\subsection{Sustitucion Trigonometrica}
+Esta es la ultima estrategia que se usa para resolver una integral que no es tan clara de resolver. Se usan las diferentes identidades trigonometricas para resolverla.
+En este caso existen 3 formas diferentes de sustitucion y dependen de la forma en la que se este escrita la integral.
+\begin{itemize}
+ \item Cuando se encuentra en la integral algo de la forma $a^2 - x^2$ se realiza una sustitucion  de $x=a sin(\theta)$ o bien se puede hacer $x= acos(\theta)$
+ \item Cuando se encuentra en la integral algo de la forma $a^2+x^2$ se realiza una sustitucion de $x=a tan(\theta)$
+ \item Cuando se encuentra en la integral algo de la forma $x^2 - a^2$ se realiza sustitucion de $x= a sec(\theta)$
+\end{itemize}
+
+\begin{itemize}
+ \item \textbf{Ejemplo}
+\end{itemize}
+
+
+$\int \dfrac {1}{x^2\sqrt{x^2-9}} dx$\\
+
+Aca vemos que podemos hacer una sustitucion de $x = 3 sec(\theta)$  donde $dx= 3 sec(\theta)tan (\theta) d(\theta)$\\
+
+\addtolength{\baselineskip}{\baselineskip}
+\begin{center}
+$\int \dfrac {3 sec(\theta) tan(\theta)}{9 sec^2(\theta) \sqrt {9sec^ (\theta)-9}} d\theta$ \\
+$\dfrac {1}{9} \int \dfrac {tan (\theta)}{sec(\theta)tan (\theta)} d\theta$\\
+$\dfrac {1}{9} \int \dfrac{d\theta}{sec(\theta)}$\\
+$\dfrac {1}{9} \int cos(\theta) d\theta$\\
+$\dfrac {1}{9} sen (\theta) + C$
+\end{center}
+
+Aqui tenemos que volver a la variable original, en este caso la integral nos quedaria.
+
+\begin{center}
+$\dfrac {1}{9} (\dfrac {\sqrt{x^2-9}}{x})+ C $
+\end{center}
+
+\end{document}

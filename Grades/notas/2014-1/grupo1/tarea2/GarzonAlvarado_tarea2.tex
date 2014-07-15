@@ -1,0 +1,105 @@
+ \documentclass[12pt]{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\title{\LaTeX\ \textsc{Ejercicio geoquimica}}
+\author{Juan Sebastian Garzon Alvarado}
+\begin{document}
+ 
+\maketitle
+\date{}
+\section{Meteorito}
+
+Conocemos que la ecuacion experimental que relaciona el diametro $\Phi$ en Km con la energia potencial E en kilotones es :
+
+\begin{equation}\label{eq:1}
+\Phi =0,1 \sqrt[3]{E}
+\end{equation}
+
+Y sabemos que
+
+\begin{equation}\label{eq:2}
+\frac{1}{2} mV^2 = E
+\end{equation}
+
+Al tener que la densidad $\rho$ del meteorito esferico es de 6 $\frac{g}{cm^3}$ , su velocidad de entrada v es igual a 30 $\frac{Km}{s}$ y el diametro $\Phi$ es igual a 5 Km podemos hallar la masa y el diametro del meteorito.
+
+\subsection{Masa meteorito}
+
+De la ecuacion (1) obtenemos que :
+
+\begin{equation}\label{eq:3}
+(\dfrac{\Phi}{0,1})^3 = E
+\end{equation}
+
+De la acuacion (2) obtenemos que:
+
+\begin{equation}\label{eq:4}
+\dfrac{2E}{V^2} = m
+\end{equation}
+Al reemplazar (1) por los datos dados obtenemos que la energia expresada en kilotones es:
+\begin{center}
+ E=1250000 KT
+\end{center}
+
+Para lograr despejar la masa en (2) es necesario hacer la conversion de unidades de la velocidad de $\frac{Km}{s}$ a $\frac{m}{s}$ , adicionalmente debemos ajustar las unidades de Kilotones a Julios cuya relacion indica que:
+
+\begin{center}
+$4.184x10^{12} J$ = 1KT
+\end{center}
+
+
+Con estas conversiones obtenemos que la masa del meteorito es:
+\begin{center}
+m=$1.16x10^{12}$ Kg
+\end{center}
+
+\subsection{Diametro meteorito}
+
+Para hallar el diamentro d, tenemos en cuenta las ecuaciones
+
+\begin{equation}\label{eq:5}
+\dfrac{m}{v} = \rho
+\end{equation}
+
+\begin{equation}\label{eq:6}
+\dfrac{4}{3}\Pi r^3 = v
+\end{equation}
+
+\begin{equation}\label{eq:7}
+ 2r=d
+\end{equation}
+
+Con (5) y (6) obtenemos
+
+\begin{center}
+$ r=\sqrt[3]{\dfrac{3\dfrac{m}{\rho}}{4\Pi}} $
+\end{center}
+
+Al operar obtenemos que \\
+
+\begin{center}
+r= 3589.35 cm o r= 35.89m \\
+\end{center}
+
+Ya que el diametro del asteroide esferico es 2r obtenemos \\
+
+\begin{center}
+2(35.89m)= d \\
+
+
+71.78m= d    \\
+
+\end{center}
+
+
+\begin{large}
+
+ \textsl{Es importante resaltar que se ignoraron las cifras significativas de cada caso pues los datos entregados no reflejan la precision real de las mediciones.} 
+
+\end{large}
+
+
+
+\end{document}
+

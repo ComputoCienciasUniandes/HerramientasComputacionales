@@ -1,0 +1,23 @@
+import sys
+import numpy as np
+import matplotlib.pyplot as plt
+import pylab as pl
+
+archivo= sys.argv[1]
+data=np.loadtxt(archivo)
+
+r=data[:,3]
+n=data[:,4]
+
+fit=pl.polyfit(n,r,4)
+
+pl.scatter(n,r)
+pl.plot(r,fit[0]*(n**4) + fit[1]*(n**3) + fit[2]*(n**2) + fit[3]*n + fit[4])
+pl.xlabel("$Pasos$", fontsize=30)
+pl.ylabel("$Radio$", fontsize=30)
+pl.title("Pasos vs Radio linea de ajuste ", fontsize=30)
+pl.savefig("ajuste.png")
+
+print fit[0]
+
+

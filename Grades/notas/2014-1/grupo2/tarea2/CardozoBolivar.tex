@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+
+\title{Cuaderno Estructural}
+\author{David Cardozo}
+\date{February 2014}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Seccion 1.6}
+Sean $A,B,C,A',B' \subseteq U $ Como se comparan los siguientes conjuntos?
+
+\subsection{ $(A \times B) \cup (C \times D)$ }
+Sea $(x,y) \in ( A \times B) \cup (C \times D)$ luego $(x,y) \in A \times B$ o $(x,y) \in C \times D$ \\
+Realizemos la prueba por casos: \\
+Caso 1: \\ 
+$ x \in A, y \in B$ Entonces como $A \subseteq A \cup C$ y $B \in B \cup D$, entonces $x \in A \cup C$ y $y \in B \cup D$. Entonces $(x,y) \in (A \cup C) \times (B \cup D)$. \\
+Caso 2: \\
+Similar "Left as an exercise to the reader"
+\subsection{$(A \times B) \cap (C \times D)$ vs $(A \cap C) \times (B \cap D)$ }
+Sea $(x,y) \in (A \times B) \cap (C \times D)$ \\
+Entonces $(x,y) \in A \times B$ y $(x,y) \in C$ \\
+es decir, $x \in A, y \in B, x \in C, y \in D.$ \\
+ssi: $x \in (A \cap C)$ y $y \in B \cup D$ \\
+ssi: $(x,y) \in (A \cap C) \times (B \cap D)$ \\
+el si y solo si nos dimos cuenta por ser todos los pasos por "reversibles
+\section{Para todo $ a \in \mathbb{R}$ }
+\begin{eqnarray}
+H_{a} = \left\{ x,y \in \mathbb{R}^2 : y=a \right\} \\
+V_{a} = \left\{ x,y \in \mathbb{R}^2: x=a  \right\}
+\end{eqnarray}
+Dibuje en el plano. 
+\[
+B = \bigcup _{a \in [2,5]} (H_{a} \cap V{a})
+\]
+Entonces 
+\[
+B = \left\{ (x,y): x=y, x \in [2,5] \right\}
+\]
+\section{ Sea }
+\[
+A = \bigcup_{a \in [0,1)} ( \bigcap_{b \in (a,6]} [b,b+a))
+\]
+Para el caso particular, observemos
+\[
+\bigcap_{b \in ( \frac{1}{2} , 6]} [b,b) + \frac{1}{2} = \emptyset
+\]
+Entonces probemos que para todo $ a \in [0,1] $
+\[
+B = \bigcap_{b \in (a,b]} \lbrack b, b+a) = \emptyset
+\]
+Demostracion: 
+Sea $a \in \lbrack 0, 1 \rbrack$. Entonces considere los intervalos $ \lbrack 1, 1+a \rbrack $ y $ \lbrack 6, 6+a \rbrack$ \\
+Como $ 0 \leq a < 1$, entonces $ 1+a < 2 < 6 $, luego $ \lbrack 1, 1+a )  \cap \lbrack 6, 6+a \rbrack$ \\
+No puede existir un $x$ que pertenezca a todo $ \rbrack b, b+a)$ para $ b \in  (a,6 \rbrack $ \\
+o sea, $ b = \emptyset$
+\section{Sea $A$ un conjunto}
+Dado $ a \in A$, sea $E_{a} = { B \in B(A) : A \in B}$ \\
+Demostrar
+\[
+\bigcup_{a \in A} E_{a} = P(a) \backslash {\emptyset}
+\]
+Demostracion: \\
+Por doble contenencia, Sea 
+\[
+x \in \bigcup_{a \in A} E_{a}
+\]
+Entonces $X \in E_a $ para algun $ a \in A $. \\
+Por definicion de $E_a, X \in P(A)$ y $ a \in X $ \\
+Entonces $ x \neq \emptyset $ 
+Luego $X \in P(A)$ y $X \not \in {\emptyset}$ entonces $X \in P(A) \backslash {\emptyset}$ \\
+Parte 2 \\
+Sea $ X \in P(A) \backslash {\emptyset}$. \\
+Entonces $X \in P(A)$ Y $X \not \in  {\emptyset} $ \\
+por lo tanto $X \neq \emptyset$. \\
+Entonces existe un $ c \in X $  \\
+Como $ X \in  P(A)$ y $c \in X$
+entonces $X \in E_c$ 
+Pero $ c \in A $, entonces $ c \in X$ y $X \in P(A)$ \\ 
+o sea, $X \subseteq A$ \\
+Luego, $X \in \bigcup_{a \in A} E_a$
+
+
+
+
+
+
+
+
+
+
+\end{document}

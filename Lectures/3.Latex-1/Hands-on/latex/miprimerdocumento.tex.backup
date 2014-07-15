@@ -1,0 +1,13 @@
+\documentclass[12pt]{article}
+\title{Mi primer documento }
+
+
+\begin{document}
+\date{}
+\maketitle
+
+\begin{Huge}
+Hola mi primer documento
+\end{Huge}
+
+\end{document}

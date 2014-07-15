@@ -1,0 +1,56 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\title{\textbf{Transformaciones euclidianas}}
+
+\begin{document}
+\date{}
+\maketitle
+
+Sea E es un plano euclidiano (Un plano euclidiano E es un plano afin A con un producto escalar g sobre una espacio vectorial V)
+
+\section*{Transformaciones euclidianas, de espacio vectorial euclidiano(operadores ortogonales)}
+
+
+$A:V \rightarrow V$, tal que $g(A\vec{v}, A\vec{w})=g(\vec{v}, \vec{w})  \forall \vec{v}, \vec{w}$\\
+
+\noindent1) $||A\vec{v}|| = ||\vec{v}||$\\
+2) A conserva los angulos\\
+
+\textbf{Teorema}\\
+Si $A:V \rightarrow V$ tal que $||A\vec{v}|| = ||\vec{v}||$ entonces $A\vec{v} \cdot A\vec{w} = \vec{v} \cdot \vec{w}$\\
+
+Demostracion\\
+
+\begin{equation}
+A(\vec{v} + \vec{w}) \cdot A(\vec{v} + \vec{w}) = (\vec{v} + \vec{w}) \cdot (\vec{v} + \vec{w})\\
+(A\vec{v} + A\vec{w}) \cdot (A\vec{v} + A\vec{w}) = \vec{v} + \vec{w}) \cdot (\vec{v} + \vec{w})
+\end{equation}
+\begin{equation}
+(A\vec{v} + A\vec{w}) \cdot (A\vec{v} + A\vec{w}) = \vec{v} + \vec{w}) \cdot (\vec{v} + \vec{w})
+\end{equation}
+\begin{equation}
+A\vec{v} \cdot A\vec{v} + 2A\vec{v} \cdot\ A\vec{w} + A\vec{w} \cdot A\vec{w} = \vec{v} \cdot \vec{v} + 2\vec{v} \cdot\ \vec{w} + \vec{w} \cdot\vec{w} 
+\end{equation}\\
+
+\textbf{Teorema}\\
+
+Sea $A:V \rightarrow V$ un operador ortogonal y  $ \{e_1, ... , e_n\}$ una base de un espacio vectorial euclidiano(V,g), luego \\
+Si $G=||g_ij=e_i \cdot e_j||$  es la matriz de Gram de la base y $M(A)$ es la matriz del operador A, entonces A es una isometria si y solo si
+$$M(A)^t GM(A) = G$$\\
+
+
+$$(A\cdot\vec{e_i})\cdot (A\cdot\vec{e_j})= \vec{e_i}\cdot \vec{j} $$\\
+$$(A^{k}_{j}\vec{e_k})\cdot(A^{m}_{j} \vec{e_m})=\vec{e_i}\cdot \vec{e_j}$$\\
+$$A^{k}_{i}A^{m}_{j}\vec{e_k}\vec{e_m}=\vec{e_i}\cdot \vec{e_j}$$\\
+$$A^{m}_{j}g_km A^{k}_{i}=g_ij$$\\
+$$||A^{i}_{j}||^{t}\cdot ||g_km|| \cdot ||A^{i}_{j}|| = ||g_km||$$\\
+$$ A^{t}\cdot G \cdot A = G $$
+
+
+
+\end{document}
+

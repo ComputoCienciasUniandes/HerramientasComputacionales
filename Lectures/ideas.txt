@@ -1,0 +1,9 @@
+Ultima clase:
+
+1. Libreria para hacer, Integrales. (Wolfram hace las integrales) Mirar como se puede complementar.
+2. Libreria para resolver ecuaciones diferenciales. 
+3. Visualizacion de datos. TOPCAT
+4. github?
+5. Intro a Data Mining?
+6. Matrices, Algebra lineal.
+7. Pandas!

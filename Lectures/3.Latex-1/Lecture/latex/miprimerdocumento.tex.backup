@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{amsmath}
+\title{Hola  latex}
+
+
+\begin{document}
+\date{}
+\maketitle
+
+Hola querido latex, tratame bien 
+
+\section{Seccion Secci\'on}
+hola 
+\section*{Seccion sin numero}
+
+\subsection{hola hola}
+hola que m\'as latex? todo bien?
+\subsubsection{tipo de letra}
+
+\textbf{negrillas}\\
+\textsc{hola}
+ 
+ 
+\begin{footnotesize}
+ hola footnotesize 
+\end{footnotesize}
+
+
+\section{Ecuaciones}
+
+\begin{equation}
+ \vec{F} = m\vec{a}
+\end{equation}
+
+
+
+
+
+
+
+
+\end{document}

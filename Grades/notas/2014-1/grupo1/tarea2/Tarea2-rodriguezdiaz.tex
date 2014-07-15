@@ -1,0 +1,121 @@
+\documentclass{article}
+\usepackage[margin = 1.0in]{geometry}
+\usepackage{amsmath}
+\title{ Apuntes de clase F\'isica 1 \LateX}
+
+\begin{document}
+\maketitle
+\date{}
+
+
+\section{F\'isica 1}
+\textbf{F\'isica 1}
+\\begin{flushleft}
+subsection{Movimiento en una dimensi\'on}
+
+Este movimiento se caracteriza, como su nombre lo indica, por el movimiento de los cuerpos en un s\'olo eje de coordenadas, lo que es lo mismo decir que el cuerpo se mueve en una l\'inea recta.
+
+Es importante tener en cuenta que, para cada tipo de movimiento (no s\'olo en el movimiento de una dimensi\'on) hay que establecer un marco de referencia apropiado, desde el cual se pueda analizar correctamente un problema.
+
+Los conceptos a tener en cuenta en esta secci\'on ser\'an presentados a continuaci\'on.
+
+\subsubsection{Posici\'on}
+Se define como X(t), posici\'on en funci\'on del tiempo.
+
+\subsubsection{Desplazamiento (m)}
+Se define como la diferencia de posici\'on entre dos instantes de tiempo.
+\begin{equation}
+\Delta(X) = X(t_{2} - Xt_{1} )
+\end{equation}
+
+\subsubsection{Velocidad Media (m/s)}
+Se define como la velocidad entre dos intervalos de tiempo diferentes.
+\begin{equation}
+V= \dfrac{X(t_{2}) -X(t_{1})}{(t2-t1)}
+\end{equation}
+
+\begin{equation}
+V=\dfrac{ \Delta(X)}{\Delta(t)}
+\end{equation}
+
+\subsubsection{Velocidad instant\'anea (V) = m/s}
+Se define como el l\'imite de la velocidad cuando el cambio de tiempo tiende a cero. Es lo mismo que decir para los casos con gr\'aficas, que la velocidad es la tangente al punto de la funci\'on.
+
+\begin{equation}
+V(t) =$\displaystyle\lim_{x \rightarrow x_0}f(x)$[\dfrac{X(t+\Delta(t))-X(t)}{\Delta(t)}]
+\end{equation}
+\begin{equation}
+V(t) = \dfrac{dX}{dT}
+\end{equation}
+
+\subsubsection{Aceleraci\'on media \overline{a}}
+Se define como el cambio de velocidad entre un intervalo de tiempo. Se mide en m/(s^{2})
+
+\begin{equation}
+A(t)= \dfrac{V(t_{2}) - V(t_{1})}{(t_{2}-t_{1})}
+\end{equation}
+\begin{equation}
+A(t)= \dfrac{\Delta(V)}{t}
+\end{equation}
+
+\subsubsection{Aceleraci\'on instant\'anea (A)}
+Se define como el l\'imite de la aceleraci\'on cuando el cambio del tiempo tiende a cero. Al igual que en la velocidad instant\'anea, se tiene que es la tangente a un punto de la funci\'on.
+
+\begin{equation}
+A(t)= $\displaystyle\lim_{x \rightarrow x_0} f(x)$[\dfrac{V(t+\Delta(t) -V(t)}{(\Delta(t))}]
+\end{equation}
+
+\begin{equation}
+A(t)= \dfrac{dV}{dt}
+\end{equation}
+
+Los tipos de movimientos en una dimensi\'on que se pueden presentar aplicando lo anterior, son los siguientes:
+
+\subsubsection{Movimiento rectilíneo uniforme}
+Es un movimiento que se caracteriza por ser a velocidad constante, lo que significa que la aceleraci\'on es cero.
+Las ecuaciones a usar son:
+\begin{equation}
+V= \dfrac{X(t)-X(t_{o})}{(t-t_{o})}
+\end{equation}
+
+\begin{equation}
+V=\dfrac{ \Delta(X)}{\Delta(t)}
+\end{equation}
+
+\begin{equation}
+X(t)= X_{o} +V(t) 
+\end{equation}
+
+\subsubsection{Movimiento rectilíneo uniformemente acelerado}
+Es un movimiento en el que la velocidad varia a causa de la aceleraci\'on constante que tiene un cuerpo.
+Las ecuaciones que se usan son:
+
+\begin{equation}
+V(t)= V_{o} + a(t-t_{o}) 
+\end{equation}
+
+\begin{equation}
+X(t)= X_{o} + V_{ox}\times(t-t_{o}) +1/2(t-t_{o})^{2} 
+\end{equation}
+
+\begin{equation}
+V_{f}^{2} - V_{o}^{2}= 2(X_{f}-X_{o})
+\end{equation}
+
+\subsubsection{Ca\'ida libre}
+Se presenta cuando un cuerpo cae por acci\'on de la aceleraci\'on gravitacional de la Tierra, la cual es de 9,8m/s^{2}.
+
+\begin{equation}
+Y(t)= Y_{o} +V_{o}\timest -\dfrac{1}{2}gt^{2}
+\end{equation}
+
+\begin{equation}
+V(t)= V_{o}  -gt
+\end{equation}
+
+\begin{equation}
+V_{f}^{2}-V_{o}^{2}= -2g(Y_{f}-Y_{o})
+\end{equation}
+
+\end{document}
+\end{flushleft}

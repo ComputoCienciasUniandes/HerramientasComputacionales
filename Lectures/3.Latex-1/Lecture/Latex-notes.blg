@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Latex-notes.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--string name "year" is undefined
+--line 6 of file references.bib
+I was expecting a `,' or a `}'---line 6 of file references.bib
+ :      year = year 
+ :                  published}
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Latex"
+Warning--empty year in book
+You've used 1 entry,
+            2118 wiz_defined-function locations,
+            502 strings with 4058 characters,
+and the built_in function-call counts, 240 in all, are:
+= -- 19
+> -- 7
+< -- 0
++ -- 3
+- -- 2
+* -- 13
+:= -- 47
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 12
+empty$ -- 23
+format.name$ -- 2
+if$ -- 47
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 9
+preamble$ -- 1
+purify$ -- 3
+quote$ -- 0
+skip$ -- 5
+stack$ -- 0
+substring$ -- 5
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2
+warning$ -- 1
+while$ -- 2
+width$ -- 2
+write$ -- 12
+(There was 1 error message)

@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+
+\title{Notas de Cálculo Integral}
+
+\begin{document}
+\date{}
+\maketitle
+
+
+\section{Fórmula de Reducción del Seno}
+
+\begin{large}
+La integral de seno a la potencia n se puede reducir en integrales de menor potencia por medio de la fòrmula del seno, esta es:
+\begin{equation}
+ \int \sin^n x dx = -\frac{\cos x \sin^{n-1}x}{n} + \frac{n-1}{n}\int \sin^{n-2} xdx 
+\end{equation}
+
+\subsection{Integral definida de seno a la potencia n entre 0 y $\displaystyle \frac{pi}{2}$}
+Con la fórmula de reducción del seno se puede simplificar la siguiente integral:
+
+\begin{equation}
+ \int_0^\frac{\pi}{2} \sin^n x dx = \frac{n-1}{n}\int_0^\frac{\pi}{2} \sin^{n-2} xdx 
+\end{equation}
+
+\subsubsection{Demostración}
+Se utiliza el método de integración por partes de la siguiente manera en la fórmula de integración por partes:\\
+\\
+$\displaystyle u = \sin^{n-1} x $ \\
+$\displaystyle du = (n-1)\sin^{n-2} x \cos xdx$\\
+$\displaystyle dv = \sin xdx $ \\
+$\displaystyle v = -\cos x $ \\
+
+
+\begin{equation}
+ \int udv = uv - \int vdu
+\end{equation}
+
+\begin{equation}
+ \int \sin^n x dx = -\cos x\sin^{n-1} x + \int \cos x(n-1)\sin^{n-2} x \cos xdx
+\end{equation}
+
+\begin{equation}
+ \int \sin^n x dx = -\cos x\sin^{n-1} x + (n-1)(\int \sin^{n-2} xdx - \int \sin^n xdx)
+\end{equation}
+
+\begin{equation}
+ \int \sin^n x dx + (n-1)\int \sin^n xdx = -\cos x\sin^{n-1} x + (n-1)\int \sin^{n-2} xdx
+\end{equation}
+
+\begin{equation}
+ \int \sin^n x dx = -\frac{\cos x\sin^{n-1} x}{n} + \frac{n-1}{n}\int \sin^{n-2} xdx
+\end{equation}
+
+El primer término evaluado para x = $\displaystyle \frac{pi}{2}$ y x = 0, da 0, QED.
+
+\subsection{Integral definida de seno a la potencia de 2n entre 0 y $\displaystyle \frac{pi}{2}$}
+Con el resultado anterior se puede mostrar:
+
+\begin{equation}
+ \int_0^\frac{\pi}{2} \sin^{2n} x dx = \frac{\pi}{2} \cdot \frac{1}{2} \cdot \frac{3}{4} \cdot \frac{5}{6} \cdot ... \cdot \frac{2n-1}{2n}
+\end{equation}
+
+\subsubsection{Demostración}
+Se utiliza el método de induccion:\\
+Primero se verifica para n = 1:\\
+
+\begin{equation}
+ \int_0^\frac{\pi}{2} \sin^{2} x dx = \frac{1}{2} \cdot \int_0^\frac{\pi}{2} 1-\cos (2x)dx = \frac{\pi}{2} \cdot \frac{1}{2}
+\end{equation}
+\\
+Ahora se supone que es valido para m y se demuestra para m+1:
+
+\begin{equation}
+ \int_0^\frac{\pi}{2} \sin^{2m} x dx = \frac{\pi}{2} \cdot ... \cdot \frac{2m-1}{2m}
+\end{equation}
+
+\begin{equation}
+ \int_0^\frac{\pi}{2} \sin^{2(m+1)} x dx = \int_0^\frac{\pi}{2} \sin^{2m+2} x dx = \frac{2m+2-1}{2m+2} \cdot \int_0^\frac{\pi}{2} \sin^{2m} x dx
+\end{equation}
+
+\begin{equation}
+ \int_0^\frac{\pi}{2} \sin^{2(m+1)} x dx = \frac{2(m+1)-1}{2(m+1)} \cdot \frac{\pi}{2} \cdot ... \cdot \frac{2m-1}{2m} 
+= \frac{\pi}{2} \cdot ... \cdot \frac{2m-1}{2m} \cdot \frac{2(m+1)-1}{2(m+1)}
+\end{equation}
+Y así queda demostrado
+
+\end{large}
+
+\end{document}

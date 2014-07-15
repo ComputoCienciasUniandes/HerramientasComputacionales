@@ -1,0 +1,117 @@
+\documentclass{article}
+\title{Resumen Calculo Integral}
+\usepackage{amsmath}
+\usepackage[margin=3cm]{geometry}
+
+\begin{document}
+\date{}
+\maketitle
+ 
+
+\section{Integracion por partes}
+ 
+La integración por partes surge a partir de la regla del producto para derivadas en donde:
+ 
+\begin{equation}
+(f\times{g})'=g'\times{f} + f'\times{g}
+\end{equation}
+ 
+Ahora, integrando a ambos lados de la ecuacion obtenemos:
+ 
+\begin{equation}
+\int{(f\times{g})'}=\int{g'\times{f}} + \int{f'\times{g}}
+\end{equation}
+ 
+\begin{equation}
+f\times{g} -  \int{f'\times{g}} =\int{g'\times{f}}
+\end{equation}
+ 
+De este modo se logra llegar a una manera en la que es posible integrar una multiplicacion de dos funciones, a partir de integrar una funcion y derivar otra\\
+ 
+Algunos ejemplos de funciones que se pueden integrar a traves de este metodo son:
+ 
+\begin{equation}
+\int{xsen^2(x)}
+\end{equation}
+ 
+\begin{equation}
+\int{x^4ln(x)}
+\end{equation}
+ 
+\section{Integrales trigonometricas}
+ 
+Para pooder integrar ciertas funciones trigonometricas, es importante saber reescribir las funciones trigonometricas de varias formas gracias a las identidades. Por esta razon las identidades fundamentales a la hora de integrar funciones trigonometricas son:
+ 
+\begin{equation}
+\left.\begin{aligned}       
+sen^2x+cos^2x=1\\
+tan^2x+1=sec^2x
+\end{aligned}
+\right\}
+\qquad \text{Identidades Pitagoricas}
+\end{equation}\\
+ 
+\begin{equation}
+\left.\begin{aligned}       
+sen^2x=\dfrac{1-sen(2x)}{2}\\
+cos^2x=\dfrac{1+sen(2x)}{2}
+\end{aligned}
+\right\}
+\qquad \text{Identidades Angulo Doble}
+\end{equation}
+ 
+\section{Sustituciones trigonometricas}
+ 
+Las sustituciones  trigonometricas consisten en sustituir una parte de la integral que tenga la forma $\sqrt{a^2+x^2}$ o $\sqrt{a^2-x^2}$ o $\sqrt{x^2-a^2}$\\
+ 
+De esta manera se realizan las siguientes sustituciones:
+ 
+\begin{equation}
+\left.\begin{aligned}       
+Si \sqrt{a^2+x^2}\\
+x=atan(w)
+\end{aligned}
+\right\}
+\qquad \text{}
+\end{equation}
+ 
+\begin{equation}
+\left.\begin{aligned}       
+Si \sqrt{a^2-x^2}\\
+x=asen(w)
+\end{aligned}
+\right\}
+\qquad \text{}
+\end{equation}
+ 
+\begin{equation}
+\left.\begin{aligned}       
+Si \sqrt{x^2-a^2}\\
+x=asec(w)
+\end{aligned}
+\right\}
+\qquad \text{}
+\end{equation}
+ 
+Un ejemplo en el cual se usa este metodo es:
+ 
+\begin{equation}
+\int{\dfrac{x}{\sqrt{x^2+4x+13}}}
+\end{equation}
+ 
+\section{Integracion por fracciones parciales}
+ 
+La integracion por fracciones parciales consiste en reescribir una division de polinomios de tal manera que sean integrables. Si el polinomio del numerador es de mayor grado que el de abajo se realiza division sintetica o de ploinomios.\\
+ 
+Si el grado del numerador es menor que el del denominador se debe reescribir de las siguientes maneras:
+ 
+\begin{equation}
+\left.\begin{aligned}       
+\frac{a}{Ax+B}\\\\
+\frac{bx+c}{Ax^2+Bx+C}
+\end{aligned}
+\right\}
+\qquad \text{}
+\end{equation}
+ 
+\end{document}

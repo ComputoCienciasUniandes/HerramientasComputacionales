@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\title{Marcha Aleatoria}
+
+\begin{document}
+\date{}
+\maketitle
+
+
+\section*{Ejercicio:}
+
+\textbf{Fecha de entrega: Jueves 24 de Abril 6pm}.
+
+La tarea debe entregarse en un archivo comprimido que tenga como numbre sus apellidos \verb"garavito-camargo.zip"
+y debe subirse al sicua, dentro de este archivo deben de ir los siguientes programas: 
+
+\begin{itemize}
+
+
+\item (25 puntos) Realizar un programa en python, en el cual una part\'icula realize una marcha aleatoria dentro 
+   de una esfera de radio $\rm{R}$. La part\'icula esta en una posici\'on incial $(x=0, y=0, z=0)$ y se mueve en pasos aleat\'orios de distancia $1$ hasta llegar a una distancia $\rm{R}$ del centro. El programa debe escribir un archivo de datos (\verb"marcha-aleatoria.dat") con la siguiente informaci\'on: (x, y, z, Npasos, $r$) donde $r$ es las distancia al centro de la esfera. Este programa debe recibir por consola el radio $\rm{R}$ de la esfera (\verb"python marchaaleatoria.py 10").
+
+\item (10 puntos) Realizar una gr\'afica del N\'umero de pasos vs la distancia ($r$) recorrida por la part\'icula.
+	(Incluir labels, titulo.) Este programa debe leer los datos obtenidos en el punto anterior y debe correr as\'i:
+	\verb"marcha-aleatoria.py marcha-aleatoria.dat" y debe realizar una grafica \verb"Npasos-r.png"
+	
+\item (15 puntos) Escribir un programa que haga un ajuste por m\'inimos cuadrados de la grafica anterior.
+		este programa debe leer el archivo de datos \verb"marcha-aleatoria.dat" y debe retornar una gr\'afica 
+		con el ajuste. la grafica debe incluir la ecuacion de la curva y debe llamarse \verb"ajuste.png".
+		El programa de funcionar as\'i (\verb"python ajuste.py marcha-aleatoria.dat")
+
+\item Bono (5 puntos) Hacer un grafica 3d en donde se muestre el movimiento de la part\'icula dentro de la esfera.
+		Este progrmama debe leer el archivo \verb"marcha-aleatoria.dat" y debe retornar una grafica con el nombre \verb"3dplot.png" el programa debe funcionar as\'i (\verb"python plot3d.py marcha-aleatoria.dat")
+\end{itemize}
+
+\end{document}

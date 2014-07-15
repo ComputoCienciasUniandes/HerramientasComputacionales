@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1.0in]{geometry} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\title{Notas de clase Fisica II}
+\usepackage{lmodern}
+
+
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\begin{document}
+\maketitle
+\section{Primera Ley de la Termodinámica}
+\subsection{Ecuación primera ley}
+\begin{equation}
+Uf-Ui=Q-W
+\end{equation}
+\subsubsection{Variables}
+Uf= Energía interna final del sistema\\
+Ui= Energía interna inicial del sistema\\
+Q= Cantidad de calor\\
+W= Trabajo efectuado por el sistema o hacia el sistema\\
+
+\begin{equation}
+U=Ek+Im
+\end{equation}
+\subsubsection{Variables}
+U= Energía interna del sistema\\
+Ek= Energía cinética de las moléculas\\
+Im= Energía de interacción entre las moléculas\\
+
+\section{Procesos termodinamicos}
+\subsection{Procesos isovolumétricos}
+Proceso termodinámico con volumen constante, no hay trabajo, puesto que no hay cambio de trabajo.\\
+\begin{equation}
+ \Delta U=Q
+\end{equation}
+\subsection{Procesos isobáricos}
+Proceso termodinámico a presión constante.
+\begin{equation}
+ \Delta U=Q-W
+\end{equation}
+\subsection{Procesos isotérmicos}
+Proceso termodinámico sin cambio de temperatura, por lo tanto, no hay cambio en la energía interna.
+\begin{equation}
+ Q=W
+\end{equation}
+\subsection{Procesos adiabáticos}
+Proceso termodinámico sin cambio de calor, por lo tanto, Q=0 y la el cambio de energía interna del sistema es igual al trabajo negativo.
+\begin{equation}
+ \Delta U=-W
+\end{equation}
+\subsection{Procesos cíclicos}
+Proceso termodinámico en el que el estado inicial del sistema es igual al estado final del sistema, generalmente, se repite varias veces.
+\section{Proceso isotérmico}
+T cte \\dT=0\\ dU=0\\ 
+Q=dW\\
+dW= PdVol\\
+\begin{equation}
+ dW=PdVol
+\end{equation}
+\begin{equation}
+W=\int_{Vi}^{Vf} PdV = nRT\int_{Vi}^{Vf} \frac{dV}{V}= nRT  ln  \frac{Vf}{Vi}
+\end{equation}
+
+\section{Proceso isobárico}
+Como el cambio de T es el mismo Uf-Ui también es el mismo
+\begin{equation}
+ \Delta U1=\Delta U2
+\end{equation}
+\begin{equation}
+ nCvdt = nCpdT -PdV
+\end{equation}
+Para un gas ideal PV=nRT
+\begin{equation}
+ PdV=nRdT
+\end{equation}
+\begin{equation}
+ nCvdT= nCpdT + nRdT
+\end{equation}
+\begin{equation}
+ Cv= Cp-R
+\end{equation}
+\end{document}

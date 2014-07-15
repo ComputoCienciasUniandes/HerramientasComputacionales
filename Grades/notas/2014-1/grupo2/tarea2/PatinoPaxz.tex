@@ -1,0 +1,114 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{amsmath}
+\title{C\'{a}lculo Vectorial}
+
+\begin{document}
+\date{}
+\maketitle
+
+\section{Funciones vectoriales}
+
+
+El dominio de una funci\'{o}n vectorial es la intersecci\'{o}n de los dominios de cada variable \\
+Para encontrar el l\'{i}mite de una funci\'{o}n vectorial se debe tomar el l\'{i}mite de cada una de sus componentes
+
+
+\subsection{Derivadas de funciones vectoriales}
+
+Para encontrar la derivada de una funci\'{o}n vectorial se debe encontrar la derivada de cada una de sus componentes
+
+\begin{equation}
+ u(t) = (f_{1}(t),f_{2}(t),...,f_{n}(t)) 
+\end{equation}
+
+\begin{equation}
+ u(t)' = (f_{1}'(t),f_{2}'(t),...,f_{n}'(t)) 
+\end{equation}
+
+
+
+\subsection{Reglas de derivaci\'{o}n entre funciones vectoriales}
+
+Dadas unas funciones vectoriales $u(t)$ y $v(t)$
+
+\begin{equation}
+ (u(t) + v(t))' = u'(t) + v'(t)
+\end{equation}
+
+\begin{equation}
+ (c\cdot u(t))' = c \cdot u'(t)
+\end{equation}
+
+\begin{equation}
+ (u(t) \cdot v(t))' = u'(t) \cdot v(t) + u(t) \cdot v'(t)
+\end{equation}
+
+\begin{equation}
+ (u(t) \times v(t))' = u'(t) \times v(t) + u(t) \times v'(t)
+\end{equation}
+
+
+
+\subsection{Integrales de funciones vectoriales}
+
+La integral de una funci\'{o}n vectorial es la integral de cada una de sus componentes
+
+\begin{equation}
+ \vec{u}(t) = (f_{1}(t),f_{2}(t),...f_{n}(t))
+\end{equation}
+
+\begin{equation}
+ \int \vec{u}(t) dt = (\int f_{1}(t)dt ,\int f_{2}(t),...,\int f_{n}(t))
+\end{equation}
+
+\subsection{Longitud de arco}
+
+La longitud de arco de una funci\'{o}n define la distancia de la trayectoria de una curva entre dos puntos que estan en la curva \\
+
+La longitud de curva se denota $s$ y se define con la ecuaci\'{o}n:
+
+\begin{equation}
+ s= \int_{a}^{b} \Arrowvert{\vec{r}'(t)} \Arrowvert dt 
+\end{equation}
+
+en donde $\vec{r}$ es el la funci\'{o}n vectorial que define la curva y $a$ y $b$ son los puntos entre los cuales se esta calculando la longitud de curva.
+ 
+
+
+\subsection{Funci\'{o}n de longitud de arco}
+
+La funci\'{o}n de longitud de arco es usada como par\'{a}metro natural ya que la parametrizaci\'{o}n es independiente del sistema de coordenadas usado.
+La funci\'{o}n de longitud de arco $s(t)$ est\'{a} dada por 
+
+\begin{equation}
+ s(t) = \int_{a}^{t} \Arrowvert{\vec{r}'(u)} \Arrowvert du
+\end{equation}
+
+en donde $t$ var\'{i}a en los n\'{u}meros reales. \\ \\
+Debido a que $s$ es el par\'{a}metro natural, es conveniente reparametrizar una ecuaci\'{o}n vectorial para que el par\'{a}metro est\'{e} dado por la longitud
+de arco. Para reparametrizar la ecuaci\'{o}n desde un parametro $t$ al par\'{a}metro natural $s$ se debe calcular la integral de longitud de arco y
+encontrar una funcion $t(s)$. Habiendo obtenido la funcion $t(s)$, se reemplaza en la funci\'{o}n vectorial que ten\'{i}a como par\'{a}metro $t$.
+
+\begin{equation}
+ \vec{r}(t) \rightarrow \vec{r}(t(s)) \rightarrow \vec{r}(s)
+\end{equation}
+
+\subsection{Curvatura}
+
+La curvatura de una funci\'{o}n define la velocidad a la que curva cambia de direcci\'{o}n. Se puede expresar como la magnitud del cambio del vector tangente unitario
+$U(t)$ con respecto a la longitud de arco.
+
+\begin{equation}
+ \kappa = \left|\frac{d\vec{U}}{ds}\right|
+\end{equation}
+
+Es m\'{a}s conveniente usar el par\'{a}metro $t$ en lugar del par\'{a}metro $s$ ya que se puede usar la ecuaci\'{o}n
+
+\begin{equation}
+ \kappa(t) = \frac{|\vec{T}'(t)|}{|\vec{r}'(t)|}
+\end{equation}
+
+
+
+\end{document}

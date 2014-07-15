@@ -1,0 +1,218 @@
+\documentclass[twocolumn]{article}
+\usepackage{amsmath}
+\usepackage[margin=1.0in]{geometry}
+\title{Matrices}
+
+\begin{document}
+\date{}
+\maketitle
+\section{Noci\'on de una matriz y \'algebra de matrices}
+
+Una matriz es un arreglo rectangular de n\'umeros, por ejemplo:
+$$
+\begin{pmatrix}
+1 & 4 & 6 \\
+3 & 1 & -7 
+\end{pmatrix}
+$$
+En general, una matriz frecuentemente se escribe as\'i:
+$$
+A = (a_{ij})_{mxn} =
+\begin{pmatrix}
+a_{11} && a_{12} && \cdots && a_{1n} \\
+a_{21} && a_{22} && \cdots && a_{2n} \\
+\vdots && \vdots && \ddots && \vdots \\
+a_{m1} && a_{m2} && \cdots && a_{mn}
+\end{pmatrix}
+$$
+y se dice que es una matriz de tamaño mxn, o que est\'a compuesta de $m$ filas y $n$
+columnas. Por ejemplo, la primera fila es:
+$$
+A_{1n}= 
+\begin{pmatrix}
+a_{11} && a_{12} && \cdots && a_{1n}
+\end{pmatrix}
+$$
+La segunda columna es:
+$$
+A_(m2)=
+\begin{pmatrix}
+a_{12} \\
+a_{22} \\
+\vdots \\
+a_{m2} 
+\end{pmatrix}
+$$
+En general denotaremos por $A_{in}$ la i-\'esima fil y por $A_{mj}$ la j-\'esima columna de
+la matriz A. El elemento $a_{ij}$ se encuentra localizado en la intersecci\'on de la 
+i-\'esima fila y la j-\'esima columna. 
+$$
+\begin{pmatrix}
+ && \vdots && \\
+ \cdots && a_{ij} && \cdots \\
+ && \vdots && \\
+\end{pmatrix}
+$$
+Definici\'on 1:
+
+Una matriz A de tamaño nxn, es decir, cuando es igual el n\'umero de filas al de columnas,
+se denomina una matriz cuadrada de orden n.
+
+En una matriz cuadrada A los elementos $a_{ii}$ se denominan elementos diagonales.
+
+Definici\'on 2:
+
+Dos matrices $A = (a_{ij})_{mxn}$ y $B = (b_{ij})_{mxn}$ (del mismo tamaño) son iguales si
+todos los elementos correspondientes son iguales, esto es, si
+$$ a_{ij}=b_{ij} $$
+para todos los $i=$ 1,2,...$m$ y todos los $j=1,2,...n$.
+
+Definici\'on 3:
+
+Sean $A=(a_{ij})_{mxn}$ y $B = (b_{ij})_{mxn}$.
+
+La suma de esas dos matrices es la matriz $C = c_{ij})_{mxn}$ donde $c_{ij}=a_{ij}+b_{ij}$.
+Esto es, la suma de dos matrices del mismo tamaño es la matriz de ese mismo tamaño, obtenida
+al sumar los correspondientes elementos.
+
+Definici\'on 4:
+
+Una matriz en que todos sus elementos son ceros se denomina matriz nula (o matriz cero) y se
+denota por 0.
+
+Definici\'on 5:
+
+Sea $c$ un escalar y $A = (a_{ij})_{mxn}$ una matriz. El producto $cA$ es la matriz $B = (b_{ij})_{mxn}$ donde $b_{ij}=ca_{ij}$.
+
+Definici\'on 6:
+
+Sean $A = (a_{ij})_{mxn}$ y $B = (b_{ij})_{mxn}$. Se define la diferencia A-B por
+$$ A-B= A+(-1)B $$
+
+Teorema 1:
+
+Sean A, B, C matrices de tamaño $m x n$ y $c$ y $d$ escalares, entonces:
+
+\begin{itemize}
+	\item (A+B)+C=A+(B+C)
+	\item A+B=B+A
+	\item A+0=A (0 es la matriz nula)
+	\item A+(-A)=0 (la matriz cero)
+	\item c(A+B)=cA+cB
+	\item (c+d)A=cA+dA
+	\item (cd)A=c(dA)
+	\item 1 A=A
+\end{itemize}
+
+Definici\'on 7:
+
+El producto de una matriz 1xn (llamada vector fila) por una nx1 (llamada vector columna) se
+define como:
+\begin{equation}
+\begin{pmatrix}
+a_1 && a_2 && \cdots && a_n
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+b_1 \\
+b_2 \\
+\vdots \\
+b_n
+\end{pmatrix}
+= a_1b_1+a_2b_2+\cdots+a_nb_n = \displaystyle\sum_{i=1}^n a_ib_i
+\end{equation}
+obs\'ervese que este producto es un n\'umero.
+
+Definici\'on 8:
+
+Sean $A = (a_{ij})_{mxn}$ y $B = (b_{ij})_{mxn}$. El producto AB es otra matriz $C = (c_{ik})_{mxn}$ donde 
+$$
+c_{ik}= 
+\begin{pmatrix}
+a_{i1} && a_{i2} && \cdots && a_{in}
+\end{pmatrix}
+\begin{pmatrix}
+b_{1k} \\
+b_{2k} \\
+\vdots \\
+b_{nk}
+\end{pmatrix}
+= \displaystyle\sum_{j=1}^n a_{ij}b_{jk}
+$$
+
+Luego, el elemento que se encuentra en la posici\'on $ik$ de AB se obtiene al multiplicar la 
+fila $i$ de A por la columna $k$ de B. N\'otese que la multiplicaci\'on de una matriz A con
+una matriz B solamente se define cuando el n\'umero de columnas de A es igual al n\'umero de
+filas de B. Adem\'as, el tamaño de la matriz producto es:
+\begin{center}
+($\#$ de filas de A) X ($\#$ de columnas de B)
+\end{center}
+
+Definici\'on 9:
+
+Una matriz cuadrada de orden $n$ que tiene todos los elementos diagonales iguales a 1 y 
+todos los dem\'as componentes iguales a 0 se llama matriz identidad (o id\'entica) de orden
+$n$ y se denota por $I_n$
+$$ I_n=
+\begin{pmatrix}
+1 && 0 && 0 && \cdots && 0 \\
+0 && 1 && 0 && \cdots && 0 \\
+0 && 0 && 1 && \cdots && 0 \\
+\vdots && \vdots && \vdots && \ddots && \vdots \\
+0 && 0 && 0 && \cdots && 1 
+\end{pmatrix}
+$$
+
+Teorema 2:
+
+Al suponer que A, B, C son de tamaño tal que pueden efectuarse todas las operaciones
+indicadas (se dice que las matrices son conformables indicadas) y que $c$ es un escalar;
+entonces
+\begin{itemize}
+\item c(AB) = (cA)B = A(cB)
+\item A(BC)=(AB)C
+\item IA=A y BI=B
+\item A(B+C)=AB+AC
+\item (A+B)C=AC+BC
+\end{itemize}
+
+Demostraci\'on
+
+i) Probemos primero que $c(AB)=(cA)B$. Sea $A = (a_{ij})_{mxn}$ $B = (b_{jk})_{nxp}$
+
+El elemento que se encuentra en la posici\'on $ik$ en la matriz $c(AB)$ es
+$$ c(\displaystyle\sum_{j=1}^n a_{ij}b_{jk})$$
+
+El elemento que se encuentra en la posici\'on $ik$ en la matriz $(cA)B$ es
+$$ \displaystyle\sum_{j=1}^n (ca_{ij})b_{jk} = c(\displaystyle\sum_{j=1}^n a_{ij}b_{jk}) $$
+
+Luego por la definici\'on 2) de igualdad de matrices, se desprende que $$c(AB)=(cA)B$$
+
+ii) Segundo, sea $A = (a_{ij})_{mxn}$, $B = (b_{jk})_{nxp}$, $C = (c_{ks})_{pxq}$
+
+El elemento que se encuentra en la posici\'on $is$ en la matriz A(BC) se obtiene al multiplicar la fila i de A por la columna s de BC, por tanto, es
+$$ \begin{pmatrix}
+a_{i1} && a_{i2} && a_{in}
+\end{pmatrix}
+\begin{pmatrix}
+\displaystyle\sum_{k=1}^p b_{1k}c_{ks} \\
+\displaystyle\sum_{k=1}^p b_{2k}c_{ks} \\
+\vdots \\
+\displaystyle\sum_{k=1}^p b_{nk}c_{ks} 
+\end{pmatrix} $$
+
+$$ = a_{i1} \displaystyle\sum_{k=1}^p b_{1k}c_{ks} + a_{i2} \displaystyle\sum_{k=1}^p b_{2k}c_{ks} + \cdots + a_{in} \displaystyle\sum_{k=1}^p b_{nk}c_{ks}$$
+
+$$ = \displaystyle\sum_{j=1}^n a_{ij} \displaystyle\sum_{k=1}^p b_{jk}c_{ks} $$
+
+El elemento que se encuentra en la posici\'on $is$ en la matriz (AB)C se obtiene, al multiplicar la fila $i$ de AB por la columna s de C, esto es:
+$$\displaystyle\sum_{k=1}^n (\displaystyle\sum_{j=1}^p a_{ij}b_{jk})c_{ks}$$
+$$ = \displaystyle\sum_{j=1}^n a_{ij} \displaystyle\sum_{k=1}^p b_{jk}c_{ks} $$
+
+Luego, por la definici\'on 2), se deprende que 
+\begin{center}
+(AB)C=A(BC)
+\end{center}
+
+
+\end{document}

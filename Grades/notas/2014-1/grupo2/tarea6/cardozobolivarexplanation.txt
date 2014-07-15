@@ -1,0 +1,1 @@
+e debe tomar el maximo de 1,x. Porque para este intervalo, las raices son mayores que los cuadrados, entonces el programa tendra un infinite loop. si no se coloca esta condicion.
