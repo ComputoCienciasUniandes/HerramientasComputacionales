@@ -1,4 +1,5 @@
 \documentclass{beamer}
+\usepackage{amsmath}
 \usetheme{default}
 \begin{document}
 %--------------------------------------------------
@@ -47,7 +48,8 @@
 
 \begin{Large}
 \textrm{La Terminal es el lugar en el cual se controla la maquina.
-All\'i se escibre texto el cual es interpretado por la maquina como comandos.}
+All\'i se escibre texto el cual es interpretado por la maquina como comandos.
+En Ubuntu se puede abrir la terminal presionando \texttt{Ctrl +Alt + t }}
 \end{Large}
 
 \begin{figure}
@@ -108,11 +110,29 @@ All\'i se escibre texto el cual es interpretado por la maquina como comandos.}
 \begin{itemize}
 \item \texttt{man command:} \textrm{Muestra el manual de} \texttt{command}.
 \item \texttt{history:} \textrm{Muestra una lista de los ultimos comandos utilizados.}
-\item \texttt{Ctrl-r:} \textrm{Busca en la historia de comandos.}
-\item \textrm{Tab:} \textrm{Presionar Tab en la mitad de un comando o un archivo y se mostraran opciones para completarlo.}
+\item \texttt{Ctrl+r:} \textrm{Busca en la historia de comandos.}
+\item \textrm{Tab:} \textrm{Presionar Tab en la mitad de un comando o un archivo y se mostrar\'an opciones para completarlo.}
+\item \textrm{du -h datos.txt:} \textrm{Muestra el tama\~no del archivo datos.txt}
+\item \textrm{wget url:} \textrm{Baja archivos de la direcci\'on de internet dada.} 
 \end{itemize}
 
 \end{frame}
+
+%--------------------------------------------------
+
+\begin{frame}{\textsc{Comprimir y descomprimir archivos:}}
+
+\begin{itemize}
+\item \texttt{gzip archivo:} \textrm{Comprime el archivo a archivo.gz}
+\item \texttt{gunzip archivo.gz:} \textrm{Descomprime archivo.gz}
+\item \texttt{tar -zcvf archivo.tar archivo:} \textrm{Comprime el archivo a archivo.tar}
+\item \texttt{tar -zxvf archivo.tar:} \textrm{Descomprime archivo.tar}
+\end{itemize}
+
+\end{frame}
+
+%----------------------------------------------------
+
 
 %--------------------------------------------------
 
@@ -124,6 +144,15 @@ All\'i se escibre texto el cual es interpretado por la maquina como comandos.}
 https://github.com/jngaravitoc/HerramientasComputacionales.
 \end{center}
 
+\end{frame}
+
+%----------------------------------------------------
+
+%--------------------------------------------------
+
+\begin{frame}{\textsc{Referencias}}
+
+ van Vugt, S. Beginning the Linux Command Line. 1–381 (Apress, 2009).
 \end{frame}
 
 %----------------------------------------------------
