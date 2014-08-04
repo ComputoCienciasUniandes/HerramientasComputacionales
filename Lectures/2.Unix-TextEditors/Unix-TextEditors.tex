@@ -2,9 +2,10 @@
 \usepackage[margin=0.5in]{geometry}
 \usepackage{amsmath, amsthm}
 \usepackage[spanish] {babel}
+\usepackage{hyperref} 
 
 
-\title{\textsc{Editores de texto en UNIX}}
+\title{\textsc{Editores de texto en UNIX \& Scripts} }
 
 \begin{document}
 
@@ -18,7 +19,7 @@ Algunos de los editores de texto mas comunes en UNIX son:
 
 \begin{itemize}
 \item emacs
-\item vi 
+\item vi / vim (escribiendo vimtutor en la terminal hay un buen tutorial)
 \item gedit
 \item pico 
 \item nano 
@@ -67,5 +68,34 @@ Salir de emacs:\\
 \textsc{Manuales y tutorailes:}\\
 \verb"https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html"\\
 \verb"http://www.drpaulcarter.com/cs/emacs.php"\\
+
+
+\section*{Scripts:}
+
+Los scripts son codigos que cumplen ciertas funciones dentro de UNIX. Por ejemplo
+un script puede ser dise\~ado para bajar un archivo. \\
+
+
+Primero abramos un editor de texto donde escribir nuestro script:\\ 
+
+\begin{verbatim}
+
+emacs downloading.sh
+
+\end{verbatim}
+
+Luego una vez abierto \verb"emacs" escribimos el codigo para bajar archivos de internet, en este
+caso vamos a bajar el libro de la Metamorfosis:\\
+
+\verb"wget"  \href{https://raw.githubusercontent.com/jngaravitoc/HerramientasComputacionales/master/Lectures/2.Unix-TextEditors/Hands-on/metamorphosis.txt}{metamorphosis.txt} \\
+
+Ahora ejecutemos el Script:\\
+
+\verb"chmod u+x downloading.sh" \#  Esto vuelve mi script ejecutable (Por eso ahora es color verde).\\
+
+\verb"./downloading.sh"   \# Ejecuta el script
+
+
+
 
 \end{document}
