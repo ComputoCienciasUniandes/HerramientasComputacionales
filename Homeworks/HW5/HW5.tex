@@ -1,0 +1,85 @@
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Herramientas Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{mdframed}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\mdfdefinestyle{mystyle}{leftmargin=1cm,rightmargin=1cm,linecolor=red}
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+\renewcommand{\solutiontitle}{}
+\SolutionEmphasis{\color{blue}}
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+\begin{center}
+{\Large Herramientas Computacionales} \\
+Taller 5- \textsc{Python} \\
+{\small \it Septiembre 2 de 2014}
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(161mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.pdf}
+%\end{textblock*}
+
+\vspace{1cm}
+
+Las respuestas a los ejercicios deben ser entregadas en dos archvos : \verb+NombreApellido_HW5-1.py,+ y \verb+NombreApellido_HW5-2.py+\\
+
+En cada ejercicio de este taller se otorga $1/3$ de los puntos correspondientes si el código propuesto es razonable, $1/3$ si se puede ejecutar y $1/3$ si entrega resultados correctos.
+
+\begin{questions}
+
+\question[50] Escriba un programa en \verb+Python+ usando {\bf funciones} que juege "Piedra, papel y tijera", el programa debe como recibir como argumento 
+la eleccion del jugador. En el caso en el que el jugador no escoja el programa debe imprimir un mensaje indicando como debe ejecutarse el juego. El programa
+debe imprimir la decision del jugador, la del computador y despues debe decir quien fue el ganador entre el jugador y el computador. Las siguientes funciones deben incluirse en el programa:
+
+\begin{itemize}
+\item Una funci\'on que asigne un n\'umero tanto como a Piedra a Papel y Tijera.
+\item Una funci\'on que asinge Piedra, Papel o Tijera a un n\'umero.
+\item Una funci\'on que compare quien es el ganador. 
+\end{itemize}
+
+
+
+\question[50] Usando recurrencia realizar un programa en python que realice la serie de 'Tribonacci' es decir una serie que empieze con 1 1 1 y cada n\'umro siguiente sea la suma de los tres anteriores. La seria debe ser as\'i:
+
+\verb+[1, 1, 1, 3, 5, 9, 17, 31, 57, 105, 193, 355, 653, 1201, 2209, 4063, 7473, 13745, 25281]+\\
+
+El n\'umero de terminos  de la serie puede ser modificado por el usurario.
+%{\bf Learnig to Mining the Data}) En el archivo \verb"Serena-Venus.txt" esta la informaci\'on de una simulacion de galaxias. Cada punto en esta simulaci\'on corresponde a una galaxia. Cada columna corresponde al: ID de la galaxia, Posicion en x, Posicion en y, Posicion en z, Velocidad en x, Velocidad en y, Velocidad en z y Masa.  Escribir un progrma en \verb+python+ que lea estos datos y calcule la Fuerza gravitacional que siente cada una de las galaxias debida a todo el campo de galaxias. 
+
+%begin{itemize}
+%item ¿Cuales son las diez galaxias que sienten mas fuerza gravitacional y las diez que menos? Para esto el programa debe escribir un archivo \verb+FuerzasMayores.txt+ y \verb+FuerzasMenores.txt+ en el cual este el ID de la galaxia y el valor de la Fuerza Gravitacional.
+%end{itemize}
+
+%\bf Bono y Anitbono:} El programa que corra en menos de 3.5 min recibe 20 puntos de bono. Los que corran en menos de 4.5 min 10  puntos de bono. Los que tarden mas de 6 min se le restan 10 puntos y los que tarden mas de 10 min se le quitanr\'an 20 puntos.
+
+\end{questions}
+\end{document}
