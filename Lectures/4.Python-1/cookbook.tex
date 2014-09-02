@@ -1,0 +1,317 @@
+\documentclass[12pt]{article}
+\usepackage{enumerate}
+\usepackage[hmargin=2.0cm,vmargin=1cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{natbib}
+
+\title{\begin{LARGE}
+{Cookbook Python}
+\end{LARGE}}
+
+\begin{document}
+
+\maketitle
+
+
+%\section{Que es python?}
+
+%Python es un lenguaje de programaci\'on de alto nivel
+
+En este documento encontrar\'an paso a paso lo que realizaremos en clase, 
+durante el documento habr\'an ejercicios los cuales no se deber\'an de 
+entregar, pero se recomienda al estudiante hacerlos para reforzar lo visto 
+en clase. 
+
+\section{Empezando}
+
+Para abrir Python escribimos en la terminal \verb"python" lo que arrojar\'a lo siguiente:
+
+\begin{verbatim}
+python
+Python 2.7.4 (default, Sep 26 2013, 03:20:26) 
+[GCC 4.7.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+\end{verbatim}
+
+ Las 3 flechas \verb">>>" indican que estamos dentro de python y podemos empezar a escribir. Por ejemplo:
+
+\verb">>> 1"
+
+\verb">>> 1"\\
+
+Es muy para ut\'il escribir aritmetica e.g:
+
+\verb">>> 3*5" 
+
+\verb">>> 15" \\
+
+Si quiero dividir dos numeros tengo que especificar que son decimales de lo contrario el resultado sera aproximado al 
+entero mas cercano. Para especificar que un n\'umero es un decimal utilizamos el punto as\'i:\\
+
+\verb">>> 40/25.0"
+
+\verb">>> 1.6" \\
+
+otra operaci\'on importante es el operador modulo ($\%$) que se define como el sobrante de la division del numero a entre b veces.
+
+\verb">>> 10%3"
+
+\verb">>> 1" \\
+
+ya que 3 puede estar 3 veces en 10 y hay un sobrante de 1.\\
+
+Con el fin de escribir programas lo mejor ser\'a abrir un editor de texto:\\
+
+\verb"emacs holamundo.py"\\
+
+Ac\'a es donde escribiremos todos nuestros programas.\\
+
+Nuestro primer programa ser\'a imprimir \verb"Hola mundo", para eso escribimos lo siguiente:\\
+
+\verb"print 'hola mundo'"
+
+Las comillas sencillas o dobles se pueden usar para indicar que imprimimos strings (cadenas de caracteres),
+Para ejecutar el programa escribimos en la terminal:\\
+
+\verb"python holamundo.py"\\
+\verb"Hola mundo"
+
+\section{Variables:}
+
+Que tipo de variables existen en \verb+python+?, Para esto abramos un documento \verb"emacs variables.py & " y escribamos:
+
+\begin{verbatim}
+a = 1
+b = 1.0
+c = "hola"
+
+print a, b, c
+print type(a), type(b), type(c)
+\end{verbatim}
+
+Esto arrojar\'ia el siguiente resultado:
+
+\begin{verbatim}
+1 1.0 hola
+<type 'int'> <type 'float'> <type 'str'>
+\end{verbatim}
+
+Las variables tipo \verb"int" guardan n\'umeros enteros, mientras que las tipo \verb"float" guardan flotantes que son numeros relaes y 
+las tipo \verb"str" guardan strings (Cadenas de caracteres).
+
+\section{Condicionales (if y while)}
+
+Podemos controlar los programas poniendo condiciones en el. Por ejemplo si queremos imprimir algo 
+solo si alguna condicion cumple, por ejemplo si $a == b$, podemos utilizar el codicional \verb+if+.
+
+\begin{verbatim}
+a = 2.0
+b = 3.0
+if (a==b):
+   print a, "es igual que", b
+elif (a>b):
+   print a, "es mayor que ". b
+else:
+   print b, "es mayor que", a
+\end{verbatim}
+
+En este caso el resultado de este programa ser\'a:\\
+
+\verb"3.0 es mayor que 2.0"\\
+
+La sintaxis de \verb"if" es: entre parentesis la condici\'on (En programaci\'on == es igual, $>= $ es mayor o igual, $<=$ es menor o igual)
+seguido por dos puntos (:) y luego indexado (espaciado) lo que se quiera que vaya dentro de la condicion. \verb"elif" funciona como la contraccion 
+de \verb"else if". \\
+
+Tambien podemos poner condiciones usando \verb"while"
+
+\begin{verbatim}
+i = 0
+while (i<10):
+   print i
+   i += 1
+\end{verbatim}
+
+Esto va a producir la siguiente cuenta regresiva:
+
+\begin{verbatim}
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+\end{verbatim}
+
+{\bf Ejercicio: Escriba un programa en python que pida al usuario entrar un n\'umero entero 
+y si este es impar que pare de pedir n\'umero, pero si es par que siga pidiendo n\'umeros.}
+
+{\bf Ayuda: Para recibir n\'umero del usuario se puede usar \verb+raw_input("Escriba un n\'umero: " )+} 
+
+
+\section{Iteraci\'on}
+
+Otra forma de controlar el programa es mediante iteraciones esto lo hacemos mediante un \verb"for":\\
+
+\begin{verbatim}
+for i in range(5):
+  print "hola"
+\end{verbatim}
+
+Lo que arrojara lo siguiente:
+
+\begin{verbatim}
+hola
+hola
+hola
+hola
+hola
+\end{verbatim}
+
+\section{Listas}
+
+En muchos casos es ut\'l, crear listas con diferentes tipos de variables por ejemplo: 
+
+\begin{verbatim}
+Lista = [1.0, 3, "hola"]
+\end{verbatim}
+
+Si queremos imprimir toda la lista hacemos: 
+
+\verb"print Lista" \\
+
+Podemos llamar a un elemento en part\'icular de la lista solo conociendo su posici\'on, En python las posiciones empiezan desde
+cero, es decir que en este caso el primer elemento de la lista $1.0$ lo podemos llamar as\'i:\\
+
+\verb"print Lista[0]" 
+
+Y as\'i los siguientes elementos:\\
+
+\begin{verbatim}
+Lista[1]
+Lista[2] 
+\end{verbatim}
+
+imprimiran respectivamente \verb"3" y \verb"'hola'" \\
+
+Si queremos imprimir los elementos 1 y 2 podemos usar: 
+
+\begin{verbatim}
+print Lista[0:2]
+\end{verbatim}
+
+Esta notaci\'on significa imprima  todos los elementos desde el $[0]$ hasta antes del elemento $[2]$ \\
+
+Si queremos agregar mas elementos a la lista usamos \verb+append+ as\'i:\\
+
+\verb+Lista.append(10)+ Esto agregara un elemento nuevo al final de la lista.\\
+
+Para agregar elementos en cualquier posici\'on utilizamos \verb+insert+. \\
+
+\verb+Lista.insert(2, "avion")+, donde el primer argumento entre parentesis indica la posici\'on 
+en la cual queremos insertar el elemento, minetras que el segundo es lo que queremos insertar.\\
+
+Si queremos borrar un elemento de la lista usamos \verb+pop+:\\
+
+\verb+Lista.pop(1)+ done el argumento entre parentesis es la {\bf posici\'on} del elemento que quiero eleminar.\\
+
+Mientras que en \verb+Lista.remove(2)+ el argumento es el {\bf elemento} que queremos eliminar. \\
+
+Si queremos ordenar la lista en orden acendente podemos usar \verb+sort+: \\
+
+\verb+Lista.sort()+ \\
+
+Finalmente si queremos saber la longitud de la lista podemos usar \verb+len(Lista)+
+
+{\bf Hacer una lista con todos los n\'umeros impares del 1 al 100} 
+{\bf Explicar y dar ejemplos del uso de extend, index, reverse y count}
+
+\section{NumPy :}
+NumPy es la la librer\'ia n\'umerica de Python, dentro de esta encontraremos funciones 
+trigonometricas, funciones especiales, alegra lineal (numpy.linalg) y mucho m\'as. 
+.
+
+Para usar la librer\'ia de NumPy hay que llamarla al inicio de nuestro programa, para esto la importamos 
+usando \verb+import+
+
+\verb+import numpy as np+ \\
+
+Ahora cualquier funcion que usemos de NumPy debe de ir con el alias \verb+np.+ antes del nombre funci\'on.
+
+\verb+>>>np.cos(np.pi)+ \\
+\verb+-1.0+
+
+{\bf Ejercicio: Investigar como funciona la libreria de algebra lineal de NumPy, Dar ejemplos de como se hace 
+la multiplicacion matricial, suma/resta de matrices, como sacar determinantes y autovalores.}
+
+\section{Arreglos}
+
+A diferencia de las listas los arreglos nos permiten hacer operaciones matematicas. Estos hacen parte 
+de NumPy, los arregos se definen as\'i:\\
+
+\verb+x = np.array([])+, en este caso hemos creado un arreglo vacio. Si queremos crear un arreglo de zeros 
+podemos usar:\\
+
+\verb+np.zeros(5)+ Lo que arrojar\'a: 
+ 
+\verb+array([ 0.,  0.,  0.,  0.,  0.])+\\
+
+O si quiero hacer un arreglo de unos:\\
+
+\verb+ones(5)+ \\
+
+\verb+array([ 1.,  1.,  1.,  1.,  1.])+\\
+
+Si queremos hacer una matriz de $3\times5$ podemos usar:\\
+
+\verb+zeros([3, 5])+\\
+
+\verb+array([[ 0.,  0.,  0.,  0.,  0.],[ 0.,  0.,  0.,  0.,  0.],[ 0.,  0.,  0.,  0.,  0.]])+
+
+Si queremos borrar un elemento de un arreglo \verb+x+ usamos la funci\'on delete. \\
+
+\verb+np.delete(x, 10)+ Donde el primer argumento es el arreglo y el segundo la {\bf posici\'on} que quiero 
+eleminar. De manera similar funciona \verb+append+
+
+{\bf Ejercicio: Hacer dos arreglos con numeros diferentes usando \verb+if+ y hacer operaciones matematicas entre ellos.}
+
+Si quieres aprender mas sobre arreglos puedes ir a: \\
+\verb+http://docs.scipy.org/doc/numpy/reference/arrays.html+
+
+%section{where}
+
+\section{N\'umeros aleatorios}
+
+Para genera n\'umero aleatorios usamos el funci\'on de NumPy \verb+np.random+ dentro de esta funci\'on
+hay varias funciones que generan numeros aleatorios segun varias distribuciones. Si queremos n\'umeros
+aleatorios entre $[0, 1)$ podemos usar \verb+random+:\\
+
+\verb+np.random.random(5)+ \\
+\verb+array([ 0.85099041,  0.63817084,  0.79495685,  0.22457286,  0.68746815])+\\
+
+{\bf Ejercicio: Hacer una matriz de 3xn donde n sea un numero cualquiera, con n\'umeros aleatorios entre 
+-1 y 1}\\
+
+{\bf Ejercicio: Ilustrar 5 ejemplos mas de funciones generadoras de n\'umeros aleaotrios dentro de np.random y explicar como se usan.}
+
+{\bf Ejercicio: Ir a \verb+codeacademy.com+ y realizar los modulos de "Condicionales y Control de Flujo" y "Listas y Diccionarios".}
+%\section{iPython, iPython notebook}
+
+%\section{Leyendo y escribiendo archivos.}
+
+%\section{Funciones}
+
+%\section{Matplotlib}
+% Graficas, Log -log, errores, histogramas, labels, 
+
+\bibliography{references}{}
+\bibliographystyle{plain}
+\end{document}
