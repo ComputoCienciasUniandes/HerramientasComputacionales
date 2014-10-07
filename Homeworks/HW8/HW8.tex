@@ -1,0 +1,94 @@
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Herramientas Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{mdframed}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\mdfdefinestyle{mystyle}{leftmargin=1cm,rightmargin=1cm,linecolor=red}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+\renewcommand{\solutiontitle}{}
+\SolutionEmphasis{\color{blue}}
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+\begin{center}
+{\Large Herramientas Computacionales} \\
+Taller 8 - \textsc{Python}: histogramas \\
+{\small \it Octubre de 2014}
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.pdf}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(161mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.pdf}
+\end{textblock*}
+
+\vspace{1cm}
+
+La solución de este taller debe ser presentada en un solo archivo con nombre \verb+NombreApellido_HW8.ipynb+. En cada parte del ejercicio se entrega 1/3  de los puntos si el código propuesto es razonable, 1/3 si se puede ejecutar y 1/3 si entrega resultados correctos.
+\begin{questions}
+
+\question[100] {\bf{Terremotos}} 
+
+El archivo \verb+quakes.csv+\footnote{Datos obtenidos del {\it International Seismological Centre}.} contiene información sobre los terremotos ocurridos entre el primero de enero de 2000 y el 31 de diciembre de 2005.
+
+\begin{parts}
+	\part[10] Graficar la ubicación de los terremotos, su latitud en función de su longitud.
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=0.8\textwidth]{map.png}
+	\caption{Ubicación de los terremotos en la Tierra.}
+	\label{fig: map}
+\end{figure}
+
+	\part[30] Hacer un histograma normalizado para las intensidades, de tal forma que se obtenga algo similar a lo mostrado en la figura \ref{fig: mag histogram}. Use la opción \verb+range=(1.999, 7.001)+ y utilice 50 {\it bins}.
+	\part[10] Calcular un arreglo que contenga los tiempos de espera entre terremotos consecutivos. En el archivo \verb+quakes.csv+ la columna \verb+DATETIME+ contiene la cantidad de segundos transcurridos desde el inicio del año 1900 hasta el momento en el que el terremoto correspondiente se produjo, el archivo está organizado de acuerdo a esta columna.
+	\part[10] Calcular el promedio $t^*$ de los tiempos de espera usando la función \verb+mean+ de \verb+numpy+.
+	\part[30] Hacer el histograma normalizado para los tiempos de espera, 
+	\part[10] y sobre los mismos ejes graficar la función $\frac{1}{t^*} e^{- t/t^*}$, donde $t$ es el tiempo de espera y $t^*$ el tiempo de espera promedio\footnote{Para más información ver \href{http://en.wikipedia.org/wiki/Exponential\_distribution}{http://en.wikipedia.org/wiki/Exponential\_distribution}}. Al final debe obtenerse algo similar a lo mostrado en la figura \ref{fig: histograma tiempo de espera}.
+\end{parts}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{quakes.pdf}
+\caption{Histograma para las intensidades de los terremotos.}
+\label{fig: mag histogram}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{espera.pdf}
+\caption{Histograma para los tiempos de espera entre terremotos consecutivos.}
+\label{fig: histograma tiempo de espera}
+\end{figure}
+
+\end{questions}
+\end{document}
