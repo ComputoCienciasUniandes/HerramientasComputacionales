@@ -305,12 +305,90 @@ aleatorios entre $[0, 1)$ podemos usar \verb+random+:\\
 {\bf Ejercicio: Ir a \verb+codeacademy.com+ y realizar los modulos de "Condicionales y Control de Flujo" y "Listas y Diccionarios".}
 %\section{iPython, iPython notebook}
 
-%\section{Leyendo y escribiendo archivos.}
+\section{Leyendo y escribiendo archivos:}
 
-%\section{Funciones}
+\subsection{Leyendo archivos:}
+
+Dentro de \verb+numpy+ esta la funci\'on \verb+loadtxt+ esta nos permite leer archivos de datos. \\
+
+\verb+data=np.loadtxt("data.txt")+\\
+
+{\bf En \verb+https://github.com/jngaravitoc/HerramientasComputacionales/tree/master/+ \\
+ \verb+Lectures/5.Python-2/data+ esta el archivo \verb+data.ascii+ leerlo y responder las 
+siguientes preguntas:\\}
+{\bf 1. Que tipo de variables es el archivo \verb+data.txt+ cuando es llamado por \verb+loadtxt+?}\\
+{\bf 2. Con lo visto de arreglos, seleccionar las coumnas de los datos.}\\
+{\bf 3. Sacar la desviacion standard y promedio de las primeras 3 columnas }
+
+\subsection{index:}
+
+Imaginemos que tenemos dos columnas, una con edades y la otra con alturas y queremos relacionar datos de edad y altura. Como selecionaria las edades que corresponen a alturas mayores a $1.70cm$?
+
+\section{Funciones:}
+
+Las funciones nos permiten estructurar los programas y organizarlos. Una funcion realize una parte 
+del programa y se ejecuta cuando la llamemos.\\
+
+{\bf Definiendo la funci\'on:}\\
+
+\begin{verbatim}
+def square(x): # entre el parentesis van los argumentos que necesitan la funci\'on.
+   return x**2
+\end{verbatim}
+
+\verb+def+ es el comando que indica al programa que vamos a definir una funcion.\\
+\verb+square+ es el nombre que le di a esta funcion en especifico, pero puedo utilizar el nombre que yo quiera.\\
+\verb+return+ retorna el resultado de la funci\'on.\\
+
+{\bf Llamando a mi funci\'on:}
+
+\verb+square(10)+ que arrojar\'a como resultado \verb+100+\\
+
+{\bf{Hacer una funci\'on que haga los siguiente cambios de cordenadas:\\
+1. De Millas a Km\\
+2. De Pulgadas a cm\\ 
+3. De Litros a cm$^{3}$\\}}
+
+\section{Recurrencia:}
+
+Cuando queremos hacer un programa que haga operaciones recurrentes, podemos llamar
+una funcion dentro de la misma funci\'on. Ejemplo:\\
+
+\begin{verbatim}
+
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+\end{verbatim}
 
 %\section{Matplotlib}
 % Graficas, Log -log, errores, histogramas, labels, 
+
+\section{IPython Notebook}
+
+\subsection{Timing}
+
+Para saber cuanto demora un proceso en el IPython notebook podemos usar el comanto \verb+%timing+
+
+\begin{verbatim}
+n = 100000
+%timeit sum([1. / i**2 for i in range(1, n)])
+\end{verbatim}
+
+Esto va a arrojar:\\ 
+
+\verb+1 loops, best of 3: 19.5 ms per loop+
+
+\begin{verbatim}
+%timeit np.sum(1. / np.arange(1., n) ** 2)
+\end{verbatim}
+
+Esto va a arrojar:\\
+
+\verb+1000 loops, best of 3: 1.05 ms per loop+
 
 \bibliography{references}{}
 \bibliographystyle{plain}
