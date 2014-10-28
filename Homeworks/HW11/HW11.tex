@@ -1,0 +1,79 @@
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Herramientas Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{mdframed}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\mdfdefinestyle{mystyle}{leftmargin=1cm,rightmargin=1cm,linecolor=red}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+\renewcommand{\solutiontitle}{}
+\SolutionEmphasis{\color{blue}}
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+\begin{center}
+{\Large Herramientas Computacionales} \\
+Taller 11 - \textsc{Python}: Distribuci\'on de Poisson \& Binomial \\
+{\small \it Octubre de 2014}
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(161mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.pdf}
+%\end{textblock*}
+
+\vspace{1cm}
+
+%La solución de este taller debe ser presentada en un solo archivo con nombre \verb+NombreApellido_HW11.tar+.
+En cada parte del ejercicio se entrega 1/3  de los puntos si el código propuesto es razonable, 1/3 si se puede ejecutar y 1/3 si entrega resultados correctos.
+\begin{questions}
+
+\question[100] {\bf{Poisson}}
+
+Imaginemos que durante un dia lluvioso dise\~namos una superficie plana de $100m^2$, en dicha superficie se guardan los datos de la posici\'on de cada
+gota de agua que cae sobre esta. Despues de 30 minutos han caido $N_{gotas} = 100000$ gotas de forma aleatoria sobre la superficie.
+
+\begin{parts}
+	\part[10] Escriba una funci\'on que simule la superficie con las posiciones de las usando $N_{gotas} = 100000$ gotas.
+	\part[65] Escriba una funci\'on que cuente el n\'umero de gotas que hay en una superficie mas peque\~na de dimensiones $a \times a$
+	donde $a<10m$, esta superficie se pone de forma aleatoria sobre diferentes lugares de la superficie grande.
+	Por tanto esta funci\'on debe arrojar el n\'umero $N$ de gotas que hay en $P$ diferentes partes de la superficie grande.
+	$a$ y $P$ deben ser	par\'ametros que entren por consola. Nota: Si la superficie peque\~na se sale de la superficie grande, el area de
+	la superficie que se sale debe aparecer al lado opuesto de la superficie grande, es decir con condiciones de frontera periodicas.
+		\part[15] Haga un histograma del n\'umero de gotas $N$ sobre la superficie. Que distribucion es esta?, Haga un fit de dicha distribucion
+		(Se calificar\'a la estetica de la gr\'afica).
+\end{parts}
+
+
+
+\end{questions}
+\end{document}
