@@ -1,0 +1,30 @@
+,,Punto a (/40),Punto b (/25),Punto c (/35),Total (/100),
+Barbosa Coy,Juan Sebastian,40,10,35,85,"y la std, mean & median? "
+Bastidas Santacruz,Roman Felipe,0,0,0,0,
+Bernal Neira,David Esteban,40,25,35,100,
+Castillo Bendeck,Daniel,40,25,35,100,
+Forero Sanchez,Daniel Felipe,0,0,0,0,
+Galan Jimenez,Juan Pablo,0,0,0,0,
+Gelvez Pedroza,Ciro Fernando,40,25,35,100,
+Gomez Ruiz,Ana Maria,40,25,33,98,3. Las leyendas estan al reves en el ultimo histograma
+Gonzalez Grajales,Alvaro Jose*,40,25,35,100,1. Se puede hacer todo mucho mas compacto dentro del mismo ciclo y el mismo cuadro
+Gooding Rios,Nicholas,15,10,35,60,"1. Estan mal agregados, siempre agrega la cuenta de Adeninas 2. No imprime std, mean y median "
+Herrera Fernandez,Andres Felipe,40,10,30,80,"2. No imprime std, mean y median. 3. Falta una leyenda"
+Jara Barrera,Nubia Andrea,40,25,35,100,
+Lozano Molina,Diana Carolina,10,10,10,30,"1. No cuenta correctamente 2. errores de sintaxis 3. No realiza los histogramas correctmente, hay que hacer subplots o realizarlos en cuadros separados"
+Mendez Cordoba,Fabio Pablo,40,25,35,100,
+Minaya Villarreal,Daniel Felipe,40,25,35,100,
+Osorio Vargas,Juan Fernando*,40,25,35,100,1. Se puede hacer todo mucho mas compacto dentro del mismo ciclo y el mismo cuadro
+Pachon Rodriguez,Laura*,40,25,35,100,1. Se puede hacer todo mucho mas compacto dentro del mismo ciclo y el mismo cuadro
+Patino Leuro,Melanie,40,25,35,100,
+Pinzon Garcia,German Camilo,40,25,35,100,
+Puerto Galindo,Sebastian Camilo,40,25,35,100,
+Rey Puentes,Sergio Ivan,40,25,35,100,
+Rodriguez Pinzon,Daniel Alfredo,40,25,35,100,
+Romero Correa,Daniel,40,25,35,100,
+Salazar Jaramillo,Santiago,40,25,35,100,
+Silvera Vega,Diego Felipe,40,10,35,85,"2. No imprime std, mean y median"
+Tarazona Bran,Edgar Felipe,40,25,35,100,
+Urrea Nino,Juan Andres,40,10,35,85,"Es incomodo leer el notebook cuando se imprimen todos los datos. Es incesario. Y ademas no se imprime la std, mean & median."
+Vargas Daza,Luisa Fernanda*,40,25,35,100,1. Se puede hacer todo mucho mas compacto dentro del mismo ciclo y el mismo cuadro
+Villamil Guevara,Edwin Santiago,40,25,35,100,

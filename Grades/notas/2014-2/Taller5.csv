@@ -1,0 +1,30 @@
+,,Punto 1 (/50),Punto 2 (/50),Total (/100),
+Barbosa Coy,Juan Sebastian,50,50,100,
+Bastidas Santacruz,Roman Felipe,50,25,75,1. No es recursiva
+Bernal Neira,David Esteban,60,50,110,
+Castillo Bendeck,Daniel,50,50,100,2. Tarda mucho en correr
+Forero Sanchez,Daniel Felipe,60,25,85,2. No usa recursion
+Galan Jimenez,Juan Pablo,0,0,0,
+Gelvez Pedroza,Ciro Fernando,50,50,100,
+Gomez Ruiz,Ana Maria,25,25,50,1. No funciona en muchos de los casos (cuando hay empate no dice p ej) 2. No usa recursion
+Gonzalez Grajales,Alvaro Jose,40,25,65,1. Errores al escoger tijeras y spock 2. No usa recursion
+Gooding Rios,Nicholas,0,0,0,
+Herrera Fernandez,Andres Felipe,50,50,100,
+Jara Barrera,Nubia Andrea,0,0,0,
+Lozano Molina,Diana Carolina,40,15,55,"1. No arroja un mensaje cuando el input es incorrecto, manda error 2. Error de sintaxis, mal declarado el argumento del ultimo for"
+Mendez Cordoba,Fabio Pablo,15,25,40,"1. No funciona, siempre hay empate 2. No es recursiva"
+Minaya Villarreal,Daniel Felipe,10,50,60,"1. No corre, hay muchos errores de sintaxis."
+Osorio Vargas,Juan Fernando,15,25,40,1. El pc siempre elige Spock 2. No es recursiva
+Pachon Rodriguez,Laura,15,25,40,1. No corre porque no esta bien indentado 2. No usa recursion
+Patino Leuro,Melanie,15,25,40,"1. No corre, siempre arroja error de sintaxis (los string hay que nombrarlos entre comillas) 2. No es recursivo"
+Pinzon Garcia,German Camilo,50,50,100,2. Es lento en correr
+Puerto Galindo,Sebastian Camilo,60,50,110,2. Es lento en correr
+Rey Puentes,Sergio Ivan,15,0,15,1. Siempre dice que el string ingresado no es correcto
+Rodriguez Pinzon,Daniel Alfredo,0,50,50,
+Romero Correa,Daniel,50,50,100,
+Salazar Jaramillo,Santiago,15,25,40,1. Siempre dice que hay empate 2. No usa recursion
+Silvera Vega,Diego Felipe,10,25,35,"1. No corre, reporta errores de sintaxis, hay varios errores en la declaracion de las variables 2. No es recursiva"
+Tarazona Bran,Edgar Felipe,45,50,95,1. No imprime la decision del comp. 2. 
+Urrea Nino,Juan Andres,50,50,100,
+Vargas Daza,Luisa Fernanda,25,50,75,"1. No arroja el ganador correcto en muchos de los casos, despues de cierto numero de ejecuciones no funciona"
+Villamil Guevara,Edwin Santiago,55,45,100,1. Spock le gana a piedra 2. Error de sintaxis
