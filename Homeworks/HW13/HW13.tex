@@ -1,0 +1,80 @@
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Herramientas Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{mdframed}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\mdfdefinestyle{mystyle}{leftmargin=1cm,rightmargin=1cm,linecolor=red}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+\usepackage{amsmath}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+\renewcommand{\solutiontitle}{}
+\SolutionEmphasis{\color{blue}}
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+\begin{center}
+{\Large Herramientas Computacionales} \\
+Taller 13 - \textsc{Python}: Simulaciones de Monte-Carlo (Integrales) \\
+{\small \it Octubre de 2014}
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(161mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.pdf}
+%\end{textblock*}
+
+\vspace{1cm}
+
+%La solución de este taller debe ser presentada en un solo archivo con nombre \verb+NombreApellido_HW13.ipynb+.
+\begin{questions}
+
+\question[100] {\bf{Integrales}}
+
+Realizar las siguientes integrales usando el metodo de Monte-Carlo y usando la librer\'ia \\
+ \verb+from scipy.integrate import quad+
+
+\begin{parts}
+	\part[20] $\int_{0}^{\pi} sin^2(\pi cos(\theta))cos^2(\theta)d\theta$
+	\part[10] $\int_{0}^{\pi} sin^4(3x)dx$
+	\part[20] $\int_{0}^{10} sin^4(3x)dx$, Discuta por qu\'e la integral usando el M\'etodo de Monte-Carlo no es adecuado
+	para evaluar esta integral.
+	\part[10] Investigue y explique brevemente que M\'etodo de Monte-Carlo se puede utilizar para realizar la integral
+	del punto anterior.
+	\part[15] $\int_{0}^{10} \dfrac{x^3}{x^4+16}dx$
+	\part[25] $\int_{0}^{\infty} e^{-(x^2+y^2+z^2+w^2)}dxdydzdw$
+
+\end{parts}
+
+
+
+\end{questions}
+\end{document}
