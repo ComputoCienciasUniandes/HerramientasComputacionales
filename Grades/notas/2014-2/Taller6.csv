@@ -1,0 +1,23 @@
+Nombre,1a,1b,1c,1d,1e,1f,1g,1h,1i,1j,2a,2b,2c,Total,
+SantiagoSalazar,7,7,7,2,7,7,7,7,7,7,5,5,5,80,1d: Mal graficadas las barras de erros. 2: No se reproducen las graficas pedidas.
+JuanBarbosa,7,7,7,7,7,7,7,7,7,7,10,10,10,100,"2: Los rangos de las graficas no son los mismos, por eso no da exactamente igual."
+EdwinVillamil,7,7,7,0,4,7,0,7,7,7,5,0,0,58,1e: No son arrays. 1g: No hay titulo. 2: No se genera ninguna grafica.
+DanielForero,7,7,7,7,7,7,7,7,7,7,10,10,10,100,
+DanielCastillo,7,7,7,7,7,7,7,7,7,7,10,10,10,100,
+AlvaroGonzalez,0,0,0,0,0,0,0,0,0,0,5,5,4,14,No hay punto 1.// 2: No reprodujo el panel. Ni el color exactamente. Ni el estilo de las lineas. Falta una grafica.
+GermanPinzon,7,7,7,2,7,7,5,7,6,3,0,0,0,53,"1d: No grafico bien, ni con barras de error.  1g: El titulo tiene errores. No guarda la grafica. En general el codigo tenia errores que corregi: -5. El segundo punto tenia demasiados errores."
+DiegoSilvera,7,7,7,7,4,0,0,0,4,3,0,0,0,39,"1d: No son arrays.1f: No grafico. Tenia errores el codigo y no guardo, ni salio la leyenda. Por errores"
+LauraPachon,7,7,7,7,4,7,7,7,6,0,5,5,4,73,1d: No son arrays. 1.i: La leyenda no es igual. // 2a: Uso subplot pero no quedo como el panel mostrado. 2b: El color de la primera grafica. 2c: Los estilos de linea no son los mismos. Una grafica no esta bien.
+LuisaVargas,7,7,7,7,4,7,7,7,6,7,5,5,4,75,1d: No son arrays. 1.i: La leyenda no es igual. -5 por error en el codigo.\\\ 2a: Uso subplot pero no quedo como el panel mostrado. 2b: El color de la primera grafica. 2c: Los estilos de linea no son los mismos. Falta una grafica.
+DianaLozano,7,7,7,6,4,7,7,7,6,7,5,5,4,79,"1d: Los puntos estan unidos. 1.e No es array. 1.6 La leyenda no es igual. /// 2a: Uso subplot pero no quedo como el panel mostrado. 2b: El color de la primera grafica. 2c: Los estilos de linea no son los mismos. Falta una grafica. Su primer codigo no funciono porque no habia importado nada, llamaba funciones que no existen, modificaba atributos que no existen de los metodos, etc."
+JuanUrrea,7,7,7,6,4,4,0,0,3,0,0,0,0,38,1d: Los puntos estaban unidos. 1e: No es array. El codigo tenia bastantes errores y no corrio los otros puntos.
+JuanGalan,7,7,7,7,4,7,7,7,6,0,0,0,0,59,1e: No eran arrays. 1i: La leyenda no esn igual. \\\\
+OsorioVargas,5,7,0,0,0,0,0,0,0,0,0,0,0,12,
+FabioMendez,7,7,7,7,4,7,7,7,6,7,7,5,4,82,1e: No son arrays. 1i: La leyenda no es igual////  Uso subplot pero no quedo como el panel mostrado. 2b: El color de la primera grafica. 2c: Los estilos de linea no son los mismos. Una grafica no esta bien.
+DanielMinaya,7,7,7,7,4,7,7,7,5,7,0,0,0,55,1e: No son arrays. 1i: La leyenda no es igual --> Tenia muchos errores: -10////
+EdgarTarazona,2,2,2,2,2,2,2,2,2,2,10,10,8,38,1: tiene muchos errores.// Tenia demasiados errores: -10
+MelaniePatiño,7,7,7,7,4,7,7,7,7,4,10,10,8,92,1e: no es un array 1.j : No guarda bien
+RomanBastidas,6,7,7,4,0,0,0,0,0,0,10,10,9,53,1.a : Un pequeño error cargando el archivo. 1.d No grafico las barras de error.
+AndreaJara,2,2,2,2,2,2,2,2,2,2,0,0,0,20,Demasiados errores
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,No pasen de .ipynb a .py si ya lo tienen bien en el notebook
