@@ -1,0 +1,30 @@
+,,Punto a (/10),Punto b (/65),Punto c (/15),Total (/90),
+Barbosa Coy,Juan Sebastian,10,50,15,75,"1b. No debería preguntar el numero de iteraciones, Ni tampoco el numero de partes."
+Bastidas Santacruz,Roman Felipe,0,0,0,0,
+Bernal Neira,David Esteban,0,0,0,0,Mando la tarea que no es.
+Castillo Bendeck,Daniel,10,65,15,90,
+Forero Sanchez,Daniel Felipe,10,65,8,83,c. Fit incorrecto
+Galan Jimenez,Juan Pablo,0,0,0,0,
+Gelvez Pedroza,Ciro Fernando,10,65,0,75,
+Gomez Ruiz,Ana Maria,0,0,0,0,
+Gonzalez Grajales,Alvaro Jose,10,40,5,55,"1b. Se hace la funcion pero no se llama, por ende no hay resultados ni graficas. Esta mal hecha la conversion de ipynb a .py"
+Gooding Rios,Nicholas,10,65,8,83,"No llega a Poisson, no hay fit"
+Herrera Fernandez,Andres Felipe,10,65,10,85,3. Falta el fit
+Jara Barrera,Nubia Andrea,10,65,10,85,Muy lento el programa. Aunque bien pensado al final no llega a una distribucion de Poisson.
+Lozano Molina,Diana Carolina,10,25,0,35,b. No aplica condiciones de frontera
+Mendez Cordoba,Fabio Pablo,10,65,0,75,c. No muestra nada
+Minaya Villarreal,Daniel Felipe,9,65,0,74,a. Numero incorrecto de puntos 
+Osorio Vargas,Juan Fernando,10,45,5,60,"1b. No funciona adecuadamente la funcion. No esta bien pasado del ipynb al .py, 1c Se produce ninguna grafica."
+Pachon Rodriguez,Laura,9,20,0,29,a. Numero incorrecto de puntos b. Falta mucho para completar la funcion
+Patino Leuro,Melanie,10,65,10,85,c. Fit incorrecto
+Pinzon Garcia,German Camilo,10,65,15,90,
+Puerto Galindo,Sebastian Camilo,0,0,0,0,
+Rey Puentes,Sergio Ivan,10,5,0,15,
+Rodriguez Pinzon,Daniel Alfredo,10,65,15,90,"Muy bien pensado, muy practico. "
+Romero Correa,Daniel,9,65,0,74,a. No es el numero correcto de gotas
+Salazar Jaramillo,Santiago,10,65,10,85,"1c, No sale la distribucion de Poisson, es muy lento el programa,"
+Silvera Vega,Diego Felipe,10,65,0,75,
+Tarazona Bran,Edgar Felipe,0,0,0,0,
+Urrea Nino,Juan Andres,10,65,5,80,"c. No muestra los resultados, error en las graficas"
+Vargas Daza,Luisa Fernanda,10,60,0,70,b. Error de indentacion
+Villamil Guevara,Edwin Santiago,0,0,0,0,

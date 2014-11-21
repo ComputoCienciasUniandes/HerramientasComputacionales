@@ -1,0 +1,30 @@
+,,Punto a (/20),Punto b (/10),Punto c (/20),Punto d (/10),Punto e (/15),Punto f (/25),Total (/100),
+Barbosa Coy,Juan Sebastian,8,5,18,0,7,15,53,1. No utilizo Monte-Carlo
+Bastidas Santacruz,Roman Felipe,20,10,20,10,15,25,100,
+Bernal Neira,David Esteban,0,0,0,0,0,0,0,
+Castillo Bendeck,Daniel,20,10,20,10,15,25,100,
+Forero Sanchez,Daniel Felipe,20,10,20,10,0,0,60,
+Galan Jimenez,Juan Pablo,0,0,0,0,0,0,0,
+Gelvez Pedroza,Ciro Fernando,8,5,15,7,7,10,52,1. Lo importante de esta tarea era hacerla con Monte-Carlo! no con scipy
+Gomez Ruiz,Ana Maria,20,9,17,7,15,0,68,"b. Imprimio la funcion incorrecta c. Hay un error, no imprime el valor."
+Gonzalez Grajales,Alvaro Jose,20,10,20,10,15,23,98,f. No imprimio el valor de la integral
+Gooding Rios,Nicholas,0,0,0,0,0,0,0,
+Herrera Fernandez,Andres Felipe,2,2,2,0,2,2,10,
+Jara Barrera,Nubia Andrea,12,8,20,10,10,17,77,"No imprime las integrales a, e. Mal definida la funcion"
+Lozano Molina,Diana Carolina,8,5,15,10,7,10,55,No utilizo Monte-Carlo
+Mendez Cordoba,Fabio Pablo,16,10,0,0,15,0,41,a. No da el valor correcto de la integral
+Minaya Villarreal,Daniel Felipe,18,9,17,0,12,20,76,No imprimio los valores c. Mal definida la funcion f. Error de sintaxis
+Osorio Vargas,Juan Fernando,20,10,20,0,15,12,77,
+Pachon Rodriguez,Laura,15,8,10,10,12,20,75,a. Valor incorrecto b. Valor incorrecto  c. No realizo la integral f. No muestra el valor de la integral
+Patino Leuro,Melanie,20,10,20,10,12,25,97,e. Valor incorrecto
+Pinzon Garcia,German Camilo,20,10,20,10,15,12,87,
+Puerto Galindo,Sebastian Camilo,20,10,20,10,15,21,96,f. Valor incorrecto
+Rey Puentes,Sergio Ivan,20,10,17,10,15,21,93,c. No calculo integral f. Valor incorrecto
+Rodriguez Pinzon,Daniel Alfredo,20,10,20,10,15,25,100,
+Romero Correa,Daniel,20,10,8,7,15,25,85,c. Mal definida la funcion d. Valores incorrectos
+Salazar Jaramillo,Santiago,16,10,15,0,15,19,75,a. Valor incorrecto c. No calcula el valor real
+Silvera Vega,Diego Felipe,0,0,0,0,0,0,0,
+Tarazona Bran,Edgar Felipe,8,5,10,10,7,23,63,No uso Mote-Carlo c. Mal argumento f. Valor incorrecto
+Urrea Nino,Juan Andres,20,10,20,0,15,5,70,d. Pero cual metodo? 
+Vargas Daza,Luisa Fernanda,18,10,20,10,15,20,93,a. No imprime el valor de la integral f. No imprimio el valor de la integral
+Villamil Guevara,Edwin Santiago,20,10,20,10,15,15,90,f. No termino de realizar el proceso
