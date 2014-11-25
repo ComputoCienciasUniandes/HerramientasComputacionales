@@ -1,0 +1,28 @@
+Nombre,1a (/10),1b (/30),1c (/10),1d (/10),1e (/30),1f (/10),Total (/100),
+AndreaJara,10,30,10,10,30,10,100,"1a ylim se puede usar como ylim([ymin, ymax]), 1c: Es ineficiente hacer una lista para luego volverla array. "
+DanielCastillo,10,30,10,10,30,10,100,
+DavidBernal,10,30,10,10,30,10,100,Aún leyendo archivos con open? Usar loadtxt o genfromtxt!
+EdgarF.Tarazona,10,30,10,10,30,10,100,
+JuanUrrea,10,30,10,10,30,10,100,
+Roman Bastidas,10,30,10,10,30,10,100,Aún leyendo con open?
+Andrea Gomez,10,30,10,10,30,10,100,
+Luisa Vargas,10,30,10,10,30,10,100,1c: Es mejor restar arrays que hacer un for
+Edwin Villamil,10,30,10,10,30,10,100,1c: Es mejor restar arrays que hacer un for
+Sebastian Puerto,10,30,10,10,30,10,100,1c: Es mejor restar arrays que hacer un for 
+Daniel Forero,10,30,10,10,30,10,100,1c: Es mejor restar arrays que hacer un for 
+Santiago Salazar,10,30,10,10,30,10,100,1c: Es mejor restar arrays que hacer un for 
+Juan Pablo Galan,10,15,3,3,15,0,46,Tenia errores de sintaxis y de variables en varios puntos
+Daniel Rodriguez,10,30,10,10,30,10,100,1c: Es mejor restar arrays que hacer un for 
+German Pinzon,9,27,9,9,10,3,67,1a: Las graficó al revés. 1b: No puso el range. 1c: Es mejor usar len(arreglo) que estimar el tamaño. 1d: Debido a lo anterior el promedio no dio exactamente igual. 1f: errores de sintaxis y de variables.
+Juan Osorio,10,30,10,10,30,10,100,1c: Es mejor restar arrays que hacer un for 
+Fabio Mendez,10,30,10,10,30,10,100,1c: Es mejor restar arrays que hacer un for 
+Andres Herrera,10,30,10,10,30,0,90,1c: Es mejor restar arrays que hacer un for 
+Laura Pachón,10,30,10,10,30,0,90,1c: Es mejor restar arrays que hacer un for 
+Diego Silvera,10,30,10,10,30,0,90,1c: Es mejor restar arrays que hacer un for 
+Daniel Minaya,10,20,10,10,30,10,90,"1b: No definió ""datos"";  1c: Es mejor restar arrays que hacer un for "
+Alvaro Gonzalez,10,30,10,0,30,10,90,"1d: no calculo el promedio, ni lo definio 1c: Es mejor restar arrays que hacer un for "
+Melanie Patiño,10,30,10,10,30,10,100,1c: Es mejor restar arrays que hacer un for 
+Daniel Romero,10,25,10,10,30,10,95,1b: No definió bien las columnas que queria usar;  1c: Es mejor restar arrays que hacer un for 
+Juan Barbosa,10,30,10,10,30,6,96,1c: Es mejor restar arrays que hacer un for; Hay mejores maneras de definir una funcion para plotear. No grafico
+Sergio Rey,10,30,0,2,10,2,54,No calculo el array de tiempos. El promedio  y el histograma estan mal. 
+Ciro Gelvez,10,30,10,10,30,10,100,Muy buenas graficas para los terremotos 
