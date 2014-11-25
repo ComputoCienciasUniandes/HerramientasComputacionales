@@ -1,0 +1,23 @@
+,1a (30),1b (10),2a (15),2b (15),2c (15),2d (15),Total (100),
+Edwin Villamil,25,0,0,0,0,0,25,1a: No calculó en la fecha 1974. En el punto 2 el ajuste tenia que ser no lineal.
+Juan Urrea,20,0,10,10,10,10,60,"1a: No calculó en la fecha 1974 ni en 2020. 2a, 2b: El parámetro frecuencia esta mal. "
+Daniel Romero,20,0,10,10,10,10,60,"1a: No calculó en la fecha 1974 ni en 2020. 2a, 2b: El parámetro frecuencia esta mal. "
+German Pinzon,30,10,15,15,5,5,80,2: No  calculó las raices por Newton Raphson
+Juan Barbosa,30,10,15,15,10,10,90,2c: Tenia un error pequeño en el metodo. 2D
+Melanie Patiño,30,8,15,15,15,15,100,2C: Falto un punto. 1B: La correlación de scipy
+Diego Silvera,30,10,2,2,0,0,44,
+Osorio Vargas,25,8,10,8,5,5,61,"1a: No calculó en la fecha 1974. 1B: La correlación de scipy. 2A: El parametro de frecuencia esta mal. 2B: hizo el fit para la grafica que no era. 2C,2e: No le funciono newton rhapson"
+Daniel Minaya,20,8,10,10,10,10,68,1a: No calculó en la fecha 1974. 1B: La correlación de scipy.. 2: El parametro de frecuencia esta mal...
+Ana Maria Gomez,30,8,3,3,2,2,48,1B: La correlación de scipy. 2: La frecuencia esta mal. No hizo el fit. El metodo de newton raphson esta mal
+Santiago Salazar,30,8,10,10,2,2,62,1B: La correlación de scipy. 2: La frecuencia esta mal. El metodo de newton raphson esta mal. 
+Nicolas Goodings,20,8,15,15,8,8,74,1B: La correlación de scipy.  .2: El  metodo newton raphson esta mal.
+Daniel Castillo,30,8,15,15,15,15,100,1B: La correlación de scipy.
+Daniel Forero,30,8,10,10,5,5,68,1B: La correlación de scipy. Las frecuencias estaban mal. Newton Raphson estaba mal.
+Daniel Rodriguez,30,10,15,15,15,15,100,
+Ciro Gelvez,30,10,15,15,15,15,100,
+Sergio Rey,30,8,12,12,0,0,62,1B: La correlación de scipy. 2:Pequeños errores en el codigo
+Fabio Mendez ,30,10,15,15,0,0,70,
+Edgar Tarazona,30,10,15,15,15,15,100,
+Andres Herrera,20,10,15,15,0,0,60,1: No saco los dias
+Andrea Jara,30,0,15,15,15,15,90,
+Diana Lozano,30,10,15,15,15,15,100,
