@@ -1,0 +1,27 @@
+,1a (/50),1b(/20),2(/30),Total (/100),
+Daniel Rodriguez,50,20,30,100,
+Juan Barbosa,50,20,28,98,2: No son los rangos pedidos
+Santiago Salazar,50,20,30,100,Cuidado con las condiciones de frontera
+Sergio Rey,10,10,10,30,2: No era lo que se pedia. 1: Las condiciones iniciales estan mal. Debio escribir el codigo.
+Laura Pachon,10,5,0,15,No funciona el codigo
+Osorio Vargas,45,15,25,85,1: Error pequeño con los indices. 1B: Cuidado con las condiciones de frontera. 2: No grafico lo que le pedian
+Diego Silvera,50,20,20,90,1b: Cuidado con las condiciones de frontera. 2: No hizo caminata para cada N
+Edwin Villamil,50,20,30,100,1b: Cuidado con las condiciones de frontera
+Daniel Forero,45,15,30,90,1: Cuidado con los operadores logicos. Y los límites pedidos.
+German Pinzon,50,20,30,100,
+Melanie Patiño,50,20,30,100,
+Alvaro Gonzalez,48,18,30,96, 2: Muy eficiente!. 1: para graficar matrices: imshow(matrix)
+Luisa Vargas,40,5,30,75,1: Graficar matrices con imshow(matrix). No cambio la regla para el segundo punto.
+Daniel Castillo,50,20,30,100,
+Diana Lozano,50,20,30,100,"1b: Cuidado con las condiciones de frontera. 2: debe generar random real, no entero."
+Edgar Tarazona,50,20,30,100,
+Ciro Gelvez,50,20,26,96,"La marcha era con dirección aleatoria, no hizo los 100 pasos"
+Juan Urrea,50,20,30,100,1b: Cuidado con las condiciones de frontera.
+Ana Gomez,20,20,30,70,1: El codigo no funciona
+Andres Herrera,20,0,0,20,1: El codigo no funciona. No cambio la regla.
+Nicolas Gooding,50,20,30,100,1: Cuidado con las condiciones de frontera
+Roman Bastidas,0,0,0,0,Mando la tarea 10.
+Fabio Mendez,50,20,20,90,2: No hizo la caminata para cada N.1 Cuidado con las condiciones de frontera
+Andrea Jara,50,20,20,90,2: las caminatas aleatorias de n pasos estan mal.
+Daniel Romero,45,20,25,90,1: Pequeño errorr. Cuidado con las condiciones de frontera. 2: Bien el metodo pero no hzo la grafica
+Daniel Minaya,20,10,30,60,1: El codigo no funciona
