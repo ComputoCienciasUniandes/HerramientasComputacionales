@@ -1,0 +1,146 @@
+\documentclass[letterpaper,10pt,onecolumn]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{empheq}
+\usepackage{enumitem}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{calligra}
+\usepackage{algpseudocode} 
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+\newcommand{\scripty}[1]{\ensuremath{\mathcalligra{#1}}}
+\lstloadlanguages{[5.2]Mathematica}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\textwidth}{490pt}
+\setlength{\topmargin}{-40pt}
+\addtolength{\hoffset}{-0.3cm}
+\addtolength{\textheight}{4cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{marvosym} %use this pack
+\usepackage{xcolor} %for color
+\usepackage{dtklogos}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=490pt]{header.png}\\[0.5cm]
+
+\textsc{\huge Herramientas Computacionales}\\[0.1cm]
+
+\Large \textsc{Contenido Programático}\\[0.7cm]
+
+\end{center}
+
+\large \noindent\textsc{Nombre del curso:} Herramientas Computacionales
+	 
+\noindent\textsc{Código del curso:} FISI 2026
+
+\noindent\textsc{Unidad académica:} Departamento de Física
+
+\noindent\textsc{Prerrequisitos:} Algorítmica y Programación Orientada por Objetos 1 (ISIS 1204)
+
+\noindent\rule{\textwidth}{1pt}\\[-0.1cm]
+
+\newcounter{mysection}
+\addtocounter{mysection}{1}
+
+\noindent\textbf{\large \Roman{mysection} \quad Introducción}\\[-0.2cm]
+
+\noindent\normalsize Los computadores nos ayudan a organizar, comunicar y procesar información, y hoy en día son esenciales en los mundos de la ciencia, la academia y la técnica. Este curso enseña algunas herramientas computacionales básicas para hacer de los computadores herramientas útiles, poderosas y versátiles. El curso desarrolla habilidades de programación en un lenguaje de alto nivel, por ejemplo Python o Matlab; enseña algunos métodos de análisis numérico; y exhibe algunas herramientas útiles en el análisis de datos. \\[0.1cm]
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Objetivos}\\[-0.2cm]
+
+\noindent\normalsize Los objetivos del curso son:
+
+\begin{itemize}
+	\item Ofrecer herramientas computacionales básicas útiles en la investigación y la vida académica.\\[-0.6cm]
+	\item Introducir rutinas sencillas de análisis numérico.\\[-0.6cm]
+	\item Desarrollar habilidades de programación.\\[-0.2cm]
+\end{itemize}
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Competencias}\\[-0.2cm]
+
+\noindent\normalsize Al finalizar el curso, se espera que el estudiante esté en capacidad de:
+
+\begin{itemize}
+	\item Utilizar computadores con sistema operativo tipo UNIX.\\[-0.6cm]
+	\item Preparar documentos usando el sistema de composición de textos \LaTeX.\\[-0.6cm]
+	\item Implementar en un lenguaje de programación de alto nivel la solución de problemas computacionales sencillos.\\[-0.6cm]
+	\item Manipular, analizar y visualizar datos usando un lenguaje de programación de alto nivel.\\[-0.2cm]
+\end{itemize}
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Contenido}\\[-0.2cm]
+
+\noindent\normalsize \textbf{\textsc{Semanas 1 y 2}} [Linux] Introducción a UNIX: filosofía, comandos básicos, editores de texto, control de procesos, redirección y acceso remoto (\verb+ssh+).\\[-0.3cm]
+
+\noindent\textbf{\textsc{Semanas 3 y 4}} [\LaTeX] Lógica de compilación, tipos de documentos, secciones, ecuaciones, tablas y figuras. Manejo de bibliografía con \BibTeX.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Semana 5}} [Python] Introducción: filosofía, sintaxis básica, operaciones aritméticas, operaciones con cadenas de caracteres, listas, condicionales y estructuras iterativas.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Semana 6}} [Python] Definición de funciones, tipos de variables, recursividad. Instalación (\verb+pip+) e importación de módulos. Cuadernos de iPython.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Semanas 7 y 8}} [Python] Introducción a NumPy.  Importación de datos. Visualización de datos con \verb+matplotlib+: \verb+plot, scatter, imshow, subplot+.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Semanas 9 y 10}} [Python] Análisis numérico: métodos de bisección, método de Newton-Raphson. Introducción a SciPy. Ajustes polinomiales y no polinomiales.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Semana 11 y 12}} [Python] Herramientas estadísticas: funciones estadísticas, histogramas y ejemplos de distribuciones.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Semana 13}} [Python] Métodos de Monte Carlo: integración y simulación.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Semana 14}} [Python] Álgebra lineal: operaciones entre matrices, inversión de matrices, valores y vectores propios.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Semana 15}} Introducción a {\it Mathematica}.\\[+0.3cm]
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Metodología}\\[-0.2cm]
+
+\noindent\normalsize En la primera parte de cada clase el profesor hace una exposición sobre los temas del día y en la segunda los estudiantes comienzan a resolver los ejercicios de la semana. La mayoría de las veces se hará énfasis en el trabajo en grupo, ocasionalmente en el trabajo individual. La mayoría de las veces se hará al final de clase un examen corto para afianzar los temas vistos.\\[0.1cm]
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Calificaci\'on del curso}\\[-0.2cm]
+
+\begin{itemize}
+	\item Quices $30\%$
+	\item Talleres $70\%$
+\end{itemize}
+\noindent\normalsize Se har\'an 12 Quices durante el semestre, estos se deben entregar por el Sicuaplus antes de las 7:20am de cada clase. Despues de esta hora no se aceptar\'an y la nota
+correspondiente ser\'a de $0.0$. Durante el semestre se dejar\'an 12 talleres que se deben entregar el martes siguiente a la clase antes de las $12:00$pm despues de esta hora no se aceptar\'an talleres y la nota correspondiente en ese taller ser\'a de $0.0$. Al final se quitar\'a la peor y la mejor nota de los talleres y los restantes ser\'an los que se promediar\'an. \\[0.1cm]
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Bibliografía}\\[-0.2cm]
+
+\noindent\normalsize Bibliografía principal:
+
+%\href{http://www.wikibooks.org}{\color{blue}\looparrowright}
+
+\begin{itemize}
+	\item H. P. Langtangen. \textit{A Primer on Scientific Programming with Python}, 2009.\\
+	\href{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-3-642-18366-9}{\nolinkurl{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-3-642-18366-9}}\\[-0.6cm]
+\end{itemize}
+
+\noindent\normalsize Bibliografía complementaria:
+
+\begin{itemize}
+	\item J. V. Guttag. \textit{Introduction to Computation and Programming Using Python}, 2013.
+	\item K. D. Lee. \textit{Python Programming Fundamentals}, 2011. \\
+	\href{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-1-84996-537-8}{\nolinkurl{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-1-84996-537-8}}\\[-0.6cm]
+	\item S. van Vugt. \textit{Beginning the Linux Command Line}, 2009.\\
+	\href{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-1-4302-1890-6}{\nolinkurl{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-1-4302-1890-6}}\\[-0.6cm]
+	\item G. Gr\"atzer. \textit{More Math Into  \LaTeX}, 2007.\\
+	\href{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-0-387-68852-7}{\nolinkurl{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-0-387-68852-7}}
+\end{itemize}
+
+\end{document}
