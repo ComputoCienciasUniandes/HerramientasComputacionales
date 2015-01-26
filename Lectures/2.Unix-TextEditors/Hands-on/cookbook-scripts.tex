@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+\usepackage{enumerate}
+\usepackage[hmargin=2.0cm,vmargin=1cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{natbib}
+
+\title{\begin{LARGE}
+{Cookbook Clase 1}
+\end{LARGE}}
+
+\begin{document}
+
+\maketitle
+
+En este cookbook encontrar\'an paso a paso lo que realizaremos en clase.
+
+\section{Comandos basicos de UNIX}
+
+A continuaci\'on veremos los comandos basicos para trabajar en \verb+UNIX+.
+Para saber mas informaci\'on sobre cada uno de los comandos podemos ver
+el manuel escribiendo en la terminal:\\
+
+\verb+$ man comando+ \\
+
+Para salir del manual usamos la letra \verb+q+
+
+\subsection{Directorios:}
+
+Para saber en que directorio estamos escribimos: \\
+
+\verb+$ pwd+ En mi caso imprimira:\\
+
+\verb+$/home/t430+ \\
+
+Debemos estar en \verb+home/username+ si no estan ah\'i usen \verb+$ cd+. una vez ah\'i listemos los 
+archivos y directorios que hay usando \verb+ls+\\ 
+
+Para esta clase entraremos al directorio \verb+Herramientas_Computacionales\clase2+ \\
+\verb+cd Herramientas_Computacionales\clase2+\\
+En caso de que no esten estos directorios los creamos con \verb+mkdir+
+
+
+
+\subsection{Archivos:}
+
+Para esta actividad debemos descargar el libro \verb+Sainte Beuve+ de Baudelaire\\
+
+\verb+$ wget https://raw.githubusercontent.com/jngaravitoc/HerramientasComputacionales/+\\
+\verb+master/Lectures/2.Unix-TextEditors/Hands-on/Sainte-Beuve.txt+
+
+Para explorar un poco este libro podemos usar \verb+less+ as\'i \verb+less Sainte-Beauve.txt+ para salir de explorar el archivo usamos \verb+q+.\\
+
+Si usamos el "flag" \verb+ls -l+ podemos ver los permisos del archivo y la ultima fecha de modificaci\'on.\\
+Si queremos cambiar esta fecha de modificaci\'on podemos usar \verb+touch Sainte-Beuve.txt+
+
+Para ver las primeras lineas de este libro usamos \verb+head+ predeterminado se muestran las primeras 10 lineas, 
+para cambiar esto usamos \verb+head -20 Sainte.Beuve.txt+ esto mostrara las primeras 20 lineas. Analogamente 
+\verb+tail+ muestra las ultimas 10 lineas.\\
+
+Para redirigir el \verb+output+ que se imprime en la consola a un archivo se usa \verb+>+ por ejemplo si queremos
+hacer un archivo con las primeras 100 lineas del libro Sainte-Beuve podemos hacerlo as\'i \verb+head -100 Sainte-Beuve.txt > Sainte-Beuve100.txt+.\\
+
+Para insertar mas lineas \textbf{debajo} de las 100 lineas que ya creamos usamos \verb+>>+ en vez de \verb+>+\\ 
+
+\textbf{Ejercicio:} Al archivo Sainte-Beuve100.txt agreguele las siguientes 200 lineas y nombrelo Sainte-Beuve200.txt.\\
+
+Ayuda: Si necesita renombrar archivos use \verb+mv+ si necesita copiar un arvhivo use \verb+cp+ para saber la sintaxis 
+de estos comandos veal el manual de estos.\\
+
+Una forma alteratva de concatenar archivos es usando \verb+cat+:\\
+\verb+cat Sainte-Beuve100.txt Sainte-Beuve200.txt+  hagan lo mismo usando \verb+tac+ '?que sucede?.\\
+
+Como estamos seguros de que \verb+Sainte-Beuve200.txt+ tiene 200 lineas?, Para esto usamos \verb+wc+ lean 
+el manual y respondan las siguientes preguntas:\\
+
+1. ?'Cuantas lineas, paabras y bytes hay en \verb+Saint-Beuve.txt+?
+
+%\subsection{Explorando archivos:}
+
+%grep
+%sed
+%awk
+%sort
+
+%\subsection{Compresion de arvhivos.}
+
+\section{Scripts}
+
+Un script es un archivo en el cual se escriben una secuencia de comandos
+que tienen como fin realizar una tarea que el usuario desee. Cuando se ejecute 
+el script los comandos se iran ejecutando seg\'un el orden en el que escribimos los comandos. Por ejemplo hagamos un script que baje un archivo de datos y arroje el peso en bytes del archivo.\\
+
+1. Abrir un editor de texto un archivo que tenga una extension $.sh$ en este 
+caso usaremos $emacs$ como nuestro editor de texto. Para abir un archivo en emacs escribimos en la consola:\\
+\begin{verbatim}
+emacs script-1.sh &
+\end{verbatim}
+Esto abrir\'a una ventana fuera de la terminal en la cual escribiremos nuestros comandos.
+
+2. Ahora escribamos el comando que bajar\'a los datos.
+
+\begin{verbatim}
+wget https://raw.githubusercontent.com/forero/ComputationalLab/master/2015-1/Hands-on/T1/data.tar.gz
+\end{verbatim}
+
+Para pegar en \verb+Emacs+ se utiliza \verb|ctrl+y| y pra guardar los cambios usamos \verb"ctrl+x+s"\\
+
+3. En la terminal ejecutamos el script \verb+script-1.sh+, para volver ejecutable este archivo debemos cambiar los permisos 
+del archivo usando el comando \verb+chmod+ \\
+
+\begin{verbatim}
+chmod u+x script-1.sh
+\end{verbatim}
+
+
+Para ejecutar el archivo escribimos \verb|./script-1.sh|
+
+4. Volvemos a la ventana de \verb+Emacs+ y escribimos el comando descomprimir los datos y para ver el peso en bytes del archivo.
+
+\begin{verbatim}
+tar -xzvf data.tar.gz
+du -b data
+\end{verbatim}
+
+5. Guardamos y volvemos a ejecutar.
+
+\end{document}
