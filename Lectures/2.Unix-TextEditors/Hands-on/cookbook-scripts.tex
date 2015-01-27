@@ -78,11 +78,25 @@ el manual y respondan las siguientes preguntas:\\
 
 1. ?'Cuantas lineas, paabras y bytes hay en \verb+Saint-Beuve.txt+?
 
-%\subsection{Explorando archivos:}
+\subsection{Explorando archivos:}
 
-%grep
+Muchas veces necesitamos modificar y manipular archivos, en general se\'ran datos de experimentos o simulaciones que hayamos realizado.
+Por ejemplo: Como pudieramos saber cual es la vocal que mas se repite en Saint-Beuve.txt? 
+
+
+\verb+grep + se usa para encontrar patrones en archivos, este imprime las lineas en las cuales aparece el patron que estamos buscando.
 %sed
+Si queremos buscar cuantas veces aparece la vocal \verb+a+ lo hariamos as\'i \verb+grep a Saint-Beuve.txt+. Hasta el momento hemos manipulado 
+el texto pero no modificado, imaginense ahora que por alguna extra\~na raz\'on la editorial requiere que todos los espacios sean reemplazados 
+por comas \verb+,+, como podr\'iamos hacer esto?  
+
+
+\verb+$ sed 's\ \ ,\g'+ Donde \verb+s+ es para 
+
 %awk
+
+\verb++
+
 %sort
 
 %\subsection{Compresion de arvhivos.}
