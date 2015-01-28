@@ -1,0 +1,8 @@
+ignore/*
+*.aux
+*.log
+*.synctex.gz
+*~
+*.o
+*.out
+*.DS_Store
