@@ -1,0 +1,95 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Herramientas Computacionales
+% Universidad de los Andes
+% 2015-10
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{mdframed}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\mdfdefinestyle{mystyle}{leftmargin=1cm,rightmargin=1cm,linecolor=red}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+\renewcommand{\solutiontitle}{}
+\SolutionEmphasis{\color{blue}}
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+\begin{center}
+{\Large Herramientas Computacionales} \\
+Taller 1 - \textsc{Unix}: línea de comandos \\
+Fecha de publicación: {\small \it enero 29 de 2015}\\
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(161mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\vspace{0.5cm}
+
+{\Large Fecha de Entrega:  \bf Febrero 05 de 2015 antes de las 16:59PM COT}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+Esta tarea se debe entregar a través de Sicua plus. Un solo script debe resolver todos los puntos requeridos, y el nombre del script debe llevar su nombre y apellido en el formato \verb"NombreApellido_HW1.sh". \\
+
+En cada parte del ejercicio se entrega 1/3  de los puntos si el código propuesto es razonable, 1/3 si se puede ejecutar y 1/3 si entrega resultados correctos. El script debe llevar comentarios suficientes.
+
+
+\vspace{0.5cm}
+
+
+\begin{questions}
+
+\question[100] {\bf Catálogo estelar}
+
+El catálogo HYG contiene información astronómica de estrellas pertenecientes a 
+la Vía Láctea. Nuestro ejercicio consiste en procesar este archivo usando algunas de las herramientas de la terminal (\verb+wget, tar, wc, awk, sed, grep, echo, $>$, $>>$+). El archivo se puede descargar de: \url{https://github.com/spsaaibi/ComputationalToolsData/raw/master/data/HYG/hyg.tar.gz}\\
+
+
+\begin{parts}
+	\part[15] Descargar y descomprimir el archivo \verb+hyg.tar.gz+. El resultado debe ser \verb+hyg.csv+. Borrar \verb+hyg.tar.gz+.
+	\part[5] Imprimir la entrada del catálogo correspondiente a la estrella \verb+Regulus+. Los nombres comunes de las estrellas están en la columna \verb+proper+. Debe usar \verb+grep+. 
+	\part[10] ¿Cuántas estrellas registra el catálogo?
+	\part[10] ¿Cuántas líneas, palabras y bytes tiene el catálogo?
+	\part[15] ¿Cuántas estrellas son del tipo espectral (columna \verb+spect+) \textbf{G2}?
+	\part[15] Crear un catálogo parcial con todas las estrellas de tipo G2 exclusivamente. Este catálogo debe tener el nombre \verb"EstrellasG2.csv" y debe incluir las primeras 32 líneas del catálogo completo.
+	\part[15] Crear un catálogo parcial con todas las estrellas del mismo tipo espectral del Sol (G2V) que estén a  una distancia entre 10 y 50 años luz. Este catálogo debe tener el nombre \verb"EstrellasG2V_10-50_ly.csv" y no debe incluir las primeras 32 líneas del catálogo completo.
+	\part[10] A cada una de las líneas del archivo \verb"EstrellasG2V_10-50_ly.csv" añada al comienzo de cada una la cadena de caracteres ``\verb+estrellas especiales,+'' y al final de ellas ``\verb+,enero-2015+''. Usar \verb+sed+.
+	\part[5] Comprimir el catálogo parcial del punto anterior a \verb"EstrellasG2V_10-50_ly_ng.tar.gz".
+\end{parts}
+
+\end{questions}
+
+
+\end{document}

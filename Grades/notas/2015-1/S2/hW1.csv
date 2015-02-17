@@ -1,0 +1,25 @@
+,,,,,,,,,,,
+,a (15),b (5),c (10),d (10),e (15),f (15),g (15),h (10),i (5),Total (100),Comentarios
+"ARDILA SUAREZ, SEBASTIAN",,,,,,,,,,0,
+"BURBANO ALDANA, IVAN M.",15,5,7,10,15,15,15,10,5,97,C) Numero de conteo incorrecto. 
+"BURITICA BUITRAGO, CARLOS F.",15,0,0,10,5,5,15,10,5,65,"B) Se le pide imprimir mas no crear un archivo. C) Numero incorrecto de estrellas y creacion de varibles mal diseñada. E) no imprime el numero de  estrellas G2. F) El catalogo creado esta errado, puesto que no hizo bien el grep. "
+"CALDERON ZAMUDIO, JUAN C.",,,,,,,,,,0,
+"GALLEGO GALLON, JUAN C.",,,,,,,,,,0,
+"GARZON MORA, SOFIA",15,5,8,10,5,10,15,10,5,83,"C) Numero incorrecto de estrellas. E) Con grep se toman muchas repeteciones, numero equivocado. Usar mejor awk. F) No agrega realmente las verdaderas G2, usar awk para la condicion . "
+"GIRALDO LOZANO, JUAN C.",15,5,7,5,5,15,5,10,5,72,C) Numero incorrecto de estrellas. D) No se pedia imprimir en un archivo y ademas sobreescribio y solo arroja el ultimo. E) No utiliza bien la funcion Grep y toma mas elementos de los que deben ser. G) El archivo no contiene nada de informacion. 
+"GOODING RIOS, NICHOLAS",15,5,10,10,15,15,15,10,5,100,
+"GRACIA SUAREZ, MARIA D.",,,,,,,,,,0,
+"GUARIN ROJAS, DAVID G.",10,5,5,5,8,15,15,10,5,78,A) Descomprime mal puesto que primero pasa la extension a .tar. C) Da la informacion confusa e imprime cosas innecesarios. D) Valores equivocados.  E ) No cuenta solo lineas y el numero obtenido es mucho mayor. 
+"HERNANDEZ CHARPAK, YVAN D.",15,5,10,10,15,15,15,10,5,100,
+"HERNANDEZ MACHADO, CARLOS J.",15,5,7,10,15,15,15,10,5,97,C) Es necesario restar las 32 lineas que no son entradas del catalogo. 
+"LOZADA CORTES, ALEJANDRO",15,5,10,10,15,15,15,10,5,100,
+"MARTINEZ CARDENAS, TANIA C.",,,,,,,,,,0,
+"NUÑEZ BARRERO, JULIAN D.",,,,,,,,,,0,
+"OCHOA TAMAYO, DANIEL E.",15,5,10,10,15,15,15,10,5,100,
+"RAMIREZ MILANO, DIEGO L.",15,5,5,10,15,15,15,10,5,95,"C) El numero de estrellas no es 146, mal uso del comando awk y redirreccion de archivos. "
+"RANGEL JURADO, NICOLAS",15,5,10,10,15,15,15,10,5,100,
+"RODRIGUEZ CARDONA, JULIAN L.",15,5,10,10,15,15,15,10,5,100,
+"RODRIGUEZ PARRA, JUAN P.",15,5,10,10,10,10,10,10,5,85,"E) Numero incorrecto, repite valores con la busqueda. G) Cuenta una estrella mas no correspondiente. "
+"RUBIANO RODRIGUEZ, CAROLINA",15,5,10,10,10,5,5,10,5,75,"e. El numero de estrellas G2 esta mal calculado. Se toman varios valores innecesarios. f) falto incluir todas las G2 , solo se colocan las 32 . Hprimeras. G) Comete el mismo error del punto ""e"" y no es necesario hacer la trasnformacion a años luz. "
+"VARGAS AHUMADA, JUAN S.",15,5,4,10,5,15,5,10,5,74,"C) No resta el encabezado. E) Mal conteo, falta utilizar mejor el grep o cambiar por awk. G) No genera el catalogo. "
+"ZAMBRANO SIERRA, DIEGO A.",15,2,3,10,5,5,13,10,5,68,B) No muestra la informacion de la estrella regulus.  C) El numero de estrellas es mucho mayor. Mal uso de archivos. E) Conto mal pues tambien admitio otro tipo de estrellas G2****. F) No se utiliza el comando Awk para realizar el archivo y esto genera mala escritura del catalogo nuevo. 

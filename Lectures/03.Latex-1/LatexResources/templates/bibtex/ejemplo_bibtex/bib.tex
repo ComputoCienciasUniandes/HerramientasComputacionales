@@ -1,0 +1,22 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{url}
+
+\title{Manejo Bibliográfico: BibTeX}
+\author{Sebastian Perez Saaibi usando \LaTeX}
+
+\begin{document}
+
+\maketitle
+
+Este documento es un ejemplo de manejo bibliográfico usando BibTeX. También usamos tildes!
+
+Citamos 3 items: El libro \textit{The \LaTeX\ Companion} \cite{latexcompanion}, Un paper de Einstein \cite{einstein}, la página de Donald Knuth's \cite{knuthwebsite} y la página de Nassim Nicholas Taleb \cite{nntalebwebsite}. Los items relacionados con \LaTeX\ son: \cite{latexcompanion,knuthwebsite}.
+
+\medskip
+
+\bibliographystyle{unsrt} % Se usa el estilo unsrt de bibliografía
+\bibliography{sample}
+
+\end{document}

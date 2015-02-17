@@ -1,0 +1,56 @@
+Apellidos,Nombres,1 (25),2 (25),3 (25),4 (25),Total (100),Comentarios
+ACOSTA CASTRO,ANDRES FELIPE,10,0,22,0,32,"1. En los links de GitHub se debe distinguir entre 'raw' y 'blob'
+2. El codigo propuesto no hace lo pedido
+3. Se espera usar el flag -l
+4. No hace el punto"
+ARDILA TAFURTH,GUSTAVO ADOLFO,25,0,25,5,55,"2. Unicametne cuenta las lineas que contienen la palabra 'npmbre', no cuenta lineas
+4. No valida la informacion por columnas. Presenta varias lineas de codigo sin funcionalidad dentro del problema"
+ARIZA PARDO,ADRIANA,10,22,25,10,67,"1. En los links de GitHub se debe distinguir entre 'raw' y 'blob'
+2. Error de sintaxis - cambiar "" por '
+4. No valida la información por columnas"
+ARIZA ROJAS,MARIA ALEJANDRA,25,10,25,25,85,"
+2. Indeitifica que wc -l no es suficiente, pero el resto del codigo es incompleto
+"
+CASTILLO MANRIQUE,ANDRES FELIPE,25,25,25,22,97,"
+4. Los indices de las columnas estan corridos en 1 unidad"
+CELY GOMEZ,DIEGO ALEJANDRO,10,25,25,25,85,"1. En los links de github se debe distinguir entre 'raw' y 'blob'
+"
+ESCALLON BOTERO,DANIEL,25,25,25,20,95,"
+4. Valida bien la información pero falta contar"
+FERNANDEZ MORENO,JUAN DAVID,25,0,25,25,75,"
+2. El código propuesto no hace lo pedido
+"
+FONSECA PRIETO,LUIS MIGUEL,10,22,22,20,74,"1. En los links de GitHub se debe distinguir entre 'raw' y 'blob'
+2. Falta usar un pipe
+3. Se esperaba usar el flag -l
+4. Valida bien la informacion pero falta contar las lineas"
+FORERO ARIZA,MATEO JULIAN,0,0,0,0,0,No presenta Quiz
+GOMEZ NORIEGA,DIEGO FERNANDO,25,25,25,22,97,"
+4. Error de sintaxis"
+GONZALEZ ORTIZ,CRISTHIAN EDUARDO,25,25,25,25,100,
+GUARIN ESTRADA,DANIEL FELIPE,10,25,25,10,70,"1. En los links de GitHub se debe distinguir entre 'raw' y 'blob'
+4. No valida la información por columnas"
+LAGUNA GUANTIVA,MATEO,25,5,25,20,75,"2. wc -l no es suficiente, falta identificar que se debe restar -1
+4. Valida bien la informacion pero falta contar las lineas"
+LINARES ORTEGON,DANIELA,25,25,25,25,100,
+MEZA CALA,JUAN CAMILO,10,22,25,10,67,"1. En los links de GitHub se debe distinguir entre 'raw' y 'blob'
+2. cambiar -n+1 por -n+2
+4. No valida la información por columnas"
+NOGUERA AGUIRRE,DAVID ALEJANDRO,10,0,0,22,32,"1. En los links de GitHub se debe distinguir entre 'raw' y 'blob'
+2. El codigo propuesto no hace lo pedido
+3. El código propuesto no hace lo pedido
+4. El conector logico debe ser un && en lugar de un ||"
+NUÑEZ CASTAÑO,JULIAN HUMBERTO,0,0,0,0,0,No presenta Quiz
+PARADA BELTRAN,JUAN SEBASTIAN,10,5,22,10,47,"1. En los links de GitHub se debe distinguir entre 'raw' y 'blob'
+2. El codigo propuesto cuenta todas las lineas con letras, no la cantidad de estudiantes
+3. Se esperaba usar el flag -l
+4. No valida la operación lógica &&"
+QUIJANO CASTRO,JUAN DIEGO,0,0,0,0,0,No presenta Quiz
+TORRES QUINTERO,MARIA FERNANDA,10,20,25,10,65,"1. En los links de GitHub se debe distinguir entre 'raw' y 'blob'
+2. El código da resultado 13, pero el resultado es 14
+4. No valida la informacion por columnas"
+VARGAS LOPEZ,CRISTHIAN CAMILO,25,15,25,22,87,"2. Faltó restar -1 al número de lineas del archivo
+4. Mal uso de un signo de >"
+ZULUAGA VELASQUEZ,NICOLAS,10,5,25,25,65,"1. En los links de github se debe distinguir entre 'raw' y 'blob'
+2. El número se debe calcular con comandos de Bash
+"
