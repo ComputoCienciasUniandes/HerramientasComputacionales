@@ -214,17 +214,18 @@ Donde el label me permite referenciar la ecuaci\'on desde cualquier parte del te
 
 \section*{Figuras}
 
-Es necesario incluir el paquete \verb"graphicx" para tener las herramientas basicas para hacer graficas.:
+En muchos textos inclusive no en ciencias las figuras hacen parte escencial para descrbir de manera clara el mensaje
+del texto. En \LaTeX  es necesario incluir el paquete \verb"graphicx" para tener las herramientas basicas para hacer graficas:\\
 
 \verb"\usepackage{graphicx}"\\
 
-Ahora pongamos una grafica:
+Ejemplo:\\
 
 \begin{verbatim}
-\begin{figure}\label{fig:PhDComics}
-\includegraphics[scale=0.8]{f1.png}
-\caption{Your vacations?}
-\end{figure}
+\begin{figure}\label{fig:PhDComics}% Aca defino mi figura y la referencio 
+\includegraphics[scale=0.8]{f1.png} % Inserto la imagen y defino su tamaño.
+\caption{Your vacations?}% Este es la descripción de mi figura.
+\end{figure} % termino de insertar la imagen.
 \end{verbatim}
 
 \begin{figure}\label{fig:PhDComics}
@@ -234,11 +235,34 @@ Ahora pongamos una grafica:
 \end{center}
 \end{figure}
 
+Para referenciar la figura dentro del texto uso \verb+\ref{fig:PhDComics}+ esto quedar\'a as\'i:\\
 En la Fig.\ref{fig:PhDComics} vemos unas lindas vacaciones$!$
 
 \section*{Tablas}
 
-Ahora hagamos algunas tablas:
+Al igual que las figuras varias las tablas son utilies para presentar informaci\'on de una mejor manera, en muchos 
+casos resumiendo caracteristicas.\\
+
+Ejemplo:\\
+
+\begin{verbatim}
+\begin{table}\label{tab:distance}
+\begin{center}
+\begin{tabular}{|c|c|}% cada c define una columna, en este ejemplo hay dos columnas.
+\hline
+Tiempo ($s$) & Distancia $m$ \\
+\hline
+1 & 20\\
+\hline
+3 & 50\\
+\hline
+\vdots & \vdots \\
+\end{tabular}
+\caption{Tiempo y distancias}
+\end{center}
+\end{table}
+
+\end{verbatim}
 
 \begin{table}\label{tab:distance}
 \begin{center}
@@ -303,6 +327,15 @@ Y se referencia as\'i:\\
 \cite{book}
 \verb"\cite{book}"
 
+Para compilar usamos:\\
+
+\begin{verbatim}
+    pdflatex latex_source_code.tex
+    bibtex latex_source_code.aux
+    pdflatex latex_source_code.tex
+    pdflatex latex_source_code.tex
+\end{verbatim}
+
 Ver mas en: \cite{wiki}
 
 %\begin{center}
@@ -320,6 +353,7 @@ Ver mas en: \cite{wiki}
 
 
 \begin{thebibliography}{5}
+\bibliographystyle{plainnat}
 \bibitem{Tutorial}http://www.latex-tutorial.com/\\
 \bibitem[LatexOficial]{Latex}http://www.latex-project.org/\\
 \bibitem{Templates}http://www.latextemplates.com/\\
