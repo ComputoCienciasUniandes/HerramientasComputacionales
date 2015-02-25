@@ -178,7 +178,7 @@ hola
 
 \section{Listas}
 
-En muchos casos es ut\'l, crear listas con diferentes tipos de variables por ejemplo: 
+En muchos casos es ut\'il, crear listas con diferentes tipos de variables por ejemplo: 
 
 \begin{verbatim}
 Lista = [1.0, 3, "hola"]
@@ -318,8 +318,20 @@ Dentro de \verb+numpy+ esta la funci\'on \verb+loadtxt+ esta nos permite leer ar
 siguientes preguntas:\\}
 {\bf 1. Que tipo de variables es el archivo \verb+data.txt+ cuando es llamado por \verb+loadtxt+?}\\
 {\bf 2. Con lo visto de arreglos, seleccionar las coumnas de los datos.}\\
-{\bf 3. Sacar la desviacion standard y promedio de las primeras 3 columnas }
+{\bf 3. Sacar la desviacion standard y promedio de las primeras 3 columnas }\\
 
+Si queremos leer archivos de texto usamos:\\
+
+\begin{verbatim}
+f = open("filename", "r")
+for i in range(10):
+	l=f.readline()
+        print l
+\end{verbatim}
+
+Esto programa leera el archivo \verb+filename+, leera las primeras 10 lineas
+e imprimira cada linea.\\ Haga un archivo que lea el archivo \verb+wordsEn.txt+
+y imprima cada letra de la linea.\\
 \subsection{index:}
 
 Imaginemos que tenemos dos columnas, una con edades y la otra con alturas y queremos relacionar datos de edad y altura. Como selecionaria las edades que corresponen a alturas mayores a $1.70cm$?
@@ -351,8 +363,7 @@ def square(x): # entre el parentesis van los argumentos que necesitan la funci\'
 
 \section{Recurrencia:}
 
-Cuando queremos hacer un programa que haga operaciones recurrentes, podemos llamar
-una funcion dentro de la misma funci\'on. Ejemplo:\\
+Cuando queremos hacer un programa que haga operaciones recurrentes, podemos llamar una funcion dentro de la misma funci\'on. Ejemplo:\\
 
 \begin{verbatim}
 
