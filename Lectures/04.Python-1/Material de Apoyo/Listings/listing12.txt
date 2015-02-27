@@ -1,0 +1,29 @@
+personas = 20
+gatos = 30
+perros = 15
+
+
+if personas < gatos:
+    print "Too many cats! The world is doomed!"
+
+if personas > gatos:
+    print "Not many cats! The world is saved!"
+
+if personas < perros:
+    print "The world is drooled on!"
+
+if personas > perros:
+    print "The world is dry!"
+
+
+perros += 5
+
+if personas >= perros:
+    print "People are greater than or equal to dogs."
+
+if personas <= perros:
+    print "People are less than or equal to dogs."
+
+
+if personas == perros:
+    print "People are dogs."

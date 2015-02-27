@@ -1,0 +1,523 @@
+\documentclass[]{beamer}
+\usefonttheme[onlymath]{serif}
+\usetheme{AnnArbor}
+\usepackage[spanish]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\lstset{ escapeinside={\%*}{*)},  keywordstyle=\color{blue}} 
+\spanishplainpercent
+
+\setbeamerfont{author in head/foot}{size={\fontsize{4pt}{5pt}\selectfont}}
+\author{Prof. Sebastian Saaibi \& David Cardozo\inst{1}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+\title{Introducción a Python }
+\subtitle{¿Que es Python?, lenguajes de programación, ¡Hola Mundo!, variables, condicionales y lectura de archivos  } % A subtitle is optional and this may be deleted
+%\logo{\includegraphics[height=0.8cm]{universidaddelosandes.png}\vspace{220pt}} 
+\logo{\includegraphics[height=0.8cm]{universidaddelosandesciencias.png}}
+%\logo{\includegraphics[height=0.8cm]{universidaddelosandescolombia.png}
+\institute[Universidad de los Andes]
+{
+	\inst{1}%
+	Física   \\
+	Lectura $3$ Herramientas Computacionales \\
+	Universidad de los Andes
+}
+\date{\today} % - Either use conference name or its abbreviation.
+\subject{Introducción a Python} % This is only inserted into the PDF information catalog. Can be left out. 
+%\setbeamercovered{transparent}
+%\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+	
+\definecolor{keywords}{RGB}{255,0,90}
+\definecolor{comments}{RGB}{0,0,113}
+\definecolor{red}{RGB}{160,0,0}
+\definecolor{green}{RGB}{0,150,0}
+\maketitle
+
+
+
+\begin{frame}{Aprendiendo Python de la manera más difícil}
+	Existen muchas investigaciones en el ámbito de como enseñar un lenguaje de programación. En general un programador realiza las siguientes 3 actividades cuando quiere aprender un lenguaje de programación:
+\begin{itemize}[<+->]
+	\item Seguir paso a paso cada ejercicio y ejemplo.
+	\item Escribir cada ejemplo directamente
+	\item Ejecutar
+\end{itemize}
+
+\pause
+Es una actividad \alert{dificil}, pues requiere ser un estudiante activo.
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Introdución (Continuación \ldots)}
+	Es objetivo de esta clase, enseñar 3 habilidades esenciales que todo programador debe tener:
+	\begin{itemize}[<+->]
+		\item Leer y Escribir
+		
+		Aprender a escribir los símbolos raros que aparecen en las muestras de código $ \backslash, \&, \%, /, == $
+		\item Atención a los detalles.
+		
+		La separación entre buenos y malos programadores es cuan atentos son a los detalles, con esta habilidad evitas \alert{bugs}.
+		\item Encontrar las diferencias.
+		
+		Esta una habilidad que se desarrolla con el tiempo, ver ejemplos de códigos muy similares  y encontrar las diferencias. 
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Lo mas importante}
+	\begin{columns}[T] % contents are top vertically aligned
+		\begin{column}[T]{5cm} % each column can also be its own environment
+		\huge No hacer \alert{``copiar y pegar''} sin entender cada linea de código.
+		\end{column}
+		\begin{column}[T]{5cm} % alternative top-align that's better for graphics
+			\centering
+			\includegraphics[height=4.5cm]{codereview.jpg}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Características generales}
+	
+	\begin{block}{Lenguaje en sí (ver \emph{import this})}
+		\begin{itemize}
+			\item Muy alto nivel
+			\item Sintaxis uniforme y sencilla
+			\item Completamente orientado a objetos
+			\item Multiparadigma
+			\item Énfasis está en la eficiencia de desarrollo
+		\end{itemize}
+	\end{block}
+	\begin{lstlisting}[language=Python,inputencoding=utf8, 
+	basicstyle=\ttfamily\small, 
+	keywordstyle=\color{keywords},
+	commentstyle=\color{comments},
+	stringstyle=\color{red},
+	showstringspaces=false,
+	identifierstyle=\color{green}, basicstyle=\tiny]
+	# -*- encoding: utf-8 -*-
+	
+	"""
+	>>> import this # doctest: +NORMALIZE_WHITESPACE, +ELLIPSIS
+	The Zen of Python, by Tim Peters
+	<BLANKLINE>
+	Beautiful is better than ugly.
+	Explicit is better than implicit.
+	Simple is better than complex.
+	Complex is better than complicated.
+	...
+	"""
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}{La configuración tipica en diferentes sistemas operativos.}
+	\begin{itemize}
+		\item En Windows: \alert{Powershell.}
+		\item En Mac: \alert{Terminal}
+		\item En Linux: \alert{bash.}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{}
+	
+	\begin{lstlisting}[language=bash,caption=Bash y Revision de Python]
+	$ python
+	Python 2.6.5 (r265:79063, Apr  1 2010, 05:28:39)
+	[GCC 4.4.3 20100316 (prerelease)] on linux2
+	Type "help", "copyright", "credits" or "license"
+	
+	for more information.
+	>>>
+	$ mkdir clase
+	$ cd clase
+	# ... %*{ Utilizar cualquier editor de texto para editar*)  test.txt
+	$ ls
+	test.txt
+	$
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Un buen programa de inicio}
+	\begin{columns}[T] % contents are top vertically aligned
+	\begin{column}[]{5cm}
+		
+		\begin{lstlisting}[language=Python,inputencoding=utf8, 
+		basicstyle=\ttfamily\small, 
+		keywordstyle=\color{keywords},
+		commentstyle=\color{comments},
+		stringstyle=\color{red},
+		showstringspaces=false,
+		identifierstyle=\color{green},caption= mi primer programa]
+		print "Hola Mundo!" 
+		print "Hola otra vez"
+		print "Me gusta teclear."
+		print "Esto es divertido."
+		print 'Si! a teclear'
+		print "Yo preferiria que 'no'."
+		print 'Yo "dije" no tipear esto'
+		\end{lstlisting}
+	\end{column}
+	\begin{column}[]{5cm}
+		Para poder utilizar acentos y eñes en español, requerimos el encoding UTF-8
+		\begin{lstlisting}[language=Python, 
+		basicstyle=\ttfamily\small, 
+		keywordstyle=\color{keywords},
+		commentstyle=\color{comments},
+		stringstyle=\color{red},
+		showstringspaces=false,
+		identifierstyle=\color{green},caption= preambulo en python]
+		# -*- coding: utf-8 -*-
+		\end{lstlisting}
+		
+	\end{column}
+	\end{columns}
+	\begin{block}{Ejercio Avanzado}
+	Coloque una	\# (Almohadilla ó octothorpe) al inicio de una linea. ¿Que hace?
+	\end{block}
+\end{frame}	
+\begin{frame}[fragile]
+	\frametitle{Comentarios y el caracter de almohadilla}
+	Los comentarios son muy importantes, explican en ``cristiano'' lo que quieres hacer. \alert{Regla}
+			\begin{lstlisting}[language=Python,inputencoding=utf8, 
+			basicstyle=\ttfamily\small, 
+			keywordstyle=\color{keywords},
+			commentstyle=\color{comments},
+			stringstyle=\color{red},
+			showstringspaces=false,
+			identifierstyle=\color{green},caption= comentarios]
+			# Un comentario, estos son para que 
+			# puedas leer tu programa despues.
+			# Todo lo que va despues de # es 
+			# ignorado por Python.
+			
+			print "Podria tener codigo como esto" # y el comentario despues es ignorado
+			
+			# puedes utilizar la almohadilla para "desactivar" 
+			# codigo o comentar un pedazo de codigo como:
+			# print "Esto no correra"
+			
+			print "Esto correra"
+			\end{lstlisting}		
+\end{frame}
+
+\begin{frame}[fragile]{Continuación de comentarios}
+	\begin{block}{Preguntas}
+		\begin{itemize}
+			\item ¿Por qué \# en \textcolor{red}{print} \verb|"Hi \# there."| no es ignorado?
+			\item Si \# es para comentario, ¿Como es posible que \verb|-*- coding: utf-8 -*-| funcione?
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}[shrink,fragile]
+	\frametitle{Números y Matemáticas}
+	\begin{lstlisting}[language=Python,inputencoding=utf8, 
+	basicstyle=\ttfamily\small, 
+	keywordstyle=\color{keywords},
+	commentstyle=\color{comments},
+	stringstyle=\color{red},
+	showstringspaces=false,
+	identifierstyle=\color{green},caption= Problema de granja]
+	print "Tipo de problemas de una granja"
+	
+	print "Gallinas", 25 + 30 / 6
+	print "Toros", 100 - 25 * 3 % 4
+	
+	print "Contemos ahora los gallos"
+	
+	print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+	
+	print "Es verdad que: 3 + 2 < 5 - 7?"
+	
+	print 3 + 2 < 5 - 7
+	
+	print "Cuanto es 3 + 2?", 3 + 2
+	print "Cuanato es 5 - 7?", 5 - 7
+	
+	print "Oh,Por eso es que es falso"
+	
+	print "How about some more."
+	
+	print "Es mayor?", 5 > -2
+	print "Es mayor o igual?", 5 >= -2
+	print "Es menor o igual?", 5 <= -2
+	\end{lstlisting}
+	Cambiemos una división por \verb|7.0/4.0|
+\end{frame}
+
+\begin{frame}[plain,shrink,fragile]
+	\frametitle{Variables y Nombres}
+	\begin{lstlisting}[language=Python,inputencoding=utf8, 
+	basicstyle=\ttfamily\small, 
+	keywordstyle=\color{keywords},
+	commentstyle=\color{comments},
+	stringstyle=\color{red},
+	showstringspaces=false,
+	identifierstyle=\color{green},caption= Problema de Wheels Uniandes, basicstyle=\tiny]
+	carros = 100
+	espacio_en_un_carro = 4.0
+	conductores = 30
+	pasajeros = 90
+	carros_no_manejados = carros - conductores
+	carros_manejados = conductores
+	capacidad_de_carpooling = carros_manejados * espacio_en_un_carro
+	promedio_de_pasajeros_por_carro = pasajeros / carros_manejados
+	
+	
+	print "Existen", carros, "carros disponibles"
+	print "Tan solo hay", conductores, "conductores disponibles."
+	print "Van a haber", carros_no_manejados, "carros vacios hoy"
+	print "Podemos llevar", capacidad_de_carpooling, "personas"
+	print "Tenemos", pasajeros, "personas para hacer carpooling"
+	print "Necesitamos al menos", promedio_de_pasajeros_por_carro, "en cada carro"
+	\end{lstlisting}
+	
+	\begin{block}{Preguntas}
+		\begin{itemize}
+			\item ¿Que diferencia hay entre $ = $ y \verb|==| ?
+			\item ¿Que podrá hacer \verb|print "Hola %s, me llamo %s ." %("tu", "david")|
+			\item ¿Por que utilizamos \verb|espacio_en_un_carro = 4.0|?
+		\end{itemize}
+	\end{block}
+\end{frame}
+\begin{frame}[plain,shrink,fragile]
+	Vamos a trabajar con \alert{strings},un string es como se un programa va dar un pedazo de información a un humano
+	\begin{lstlisting}[language=Python, 
+	basicstyle=\ttfamily\small, 
+	keywordstyle=\color{keywords},
+	commentstyle=\color{comments},
+	stringstyle=\color{red},
+	showstringspaces=false,
+	identifierstyle=\color{green},caption= Problema de Wheels Uniandes, basicstyle=\tiny]
+	mi_nombre = 'David Cardozo'
+	mi_edad = 19 #
+	mi_altura = 170 # cms
+	mi_peso = 180 # lbs
+	mis_ojos = 'negros'
+	mis_dientes = 'blancos'
+	mi_cabello = 'cafe'
+	
+	print "Vamos hablar de %s." % mi_nombre
+	print "El es % d centimetros de alto" % mi_altura
+	print "El tiene % d libras de peso." % mi_peso
+	print "Soy bien pesado"
+	print "El tiene ojos de color %s  y cabello %s ." % (mis_ojos, mi_cabello)
+	print "Sus dientes %s dependen del cafe." % mis_dientes
+	
+
+	print "Si yo sumo % d, % d, y % d obtengo % d." % (
+	mi_edad, mi_altura, mi_peso, mi_edad + mi_altura + mi_peso)
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[plain,shrink,fragile,]
+	\begin{lstlisting}[language=Python, 
+	basicstyle=\ttfamily\small, 
+	keywordstyle=\color{keywords},
+	commentstyle=\color{comments},
+	stringstyle=\color{red},
+	showstringspaces=false,
+	identifierstyle=\color{green},caption= Conversación con un Programador, basicstyle=\tiny]
+	x = "Existen %s tipos de personas" % 10
+	binario = "binario"
+	no = "no"
+	y = "Aquellas que saben %s y aquellos que %s." % (binario, no)
+
+	print x
+	print y
+
+	print "Yo dije %r." % x
+	print "I tambien dije: '%s'." % y
+
+	chistoso = False
+	evaluacion_chiste = "No es chistoso el chiste?! %r"
+
+	print evaluacion_chiste % chistoso
+
+	w = "Esta es la parte izquierda de..."
+	e = "un string con esta parte a la derecha."
+
+	print w + e
+	\end{lstlisting}
+	\begin{block}{importante}
+		¿Que podría hacer: \verb|print "." * 10 |?
+	\end{block}
+\end{frame}
+
+\begin{frame}[fragile]
+	\begin{lstlisting}[language=Python, 
+	basicstyle=\ttfamily\small, 
+	keywordstyle=\color{keywords},
+	commentstyle=\color{comments},
+	stringstyle=\color{red},
+	showstringspaces=false,
+	identifierstyle=\color{green},caption= Dias de la semana, basicstyle=\tiny]
+	
+	# -*- coding: utf-8 -*-
+	dias = "Lun Mar Mie Jue Vie Sab Dom"
+	meses = "Ene\nFeb\nMar\nAbr\nMay\nJun\nJul\nAgo"
+	
+	print "Estos son los dias: ", dias
+	print "Estos son los meses: ", meses
+	
+	print """
+	Hay algo extrano aqui
+	con tres doble citas.
+	Vamos a ser poder meter un monton de cosas.
+	Casi 4 lineas si queremos, o 5, o 6.
+	"""
+	\end{lstlisting}
+\end{frame}
+
+
+
+
+\begin{frame}[fragile]
+	\begin{lstlisting}[language=Python, 
+	basicstyle=\ttfamily\small, 
+	keywordstyle=\color{keywords},
+	commentstyle=\color{comments},
+	stringstyle=\color{red},
+	showstringspaces=false,
+	identifierstyle=\color{green},caption= leer un archivo, basicstyle=\tiny]
+	from sys import argv
+	script, filename = argv
+	
+	txt = open(filename)
+	
+	print "Aqui esta su archivo %r:" % filename
+	print txt.read()
+	
+	print "Escribirlo otra vez:"
+	file_again = raw_input("> ")
+	
+	txt_again = open(file_again)
+	
+	print txt_again.read()
+	
+	
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+	\begin{lstlisting}[language=Python, 
+	basicstyle=\ttfamily\small, 
+	keywordstyle=\color{keywords},
+	commentstyle=\color{comments},
+	stringstyle=\color{red},
+	showstringspaces=false,
+	identifierstyle=\color{green},caption= Escribiendo un texto, basicstyle=\tiny]
+	from sys import argv
+	script, filename = argv
+	
+	print "We're going to erase %r." % filename
+	print "If you don't want that, hit CTRL-C (^C)."
+	print "If you do want that, hit RETURN."
+	
+	raw_input("?")
+	
+	print "Opening the file..."
+	target = open(filename, 'w')
+	
+	print "Truncating the file.  Goodbye!"
+	target.truncate()
+	
+	print "Now I'm going to ask you for three lines."
+	
+	line1 = raw_input("line 1: ")
+	line2 = raw_input("line 2: ")
+	line3 = raw_input("line 3: ")
+	
+	print "I'm going to write these to the file."
+	
+	target.write(line1)
+	target.write("\n")
+	target.write(line2)
+	target.write("\n")
+	target.write(line3)
+	target.write("\n")
+	
+	print "And finally, we close it."
+	target.close()
+	\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+	\begin{lstlisting}[language=Python, 
+	basicstyle=\ttfamily\small, 
+	keywordstyle=\color{keywords},
+	commentstyle=\color{comments},
+	stringstyle=\color{red},
+	showstringspaces=false,
+	identifierstyle=\color{green},caption= Condicionales, basicstyle=\tiny]
+	from sys import argv
+	
+	personas = 20
+	gatos = 30
+	perros = 15
+	
+	
+	if personas < gatos:
+	print "Too many cats! The world is doomed!"
+	
+	if personas > gatos:
+	print "Not many cats! The world is saved!"
+	
+	if personas < perros:
+	print "The world is drooled on!"
+	
+	if personas > perros:
+	print "The world is dry!"
+	
+	
+	perros += 5
+	
+	if personas >= perros:
+	print "People are greater than or equal to dogs."
+	
+	if personas <= perros:
+	print "People are less than or equal to dogs."
+	
+	
+	if personas == perros:
+	print "People are dogs."
+	\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+	\begin{lstlisting}[language=Python, 
+	basicstyle=\ttfamily\small, 
+	keywordstyle=\color{keywords},
+	commentstyle=\color{comments},
+	stringstyle=\color{red},
+	showstringspaces=false,
+	identifierstyle=\color{green},caption= 
+	loops, basicstyle=\tiny]
+	numero_leido = raw_input("inserta un numero >> ")
+	numero = int(numero_leido)
+	contador = 0
+	for i in range(1,numero+1):
+	if (numero% i)==0:
+	contador = contador + 1
+	
+	if contador==2:
+	print "el numero es primo"
+	else print "el numero no es primo"
+	\end{lstlisting}
+\end{frame}
+
+	
+\end{document}
