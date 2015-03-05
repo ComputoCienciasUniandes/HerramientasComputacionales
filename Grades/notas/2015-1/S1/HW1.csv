@@ -1,0 +1,23 @@
+,Punto a /15,Punto b /5,Punto c /10,Punto d /10,Punto e /15,Punto f /15,Punto g /15,Punto h/10,Punto i /5,Total,Comentarios
+Jorge Garcia,15,5,10,10,15,15,15,10,5,100,¡Bien Hecho!
+David Cristancho,15,5,4,10,5,15,15,10,5,84,Estas usuando un comando tail que no le estas pasando los argumentos validos
+Camilo Arenas,15,5,6,7,15,15,10,8,10,91,Falto contar el numero de palabras con ec -w
+Andres Rodriguez,8,5,10,4,13,11,13,10,5,79,"falta especificar conteo, es decir hacer por linea wc - l, wc - c..."
+Jose Villegas,15,5,10,5,10,10,15,5,5,80,"Ten en cuenta que no debías imprimir todo el catalogo, podrías demorar años en el caso que sean millones de millones de datos"
+Luis Blanco,15,5,10,10,15,10,10,5,5,85,"Bien Hecho, un buen uso de ECHO, mal construcion de de EStrellas.."
+Sergio Rodriguez,15,5,10,5,15,5,5,10,5,75,"Ojo tu tienes que especificar el conteo, es decir utilizar wc -l y demas"
+Nataly Pulido,15,5,10,5,15,10,10,4,5,79,"Tienes que especificar el uso de wc, mal uso de sintaxis, revisa los argumentos de sed"
+Maria Paula Madariaga,15,5,10,10,15,15,15,10,5,100,Muy bien hecho! :)
+Simone Califano,15,5,10,10,15,15,15,10,5,100,Bien Hecho.
+Cesar Murad,15,5,10,10,10,15,15,0,0,80,"Estas utilizando mal el comando rm, revisa tambíen el conteo de palabras y byte"
+Miguel Rojas,15,5,10,5,10,15,15,10,0,85,"TIenes dos errores. Uno, recuerda especificar el conteo (no solo llames wc sin argumentos) y dos, mal llamado gzip"
+German Osorio,15,5,5,5,0,15,15,8,3,71,Mal uso de grep para buscar 'regular'.  Te penalize los ultimos puntos por no comentar como venias haciendo los anteriores puntos
+Adriana mora,15,5,10,10,15,15,15,10,5,100,BIen hecho!
+Monica Barrera,15,5,10,10,15,15,15,10,5,100,"BIen hecho!, pero recuerda comentar el codigo completo, no penalizo porque desde principio no comentaste."
+Juan Pablo Barrero,0,0,10,5,10,10,10,10,5,60,"Mal uso de wget, revisa porfavor tu script antes de ser enviado, recuerda revisar como son los argumentos de lalinea de comandos (e.g print) esta mal utilizado"
+Santiago Melo,0,5,10,10,10,10,10,10,5,70,"Ten mucho cuidado al copiar y pegar las dirreciones web dadas, estas mostrando mas estrellas que NO son de tipo G@"
+María Fernanda ,15,5,10,10,15,15,15,10,5,100,"Subiste el archivo a sicua, sin la extension (*.sh) ten cuidado al modifar los nombres de los archivos que creas."
+Catalina Agudelo,15,5,10,10,15,15,15,10,5,100,
+Juan Sebastian Díaz,15,5,10,10,15,15,15,10,5,100,"Bien hecho! Fuiste de los pocos en ser organizado y crear un directorio donde guardas los datos, muy bien.  (Uso de mkdir)"
+Juan Torres,15,5,10,10,15,15,15,10,5,100,Bien Hecho
+Juan Salazar,0,5,10,10,10,10,10,10,5,70,"Ten mucho cuidado al copiar y pegar las dirreciones web dadas, estas mostrando mas estrellas que NO son de tipo G@"
