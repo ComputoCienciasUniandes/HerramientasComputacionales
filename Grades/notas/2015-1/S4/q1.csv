@@ -5,14 +5,13 @@ ACOSTA CASTRO,ANDRES FELIPE,10,0,22,0,32,"1. En los links de GitHub se debe dist
 4. No hace el punto"
 ARDILA TAFURTH,GUSTAVO ADOLFO,25,0,25,5,55,"2. Unicametne cuenta las lineas que contienen la palabra 'npmbre', no cuenta lineas
 4. No valida la informacion por columnas. Presenta varias lineas de codigo sin funcionalidad dentro del problema"
-ARIZA PARDO,ADRIANA,10,22,25,10,67,"1. En los links de GitHub se debe distinguir entre 'raw' y 'blob'
+ARIZA PARDO,ADRIANA,10,25,25,10,70,"1. En los links de GitHub se debe distinguir entre 'raw' y 'blob' - Reclamos Finalizados
 2. Error de sintaxis - cambiar "" por '
 4. No valida la información por columnas"
 ARIZA ROJAS,MARIA ALEJANDRA,25,10,25,25,85,"
 2. Indeitifica que wc -l no es suficiente, pero el resto del codigo es incompleto
 "
-CASTILLO MANRIQUE,ANDRES FELIPE,25,25,25,22,97,"
-4. Los indices de las columnas estan corridos en 1 unidad"
+CASTILLO MANRIQUE,ANDRES FELIPE,25,25,25,22,97,Reclamos Finalizados
 CELY GOMEZ,DIEGO ALEJANDRO,10,25,25,25,85,"1. En los links de github se debe distinguir entre 'raw' y 'blob'
 "
 ESCALLON BOTERO,DANIEL,25,25,25,20,95,"
