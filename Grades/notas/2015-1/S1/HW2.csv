@@ -1,22 +1,25 @@
-,a,b,c,d,e,f,g,2,3,4,Total,Comentarios,
-Sergio Alejandro Rodriguez Bejarano,2,2,2,2,2,2,2,13,18,18,63,"Las ecuaciones no estan en modo matématicas, no se muestran en el tex, mal uso de alineación de tex.",
- Jose Augusto Villegas Ibagon,2.5,2.5,2.5,2.5,2.5,2.5,2.5,13,18,15,63.5,"Las ecuaciones en la definicion no esta en modo de matematicas, tex no compila y mala alineación, mala alienacion e index en el del ",uijote.
-Juan Felipe Torres Gonzalez,5,5,5,5,5,5,5,16,20,25,96,"No hay box en la definición, Bien hecho, muy buen trabajo",
-Camilo Andres Arenas Pardo,2,2,2,2,2,2,2,11,16,20,61,"Las ecuaciones no estan en modo matématicas, no se muestran en el tex, mal uso de alineación de tex, mal uso del operador $, tabla de contenidos en ingles.",
-Edgar David Cristancho Gonzalez,5,5,5,5,5,5,5,16,20,0,71,"No esta el ejercicio de hacer un libro, de resto, bien hecho, falto hacer el box en la definición.",
-Cesar Augusto Murad Rodriguez,5,5,5,5,5,5,5,20,20,25,100,Bien Hecho! Felicitaciones,
-Juan Sebastian Diaz Boada ,5,5,5,5,5,5,5,16,18,22,91,"Bien hecho, falto el recuadro en la definición, falto tomar la opcion en español para el libro",
- Adriana Patricia Mora Montes,3,3,3,3,3,3,3,16,16,16,69,"Mal uso de los delimitadores para el ambiente de matematicas, mal uso de indentacion, falto coocar la opcion en español del libro",
- Laura Catalina Agudelo Motta ,3,3,3,3,3,3,3,16,20,15,72,"Tienes un ambiente de matematicas en un modo de ecuaciones, falta el box en la definición,  el libro del quijote tiene ese rpoblema",
-Maria Paula Madariaga Cubides,5,5,5,5,5,5,5,20,20,25,100,Muy bien hecho,
- Andres Felipe Rodriguez Corcho ,5,5,5,5,5,5,5,16,16,16,83,Falta el box sobre la definición,
-Maria Fernanda Gomez Alvarez,5,5,5,5,5,5,5,16,20,17,88,"Mal compilacion y libro en español, ",
-Luis Armando Blanco Bohorquez,5,5,5,5,5,5,5,18,20,25,98,Muy bien hecho.,
-Monica Alejandra Barrera Castillo,5,5,5,5,5,5,5,18,20,25,98,"Muy bien hecho, falto wl box",
-Simone Califano Trujillo,5,5,5,5,5,5,5,20,20,25,100,Muy bien hecho.,
- Miguel Angel Rojas Aparicio ,5,5,5,5,5,5,5,20,20,25,100,Bien hecho.,
- German Eduardo Osorio Leiva,2.5,2.5,2.5,2.5,2.5,2.5,2.5,16,20,18,71.5,"Mal uso del ambientes ecuaciones, falta el box en el segundo punto, escrbiste la tabla de contenidos",
- Jorge Alberto Garcia Perez,5,5,5,5,5,5,5,18,20,25,98,Bien hecho.,
-Santiago Gomez Melo ,5,5,5,5,5,5,5,20,20,25,100,Muy bien hecho.,
- Juan Nicolas Salazar Sandino,5,5,5,5,5,5,5,16,20,22,93,"falta el box sobre la definición y el color del cuadro, revisar el recuadro con enconding utf-8",
-Juan Pablo Barrero Flores,5,5,5,5,5,5,5,12,20,22,89,Mal uso ,
+Apellidos,Nombres,a(5),b(5),c(5),d(5),e(5),f(5),g(5),2(20),3(20),4(25),Total/100,Comentarios
+AGUDELO MOTTA,LAURA CATALINA,3,3,3,3,3,3,3,16,20,15,72,"Tienes un ambiente de matematicas en un modo de ecuaciones, falta el box en la definición, el libro del quijote tiene ese rpoblema"
+ARENAS PARDO,CAMILO ANDRES,2,2,2,2,2,2,2,11,16,20,61,"Las ecuaciones no estan en modo matematicas, no se muestran en el tex, mal uso de alineación de tex, mal uso del operador $, tabla de contenidos en ingles."
+BARRERA CASTILLO,MONICA ALEJANDRA,5,5,5,5,5,5,5,18,20,25,98,"Muy bien hecho, falto wl box"
+BARRERO FLORES,JUAN PABLO,5,5,5,5,5,5,5,12,20,22,89,Mal uso
+BLANCO BOHORQUEZ,LUIS ARMANDO,5,5,5,5,5,5,5,18,20,25,98,Muy bien hecho.
+CALIFANO TRUJILLO,SIMONE,5,5,5,5,5,5,5,20,20,25,100,Muy bien hecho.
+CRISTANCHO GONZALEZ,EDGAR DAVID,5,5,5,5,5,5,5,16,20,0,71,"No esta el ejercicio de hacer un libro, de resto, bien hecho, falto hacer el box en la definiciÃ³n."
+DIAZ BOADA,JUAN SEBASTIAN,5,5,5,5,5,5,5,16,18,22,91,"Bien hecho, falto el recuadro en la definición, falto tomar la opcion en español para el libro"
+GARCIA PEREZ,JORGE ALBERTO,5,5,5,5,5,5,5,18,20,25,98,Bien hecho.
+GOMEZ ALVAREZ,MARIA FERNANDA,5,5,5,5,5,5,5,16,20,17,88,"Mal compilacion y libro en espaÃ±ol,"
+GOMEZ MELO,SANTIAGO,5,5,5,5,5,5,5,20,20,25,100,Muy bien hecho.
+MADARIAGA CUBIDES,MARIA PAULA,5,5,5,5,5,5,5,20,20,25,100,Muy bien hecho
+MELENDEZ GRANADOS,JUAN SEBASTIAN,,,,,,,,,,,0,
+MORA MONTES,ADRIANA PATRICIA,3,3,3,3,3,3,3,16,16,16,69,"Mal uso de los delimitadores para el ambiente de matematicas, mal uso de indentacion, falto coocar la opcion en espaÃ±ol del libro"
+MURAD RODRIGUEZ,CESAR AUGUSTO,5,5,5,5,5,5,5,20,20,25,100,Bien Hecho! Felicitaciones
+OSORIO LEIVA,GERMAN EDUARDO,2.5,2.5,2.5,2.5,2.5,2.5,2.5,16,20,18,71.5,"Mal uso del ambientes ecuaciones, falta el box en el segundo punto, escrbiste la tabla de contenidos"
+PULIDO FERNANDEZ,NATALY,,,,,,,,,,,0,
+RODRIGUEZ BEJARANO,SERGIO ALEJANDRO,2,2,2,2,2,2,2,13,18,18,63,"Las ecuaciones no estan en modo matematicas, no se muestran en el tex, mal uso de alineación de tex."
+RODRIGUEZ CORCHO,ANDRES FELIPE,5,5,5,5,5,5,5,16,16,16,83,Falta el box sobre la definición
+ROJAS APARICIO,MIGUEL ANGEL,5,5,5,5,5,5,5,20,20,25,100,Bien hecho.
+RUIZ NAVARRO,MATEO,,,,,,,,,,,0,
+SALAZAR SANDINO,JUAN NICOLAS,5,5,5,5,5,5,5,16,20,22,93,"falta el box sobre la definiciÃ³n y el color del cuadro, revisar el recuadro con enconding utf-8"
+TORRES GONZALEZ,JUAN FELIPE,5,5,5,5,5,5,5,16,20,25,96,"No hay box en la definiciÃ³n, Bien hecho, muy buen trabajo"
+VILLEGAS IBAGON,JOSE AUGUSTO,2.5,2.5,2.5,2.5,2.5,2.5,2.5,13,18,15,63.5,"Las ecuaciones en la definicion no esta en modo de matematicas, tex no compila y mala alineaciÃ³n, mala alienacion e index en el del"

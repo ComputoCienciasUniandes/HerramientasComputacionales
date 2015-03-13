@@ -1,0 +1,40 @@
+Apellidos,Nombres,1(50),2(30),3(20),Total (100),Comentarios,
+ACOSTA CASTRO,ANDRES FELIPE,0,0,0,0,No entrega Quiz,
+ARDILA TAFURTH,GUSTAVO ADOLFO,0,0,0,0,No entrega Quiz,
+ARIZA PARDO,ADRIANA,20,25,20,65,"1. Error en la defincion de Tetramalacci: Mal definidos los casos base y mal definida la recursividad
+2. El rango debe ser [1, 16]",
+ARIZA ROJAS,MARIA ALEJANDRA,40,30,20,90,"Bien las validaciones y secuencia logica, falta return en linea de recursividad",
+CASTILLO MANRIQUE,ANDRES FELIPE,40,20,0,60,"Mejorar la presentacion del notebook
+1. Error de sintaxis en elif, falta ':' (3 veces)
+2. Error al recorrer el arreglo, indices exceden el tamaño del arreglo
+3. No se usa correctamente plot",
+CELY GOMEZ,DIEGO ALEJANDRO,0,0,0,0,No entrega Quiz,
+ESCALLON BOTERO,DANIEL,40,20,20,80,"1. Error de sintaxis, falta "":"" en condicionales y en deficion de la funcion (5 veces)
+2. Error al recorrer el arreglo, indices exceden el tamaño del arreglo",
+FERNANDEZ MORENO,JUAN DAVID,30,20,20,70,"1. Bien la secuencia logica. Errores de sintaxis, falta "":"" (4 veces) y errores de indentacion
+2. Error al recorrer el arreglo, indices exceden el tamaño del arreglo",
+FONSECA PRIETO,LUIS MIGUEL,0,0,0,0,No entrega Quiz,
+FORERO ARIZA,MATEO JULIAN,35,30,20,85,"Error de sintaxis, falta "":"" en def. Error en linea de recursividad",
+GOMEZ NORIEGA,DIEGO FERNANDO,50,30,20,100,,
+GONZALEZ ORTIZ,CRISTHIAN EDUARDO,50,30,20,100,3. Muy bien por hacer segunda grafica para hacer notar las diferencias de escala,
+GUARIN ESTRADA,DANIEL FELIPE,-,-,-,0,El cuaderno no abre,
+LAGUNA GUANTIVA,MATEO,25,20,20,65,"1. Error de sintaxis, falta "":"" (3 veces). Error en la definicio recursiva
+2. Error al recorrer el arreglo, indices exceden el tamaño del arreglo",
+LINARES ORTEGON,DANIELA,35,20,0,55,"1. Error de sintaxis, falta "":"" en else. Error de escritura al declarar recursividad, falta una 'a'
+2. Error al usar la funcion zeros
+3. No se grafica",
+MEZA CALA,JUAN CAMILO,40,25,0,65,"1. Bien hecha la definicion recursiva, pero se equivoca al validar las condiciones
+2. El rango debia ser [1, 16]
+3. No se grafica",
+NOGUERA AGUIRRE,DAVID ALEJANDRO,10,10,0,20,"1. No define Tetramalacci en forma recursiva
+2. No se logra crear el arreglo
+3. No se usa correctamente scatter",
+NUÑEZ CASTAÑO,JULIAN HUMBERTO,0,0,0,0,No entrega Quiz,
+PARADA BELTRAN,JUAN SEBASTIAN,50,30,20,100,,
+QUIJANO CASTRO,JUAN DIEGO,0,0,0,0,No entrega Quiz,
+TORRES QUINTERO,MARIA FERNANDA,25,20,20,65,"1. Bien las primeras validaciones, falta usar 'else'. Error en la definicio recursiva de Tetramalacci
+2. Error al recorrer el arreglo, indices exceden el tamaño del arreglo",
+VARGAS LOPEZ,CRISTHIAN CAMILO,10,25,20,55,"1. No se define Tetramalacci de forma recursiva
+2. Rango debia ser [1, 16]. Error generado por lineas en desorden","
+"
+ZULUAGA VELASQUEZ,NICOLAS,50,30,20,100,,

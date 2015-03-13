@@ -1,0 +1,25 @@
+Apellidos,Nombres,1 (25),2 (25),3 (25),4 (25),Total,Comentarios
+AGUDELO MOTTA,LAURA CATALINA,25,25,25,25,100,
+ARENAS PARDO,CAMILO ANDRES,25,25,25,25,100,
+BARRERA CASTILLO,MONICA ALEJANDRA,25,25,25,25,100,Muy bien hecho
+BARRERO FLORES,JUAN PABLO,25,25,25,25,100,"Para la proxima, no solo imprimas el numero que se te pide, complementa con el uso de “x es el numero de estudiantes que pasarón."
+BLANCO BOHORQUEZ,LUIS ARMANDO,,,,,0,
+CALIFANO TRUJILLO,SIMONE,25,20,10,0,55,"Revisar el funcionamiento de las herrramientas wc, copiar bien la pagina de github y utlizar el formato raw = true para bajar bien las cosas, revisar com escribir a un archivo de texto"
+CRISTANCHO GONZALEZ,EDGAR DAVID,25,20,25,0,70,"Había que escribir el output como: hay x estudiantes, mal uso de la linea de comando para el ultimo punto"
+DIAZ BOADA,JUAN SEBASTIAN,,,,,0,
+GARCIA PEREZ,JORGE ALBERTO,25,23,25,10,83,"Tenias que imprimir el numero de estudiantes con la funcion print, ma uso del comando sed y awk"
+GOMEZ ALVAREZ,MARIA FERNANDA,,,,,0,
+GOMEZ MELO,SANTIAGO,0,15,10,0,25,"Mal uso de herramientas, revisa las notas de clase y ten en cuenta cuales son los comandos basicos para la proxima"
+MADARIAGA CUBIDES,MARIA PAULA,25,25,10,5,65,"Estas mostrando un número negativo, para expresar una cantidad de alumnos, mal uso de la linea de comando"
+MELENDEZ GRANADOS,JUAN SEBASTIAN,,,,,0,
+MORA MONTES,ADRIANA PATRICIA,25,25,25,25,100,"Bien Hecho. Los estudiantes que aprueban no es que ganen, para la proxima no imprimas todo el archivo de texto en la terminal"
+MURAD RODRIGUEZ,CESAR AUGUSTO,25,25,25,25,100,
+OSORIO LEIVA,GERMAN EDUARDO,25,10,20,0,55,"Mal uso de la linea de comando, revisar cuales son los argumentos para cada utilidad que llames de la terminal."
+PULIDO FERNANDEZ,NATALY,25,20,10,5,60,"Revisar errores y typos, mal uso de los argumentos en la linea de comandos"
+RODRIGUEZ BEJARANO,SERGIO ALEJANDRO,25,25,25,10,85,"Mal conteo de estudiantes, estas removiendo lineas."
+RODRIGUEZ CORCHO,ANDRES FELIPE,25,10,20,10,65,"Ojo, ten cuidado con loas argumentos que le pases a las herramientas de las terminales, mal uso de wc, y el modificador (opcion) de las herramientas es mal utilizado"
+ROJAS APARICIO,MIGUEL ANGEL,25,25,20,20,90,"recuerda anexar el raw option para bajar el archivo correcto n github(es opcional, pero recomendable)"
+RUIZ NAVARRO,MATEO,,,,,0,
+SALAZAR SANDINO,JUAN NICOLAS,25,25,20,20,90,"Para la proxima, no solo imprimas el numero que se te pide, complementa con el uso de “x es el numero de estudiantes que pasarón."
+TORRES GONZALEZ,JUAN FELIPE,25,20,0,0,45,Tener cuidado con que es wc -l y revisar que se llamen bien los comandos
+VILLEGAS IBAGON,JOSE AUGUSTO,25,25,20,25,95,"No era necesario imprimer todo el archivo csv a la terminal, mal formato de uso"

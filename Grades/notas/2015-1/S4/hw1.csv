@@ -1,9 +1,9 @@
 Apellidos,Nombres,1a (15),1b (5),1c (10),1d (10),1e (15),1f (15),1g (15),1h (10),1i (5),Total (100),Comentarios
 ACOSTA CASTRO,ANDRES FELIPE,5,3,0,5,7,0,0,0,0,20,En el script se debe diferenciar entre comandos de bash y texto de comentarios
 ARDILA TAFURTH,GUSTAVO ADOLFO,15,5,5,10,12,8,8,7,5,75,
-ARIZA PARDO,ADRIANA,10,5,10,10,12,12,12,9,5,85,Reclamos Finalizados
+ARIZA PARDO,ADRIANA,10,5,10,10,12,12,12,9,5,85,
 ARIZA ROJAS,MARIA ALEJANDRA,15,5,10,10,15,12,15,8,4,94,
-CASTILLO MANRIQUE,ANDRES FELIPE,10,2,10,10,12,14,12,9,5,84,Las lineas de codigo que no resuleven ningun punto de la tarea no deben incluirse - Reclamos Finalizados
+CASTILLO MANRIQUE,ANDRES FELIPE,10,2,10,10,12,14,12,9,5,84,Las lineas de codigo que no resuleven ningun punto de la tarea no deben incluirse
 CELY GOMEZ,DIEGO ALEJANDRO,15,5,10,10,15,15,15,10,5,100,Incluir comentarios o mensajes en pantalla facilitan la lectura del codigo
 ESCALLON BOTERO,DANIEL,15,5,10,10,12,10,15,10,5,92,
 FERNANDEZ MORENO,JUAN DAVID,15,5,10,10,12,12,12,10,5,91,

@@ -1,13 +1,13 @@
 Apellidos,Nombres,1a (5),1b (5),1c (5),1d (5),1e (5),1f (5),1g (5),2 (20),3 (20),4 (25),Total (100),Comentarios
-ACOSTA CASTRO,ANDRES FELIPE,-,-,-,-,-,-,-,-,-,-,0,Archivo sin extension - No se puede leer
+ACOSTA CASTRO,ANDRES FELIPE,,,,,,,,,,,0,Archivo sin extension - No se puede leer
 ARDILA TAFURTH,GUSTAVO ADOLFO,5,5,3,5,5,5,5,20,15,25,93,"*1c Falta \psi(x,t) en lado izquierdo
 *3 El ultimo fragmento va en \textsc{} - La ultima linea va en \small{}
 "
-ARIZA PARDO,ADRIANA,-,-,-,-,-,-,-,-,-,-,0,El archivo de extension .tex.zip no se puede leer - pesa 0 bytes
+ARIZA PARDO,ADRIANA,,,,,,,,,,,0,El archivo de extension .tex.zip no se puede leer - pesa 0 bytes
 ARIZA ROJAS,MARIA ALEJANDRA,4,5,5,4,4,5,5,16,20,11,79,"*1a Se debia usar \hbar en ambas ocasiones - Usar \left( \right)
 *1d \sigma va por fuera de \sqrt
 *1e Limites de integracion intercambiados
-*2 Delta debia ser mayuscula - El codigo para el cuadro está pero no lo compila
+*2 Delta debia ser mayuscula - El codigo para el cuadro estÃ¡ pero no lo compila
 *4 Buena implementacion, pero se debia usar un documento de clase 'book' para poder usar \chapter - Entrega tarde"
 CASTILLO MANRIQUE,ANDRES FELIPE,5,5,5,3,5,5,5,20,20,25,98,*1d \sigma va por fuera de \sqrt - Falta todo el diferencial
 CELY GOMEZ,DIEGO ALEJANDRO,4,5,5,4,4,5,0,10,14,0,51,"*1a Cambiar > por \rangle - Usar \left( \rigth)
@@ -20,12 +20,12 @@ CELY GOMEZ,DIEGO ALEJANDRO,4,5,5,4,4,5,0,10,14,0,51,"*1a Cambiar > por \rangle -
 ESCALLON BOTERO,DANIEL,5,5,5,4,4,5,5,17,18,20,88,"*1d El caracter 'd' debia escribirse como \textrm{d}
 *1e El caracter 'd' debia escribirse como \textrm{d}
 *2 No hace el cuadro
-*3 Esta bien, pero el \large cambia a un tamaño diferente
+*3 Esta bien, pero el \large cambia a un tamaÃ±o diferente
 *4 Buena implementacion, pero se debia usar un docuemnto de clase 'book' para poder usar \chapter{}"
 FERNANDEZ MORENO,JUAN DAVID,5,5,5,4,4,5,5,17,18,22,90,"*1d El caracter 'd' debia escribirse como \textrm{d} - \sigma va por fuera de \sqrt
 *1e El caracter 'd' debia escribirse como \textrm{d}
 *2 No hace el cuadro
-*3 Esta bien, pero el \large cambia a un tamaño diferente
+*3 Esta bien, pero el \large cambia a un tamaÃ±o diferente
 *4 Como esta en un documento de clase 'book', es mas conveniente usar \chapter{}"
 FONSECA PRIETO,LUIS MIGUEL,-,-,-,-,-,-,-,-,-,-,0,No entrega tarea en Sicua
 FORERO ARIZA,MATEO JULIAN,4,5,3,4,4,5,5,17,17,0,64,"*1a Cambiar \hslash por \hbar
@@ -59,9 +59,9 @@ MEZA CALA,JUAN CAMILO,5,5,5,4,4,5,5,17,20,22,92,"*1d El caracter 'd' debia escri
 *1e El caracter 'd' debia escribirse como \textrm{d}
 *2 No hace el cuadro
 *4 Falta usar \usepackage[spanish]{babel}"
-NOGUERA AGUIRRE,DAVID ALEJANDRO,-,-,-,-,-,-,-,-,-,-,0,No entrega tarea en Sicua
-NUÑEZ CASTAÑO,JULIAN HUMBERTO,-,-,-,-,-,-,-,-,-,-,0,No entrega tarea en Sicua
-PARADA BELTRAN,JUAN SEBASTIAN,-,-,-,-,-,-,-,-,-,-,0,*Revisar con el Profesor
+NOGUERA AGUIRRE,DAVID ALEJANDRO,,,,,,,,,,,0,No entrega tarea en Sicua
+NUÃ‘EZ CASTAÃ‘O,JULIAN HUMBERTO,,,,,,,,,,,0,No entrega tarea en Sicua
+PARADA BELTRAN,JUAN SEBASTIAN,,,,,,,,,,,0,*Revisar con el Profesor
 QUIJANO CASTRO,JUAN DIEGO,5,5,3,4,4,5,0,17,14,0,57,"*1a Usar \left( \rigth)
 *1c Falta lado derecho de la ecuacion
 *1d El caracter 'd' debia escribirse como \textrm{d}

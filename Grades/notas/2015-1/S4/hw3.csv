@@ -1,47 +1,48 @@
-Apellidos,Nombres,1 (35),2 (30),3 (35),Bono(10),Total (100),Comentarios
+Apellidos,Nombres,1 (35),2 (30),3 (35),Bono(10),Total (100),Comentarios,
 ACOSTA CASTRO,ANDRES FELIPE,20,0,0,0,20,"1. No cambia formato de los numeros. No formatea texto en italica. Imagen con poscion y escala incorrectas
-No entrega 2 y 3"
+No entrega 2 y 3",
 ARDILA TAFURTH,GUSTAVO ADOLFO,0,25,35,10,70,"2. Falta el cuadro
-Bono. La hoja de vida deberia incluir mas informacion"
+Bono. La hoja de vida deberia incluir mas informacion",
 ARIZA PARDO,ADRIANA,10,30,27,0,67,"1. Se entrega un '.tex' cuando se esperaba un '.sh'
-3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Repite bibliografia. Se debia escribir \%"
-ARIZA ROJAS,MARIA ALEJANDRA,0,30,35,0,65,3. Usar el nombre indicado para el archivo
+3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Repite bibliografia. Se debia escribir \%",
+ARIZA ROJAS,MARIA ALEJANDRA,0,30,35,0,65,3. Usar el nombre indicado para el archivo,
 CASTILLO MANRIQUE,ANDRES FELIPE,20,30,32,0,82,"1. Error al llamar los archivos que crea: 7.text no existe, 'eldictp.tex' no es funcional. No usa ambiente 'description' ni '\item[]'. Solo pone en italica 'adj', 'm', 'tr' y 'adv'
-3. Se debia escribir \%"
-CELY GOMEZ,DIEGO ALEJANDRO,0,0,0,0,0,No entrega tarea
+3. Se debia escribir \%",
+CELY GOMEZ,DIEGO ALEJANDRO,0,0,0,0,0,No entrega tarea,
 ESCALLON BOTERO,DANIEL,25,30,27,0,82,"1. No pone la imagen. Para usar 'description' hace falta iniciar cada linea con \item[]. Solo pone en italica 'adj', 'm', 'tr', 'adv' y 'f'. Link equivocado para descargar el archivo
 2. Se recomienda usar \label{fig:nombre} y \re{fig:nombre}
-3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se debia escribir \%"
+3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se debia escribir \%",
 FERNANDEZ MORENO,JUAN DAVID,20,30,27,0,77,"1. Falta poner la imagen. Para usar 'description' eficientemente, hace falta que cada linea empiece con \item[]. No pone los numero en color. Solo formatea en italica 'adj', 'm', 'adv', 'f', y 'tr'
 2. Llama a imagen de extension '.png.jpeg'
-3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se debia escribir \%"
-FONSECA PRIETO,LUIS MIGUEL,0,0,0,0,0,No entrega tarea
+3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se debia escribir \%",
+FONSECA PRIETO,LUIS MIGUEL,0,0,0,0,0,No entrega tarea,
 FORERO ARIZA,MATEO JULIAN,0,25,13,0,38,"1.No hace el punto
 2. Las 3 imagenes debian quedar al mismo nivel
-3. Falta todo el segundo parrafo. El uso de las palabras clave no es el esperado"
+3. Falta todo el segundo parrafo. El uso de las palabras clave no es el esperado",
 GOMEZ NORIEGA,DIEGO FERNANDO,33,25,35,0,93,"1. Solo formatea en italica 'tr', 'adj', 'adv', 'm' y 'f'. Bien pensado al poner comentarios en el '.tex'. Buen uso de los comandos de Bash
-2. Las 3 imagenes debian quedar la mismo nivel"
-GONZALEZ ORTIZ,CRISTHIAN EDUARDO,10,30,35,0,75,1. Sintaxis equivocada: Usa 8 backslash. No construye un '.tex' valido. No especifica escala adecuada para la imagen. No formatea texto en italica. Solo especifica color para numeros 1 y 2. No usa ambiente Description
+2. Las 3 imagenes debian quedar la mismo nivel",
+GONZALEZ ORTIZ,CRISTHIAN EDUARDO,10,30,35,0,75,1. Sintaxis equivocada: Usa 8 backslash. No construye un '.tex' valido. No especifica escala adecuada para la imagen. No formatea texto en italica. Solo especifica color para numeros 1 y 2. No usa ambiente Description,
 GUARIN ESTRADA,DANIEL FELIPE,10,30,32,0,72,"1. Las lineas se imprimen en pantalla en lugar de agregarlas al '.tex'. No agrega el texto formateado a un '.tex'. Confusion entre archivos que crea: 'eledicto.txt' 'eldicto.txt '. Para usar 'description', cada linea debe empezar con \item[]
 2. Se recomienda usar \label{fig:nombre} y \re{fig:nombre}
-3. Las citas estan bien pero se refieren al archivo 'Ref.biblio.bib' que no se proveee en la tarea"
+3. Las citas estan bien pero se refieren al archivo 'Ref.biblio.bib' que no se proveee en la tarea",
 LAGUNA GUANTIVA,MATEO,25,30,32,0,87,"1. No formatea el texto en italica. No pone los numeros a color
 3. Se debia escribir \%
-"
+",
 LINARES ORTEGON,DANIELA,20,30,27,0,77,"1.Error al llamar los archivos que crea: 'diccioabrio' no es funcional. No usa ambiente 'description' ni '\item[]'. Solo pone en italica 'adj', 'm', 'tr' y 'adv'
-3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se debia escribir \%"
+3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se debia escribir \%",
 MEZA CALA,JUAN CAMILO,35,25,35,0,95,"1. Buen uso de sed
-2. Codigo razonable, presenta errores al compilar. 'fig 1' se pone a mano aunque escrbie bien la sintaxis de \ref{}"
+2. Codigo razonable, presenta errores al compilar. 'fig 1' se pone a mano aunque escrbie bien la sintaxis de \ref{}",
 NOGUERA AGUIRRE,DAVID ALEJANDRO,15,25,27,0,67,"1. Las lineas se imprimen en pantalla en lugar de agregarlas al '.tex'. 
 No agrega el texto formateado a un '.tex'. Para usar 'description', cada linea
-debe empezar con \item[]
-3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se debia escribir \%"
-NUÑEZ CASTAÑO,JULIAN HUMBERTO,0,0,0,0,0,No entrega tarea
+ debe empezar con \item[]
+3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se debia escribir \%",
+NUÃ‘EZ CASTAÃ‘O,JULIAN HUMBERTO,0,0,0,0,0,No entrega tarea,
 PARADA BELTRAN,JUAN SEBASTIAN,28,30,27,0,85,"1. Falta la imagen. Solo formatea en italica 'm', 'adj', 'prnl', 'f' y 'tr
 2. Se recomienda usar \label{fig:nombre} y \re{fig:nombre}
-3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se debia escribir \%"
-QUIJANO CASTRO,JUAN DIEGO,0,0,0,0,0,No entrega tarea
+3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se debia escribir \%",
+QUIJANO CASTRO,JUAN DIEGO,0,0,0,0,0,No entrega tarea,
 TORRES QUINTERO,MARIA FERNANDA,28,30,27,0,85,"1. No usa 'description' ni '\item[]. Solo formatea en italica 'adj', 'm', 'tr', y 'adv. 
-3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se refiere al archivo 'ref.bib' que no se provee en la tarea. Se debia escribir \%"
-VARGAS LOPEZ,CRISTHIAN CAMILO,0,0,0,0,0,No entrega tarea
-ZULUAGA VELASQUEZ,NICOLAS,35,27,35,0,97,fig 1' se pone a mano aunque escribe bien la sintaxis de \ref{}
+3. Cita todas las referencias pero, el uso de las palabras claves no es el esperado. Se refiere al archivo 'ref.bib' que no se provee en la tarea.  Se debia escribir \%",
+VARGAS LOPEZ,CRISTHIAN CAMILO,0,0,0,0,0,No entrega tarea,"
+"
+ZULUAGA VELASQUEZ,NICOLAS,35,27,35,0,97,fig 1' se pone a mano aunque escribe bien la sintaxis de \ref{},
