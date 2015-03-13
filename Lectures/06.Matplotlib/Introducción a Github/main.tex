@@ -1,0 +1,218 @@
+% !TeX document-id = {0902ca31-7703-4dcf-908c-83d74402238d}
+% !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
+\documentclass{beamer}
+\usetheme{AnnArbor}
+\usepackage[spanish]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{minted}
+
+
+\setbeamerfont{author in head/foot}{size={\fontsize{3.5pt}{5pt}\selectfont}}
+\author{Prof. Sebastian Saaibi \& David Cardozo\inst{1}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+\title{Introducción a Git \& GitHub }
+\subtitle{Control de versiones o Gestión de la configuración} % A subtitle is optional and this may be deleted
+%\logo{\includegraphics[height=0.8cm]{universidaddelosandes.png}\vspace{220pt}} 
+\logo{\includegraphics[height=0.8cm]{universidaddelosandesciencias.png}}
+%\logo{\includegraphics[height=0.8cm]{universidaddelosandescolombia.png}
+\institute[Universidad de los Andes]
+{
+	\inst{1}%
+	Física   \\
+	Lectura $6$ Herramientas Computacionales \\
+	Universidad de los Andes
+}
+\date{\today} % - Either use conference name or its abbreviation.
+\subject{PDF Information} % This is only inserted into the PDF information catalog. Can be left out. 
+%\setbeamercovered{transparent}
+%\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+\maketitle
+\begin{frame}
+	\frametitle{Temas cortos}
+	\tableofcontents
+\end{frame}
+
+
+\section{Introducción: Control de Versiones}
+
+\begin{frame}
+	\frametitle{Control de Versiones}
+	
+	\textbf{Control de versiones} o \textbf{gestión de la configuración} (VCS) (SCC) (SCM)
+	
+	Sistemas para registrar la historia de los cambios que van sufriendo un conjunto de ficheros.
+	
+	 Funciona para:
+	 \begin{itemize}
+	 	\item Poder saber cuándo se modificó y quién lo hizo, cada fichero de un proyecto
+	 	\item Poder reconstruir el estado de los ficheros al estado que tenían en algún momento del pasado.
+	 	\item Poder coordinar los cambios que realiza un conjunto de desarrolladores sobre los ficheros de un proyecto.
+	 	
+	 \end{itemize}
+	 
+	 \textbf{Sistema de control de versiones (VCS)}
+	 Herramienta de software que ayuda a gestiona el control de versiones: \textit{Ej: SVN, Git}
+\end{frame}
+
+\section{Control de versiones con Git}
+
+\begin{frame}[allowframebreaks]
+	\frametitle{git}
+	Git es n sistema de control de versiones distribuido.
+	\begin{block}{Repositorio o repo}
+		Guarda la historia completa de un subconjunto de ficheros del projecto
+	\end{block}
+	
+	\textbf{Github} ofrecen hospedaje para git en la red
+	\begin{itemize}
+		\item Útiles para colaborar entre varios miembros de un equipo de desarrollo.
+		\item Útil para desarrolladores individuales para hacer backups del repositorio
+		\item Portafolio de presencia y soporte en la web.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile=singleslide]
+	\frametitle{git: el repositorio o repo}
+	\begin{block}{El repo}
+		Donde git guarda la historia completa de algún subconjunto de ficheros del proyecto
+	\end{block}
+	Vamos a inicializar el repo de un proyecto.
+	\begin{figure}
+		\begin{minted}{bash}
+		mkdir testgit
+		cd testgit
+		git init	
+		\end{minted}
+		\caption{Iniciando git}
+	\end{figure}
+		El repositorio queda inicializado, pero vacío, en:
+		
+		\mint{bash}|testgit/.git/|
+		
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{git: \textit{tracked files}}
+	Es el subconjunto de ficheros del proyecto que forman parte del repositorio.
+	
+	Sus versiones se van guardando cada vez que se compromete su estado (se hace commit)
+	
+	\begin{block}{add command}
+		\textbf{git add '*.txt'} añade recursivamente los ficheros acabados en txt al conjunto de \textit{tracked files}
+	\end{block} 
+	No todos los ficheros del proyecto tienen que formar parte de los \textit{tracked files}.
+	
+	En \textbf{.gitignore} se especifican los ficheros que no deben añadirse.
+	
+	
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{.gitignore}
+En la raíz del proyecto el fichero \textbf{.gitignore} especifica los ficheros que no deben añadirse al repo.
+\begin{minted}{bash}
+# un comentario
+*.aux   # ignorar los ficheros que acaben en .aux
+carpeta/ # ignorar todos los ficheros del subdir carpeta/
+\end{minted}
+
+
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{git: commit de ficheros}
+	Cuando estás contento con el estado del proyecto haces commit para que se refleje en el repo el estado actual de los \textit{tracked files}
+	\begin{block}{¿Qué permite commit?}
+		Recuperar en el futuro el estado (foto) comprometido de los tracked files.
+		\textbf{ NO ES UNA COPIA DE BACKUP DE ARCHIVOS}
+	\end{block}
+	Es muy importante añadir un texto que explique el estado que se compromete.
+	
+	\mint{bash}|git commit -m 'msg'|
+	
+
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{git: hands on}
+	\begin{minted}[]{bash}
+	git config --global core.editor 'gedit'
+	mkdir gittest 
+	cd gittest; touch a.txt; touch b.txt
+	git init
+	git add a.txt
+	git status
+	git b.txt
+	git commit
+	git status
+	echo "nueva linea" > a.txt
+	git status
+	git diff
+	git commit -a
+	git status
+	git log
+	\end{minted}
+
+\end{frame}
+
+\section{Repositorios distribuidos: Github}
+
+\begin{frame}
+	\frametitle{Github: Introducción}
+	Permite almacenar gratuitamente todos los repos que quieras (siempre que sean públicos)
+	Al principio generas pareja clave pública/privada para autenticare en el servicio github con ssh.
+	
+\begin{block}{Push / Pull}
+	Usando git, haces \textbf{push} de tu repo a github, creando allí una réplica. Otros desarrolladores pueden hacer \textit{push} de sus cambios y \textbf{pull} de los de otros.
+\end{block}
+
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Preparación para usar github}
+	\begin{itemize}
+		\item Creamos una cuenta gratis en github
+		\item Informamos a git del nombre de usuario y del correo para que cada commit quede identificado:
+	\end{itemize}
+	\begin{minted}{bash}
+	git config --global user.name 'username-de-github'
+	git config --global user.email 'david@correo.com'
+	\end{minted}
+	Creación de las parejas de claves para identificación:
+	\begin{minted}{bash}
+	cd ~/.ssh
+	ssh-keygen -t rsa -C david@correo.com
+	<Enter>
+	#entre una contraseña pass123
+	chmod 0600 *
+	\end{minted}
+\end{frame}
+
+\begin{frame}[fragile,shrink=20]
+	\frametitle{git configuración}
+	Creamos un repositorio remoto en \href{https://github.com/new}{https://github.com/}
+	\textbf{HerramientasComputacionales}
+	
+\begin{minted}{bash}
+git remote add origin git@github.com:username/<Herramientas...>.git
+git push origin master
+\end{minted}
+	
+	
+	
+\end{frame}
+
+
+	
+\end{document}

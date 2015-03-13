@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+git remote add origin git@github.com:username/\PYGdefaultZlt{}Herramientas...\PYGdefaultZgt{}.git
+git push origin master
+\end{Verbatim}
