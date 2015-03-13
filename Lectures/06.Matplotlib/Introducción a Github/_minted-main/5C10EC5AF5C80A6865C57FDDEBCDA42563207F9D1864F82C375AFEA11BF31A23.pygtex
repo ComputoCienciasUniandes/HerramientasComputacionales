@@ -1,7 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-	\PYGdefault{n+nb}{cd} \PYGdefaultZti{}/.ssh
-	ssh\PYGdefaultZhy{}keygen \PYGdefaultZhy{}t rsa \PYGdefaultZhy{}C david@correo.com
-	\PYGdefaultZlt{}Enter\PYGdefaultZgt{}
-	\PYGdefault{c}{\PYGdefaultZsh{}entre una contraseña pass123}
-	chmod \PYGdefault{l+m}{0600} *
-\end{Verbatim}

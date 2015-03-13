@@ -1,5 +1,0 @@
-\beamer@endinputifotherversion {3.35pt}
-\select@language {spanish}
-\beamer@sectionintoc {1}{Introducci\IeC {\'o}n: Control de Versiones}{3}{0}{1}
-\beamer@sectionintoc {2}{Control de versiones con Git}{4}{0}{2}
-\beamer@sectionintoc {3}{Repositorios distribuidos: Github}{10}{0}{3}

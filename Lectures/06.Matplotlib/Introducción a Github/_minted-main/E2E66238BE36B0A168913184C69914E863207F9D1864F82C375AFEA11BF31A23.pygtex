@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-	git config \PYGdefaultZhy{}\PYGdefaultZhy{}global user.name \PYGdefault{l+s+s1}{\PYGdefaultZsq{}username\PYGdefaultZhy{}de\PYGdefaultZhy{}github\PYGdefaultZsq{}}
-	git config \PYGdefaultZhy{}\PYGdefaultZhy{}global user.email \PYGdefault{l+s+s1}{\PYGdefaultZsq{}david@correo.com\PYGdefaultZsq{}}
-\end{Verbatim}

@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYGdefault{c}{\PYGdefaultZsh{} un comentario}
-*.aux   \PYGdefault{c}{\PYGdefaultZsh{} ignorar los ficheros que acaben en .aux}
-carpeta/ \PYGdefault{c}{\PYGdefaultZsh{} ignorar todos los ficheros del subdir carpeta/}
-\end{Verbatim}
