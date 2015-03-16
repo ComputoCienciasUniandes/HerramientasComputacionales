@@ -3,7 +3,13 @@ ACOSTA CASTRO,ANDRES FELIPE,,,,,,,,,,,0,Archivo sin extension - No se puede leer
 ARDILA TAFURTH,GUSTAVO ADOLFO,5,5,3,5,5,5,5,20,15,25,93,"*1c Falta \psi(x,t) en lado izquierdo
 *3 El ultimo fragmento va en \textsc{} - La ultima linea va en \small{}
 "
-ARIZA PARDO,ADRIANA,,,,,,,,,,,0,El archivo de extension .tex.zip no se puede leer - pesa 0 bytes
+ARIZA PARDO,ADRIANA,4,5,5,3,4,5,5,15,14,25,60,"El archivo de extension .tex.zip no se puede leer - pesa 0 bytes
+~Actualizacion de nota, se califica el trabajo hasta maximo 70 puntos 
+1a. Se debia usar \hbar
+1d. Falta el diferencial. \sigma va por fuera de la raiz
+1e. El caracter 'd' debia escribirse como \textrm{d}
+2. No hace el cuadro. El texto debia estar en 2 lineas identificadas
+3. No hace el tercer parrafo"
 ARIZA ROJAS,MARIA ALEJANDRA,4,5,5,4,4,5,5,16,20,11,79,"*1a Se debia usar \hbar en ambas ocasiones - Usar \left( \right)
 *1d \sigma va por fuera de \sqrt
 *1e Limites de integracion intercambiados
