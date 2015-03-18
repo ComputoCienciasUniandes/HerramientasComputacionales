@@ -13,7 +13,7 @@
 "HERNANDEZ CHARPAK, YVAN D.",15,5,10,10,15,15,15,10,5,100,
 "HERNANDEZ MACHADO, CARLOS J.",15,5,7,10,15,15,15,10,5,97,C) Es necesario restar las 32 lineas que no son entradas del catalogo. 
 "LOZADA CORTES, ALEJANDRO",15,5,10,10,15,15,15,10,5,100,
-"MARTINEZ CARDENAS, TANIA C.",10,5,5,10,5,5,5,5,0,50, No es un script por lo que no es puede ejecutar, no todos los resultados son correctos.
+"MARTINEZ CARDENAS, TANIA C.",10,5,5,10,5,5,5,5,0,50, No es un script por lo que no es puede ejecutar. no todos los resultados son correctos.
 "NUÑEZ BARRERO, JULIAN D.",,,,,,,,,,0,
 "OCHOA TAMAYO, DANIEL E.",15,5,10,10,15,15,15,10,5,100,
 "RAMIREZ MILANO, DIEGO L.",15,5,5,10,15,15,15,10,5,95,"C) El numero de estrellas no es 146, mal uso del comando awk y redirreccion de archivos. "
