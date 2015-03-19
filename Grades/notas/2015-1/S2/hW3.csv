@@ -7,7 +7,7 @@ Nombre,Punto 1 (35),Punto 2 (20),Punto 3 (20),Punto 4 (25),total (100),
 "GALLEGO GALLON, JUAN C.",,,,,0,
 "GARZON MORA, SOFIA",35,20,20,20,85,* -10 Los archivos deven ser .tex en este caso no tenian extension y no compilaban. 4. Los capitulos no estan separados en paginas diferentes.
 "GIRALDO LOZANO, JUAN C.",35,18,20,25,98,2.Falta recuadro azul. 
-"GOODING RIOS, NICHOLAS",30,20,20,15,85,"1. Mal puestos los limites de la integral y el subindice de la suma!, 4. No hay tabla de contenidos "
+"GOODING RIOS, NICHOLAS",30,20,20,23,83,"1. Mal puestos los limites de la integral y el subindice de la suma!, 4. No hay tabla de contenidos "
 "GRACIA SUAREZ, MARIA D.",30,18,19,0,67,1. Mal escrita la matrix. 2. Falta recuadro azul. 3. El nombre y fecha del final van en otro formato. 4. No entrego
 "GUARIN ROJAS, DAVID G.",35,20,20,22,97,4. No lee caracteres especiales como tildes. 
 "HERNANDEZ CHARPAK, YVAN D.",30,20,5,15,70,1. Mal puesto el exponente del punto d. 3. No aparece todo lo que se pide. No compila bien hay errores! 4. No hay tabla de contenidos.
