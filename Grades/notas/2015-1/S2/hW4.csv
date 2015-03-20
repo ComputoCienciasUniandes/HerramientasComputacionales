@@ -1,0 +1,27 @@
+,,,,,
+Nombre: ,P1 (35),P2(30),P3 (35),Total (100),
+"ARDILA SUAREZ, SEBASTIAN",,,,0,
+"BURBANO ALDANA, IVAN M.",35,20,35,90,"2. No descarga imagen y ademas la referencia como jpeg. 
+"
+"BURITICA BUITRAGO, CARLOS F.",,,,0,
+"CALDERON ZAMUDIO, JUAN C.",,,,0,
+"GALLEGO GALLON, JUAN C.",,,,0,
+"GARZON MORA, SOFIA",20,25,25,70,1. No compila bien! 2 y 3. Ojo con el formato debe ser .tex
+"GIRALDO LOZANO, JUAN C.",30,28,32,90,1. No compila correctamente. 2. Falta recuadro rojo. 3. Coloca mal la sintaxis para el porcentaje. 
+"GOODING RIOS, NICHOLAS",35,28,35,98,2. No hay recuadro rojo. 
+"GRACIA SUAREZ, MARIA D.",,,,0,
+"GUARIN ROJAS, DAVID G.",32,28,35,95,"1. Faltan cosas al ejecutar como maketittle, pero tiene muy buen manejo de procesos. 2. Falta el recuadro rojo . 3. Buen uso del paquete biblatex, aunqueno era necesario tanto cambio.  "
+"HERNANDEZ CHARPAK, YVAN D.",20,30,35,85,1. No compila bien.
+"HERNANDEZ MACHADO, CARLOS J.",,,,0,
+"LOZADA CORTES, ALEJANDRO",10,20,35,65,"1. No hace uso efectivo de latex, no crea nigun .tex y no genera archivo pdf. No busca bien paalabras 2. La imgen que usa es jpeg pero en el repostiroio es .pmg"
+"MARTINEZ CARDENAS, TANIA C.",35,30,35,100,
+"NUÑEZ BARRERO, JULIAN D.",,,,0,
+"OCHOA TAMAYO, DANIEL E.",35,30,33,98,"2. Muy creativo, bien. 3. Arreglar cosas de formato en la presentacion del texto final. "
+"RAMIREZ MILANO, DIEGO L.",35,30,35,100,"Muy buen trabajo  
+"
+"RANGEL JURADO, NICOLAS",35,28,25,88,"2. Falta el recuadro rojo. 3. La intencion era utilizar el archivo .bib adjunto en la tarea para no escribir la bibliografia a mano. 
+"
+"RODRIGUEZ CARDONA, JULIAN L.",25,30,35,90,"1. No compila bien el archivo, se genera un pdf en blanco. Al parecer no declara bien atributos del documento. Falta maketitlle"
+"RODRIGUEZ PARRA, JUAN P.",20,20,0,40,"1. Maneja bien comandos pero termina generando un txt para latex, ojo con el formato. No compila. 2. Envia un archivo txt aunque la sintaxis esta bien, ojo con formato debe ser .tex 3. No hay un archivo .tex para la bibliografia."
+"RUBIANO RODRIGUEZ, CAROLINA",,,,0,
+"ZAMBRANO SIERRA, DIEGO A.",0,30,35,65,1. No hay archivo ejecutable para hacer el latex. 
