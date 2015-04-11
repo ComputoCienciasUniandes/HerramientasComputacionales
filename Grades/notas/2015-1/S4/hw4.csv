@@ -1,0 +1,53 @@
+Apellidos,Nombres,1a(40),1b(20),2a(40),Total (100),Comentarios
+ACOSTA CASTRO,ANDRES FELIPE,0,0,0,0,
+ARDILA TAFURTH,GUSTAVO ADOLFO,33,0,40,73,"1. (-7) Comentarios no son suficientes
+2. No hace el punto"
+ARIZA PARDO,ADRIANA,15,5,40,60,"1. (-15) Define explicitamente el contenido de cada posicion en la matriz. (-10) No hay comentarios
+2. Define explicitamnete el contenido de cada posicion en la matriz"
+ARIZA ROJAS,MARIA ALEJANDRA,20,5,30,55,"1. (-15) Define explicitamente el contenido de cada posicion en la matriz. Errores de sintaxis
+2. Define explicitamente el contenido de cada posicion en la matriz. Errores de sintaxis
+3. Falta crear el nuevo archivo"
+CASTILLO MANRIQUE,ANDRES FELIPE,15,5,40,60,"1. (-15) Define explicitamente el contenido de cada posicion en la matriz. (-10) No hay comentarios
+2. (-15) Define explicitamnete el contenido de cada posicion en la matriz"
+CELY GOMEZ,DIEGO ALEJANDRO,0,0,0,0,
+ESCALLON BOTERO,DANIEL,30,15,35,80,"1. (-10) No hay comentarios
+2. No hay comentarios
+3. (-5) No hay comentarios"
+FERNANDEZ MORENO,JUAN DAVID,30,15,25,70,"1. (-10) No hay comentarios
+2. No hay comentarios
+3. (-5) Error al generar la cadena de caracteres invertidos. (-10) No genera el nuevo archivo"
+FONSECA PRIETO,LUIS MIGUEL,0,0,0,0,
+FORERO ARIZA,MATEO JULIAN,30,0,0,30,"1. (-10) No hay comentarios
+2. No hace el punto
+3. No hace el punto"
+GOMEZ NORIEGA,DIEGO FERNANDO,40,20,40,100,Muy bien documentadas todas las funciones. Felicitaciones
+GONZALEZ ORTIZ,CRISTHIAN EDUARDO,33,15,25,73,"1. (-7) Comentarios no son suficientes
+2. Comentarios no son suficientes
+3. 3. (-10) No se calculan bien los palindromos. falta limpiar el string para poder compararlos(-5)."
+GUARIN ESTRADA,DANIEL FELIPE,30,15,0,45,"1. (-10) No hay comentarios
+2. No hay comentarios
+3. No hace el punto"
+LAGUNA GUANTIVA,MATEO,40,10,0,50,"2. No se crea la matriz en espiral
+3. No hace este punto"
+LINARES ORTEGON,DANIELA,40,0,25,65,"1. Especificar en que version de python se escribio la solucion
+2. Archivo esprial_contrareloj.py dificil de leer, visualizandolo en Jupyter no contiene la solucion
+3. (-10) No escribe el nuevo archivo. (-5) Hay un error al leer las palabras del archivo de texto"
+MEZA CALA,JUAN CAMILO,40,0,0,40,"2. No hace el punto
+3. No hace el punto"
+NOGUERA AGUIRRE,DAVID ALEJANDRO,25,5,25,55,"1. (-15) No se obtiene el resultado esperado. Intento acertado de validar posiciones en recorrrido
+2. No se obtiene el resultado esperado. Errores de indentacio
+3. (-5) Se esntrega archivo de extension .txt (-10) No se escribe el nuevo archivo"
+NUÑEZ CASTAÑO,JULIAN HUMBERTO,0,0,0,0,
+PARADA BELTRAN,JUAN SEBASTIAN,25,15,30,70,"1. (-10) No hay comentarios. (-5) Genera espiral en sentido contrario
+2. No hay comentarios
+3. (-10) No cuenta los palindromo"
+QUIJANO CASTRO,JUAN DIEGO,0,0,0,0,
+TORRES QUINTERO,MARIA FERNANDA,15,5,25,45,"1. (-15) Define explicitamente el contenido de cada posicion en la matriz. (-10) No hay comentarios
+2. Define explicitamnete el contenido de cada posicion en la matriz
+3. (-10) No se calculan bien los palindromos. (-5) El archivo de salida no se escribe bien"
+VARGAS LOPEZ,CRISTHIAN CAMILO,33,0,0,33,"1. (-7) Comentarios no son suficientes
+2. No hace el punto
+3. No hace el punto"
+ZULUAGA VELASQUEZ,NICOLAS,15,5,25,45,"1. (-15) Define explicitamente el contenido de cada posicion en la matriz. (-10) No hay comentarios
+2. Define explicitamente el contenido de cada posicion en la matriz. 
+3. 3. (-20) No se calculan bien los palindromos. (-5) El archivo de salida no se escribe bien"
