@@ -1,3 +1,18 @@
+# R History files
+.Rhistory
+.Rapp.history
+
+# R Example code in package build process
+*-Ex.R
+
+# R RStudio files
+.Rproj.user/
+
+# R produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+#Latex 
 ignore/*
 *.aux
 *.log
