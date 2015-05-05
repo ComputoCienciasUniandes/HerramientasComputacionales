@@ -1,4 +1,3 @@
-HerramientasComputacionales
-===========================
+# Herramientas Computacionales
 
-All the material for the Computational Tools course at Uniandes.
+Material del curso de Herramientas Computacionales de Uniandes
