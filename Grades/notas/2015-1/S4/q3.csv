@@ -1,0 +1,57 @@
+Apellidos,Nombres,"a (25)
+Generar Datos","b (25)
+Graficar","c (50)
+Implementar Biseccion",Total,Comentarios
+ACOSTA CASTRO,ANDRES FELIPE,,,,0,No entrega quiz
+ARDILA TAFURTH,GUSTAVO ADOLFO,,,,0,No entrega quiz
+ARIZA PARDO,ADRIANA,0,0,20,20,"a. No se generan datos para graficar
+b. No se grafica
+c. Se hacen validaciones relacionadas a la solucion, pero la funcion no esta bien implementada"
+ARIZA ROJAS,MARIA ALEJANDRA,10,0,20,30,"a. Se generan los datos con errores
+b. No se genera la grafica
+c. Se realiza asignacion del primer intervalo. Las validaciones no son completamente acertadas. Asignacion sucesiva de los limites del intervalo es acertada"
+CASTILLO MANRIQUE,ANDRES FELIPE,10,10,10,30,"a. Error al generar los datos: constantes no definidas
+b. Se intenta generar la grafica, pero tiene varios errores
+c. Solo se implementa definicionn de intervalo"
+CELY GOMEZ,DIEGO ALEJANDRO,,,,0,No entrega quiz
+ESCALLON BOTERO,DANIEL,10,0,20,30,"a. Funcion bien implementada, pero no se generan datos
+b. No se genera la grafica
+c. Se implementa definicionn del intervalo. Se implementa un metodo con similaridades a la biseccion, pero no es biseccion"
+FERNANDEZ MORENO,JUAN DAVID,10,0,10,20,"a. Datos generados con errores
+b. No se genera grafica
+c. Solo se implementa definicionn del primer intervalo"
+FONSECA PRIETO,LUIS MIGUEL,,,,0,No entrega quiz
+FORERO ARIZA,MATEO JULIAN,0,0,10,10,"a. No se generan datos
+b. No se genera grafica
+c. Solo se implementa definicionn de intervalo"
+GOMEZ NORIEGA,DIEGO FERNANDO,10,10,40,60,"a. Funcion bien implementada. Mal uso de linspace
+b. La grafica no se genera por error al llamar la funcion
+c. Se hacen las validaciones requeridas y asignacion de intervalos. "
+GONZALEZ ORTIZ,CRISTHIAN EDUARDO,25,25,20,70,c. Metodo de la biseccion mal implementado
+GUARIN ESTRADA,DANIEL FELIPE,5,0,10,15,"a. Funcion no esta bien implementada
+b. No se genera grafica
+c. Solo se genera definicionnn del primer intervalo"
+LAGUNA GUANTIVA,MATEO,10,0,30,40,"a. Funcion implementada con errores
+b. No se genera grafica
+c. Se define correctamente los limites del intervalo en las iteraciones, pero no se hacen las verificaciones adecuadamente"
+LINARES ORTEGON,DANIELA,10,0,10,20,"a. Funcion bien implementada pero no se generan datos
+b. No se genera la grafica
+c. Solo se implementa definicionnn de una intervalo"
+MEZA CALA,JUAN CAMILO,5,0,0,5,"a. Funcion implementada con errores
+b. No se genera grafica
+c. No se implementa biseccino"
+NOGUERA AGUIRRE,DAVID ALEJANDRO,0,0,10,10,"a. No se generan datos
+b. No se genera grafica
+c. Solo se implementa definicionn de intervalo"
+NUÑEZ CASTAÑO,JULIAN HUMBERTO,,,,0,No entrega quiz
+PARADA BELTRAN,JUAN SEBASTIAN,10,0,0,10,"a. Error al generar los datos
+b. No se genera grafica
+c. No se implementa metodo de la biseccion"
+QUIJANO CASTRO,JUAN DIEGO,,,,0,No entrega quiz
+TORRES QUINTERO,MARIA FERNANDA,10,0,10,20,"a. No se generan todos los datos
+b. No se genera la grafica
+c. Multiples errores de sintaxis. Solo se hace algunas asignaciones de los limites del intervalo"
+VARGAS LOPEZ,CRISTHIAN CAMILO,10,10,0,20,"a. Solo se generan los datos de la variable independiente
+b. Se intenta generar la grafica, pero hay errores
+c. No se implementa biseccion"
+ZULUAGA VELASQUEZ,NICOLAS,,,,0,No entrega quiz

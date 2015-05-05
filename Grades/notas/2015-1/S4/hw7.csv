@@ -1,0 +1,78 @@
+Apellidos,Nombres,a (18),b (18),c (18),d (18),e (10),f (18),"Bono
+g (15)","Tiempo [ms]
+Buscando que la medicion del tiempo sea justa, solo se mide el tiempo para las funciones que hace validacion de no dividir entre 0 + 0j",Total,Comentarios
+ACOSTA CASTRO,ANDRES FELIPE,,,,,,,,,0,No entrega tarea
+ARDILA TAFURTH,GUSTAVO ADOLFO,,,,,,,,,0,No entrega tarea
+ARIZA PARDO,ADRIANA,18,12,18,16,7,15,5,-,85,"(-3) importa numpy y matplotlib dos veces
+(-3) No adjunta las imagenes
+b No se tiene en cuenta la condicion de dividir por 0+0j
+c. No usa vectorize
+d. El elemento 199,199 no es 1-1j
+e. La imagen no queda guardada en el png
+f. La imagen no queda guardad en el png
+g. No se tiene en cuenta divsion por 0+0j. Doiminio en i esta al reves"
+ARIZA ROJAS,MARIA ALEJANDRA,18,15,18,18,10,18,8,187,112,"(-3) No adjunta las imagenes
+b. El algoritmo implementado modifica ligeramente la idea de Newton-Raphson
+g. Dominio i esta al reves
+Bono +10 Felicitaciones!"
+CASTILLO MANRIQUE,ANDRES FELIPE,18,12,10,18,7,10,5,,77,"(-3) importa numpy y matplotlib dos veces
+b No se tiene en cuenta la condicion de dividir por 0+0j
+c. Error 'z' is not defined
+e. La imagen no queda guardada en el png
+f. Error 'zf' is not defined(-5) - La imagen no queda guardad en el png
+g. No se tiene en cuenta divsion por 0+0j. Doiminio en i esta al reves"
+CELY GOMEZ,DIEGO ALEJANDRO,,,,,,,,,0,No entrega tarea
+ESCALLON BOTERO,DANIEL,18,12,18,18,7,18,5,,93,"(-3) importa numpy y matplotlib dos veces
+b No se tiene en cuenta la condicion de dividir por 0+0j
+e. No se guarda la imagen
+g.No se tiene en cuenta division por 0+0j.  Dominio i esta al reves"
+FERNANDEZ MORENO,JUAN DAVID,18,12,18,18,10,18,5,,96,"(-3) importa numpy y matplotlib dos veces
+b. No se tiene en ceunta la condicion de dividir por 0+0j
+g.No se tiene en cuenta division por 0+0j.  Dominio i esta al reves"
+FONSECA PRIETO,LUIS MIGUEL,,,,,,,,,0,No entrega tarea
+FORERO ARIZA,MATEO JULIAN,18,12,18,18,7,15,0,,85,"(-3) No adjunta las imagenes
+b. El algoritmo implementado modifica ligeramente la idea de Newton-Raphson. TypeError: unsupported operand type(s) for /: 'NoneType' and 'NoneType'
+e. No se genera la imagen
+f. No se genera la imagen"
+GOMEZ NORIEGA,DIEGO FERNANDO,18,18,18,18,10,18,15,8810,115,Tiempo - Tiempo muy largo porque usa ciclos en lugar de operaciones vectorizadas
+GONZALEZ ORTIZ,CRISTHIAN EDUARDO,18,18,18,18,7,18,5,5020,99,"(-3) Importa numpy y matplotlib dos veces
+e. La imagen queda girada por el orden de los complejos en el arreglo
+g. La imagen queda girada por el orden de los complejos en el arreglo
+Tiempo - Medicion de tiempo no converge porque se reotornan strings"
+GUARIN ESTRADA,DANIEL FELIPE,18,12,18,18,7,15,5,,90,"(-3) Importa numpy y matplotlib dos veces
+b. No se tiene en cuenta la condicion de dividir por 0+0j
+e. La imagen no se guarda en el png
+f. La imagen no queda guardad en el png
+g. No se tiene en cuenta divsion por 0+0j. Doiminio en i esta al reves"
+LAGUNA GUANTIVA,MATEO,18,15,18,18,10,18,0,192,117,"b. El algoritmo implementado modifica ligeramente la idea de Newton-Raphson
+Bono +10 Felicitaciones!"
+LINARES ORTEGON,DANIELA,18,18,18,18,10,18,15,3950,112,(-3) importa numpy y matplotlib dos veces
+MEZA CALA,JUAN CAMILO,,,,,,,,,0,"Error al abrir el cuaderno
+ipython 3: 'Bad request'
+nbviewer: Error reading JSON notebook
+Porfavor escribame un correo para saber como abrir el cuaderno"
+NOGUERA AGUIRRE,DAVID ALEJANDRO,18,12,15,18,7,15,,,79,"(-3) No se adjuntan las imagenes
+(-3) Importa numpy varias veces
+b. No se tiene en cuenta la condicion de dividir por 0+0j
+c. Error al usar vectorize
+e. No se genera la imagen
+f. No se genera la imagen"
+NUÑEZ CASTAÑO,JULIAN HUMBERTO,,,,,,,,,0,No entrega tarea
+PARADA BELTRAN,JUAN SEBASTIAN,18,18,18,15,10,15,10,4710,104,"d. Para calculos numericos es mejor usar arrays de numpy
+f.  Para calculos numericos es mejor usar arrays de numpy
+g. Para calculos numericos es mejor usar arrays de numpy"
+QUIJANO CASTRO,JUAN DIEGO,,,,,,,,,0,No entrega tarea
+TORRES QUINTERO,MARIA FERNANDA,18,12,18,15,10,15,10,,98,"b. No se tiene en cuenta la condicion de dividir por 0+0j
+d. Para calculos numericos es mejor usar arrays de numpy
+f. Para calculos numericos es mejor usar arrays de numpy
+g. Para calculos numericos es mejor usar arrays de numpy"
+VARGAS LOPEZ,CRISTHIAN CAMILO,15,12,18,18,7,0,,,64,"(-3) No adjunta las imagenes
+(-3) Importa numpy y matplotlib dos veces
+a. El resultado de la derivada no genera la resolucion requerida
+b. No se tiene en cuenta la division por 0+0j
+e. La imagen no queda guardad en el png
+f,g. No hace el punto"
+ZULUAGA VELASQUEZ,NICOLAS,18,12,18,15,10,18,,,85,"(-3) No adjunta las imagenes
+(-3) Importa numpy y matplotlib dos veces
+b. No se tiene en cuenta la division por 0+0j. Argumento epsilon no se usa en la funcion
+d. Para calculos numericos es mejor usar arrays de numpy"
