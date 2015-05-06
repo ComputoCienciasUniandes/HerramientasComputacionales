@@ -6,14 +6,14 @@
 ,"CALDERON ZAMUDIO, JUAN C.",,,,,,,,,,,,,,,,,,,,0,
 ,"GALLEGO GALLON, JUAN C.",,,,,,,,,,,,,,,,,,,,0,
 ,"GARZON MORA, SOFIA",5,10,4,4,4,4,0,0,4,7,7,7,7,7,7,7,7,8,8,107,1a. Solo utiliza numpy para generar la matriz de ceros. 2e. No utiliza plot sino scatter. 2f. No utiliza nunca ms para definir el tamaño de los puntos 
-,"GIRALDO LOZANO, JUAN C.",,,,,,,,,,,,,,,,,,,,0,
-,"GOODING RIOS, NICHOLAS",,,,,,,,,,,,,,,,,,,,0,
+,"GIRALDO LOZANO, JUAN C.",7,10,4,4,4,4,0,0,4,7,7,7,7,7,7,7,7,8,8,109,"1a. No maneja arrays, hace solo listas bidimensionales. 2E2f. Utiliza scatter en vez de plot. "
+,"GOODING RIOS, NICHOLAS",7,10,4,4,4,4,0,0,4,7,7,7,7,7,7,7,7,8,8,109,"1a. No maneja arrays, hace solo listas bidimensionales. 2E2f. Utiliza scatter en vez de plot.  Tarea muy similar a la de juan camilo giraldo. "
 ,"GRACIA SUAREZ, MARIA D.",,,,,,,,,,,,,,,,,,,,0,
 ,"GUARIN ROJAS, DAVID G.",7,10,4,4,4,4,1,0,4,7,7,4,7,7,7,7,7,8,8,107,"2e. Utiliza scatter en vez de plot. 2F. No usa nunca ms para ajustar el tamaño de los puntos. 3C. No fija el tamaño de la letra para toda la grafica, lo hace en cada apartado en vez de hacerlo general. "
-,"HERNANDEZ CHARPAK, YVAN D.",,,,,,,,,,,,,,,,,,,,0,
+,"HERNANDEZ CHARPAK, YVAN D.",7,10,4,4,4,4,4,4,4,7,7,7,6,7,7,7,7,8,8,116,1a. No usa arrays sino listas. 3d. Conecta barras de error y las coloca mal en la legenda. 
 ,"HERNANDEZ MACHADO, CARLOS J.",,,,,,,,,,,,,,,,,,,,0,
 ,"LOZADA CORTES, ALEJANDRO",10,10,4,0,4,4,4,4,4,7,7,7,7,7,7,7,7,8,8,116,2b.No usa csv reader. 
-,"MARTINEZ CARDENAS, TANIA C.",,,,,,,,,,,,,,,,,,,,0,
+,"MARTINEZ CARDENAS, TANIA C.",10,10,4,0,4,4,4,4,0,7,7,5,0,7,7,7,7,8,0,95,2B. No carga con cvs reader. 2g. No coloca la instruccion para la impresion de texto. 3c. Solo fija el tamño para los ejes pero no para la grafica en general. 3j. No guarda la imagen en un pdf. 
 ,"NUÑEZ BARRERO, JULIAN D.",,,,,,,,,,,,,,,,,,,,0,
 ,"OCHOA TAMAYO, DANIEL E.",10,10,4,2,4,4,1,0,4,7,7,7,7,7,7,7,7,8,8,111,"2b. Utiliza cvs reader pero luego utiliza genfromtext para la informacion que realmente se pide. 2e. Utiliza scatter en vez de plot. 2F. No usa nunca ms para ajustar el tamaño de los puntos. 3C. No fija el tamaño de la letra para toda la grafica, lo hace en cada apartado en vez de hacerlo general. "
 ,"RAMIREZ MILANO, DIEGO L.",10,10,4,4,4,4,2,0,4,7,7,7,7,7,7,7,7,8,8,114,2e. Utiliza scatter en vez de plot. 2F. No usa nunca ms para ajustar el tamaño de los puntos.
