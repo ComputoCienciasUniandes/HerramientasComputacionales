@@ -1,0 +1,25 @@
+Apellidos,Nombres,P1.1 (10),P1.2 (15),P1.3 (10),P1.4 (15),P2.1 (15),P2.2 (5),P2.3 (30),Total,Comentarios
+AGUDELO MOTTA,LAURA CATALINA,10,15,8,12,15,5,15,80,"Estas calculando una composición de probabilidades, mejorar los comentarios para los analísis."
+ARENAS PARDO,CAMILO ANDRES,10,15,10,12,15,5,25,92,"Para las celdas de texto, marcarlas como tal, evitar usar la funcion print"
+BARRERA CASTILLO,MONICA ALEJANDRA,,,,,,,,0,
+BARRERO FLORES,JUAN PABLO,10,15,10,15,15,5,30,100,Calificado en Persona
+BLANCO BOHORQUEZ,LUIS ARMANDO,10,15,10,15,15,5,30,100,
+CALIFANO TRUJILLO,SIMONE,7,10,8,12,15,5,10,67,
+CRISTANCHO GONZALEZ,EDGAR DAVID,10,15,10,12,15,5,25,92,"Para las celdas de texto, marcarlas como tal, evitar usar la funcion print"
+DIAZ BOADA,JUAN SEBASTIAN,,,,,,,,0,
+GARCIA PEREZ,JORGE ALBERTO,10,15,10,15,15,5,30,100,"Hay algo extraño en la forma que toma la Gaussiana en el inciso 2, la verdad no pude localizar la causa del error, muy buen analisís. No hay mucho que decir, muy buen trabajo, Buen uso de las librerias externas."
+GOMEZ ALVAREZ,MARIA FERNANDA,,,,,,,,0,
+GOMEZ MELO,SANTIAGO,,,,,,,,0,
+MADARIAGA CUBIDES,MARIA PAULA,7,10,8,12,15,5,10,67,"Archivo Corrupto, mal enviado."
+MELENDEZ GRANADOS,JUAN SEBASTIAN,,,,,,,,0,
+MORA MONTES,ADRIANA PATRICIA,8,15,10,15,12,5,28,93,
+MURAD RODRIGUEZ,CESAR AUGUSTO,10,15,8,12,15,5,15,80,"Estas calculando una composición de probabilidades, mejorar los comentarios para los analísis."
+OSORIO LEIVA,GERMAN EDUARDO,10,15,10,15,15,5,30,100,
+PULIDO FERNANDEZ,NATALY,7,10,10,10,15,5,20,77,"No se realiza analísis con los argumentos de la carrera, tener cuidado con la funcion np.isnan(x), ya que para ciertos valores que son “analiticos”, nan puede devolver true."
+RODRIGUEZ BEJARANO,SERGIO ALEJANDRO,,,,,,,,0,
+RODRIGUEZ CORCHO,ANDRES FELIPE,7,10,10,10,15,5,20,77,"No se realiza analísis con los argumentos de la carrera, tener cuidado con la funcion np.isnan(x), ya que para ciertos valores que son “analiticos”, nan puede devolver true."
+ROJAS APARICIO,MIGUEL ANGEL,8,15,10,15,12,5,28,93,
+RUIZ NAVARRO,MATEO,,,,,,,,0,
+SALAZAR SANDINO,JUAN NICOLAS,10,15,10,15,15,5,30,100,
+TORRES GONZALEZ,JUAN FELIPE,10,15,10,12,15,5,30,97,
+VILLEGAS IBAGON,JOSE AUGUSTO,10,15,10,12,15,5,30,97,
