@@ -1,0 +1,25 @@
+Apellidos ,Nombres,a. (18),b. (18),c. (18),d. (18),e. (10),f. (18),g. (18),Total,Comentarios
+AGUDELO MOTTA,LAURA CATALINA,,,,,,,,0,
+ARENAS PARDO,CAMILO ANDRES,18,18,18,6,10,18,,88,"Tu programa solo revisa la parte imaginaria de 0i, en general deberías de haber específicado para los casos en que la parte real es bien chiquita. Todo bien, debiste de hacer el bono."
+BARRERA CASTILLO,MONICA ALEJANDRA,18,18,18,18,18,18,18,126,"No hay mucho que decir, pero porque llamaste una función aplNR200(), protip: si algo es una función que no requiere argumentos,es un statement."
+BARRERO FLORES,JUAN PABLO,,,,,,,,0,
+BLANCO BOHORQUEZ,LUIS ARMANDO,18,18,18,6,10,18,,88,"No era necesario de graficar la función de una sola variable. Tu codigo duro mas de 10 minutos en correr, te recomendaria revisar desde la parte en que defines “coory” y rescribirla de manera para que no tome tanto tiempo en revisar todos los 2000 datos."
+CALIFANO TRUJILLO,SIMONE,18,18,18,6,10,18,,88,"No era necesario de graficar la función de una sola variable. Tu codigo duro mas de 10 minutos en correr, te recomendaria revisar desde la parte en que defines “coory” y rescribirla de manera para que no tome tanto tiempo en revisar todos los 2000 datos."
+CRISTANCHO GONZALEZ,EDGAR DAVID,18,18,18,6,12,6,,78,"Hay varias cosas que deberían arreglarse, un jueves que tengas libre por favor ir a compufisica en mis horarios de oficina y realizamos bien este taller."
+DIAZ BOADA,JUAN SEBASTIAN,18,18,18,18,10,18,,100,"Ya que decidieron que iban a hacer todo en python y o en ipython, todos mis comentarios se pueden reducir a que lean: https://www.python.org/dev/peps/pep-0008/"
+GARCIA PEREZ,JORGE ALBERTO,18,18,18,18,18,18,18,126,"En ipython existe el paquete de matematicas simbolicas, a futuro utilizar ese paquete para calcular derivadas. NO hay mucho que mencionar, hay ciertas partes que podrias mejorar utilizando el flag de vectorizacion pero eso hace parte de cosas a futro. Bien hecho! (Mas rapido)"
+GOMEZ ALVAREZ,MARIA FERNANDA,18,18,18,0,0,0,0,54,"Revisar sintaxis: “import numpy asnp”, la ultima parte debería tener “as np”, faltaron varios puntos, pero los hechos, estaban muy bien hechos."
+GOMEZ MELO,SANTIAGO,,,,,,,,0,
+MADARIAGA CUBIDES,MARIA PAULA,,,,,,,,0,
+MELENDEZ GRANADOS,JUAN SEBASTIAN,,,,,,,,0,
+MORA MONTES,ADRIANA PATRICIA,,,,,,,,0,
+MURAD RODRIGUEZ,CESAR AUGUSTO,18,18,18,18,18,18,,108,"Todo esta bien, tal vez itentar el bono para la proxima, la unica observación es de tener cuidado con el valor (algo chiquito) + 0i."
+OSORIO LEIVA,GERMAN EDUARDO,18,18,6,6,18,18,6,90,"Para los puntos c y d creo que debias de antemano haber utilizado vectorizado la fnción, es por ello que mucho de los errores que te aparecen, son de mala definción (llamar una funcion de un punto sobre una matriz), mejorar como llamar funciones (e.g Newton raphson no es calculos)"
+PULIDO FERNANDEZ,NATALY,,,,,,,,0,
+RODRIGUEZ BEJARANO,SERGIO ALEJANDRO,18,18,18,18,10,18,,100,"Te recomendaría explicar mejor los comentarios, y mejorar los nombres de las variables, en general seguimos la notación Variable(Args)."
+RODRIGUEZ CORCHO,ANDRES FELIPE,18,18,18,18,18,18,18,126,"En ipython se puede utilizar el paquete de matematicas simbolicas, para la proxima utilizar ese paquete para calcular derivadas, tu Newton Raphson no tiene en cuenta que podría occurir el valor 0i, lo mismo tener cuidado con defractal(z0). Tener cuidado al utilizar la funcion vecorize, de resto muy bien + mas el bono!"
+ROJAS APARICIO,MIGUEL ANGEL,18,18,18,18,10,18,18,118,Muy bien hecho! Lamentablemente no fuiste el mas rapido.. Para futuro revisa maneras de revisar mas rapido arreglos y rapidez de funciones sobre distintos datatypes.
+RUIZ NAVARRO,MATEO,,,,,,,,0,
+SALAZAR SANDINO,JUAN NICOLAS,,,,,,,,0,
+TORRES GONZALEZ,JUAN FELIPE,18,18,18,18,10,18,,100,"Ya que decidieron que iban a hacer todo en python y o en ipython, todos mis comentarios se pueden reducir a que lean: https://www.python.org/dev/peps/pep-0008/"
+VILLEGAS IBAGON,JOSE AUGUSTO,18,18,18,6,10,18,,88,"Existe un conflicto de definición cuando creas el arreglo de tamaño de 200 x 200, tecnicamente tambien debería fallar en el f. Pero, no te quito los puntos del f, cuando la consola te mencione el error 'clogged variables' es que varios paquetes importan una variable con el mismo nombre y ipython va utilizar la ultima definicion de esa variable"
