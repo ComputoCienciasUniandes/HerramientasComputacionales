@@ -1,0 +1,41 @@
+Apellidos,Nombres,a. (25),b. (25),c. (25),d. (25),Total (100),Comentarios
+ACOSTA CASTRO,ANDRES FELIPE,-,-,-,-,0,No entrega tarea
+ARDILA TAFURTH,GUSTAVO ADOLFO,-,-,-,-,0,
+ARIZA PARDO,ADRIANA,20,10,20,15,65,Tarea con Linares
+ARIZA ROJAS,MARIA ALEJANDRA,25,25,25,22,97,d. Falta la leyenda en las graficas (-3)
+CASTILLO MANRIQUE,ANDRES FELIPE,15,10,20,15,60,Tarea con Torres
+CELY GOMEZ,DIEGO ALEJANDRO,-,-,-,-,0,No entrega tarea
+ESCALLON BOTERO,DANIEL,15,20,25,15,65,Tarea con Guarin
+FERNANDEZ MORENO,JUAN DAVID,15,20,25,15,65,Tarea con Guarin
+FONSECA PRIETO,LUIS MIGUEL,-,-,-,-,0,No entrega tarea
+FORERO ARIZA,MATEO JULIAN,20,20,20,15,75,"a. 351 caracteres (-5)
+b. Intenta correr el codigo sin tener los archivos, lo que genera el error No such file or directory: 'hs_alt_CHM1_1.1_chr1.fa'. (-10). El resto del codigo funciona bien una vez que se tienen los archivos
+c. El codigo es correcto haciendo caso omiso a los errores anteriores
+d. Propone un codigo para generar los histogramas pero genera error al ejecutarlo por los errores anteriores"
+GOMEZ NORIEGA,DIEGO FERNANDO,25,25,25,22,97,Tarea con Ariza R.
+GONZALEZ ORTIZ,CRISTHIAN EDUARDO,25,25,25,25,100,Tarea con Vargas
+GUARIN ESTRADA,DANIEL FELIPE,15,20,25,15,65,"-10 No hay outputs previos
+a. 614 caracteres (-15). Para que el script sea de menos de 300 caracters se esperaba que todos los archivos se descargaran con el mismo ciclo.
+b. Tiene en cuenta los datos del encabezado. (-5)
+d. Propone un codigo para generar los histogramas pero se evidencia que la celda no hay sido ejecutada anteriormente"
+LAGUNA GUANTIVA,MATEO,20,20,20,15,75,Tarea con Forero
+LINARES ORTEGON,DANIELA,20,10,20,15,65,"a. 355 Caracteres (-5)
+b. (-5) Error: can't assign to operator. Error al intentar generar multiples variables en un recorrido. No se logra leer los archivos. (-10) Solo se leen los primeros 71 caracteres de los datos, no se leen los archivos por lineas.
+c. El codigo es correcto haciendo caso omiso a los errores anteriores (-5)
+d. Propone un codigo para generar los histogramas pero no lo ejecuta y no se muestran los histogramas (-10)"
+MEZA CALA,JUAN CAMILO,15,20,20,15,70,Tarea con Zuluaga
+NOGUERA AGUIRRE,DAVID ALEJANDRO,20,10,20,15,65,Tarea con Linares
+NUÑEZ CASTAÑO,JULIAN HUMBERTO,-,-,-,-,0,No entrega tarea
+PARADA BELTRAN,JUAN SEBASTIAN,15,20,25,15,75,"a. Error: Bad for loop variable
+b. El codigo esta bien pero no hay output previo de este punto (-5)
+d. Las graficas mostradas no corresponden a las del enunciado"
+QUIJANO CASTRO,JUAN DIEGO,-,-,-,-,0,No entrega tarea
+TORRES QUINTERO,MARIA FERNANDA,15,10,20,15,60,"a. 604 caracteres (-15). Para que el script sea de menos de 300 caracters se esperaba que todos los archivos se descargaran con el mismo ciclo.
+b. Error de sintaxis al intentar abrir los archivos. Confunde sintaxis de bash con python (-5). No se lee el archivo por lineas, solo se intena lerr los primero 71 caracteres (-10)
+c. El codigo es correcto haciendo caso omiso a los errores anteriores
+d. Propone un codigo para generar los histogramas pero los errores anteriores no permiten generar las graficas ya que los datos no han sido generados efectivamente."
+VARGAS LOPEZ,CRISTHIAN CAMILO,25,25,25,25,100,"Muy bien, felicitaciones!"
+ZULUAGA VELASQUEZ,NICOLAS,15,20,20,15,70,"a. 463 Caracteres (-10). Se generan errores porque se llaman algunas direcciones que no existen (-5)
+b. No hay output previo de este punto (-5)
+c. Error en el tipo de objetos, las cuentas aparecen en 'nan'
+d. Propone el codigo para generar los histogramas pero no se ejecuta efectivamente por los errores anteriores"
