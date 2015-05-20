@@ -1,0 +1,25 @@
+Apellidos,Nombres,1a (10),1b (10),2a (4),2b (4),2c (4),2d (4),2e (4),2f (4),2g (4),3a (5),3b (5),3c (5),3d (5),3e (5),3f (5),3g (5),3h (5),3i (6),3j (6),Total,Comentarios
+AGUDELO MOTTA,LAURA CATALINA,10,10,4,4,4,2,2,4,4,5,5,3,5,5,5,5,5,5,6,93,"El compilador da 6 errores, en especial: UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 4: ordinal not in range(128),y lo que pasa es que debido a la codificacion del archivo csv. Para futuro es mucho mas recomendable utilizar iPython"
+ARENAS PARDO,CAMILO ANDRES,10,10,4,4,2,2,2,2,4,5,5,5,5,5,5,5,5,6,6,92,"Tienes incompleto el segundo punto, la grafica dad no corresponde a la pedida. Revisar como manejar la funcion plot."
+BARRERA CASTILLO,MONICA ALEJANDRA,10,10,4,4,4,4,2,2,3,5,5,5,5,5,5,5,5,6,6,95,"Error en el segundo punto, el compilador menciona que estan mal manejados los unicodes, cuando puedas puedes ir a mis horarios de oficina y te muestro como pasar bien las cosas a los plots."
+BARRERO FLORES,JUAN PABLO,10,10,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,100,"En los archivos generados por los programas que escribas es preferible con no utilizes tildes, ya que existen varios sistemas operativos que no soportan lectura y escritura de archivos con tildes (en compufísica occure esto). Excelente trabajo"
+BLANCO BOHORQUEZ,LUIS ARMANDO,10,10,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,100,"Recuerda colocar el comentario de enconding a todos tus projectos que contegan tildes o eñes, lo digo ya que el segundo y el primer punto el compilador daba error por encontrar simbolos que no estan en ASCII. Me gusto mucho que hubieras colocado los titulos en LaTeX para el segundo punto. Muy bien hecho todos los ejercicios."
+CALIFANO TRUJILLO,SIMONE,10,10,4,4,4,2,2,2,2,5,3,3,3,5,5,5,3,6,0,78,"No hay mucho que decir, el segundo punto faltaron hacer label para varias estrellas, y por ultimo el tercer punto faltaron los dos modelos y plotearlos."
+CRISTANCHO GONZALEZ,EDGAR DAVID,,,,,,,,,,,,,,,,,,,,0,
+DIAZ BOADA,JUAN SEBASTIAN,10,10,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,100,Muy bien hecho! Todo esta perfecto!
+GARCIA PEREZ,JORGE ALBERTO,10,10,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,100,"No hay mucho que mencionar, excelente trabajo, esto podría ser de ayuda a futuro (guia de estilo de python) https://www.python.org/dev/peps/pep-0008/"
+GOMEZ ALVAREZ,MARIA FERNANDA,7,10,4,4,4,4,2,2,2,5,5,3,5,5,3,3,3,6,6,83,"Para futuro y tareas de esta complejidad, te recomiendo mucho utilizar mucho iPython, muy buen trabajo considerando que todo lo hiciste en scripts de Python. Para el primer punto: “get_ipython().magic(u'pylab inline')” esta linea nunca la hemos utilizado y depende mucho de otras librerias."
+GOMEZ MELO,SANTIAGO,,,,,,,,,,,,,,,,,,,,0,
+MADARIAGA CUBIDES,MARIA PAULA,10,10,4,4,4,2,2,2,2,5,3,3,3,5,5,5,3,6,0,78,"No hay mucho que decir, el segundo punto faltaron hacer label para varias estrellas, y por ultimo el tercer punto faltaron los dos modelos y plotearlos."
+MELENDEZ GRANADOS,JUAN SEBASTIAN,,,,,,,,,,,,,,,,,,,,0,
+MORA MONTES,ADRIANA PATRICIA,10,10,4,4,4,4,4,4,4,7,7,7,3.5,5,5,3,5,0,6,96.5,No colocas leyendas ni el titulo en el punto 3 de la tarea. De resto un muy buen trabajo.
+MURAD RODRIGUEZ,CESAR AUGUSTO,10,10,4,4,4,4,4,2,2,5,5,5,5,5,5,3,2,6,6,91,"En los xlabel and y lables, no los colocas bien en LaTeX, en el segundo punto la transparencia de tus puntos es aún mas alta"
+OSORIO LEIVA,GERMAN EDUARDO,10,10,4,4,2,2,4,1,2,5,5,5,3,2,2,5,2,6,6,80,Problema con corrupción de archivos. Calificado en persona.
+PULIDO FERNANDEZ,NATALY,10,10,4,4,2,2,4,1,2,5,5,5,3,2,2,5,2,6,6,80,Incompleto el segundo y tercer punto. Adjuntar los archivos que utilizes en la misma carpeta.
+RODRIGUEZ BEJARANO,SERGIO ALEJANDRO,10,10,4,2,4,2,2,4,4,5,5,5,5,5,5,5,5,6,6,94,"Excelente trabajo, por alguna razón cuando lees el archivo csv, faltan estrellas en el plot, tratar de revisar el comando de lectura y la opcion -rb al leer."
+RODRIGUEZ CORCHO,ANDRES FELIPE,10,10,4,4,2,2,2,2,4,5,5,5,5,4,5,5,4,5,4,87,"Segundo punto fataban cosas por hacer, en el tercero tenias un error en llamar la función correcta. De reso buen trabajo"
+ROJAS APARICIO,MIGUEL ANGEL,10,10,4,4,4,4,4,4,4,5,5,5,5,5,5,4,5,6,6,99,"Typo (Error) en el formato de Latex, que imprime mal uno de los labels. Bien hecho los dos primeros puntos."
+RUIZ NAVARRO,MATEO,,,,,,,,,,,,,,,,,,,,0,
+SALAZAR SANDINO,JUAN NICOLAS,10,10,4,4,2,4,4,4,2,5,5,5,3,5,5,5,3,5,5,90,"Hay varios errores de identación que tuve que corregir para que el codigo corriera, el labeling del segundo punto tenía un error de LaTex"
+TORRES GONZALEZ,JUAN FELIPE,10,10,4,4,2,2,2,4,4,3,5,3,5,5,5,5,5,5,6,89,"El compilador da 6 errores, en especial: UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 4: ordinal not in range(128),y lo que pasa es que debido a la codificacion del archivo csv. Para futuro es mucho mas recomendable utilizar iPython"
+VILLEGAS IBAGON,JOSE AUGUSTO,10,10,4,4,2,2,2,2,4,5,5,5,3,3,3,3,5,6,3,81,"Faltan leyendas, incompleto la grafica de esterllas, para el ultimo queda faltante dos modelos, y hacer la grafica completa"
