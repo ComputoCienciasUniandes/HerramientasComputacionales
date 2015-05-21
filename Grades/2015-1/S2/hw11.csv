@@ -1,0 +1,24 @@
+,,,,,
+,Nombre: ,1a,1b,Total,Comentarios
+,"ARDILA SUAREZ, SEBASTIAN",45,0,45,"1A. No guarda informacion de la distancia total recorrida por los autos en cada iteracion.Ademas, solo 1B. No lo hace. "
+,"BURBANO ALDANA, IVAN M.",60,20,80,"1A. En el tercer paso de las itreaciones, aplica mal el avance segun la probabilidad. 1B. No grafica, y datos maximos incoherentes, dado almacenamiento de posiciones en el recorrido en el timpo"
+,"BURITICA BUITRAGO, CARLOS F.",,,0,
+,"CALDERON ZAMUDIO, JUAN C.",,,0,
+,"GALLEGO GALLON, JUAN C.",,,0,
+,"GARZON MORA, SOFIA",55,10,65,"1A No hay grafica de una simulacion, es un codigo un poco lento, imprime el modelo para 180 autos, mas no como se pide en el enunciado con 150. 1B. No almacenan bien posiciones finales, la grafica generada no presetna las 500 iteraciones, el codigo colapsa para las 500. "
+,"GIRALDO LOZANO, JUAN C.",70,28,98,"1B No encuentra el numero maximo de eficiencia, ¿ Es exacemente 100? "
+,"GOODING RIOS, NICHOLAS",70,28,98,"1B No encuentra el numero maximo de eficiencia, ¿ Es exacemente 100? "
+,"GRACIA SUAREZ, MARIA D.",,,0,
+,"GUARIN ROJAS, DAVID G.",58,5,63,"1A. Mal construccion de la matrix iterations. Y se utiliza en los recorridos fuera de indice 1B. Almacena datos mal en el contador y solo prueba para mayores que 50, no hay analisis. "
+,"HERNANDEZ CHARPAK, YVAN D.",55,10,65,"1A No hay grafica de una simulacion, es un codigo un poco lento, imprime el modelo para 180 autos, mas no como se pide en el enunciado con 150. 1B. No almacenan bien posiciones finales, la grafica generada no presetna las 500 iteraciones, el codigo colapsa para las 500. "
+,"HERNANDEZ MACHADO, CARLOS J.",,,0,
+,"LOZADA CORTES, ALEJANDRO",55,0,55,"1A. No define L, que debe cambiarse por 1000. No genera listas con posiciones acumuladas de cada auto tras cada iteracion.  1B. No lo hace "
+,"MARTINEZ CARDENAS, TANIA C.",45,0,45,"1A. No guarda informacion de la distancia total recorrida por los autos en cada iteracion.Ademas, solo 1B. No lo hace. "
+,"NUÑEZ BARRERO, JULIAN D.",,,0,
+,"OCHOA TAMAYO, DANIEL E.",70,28,98,1B. El maximo se puede encontrar explicitamente y no lo hace. 
+,"RAMIREZ MILANO, DIEGO L.",35,0,35,"1A. NO define todas las reglas necesarias para la simulacion, al generar la matrix 1000x1000 cuenta mal indices, no genera la grafica."
+,"RANGEL JURADO, NICOLAS",58,5,63,"1A. Mal construccion de la matrix iterations. Y se utiliza en los recorridos fuera de indice 1B. Almacena datos mal en el contador y solo prueba para mayores que 50, no hay analisis. "
+,"RODRIGUEZ CARDONA, JULIAN L.",55,0,55,"1A. No define L, que debe cambiarse por 1000. No genera listas con posiciones acumuladas de cada auto tras cada iteracion.  1B. No lo hace "
+,"RODRIGUEZ PARRA, JUAN P.",,,0,
+,"RUBIANO RODRIGUEZ, CAROLINA",,,0,
+,"ZAMBRANO SIERRA, DIEGO A.",35,0,35,"1A. NO define todas las reglas necesarias para la simulacion, al generar la matrix 1000x1000 cuenta mal indices, no genera la grafica."
