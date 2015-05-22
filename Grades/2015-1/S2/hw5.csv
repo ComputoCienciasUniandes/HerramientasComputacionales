@@ -5,8 +5,8 @@ Lozada-Rodriguez,3,6,8,10,10,40,20,0,97,"1a, No baraja bien, puede barajas dos v
 "Giraldo-Goding
 ",3,6,8,10,10,40,20,15,112,1a. Shuffle obvio lo hace bien! Y esta muy bien que busquen estas funciones. Pero hubiera sido mas chevere si uds aprenden a hacer el shufle
 "Martinez-Rubiano
-",,,,,,,,,0,Tiene formato Json 4 . Imposible de interpretar. 
-Ochoa-Vargas,,,,,,,,,0,Interpretar con Python 3
+",6,6,8,7,5,27,20,0,79,1e. No returna los totales correctamente y por tanto no decide ganador. 2.El programa no decide quien gana la partida y tampoco omite pedir cartas si la suma es mayour a 17 . 
+Ochoa-Vargas,6,6,8,10,10,40,20,20,120,
 "Guarin-Rangel
 ",6,6,8,10,10,27,16,0,83,"1. Muy creativa la forma de barajar. La consulta del jugador repite cosas innecesaias .2.El computador no juega autmaticamente, aunque el jugador coja 4 cartas el computador siempre tiene 2 cartas. 3.El juego no es interactivo, no se reinician las varialbes luego de una partida. Toca reiniciar el kernel del notebook. "
 Ramirez-Zambrano,5,6,8,10,10,40,20,0,99,1a. Al momento de generar la baraja agrega un cero innecesario. 

@@ -1,0 +1,25 @@
+,,,,,,,,,
+,Nombre: ,1a(10),1b(20),1c(20),1d(5),1e(25),1f(20),Total,Comentarios
+,"ARDILA SUAREZ, SEBASTIAN",8,17,20,5,18,18,86,"1A.1B. No define nunca dd, toco construirlo para poder evaluar los siguientes elementos.  1E. Encuentra mal la raices del ajuste logistico. 1F. Define mal el llenado de datos para newton-rhapson. "
+,"BURBANO ALDANA, IVAN M.",10,20,20,5,20,15,90,"1E. Genera mal la lectura de datos acomulada y el ajuste logistica, tiende a cero. 1F. Define newton-rhapson pero genera conflicots con los datos del numeral anterior. "
+,"BURITICA BUITRAGO, CARLOS F.",,,,,,,0,
+,"CALDERON ZAMUDIO, JUAN C.",,,,,,,0,
+,"GALLEGO GALLON, JUAN C.",,,,,,,0,
+,"GARZON MORA, SOFIA",10,20,20,5,25,0,80,1F. No hace nada de newton-rhapson. 
+,"GIRALDO LOZANO, JUAN C.",10,15,20,0,15,0,60,"1b. No discute la regresion lineal 1d . No dice las razones para saber cual estado es mejor. 1e. Consrtuye la lista con enteros, pero la funcion que define trabajo con float. 1d. No hace el punto. "
+,"GOODING RIOS, NICHOLAS",10,18,19,0,25,10,82,1b No discute resultados. 1C . No describe resultados del modelo. 1D No compara ni describe detalles. 1F . No usa newton-rhapson ni indica la fecha. 
+,"GRACIA SUAREZ, MARIA D.",,,,,,,0,
+,"GUARIN ROJAS, DAVID G.",10,18,18,5,25,20,96,1B.1C. No analiza predicciones del modelo. 
+,"HERNANDEZ CHARPAK, YVAN D.",10,20,15,5,25,20,95,1C. Problemas de divergencia en el los extremos del ajuste 17 que no debe ocurrir. 
+,"HERNANDEZ MACHADO, CARLOS J.",,,,,,,0,
+,"LOZADA CORTES, ALEJANDRO",10,14,14,0,15,0,53,"1b. No discute resultados de la regresion lineal. 1C. Emplea mal los argumentos de X para realizar el Fit, y tambien en la grafica. Mal manejo de listas. No realiza observaciones. 1D. No escribe cual es mejor. 1E. No realiza el ajuste logistico, solo grafica. 1F. No hace nada. "
+,"MARTINEZ CARDENAS, TANIA C.",7,16,0,0,0,0,23,"1A. No grafica valores en los meses, solo varios datos por año. 1B. Las predicciones que realiza no estan directamente realcionadas con los parametros de la regresion, cualquier cambio regresion dejaria igual la prediccion. 1C.1D.1E.1F. No los hace.  "
+,"NUÑEZ BARRERO, JULIAN D.",,,,,,,0,
+,"OCHOA TAMAYO, DANIEL E.",10,20,20,5,25,20,100,Excelente 
+,"RAMIREZ MILANO, DIEGO L.",,,,,,,0,
+,"RANGEL JURADO, NICOLAS",10,20,20,5,23,0,78,1E. No imprime parametros para el modelo logistico. 1F. No hay nada. 
+,"RODRIGUEZ CARDONA, JULIAN L.",10,14,17,0,15,0,56,"1B No analiza las prediciones y el ajuste visual lineal no lo construye por años y meses sino solo por años. 1C. Mismo error del punto anterior, y no comenta modelo. 1D. No escribe analisis. 1E. Solo grafica el area acomulada sin ajuste logistico. "
+,"RODRIGUEZ PARRA, JUAN P.",10,10,10,5,21,0,56,"1B.1C. En ambos casos realiza mal el ajuste polinomico, en el lineal se mantiene constante o aumenta que no tiene sentido para los datos, en primer lugar no no se comporta con una pendiente maxima, dado que eso diverge en los extermos y no comenta la prediccion si es coherente. "
+,"RUBIANO RODRIGUEZ, CAROLINA",,,,,,,0,
+,"ZAMBRANO SIERRA, DIEGO A.",8,14,18,5,15,0,60,"1A. Los datos no son una funcion, debe utilizar scatter. 1B. No grafica el ajuste lineal comparado con los datos. No define fechaDecimal con anterioridad. No discute predicciones. 1C. Bien pensada la regresion, el eje X nunca lo define y faltan las predicciones. 1E. Falta ajuste logistico. 1F. No hace nada.  "
+,,10,20,20,5,25,20,100,
