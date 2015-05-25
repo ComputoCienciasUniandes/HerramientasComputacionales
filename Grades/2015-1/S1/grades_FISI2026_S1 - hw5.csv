@@ -1,0 +1,32 @@
+Apellidos,Nombres,a-I (6),a-II (6),a-III (8),a-IV(8),a-V (10),b (40),c (20),Bono (15),Total (100),Comentarios
+AGUDELO MOTTA,LAURA CATALINA,6,6,8,8,10,40,20,15,113,Bien Hecho!
+ARENAS PARDO,CAMILO ANDRES,6,3,6,8,10,35,20,,88,"Tal como esta, no era necesario utilizar ipython, es rapido y bien hecho. Falto ensayar el bono"
+BARRERA CASTILLO,MONICA ALEJANDRA,6,6,8,8,10,30,20,,88,"Demasiados comentarios en el script. Existen dos errores de identacion que tuve que modificar para que el juego corriera.
+ Prefiero menos comentarios cuando el codigo es claro y preciso. Enconding, siempre, y siempre hay que agregar el comentario de UTF-8 para utilizar caracteres en espaÃ±ol"
+BARRERO FLORES,JUAN PABLO,6,5,8,6,10,30,20,5,90,"Para el bono, debieron de colocar mas cositas, hay todavÃ­a errores de identaciÃ³n, pero el programa corre facil y rapido."
+BLANCO BOHORQUEZ,LUIS ARMANDO,6,6,8,8,10,35,20,,93,"Demasiados comentarios en el script
+ Prefiero menos comentarios cuando el codigo es claro y preciso. Enconding, siempre, y siempre hay que agregar el comentario de UTF-8 para utilizar caracteres en espaÃ±ol"
+CALIFANO TRUJILLO,SIMONE,4,5,5,8,10,30,10,,72,"(a-I) No se imprimen todas las cartas. Test con sintaxis del script: yo = [1,1,1,1] imprimiryo()
+ (b) (c) Tal como esta el codigo, no se puede ejecutar. Existen varios errores de indentacion. (El codigo se intento ejecutar copiando en ipython notebook y directamente en pycharm)
+ ~Es recomendable que las variables tengan nombres relacionados a su funcion."
+CRISTANCHO GONZALEZ,EDGAR DAVID,4,5,6,5,10,20,20,,70,"(b) El juego no puede concluir porque se generan diferentes errores, errores de indentaciÃ³n, de resto el codigo tiene sentido, pero mal uso de loops"
+DIAZ BOADA,JUAN SEBASTIAN,,,,,,,,,0,
+GARCIA PEREZ,JORGE ALBERTO,6,6,8,8,10,30,20,,88,"Demasiados comentarios en el script. Existen dos errores de identacion que tuve que modificar para que el juego corriera.
+ Prefiero menos comentarios cuando el codigo es claro y preciso. Enconding, siempre, y siempre hay que agregar el comentario de UTF-8 para utilizar caracteres en espaÃ±ol"
+GOMEZ ALVAREZ,MARIA FERNANDA,6,6,8,6,6,30,20,,82,"Cuando se corre el programa, envia el error de 'suma' no definida, tuve que modificar el codigo para que corriera, buena la idea de hacerlo en python y no en ipython. Bien hecho."
+GOMEZ MELO,SANTIAGO,,,,,,,,,0,--
+MADARIAGA CUBIDES,MARIA PAULA,4,5,5,8,10,30,10,,72,"(a-I) No se imprimen todas las cartas. Test con sintaxis del script: yo = [1,1,1,1] imprimiryo()
+ (b) (c) Tal como esta el codigo, no se puede ejecutar. Existen varios errores de indentacion. (El codigo se intento ejecutar copiando en ipython notebook y directamente en pycharm)
+ ~Es recomendable que las variables tengan nombres relacionados a su funcion."
+MELENDEZ GRANADOS,JUAN SEBASTIAN,,,,,,,,,0,
+MORA MONTES,ADRIANA PATRICIA,6,6,8,8,10,40,20,15,113,Super!! Me gusto mucho el Artwork.
+MURAD RODRIGUEZ,CESAR AUGUSTO,6,6,8,8,10,40,20,15,113,Bien Hecho!
+OSORIO LEIVA,GERMAN EDUARDO,6,6,8,6,6,30,20,,82,"Cuando se corre el programa, envia el error de 'suma' no definida, tuve que modificar el codigo para que corriera, buena la idea de hacerlo en python y no en ipython. Bien hecho."
+PULIDO FERNANDEZ,NATALY,6,3,6,8,10,35,20,,88,"Tal como esta, no era necesario utilizar ipython, es rapido y bien hecho. Falto ensayar el bono"
+RODRIGUEZ BEJARANO,SERGIO ALEJANDRO,6,3,6,8,10,35,20,,88,"Tal como esta, no era necesario utilizar ipython, es rapido y bien hecho. Falto ensayar el bono"
+RODRIGUEZ CORCHO,ANDRES FELIPE,6,3,6,8,10,35,20,,88,"Tal como esta, no era necesario utilizar ipython, es rapido y bien hecho. Falto ensayar el bono"
+ROJAS APARICIO,MIGUEL ANGEL,6,6,8,8,10,40,20,15,113,Super!! Me gusto mucho el Artwork.
+RUIZ NAVARRO,MATEO,,,,,,,,,0,
+SALAZAR SANDINO,JUAN NICOLAS,6,5,8,6,10,30,20,5,90,"Para el bono, debieron de colocar mas cositas, hay todavÃ­a errores de identaciÃ³n, pero el programa corre facil y rapido. Creo que faltaron varios comentarios en ciertas cosas, pero de resto todo esta bien."
+TORRES GONZALEZ,JUAN FELIPE,6,5,8,6,10,30,20,5,90,"Para el bono, debieron de colocar mas cositas, hay todavÃ­a errores de identaciÃ³n, pero el programa corre facil y rapido."
+VILLEGAS IBAGON,JOSE AUGUSTO,6,5,8,6,10,30,20,5,90,"Para el bono, debieron de colocar mas cositas, hay todavÃ­a errores de identaciÃ³n, pero el programa corre facil y rapido."

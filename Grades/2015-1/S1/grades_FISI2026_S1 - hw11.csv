@@ -1,0 +1,29 @@
+Apellidos,Nombres,a. (70),b. (30),Total (100),Comentarios
+AGUDELO MOTTA,LAURA CATALINA,70,25,95,"Bien hecho, toca revisar transito_solo_d, en especial: vtemp = min(vi+1, d - 1, vmax) 
+            v = max(vtemp - 1, 0) if uniform(0,1) < p else vtemp 
+            ahor[(x + v) % vel] = v  "
+ARENAS PARDO,CAMILO ANDRES,,,0,
+BARRERA CASTILLO,MONICA ALEJANDRA,,,0,
+BARRERO FLORES,JUAN PABLO,70,30,100,Excelente analísis. Mejorar en los comentarios.
+BLANCO BOHORQUEZ,LUIS ARMANDO,,,0,
+CALIFANO TRUJILLO,SIMONE,,,0,
+CRISTANCHO GONZALEZ,EDGAR DAVID,70,25,95,"Hay que mejorar los comentarios, para el segundo punto no entendí que era lo que quierían hacer. De resto buen trabajo."
+DIAZ BOADA,JUAN SEBASTIAN,,,0,
+GARCIA PEREZ,JORGE ALBERTO,70,30,100,"Para la primera grafíca hubiero hecho la siguiente para mejorar visibilidad: imshow(simu, cmap = 'Greys', interpolation = 'nearest')"
+GOMEZ ALVAREZ,MARIA FERNANDA,,,0,
+GOMEZ MELO,SANTIAGO,,,0,
+MADARIAGA CUBIDES,MARIA PAULA,,,0,
+MELENDEZ GRANADOS,JUAN SEBASTIAN,,,0,
+MORA MONTES,ADRIANA PATRICIA,70,30,100,"Muy bien hecho, probablemente utilizeste trabajo para mostrar como realizar un buen cuaderno de ipython. Buenos comentarios y analisis."
+MURAD RODRIGUEZ,CESAR AUGUSTO,70,25,95,"Bien hecho, toca revisar transito_solo_d, en especial: vtemp = min(vi+1, d - 1, vmax) 
+            v = max(vtemp - 1, 0) if uniform(0,1) < p else vtemp 
+            ahor[(x + v) % vel] = v  "
+OSORIO LEIVA,GERMAN EDUARDO,,,0,
+PULIDO FERNANDEZ,NATALY,,,0,
+RODRIGUEZ BEJARANO,SERGIO ALEJANDRO,,,0,
+RODRIGUEZ CORCHO,ANDRES FELIPE,70,25,95,"Hay que mejorar los comentarios, para el segundo punto no entendí que era lo que quierían hacer. De resto buen trabajo."
+ROJAS APARICIO,MIGUEL ANGEL,70,30,100,"Muy bien hecho, probablemente utilizeste trabajo para mostrar como realizar un buen cuaderno de ipython. Buenos comentarios y analisis."
+RUIZ NAVARRO,MATEO,,,0,
+SALAZAR SANDINO,JUAN NICOLAS,70,30,100,Excelente analísis. Mejorar en los comentarios.
+TORRES GONZALEZ,JUAN FELIPE,70,5,75,La primera parte tenía un error por codificación. No hay segundo punto.
+VILLEGAS IBAGON,JOSE AUGUSTO,70,5,75,La primera parte tenía un error por codificación. No hay segundo punto.

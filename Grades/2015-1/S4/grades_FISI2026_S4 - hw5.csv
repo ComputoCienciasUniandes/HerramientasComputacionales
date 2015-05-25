@@ -1,43 +1,44 @@
-Apellidos,Nombres,a-I (6),a-II (6),a-III (8),a-IV(8),a-V (10),b (40),c (20),Bono,Total (100),Comentarios
-ACOSTA CASTRO,ANDRES FELIPE,0,0,0,0,0,0,0,0,0,No entraga tarea
-ARDILA TAFURTH,GUSTAVO ADOLFO,6,6,8,10,10,40,20,15,115,Felicitaciones!
+Apellidos,Nombres,a-I (6),a-II (6),a-III (8),a-IV(8),a-V (10),b (40),c (20),Bono,Total (100),Comentarios,
+ACOSTA CASTRO,ANDRES FELIPE,0,0,0,0,0,0,0,0,0,No entraga tarea,
+ARDILA TAFURTH,GUSTAVO ADOLFO,6,6,8,10,10,40,20,15,115,Felicitaciones!,
 ARIZA PARDO,ADRIANA,6,0,8,10,10,30,15,0,79,"(a-II) No se define la funcion para recbir las cartas e imprimirlas. Se hace explicitamente, imprimiendo numeros del 1-13, no las letras
 (b) En la funcion pedircarta(), una vez que se ingresa la opcion 'no' se va directamente al resultado, sin que el el pc tenga la opcion de jugar. Este resultado se valida, pero no se imprime. A continuacion el juego procede coherentemente.
-(c) No se imprimen las cartas del computador en cada jugada"
-ARIZA ROJAS,MARIA ALEJANDRA,6,6,8,10,10,40,20,15,115,Felicitaciones!
+(c) No se imprimen las cartas del computador en cada jugada",
+ARIZA ROJAS,MARIA ALEJANDRA,6,6,8,10,10,40,20,15,115,Felicitaciones!,
 CASTILLO MANRIQUE,ANDRES FELIPE,6,3,8,0,10,20,10,0,57,"No hay ningun comentarios en el script
 (a-I) No se imprimen todas las cartas. Test con sintaxis del script: yo = [1,1,1,1] imprimiryo()
 (a-IV) No se pasa el Test. Test con sintaxis del script: J = [[1,1,1,1], [6,1], [7,4,1], [11,13,1], [1,12,6,11]]
 for j in J:
-yo = j
-print(sumacartasyo())
+    yo = j
+    print(sumacartasyo())
 (b) (c) Tal como esta el codigo, no se puede ejecutar. Existen varios errores de indentacion. (El codigo se intento ejecutar copiando en ipython notebook y directamente en spyder)
-~Es recomendable que las variables tengan nombres relacionados a su funcion."
-CELY GOMEZ,DIEGO ALEJANDRO,0,0,0,0,0,0,0,0,0,No entrega tarea
+~Es recomendable que las variables tengan nombres relacionados a su funcion.",
+CELY GOMEZ,DIEGO ALEJANDRO,0,0,0,0,0,0,0,0,0,No entrega tarea,
 ESCALLON BOTERO,DANIEL,6,6,8,10,10,20,20,,80,"(b) El juego no puede concluir porque se generan diferentes errores
-"
-FERNANDEZ MORENO,JUAN DAVID,--,--,--,--,--,--,--,--,80,--
-FONSECA PRIETO,LUIS MIGUEL,0,0,0,0,0,0,0,0,0,No entrega tarea
-FORERO ARIZA,MATEO JULIAN,6,6,8,10,5,40,20,,95,(a-V) Se esperaba una funcion que definiera ell ganador
-GOMEZ NORIEGA,DIEGO FERNANDO,--,--,--,--,--,--,--,--,115,--
+",
+FERNANDEZ MORENO,JUAN DAVID,--,--,--,--,--,--,--,--,80,--,
+FONSECA PRIETO,LUIS MIGUEL,0,0,0,0,0,0,0,0,0,No entrega tarea,
+FORERO ARIZA,MATEO JULIAN,6,6,8,10,5,40,20,,95,(a-V) Se esperaba una funcion que definiera ell ganador,
+GOMEZ NORIEGA,DIEGO FERNANDO,--,--,--,--,--,--,--,--,115,--,
 GONZALEZ ORTIZ,CRISTHIAN EDUARDO,6,6,8,10,10,30,20,0,27,"Sintaxis mas avanzada de lo que se ve en clase
 (b) El juego no se puede ejecutar. Hay errores de indentacion
-Se asigna el 30% de la nota"
-GUARIN ESTRADA,DANIEL FELIPE,--,--,--,--,--,--,--,--,79,
-LAGUNA GUANTIVA,MATEO,--,--,--,--,--,--,--,--,95,--
+Se asigna el 30% de la nota",
+GUARIN ESTRADA,DANIEL FELIPE,--,--,--,--,--,--,--,--,79,,
+LAGUNA GUANTIVA,MATEO,--,--,--,--,--,--,--,--,95,--,
 LINARES ORTEGON,DANIELA,6,6,8,10,10,30,15,,85,"(b) En la funcion pedirCartaJugador() cuando ingresa la opcion 'n' se va directamente a ganador(). El resultado de ganador() se calcula pero no se imprime. A continuacion el juego continua coherentemente.
-(c) El juego no muestra si el computador esta tomando mas cartas"
+(c) El juego no muestra si el computador esta tomando mas cartas",
 MEZA CALA,JUAN CAMILO,3,6,8,8,10,35,20,5,95,"(a-I) Se esperaba una funcion que barajara las cartas
 (a-IV) Se esperaba que el proceso de suma fuera automatico
-(b) Error en funcion pregunta(). Cambiar respuesta -> respuestadeljugador()"
-NOGUERA AGUIRRE,DAVID ALEJANDRO,--,--,--,--,--,--,--,--,85,--
-NUÑEZ CASTAÑO,JULIAN HUMBERTO,0,0,0,0,0,0,0,0,0,No entrega tarea
+(b) Error en funcion pregunta(). Cambiar respuesta -> respuestadeljugador()",
+NOGUERA AGUIRRE,DAVID ALEJANDRO,--,--,--,--,--,--,--,--,85,--,
+NUÃ‘EZ CASTAÃ‘O,JULIAN HUMBERTO,0,0,0,0,0,0,0,0,0,No entrega tarea,
 PARADA BELTRAN,JUAN SEBASTIAN,3,3,4,5,5,40,20,0,80,"(a-I) Se esperaba una funcion que barajara las cartas
 (a-II) Se esperaba una funcion que recibiera las cartas y las imprimiera
 (a-III) Se esperaba una funcion que retirara la carta de la baraja para entregarla a un jugador
 (a-IV) Se esperaba una funcion que calculara el mayor total tal que fuera menor o igual a 21
-(a-V) Se esperaba una funcion que definiera el ganador"
-QUIJANO CASTRO,JUAN DIEGO,0,0,0,0,0,0,0,0,0,No entrega tarea
-TORRES QUINTERO,MARIA FERNANDA,--,--,--,--,--,--,--,--,57,--
-VARGAS LOPEZ,CRISTHIAN CAMILO,--,--,--,--,--,--,--,--,27,--
-ZULUAGA VELASQUEZ,NICOLAS,--,--,--,--,--,--,--,--,95,--
+(a-V) Se esperaba una funcion que definiera el ganador",
+QUIJANO CASTRO,JUAN DIEGO,0,0,0,0,0,0,0,0,0,No entrega tarea,
+TORRES QUINTERO,MARIA FERNANDA,--,--,--,--,--,--,--,--,57,--,
+VARGAS LOPEZ,CRISTHIAN CAMILO,--,--,--,--,--,--,--,--,27,--,"
+"
+ZULUAGA VELASQUEZ,NICOLAS,--,--,--,--,--,--,--,--,95,--,

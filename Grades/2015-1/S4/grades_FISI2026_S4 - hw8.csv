@@ -1,7 +1,7 @@
 Apellidos,Nombres,a (10),b (20),c (20),d (5),e (25),f (20),Total,Comentarios
-ACOSTA CASTRO,ANDRES FELIPE,,,,,,,0,No entrega tarea
-ARDILA TAFURTH,GUSTAVO ADOLFO,,,,,,,0,No entrega tarea
-ARIZA PARDO,ADRIANA,,,,,,,0,Tarea con Linares
+ACOSTA CASTRO,ANDRES FELIPE,-,-,-,-,-,-,0,No entrega tarea
+ARDILA TAFURTH,GUSTAVO ADOLFO,-,-,-,-,-,-,0,No entrega tarea
+ARIZA PARDO,ADRIANA,10,15,15,5,20,0,65,Tarea con Linares
 ARIZA ROJAS,MARIA ALEJANDRA,5,10,10,0,20,15,60,"a. Varios errores con los nombres de las variables
 b. No se hacen los estimados para las fechas requeridas. No hay observaciones del modelo.
 c. No se hacen los estimados para las fechas requeridas. No hay observaciones del modelo.
@@ -12,7 +12,7 @@ CASTILLO MANRIQUE,ANDRES FELIPE,10,10,15,5,20,10,70,"b. No se hace el estimado d
 c. No hay observaciones sobre los modelos
 e. TypeError: unsupported operand type(s) for ** or pow(): 'datetime.date' and 'float'
 f. Metodo de Newton-Raphson mal implementado"
-CELY GOMEZ,DIEGO ALEJANDRO,,,,,,,0,No entrega tarea
+CELY GOMEZ,DIEGO ALEJANDRO,-,-,-,-,-,-,0,No entrega tarea
 ESCALLON BOTERO,DANIEL,10,20,15,5,20,10,80,"c. No se describen las observaciones del modelo
 e. Se hace el ajuste para datos equivocados
 f. Errores de sintaxis en metodo implementado. El metodo no es efectivo. Errores al utilizar las funciones que define. No importa curve_fit"
@@ -21,7 +21,7 @@ a. Error: 'c' is not defined
 b. Error: 'c' is not defined. Observaciones sobre el modelo no son suficientes
 c. No se usa el modelo para estimar el numero de minas en las fechas solicitadas. No hay observaciones sobre los modelos.
 d.e.f. No se hace el punto"
-FONSECA PRIETO,LUIS MIGUEL,,,,,,,0,No entrega tarea
+FONSECA PRIETO,LUIS MIGUEL,-,-,-,-,-,-,0,No entrega tarea
 FORERO ARIZA,MATEO JULIAN,10,20,20,5,20,15,90,"c. Bien por consultar y entender la advertencia
 e. Cuando se ajustan funciones a valores de fechas, se requiere especial cuidado con las magnitudes relacionadas a las funciones
 f. Error: 'df' is not defined"
@@ -56,10 +56,10 @@ PARADA BELTRAN,JUAN SEBASTIAN,10,20,20,5,20,15,90,"c. Para mayor facilidad: Cuan
 d. Para escribir texto formateado en los cuadernos se pueden usar celdas de markdown
 e. Se presentan errores al llamar las funciones que define
 f. El metodo de Newton-Rapson esta bien implementado pero no lo usa adecuadamente"
-QUIJANO CASTRO,JUAN DIEGO,,,,,,,0,No entrega tarea
-TORRES QUINTERO,MARIA FERNANDA,,,,,,,0,
+QUIJANO CASTRO,JUAN DIEGO,-,-,-,-,-,-,0,No entrega tarea
+TORRES QUINTERO,MARIA FERNANDA,-,-,-,-,-,-,70,Tarea con Castillo
 VARGAS LOPEZ,CRISTHIAN CAMILO,10,17,15,5,20,10,77,"b. No hace las observaciones suficientes
 c. No hace observaciones sobre los modelos
 d. Al usar curve_fit se debe tener especial cuidado con las magnitudes de los datos que se quiere ajustar
 e. El metodo implementado presenta varias fallas de sintaxis"
-ZULUAGA VELASQUEZ,NICOLAS,,,,,,,0,Tarea con Meza
+ZULUAGA VELASQUEZ,NICOLAS,10,20,20,5,20,15,90,Tarea con Meza

@@ -1,0 +1,24 @@
+,,,,,,,
+,Nombre: ,1a(25),1b(25),1c(25),1d (25),Total,Comentarios
+,"ARDILA SUAREZ, SEBASTIAN",25,25,25,25,100,Muy bien organizado y codigo bastante eficiente. 
+,"BURBANO ALDANA, IVAN M.",20,25,20,21,86,"1A. Toca hacer la distincion entre cuando es menor a 10 ! . 1C. Luego de que el conteo llega a su maximo no guardan listas, lo cual se observa en el resultado de los histogramas .1D. Sobrelapan leyendas y limites de la grafica inapropiados. "
+,"BURITICA BUITRAGO, CARLOS F.",,,,,0,
+,"CALDERON ZAMUDIO, JUAN C.",,,,,0,
+,"GALLEGO GALLON, JUAN C.",,,,,0,
+,"GARZON MORA, SOFIA",25,25,25,25,100,Muy bien organizado y codigo bastante eficiente. 
+,"GIRALDO LOZANO, JUAN C.",25,25,25,25,100,Excelente.
+,"GOODING RIOS, NICHOLAS",25,25,25,25,100,Excelente.
+,"GRACIA SUAREZ, MARIA D.",,,,,0,
+,"GUARIN ROJAS, DAVID G.",25,25,25,25,100,Excelente.
+,"HERNANDEZ CHARPAK, YVAN D.",25,25,25,25,100,Muy bien organizado y codigo bastante eficiente. 
+,"HERNANDEZ MACHADO, CARLOS J.",,,,,0,
+,"LOZADA CORTES, ALEJANDRO",20,25,20,21,86,"1A. Toca hacer la distincion entre cuando es menor a 10 ! . 1C. Luego de que el conteo llega a su maximo no guardan listas, lo cual se observa en el resultado de los histogramas .1D. Sobrelapan leyendas y limites de la grafica inapropiados. "
+,"MARTINEZ CARDENAS, TANIA C.",25,25,25,25,100,
+,"NUÑEZ BARRERO, JULIAN D.",,,,,0,
+,"OCHOA TAMAYO, DANIEL E.",25,25,25,25,100,Muy bien.
+,"RAMIREZ MILANO, DIEGO L.",25,25,25,25,100,
+,"RANGEL JURADO, NICOLAS",25,22,22,10,79,"1B. El conteo sobre el archivo, no diferencia de los encabezados. 1C. De nuevo agrega todo lo que encuentra en el archivo sin especificar, los limites de reocrrido de la lista no son automaticos, son porque usted los analizo, pero deberian salir de manera computacional. "
+,"RODRIGUEZ CARDONA, JULIAN L.",20,25,20,21,86,"1A. Toca hacer la distincion entre cuando es menor a 10 ! . 1C. Luego de que el conteo llega a su maximo no guardan listas, lo cual se observa en el resultado de los histogramas .1D. Sobrelapan leyendas y limites de la grafica inapropiados. "
+,"RODRIGUEZ PARRA, JUAN P.",15,23,25,25,88,"1A. Tiene mas de 300 caracteres, no lo hace automatico. 1B. La excpecion del encabezado debia realizarse en este punto, no alterando los archivos. "
+,"RUBIANO RODRIGUEZ, CAROLINA",,,,,0,
+,"ZAMBRANO SIERRA, DIEGO A.",25,25,25,25,100,

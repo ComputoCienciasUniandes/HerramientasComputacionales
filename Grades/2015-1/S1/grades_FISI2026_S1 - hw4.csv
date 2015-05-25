@@ -1,0 +1,25 @@
+Apellidos ,Nombres,P1 (40),P2 (20),P3 (40),Total,Comentarios
+AGUDELO MOTTA,LAURA CATALINA,40,20,25,85,Recuerda la codificación siempre que vayas a procesar un archivo (es decir cualquier archivo texto agregar UTF-8)
+ARENAS PARDO,CAMILO ANDRES,35,20,0,55,Debías de separar los outputs de las matrices con '\n' para saber cual punto es cual.
+BARRERA CASTILLO,MONICA ALEJANDRA,30,15,30,75,"Encodificación UTF-8, el compilador de una vez manda la alerta cuando no encuentra codificación de un archivo de internet, esto se llama, sanitizar. Todo el ejercicio esta bien, pero debes tener cuidado con esos detalles, no escribas comentarios en MAYÚSCULAS."
+BARRERO FLORES,JUAN PABLO,30,15,0,45,Muchos avisos del compilador te debío salir al no tener definidas ciertas funciones.
+BLANCO BOHORQUEZ,LUIS ARMANDO,35,20,40,95,"Debes configurar tu editor de texto, a que las palabras de comentario soporten tildes, (revisar configuracion). Para el primero revisa bien como 'wrap'display en la terminal, de resto muy bien hecho"
+CALIFANO TRUJILLO,SIMONE,40,20,35,95,"Cuando revisé la implementación de palindromos.py, no sabiía porque utlizabas range(1294), para la proxima recuerda de añadir un comentario explicando tu elección, también estas contando mal los palindromos."
+CRISTANCHO GONZALEZ,EDGAR DAVID,40,20,30,90,"Todo el codigo depende en filas, creo que estabas pensando en columnas."
+DIAZ BOADA,JUAN SEBASTIAN,30,15,0,45,Muchos avisos del compilador te debío salir al no tener definidas ciertas funciones.
+GARCIA PEREZ,JORGE ALBERTO,35,20,30,85,"Existe una mejor manera de comparar los palindromos, tu program no considera palindromos las palabras aaa (impares). En el primer punto recorriste mal tu matriz de representación, te quite 5 puntos. De resto, tienes una buena implementación."
+GOMEZ ALVAREZ,MARIA FERNANDA,40,20,35,95,"Tienes una muy buena idea para revisar los palindromos , pero hay un problema con la revision por bloques, observa que para el segundo bloque, debes “darle vuelta”. Primer punto muy bien hecho."
+GOMEZ MELO,SANTIAGO,,,,0,
+MADARIAGA CUBIDES,MARIA PAULA,40,20,40,100,"Muy bien hecho, te recomendaría a futuro leer las guías de escritura de codigo, fue un poco spaghetti el codigo."
+MELENDEZ GRANADOS,JUAN SEBASTIAN,,,,0,
+MORA MONTES,ADRIANA PATRICIA,35,20,38,93,"Te comiste un palindromo (tecnicamente no te falto ninguno pero tu conteo empieza 0 y no en 1 entonces tu lista dice que hay n-1 palindromos), recuerda para que cualquier archivo que proceses con python debes colocar al comienzo el enconding #UTF-8"
+MURAD RODRIGUEZ,CESAR AUGUSTO,40,20,40,100,¡Excelente! Para la proxima te recomiendo mucho que deberías leer una guía de estilo para escribir codigo.
+OSORIO LEIVA,GERMAN EDUARDO,40,15,20,75,"Recuerda siempre definir todo en el programa, es decir, tu segundo punto todo esta correcto, a excepción de wordEn.txt, que aunque lo bajas con la librería url el compilador no te lo reconcoce. Por ultimo, para el primer punto debías haber separado los outputs de las terminales, es decir añadir '\n' para cada ejercicio."
+PULIDO FERNANDEZ,NATALY,30,20,30,80,"Varios typos, muchos de estos errores podrias quitarlos utilizando un buen editor de texto, de resto, bien hecho!"
+RODRIGUEZ BEJARANO,SERGIO ALEJANDRO,30,15,0,45,"Habia que modificar certas cosas para que el codigo tomado de internet, funcionara a la perfeción, de resto todo va bien."
+RODRIGUEZ CORCHO,ANDRES FELIPE,0,0,40,40,"Hiciste un buen trabajo en el segundo punto, deberías por lo menos haber intentado el primero."
+ROJAS APARICIO,MIGUEL ANGEL,30,20,40,90,"Para la proxima, recuerda siempre de indicar al programa bajar el archivo de texto desde internet, muy bien hecho con los palíndromos. Para el primero, tuve probelmas corriendo el programa, la razón: CODIFICACION, recuerda utilizar siempre UTF-8."
+RUIZ NAVARRO,MATEO,,,,0,
+SALAZAR SANDINO,JUAN NICOLAS,40,20,40,100,"Muy bien hecho, te recomendaría a futuro leer las guías de escritura de codigo, fue un poco spaghetti el codigo."
+TORRES GONZALEZ,JUAN FELIPE,,,,0,
+VILLEGAS IBAGON,JOSE AUGUSTO,,,,0,

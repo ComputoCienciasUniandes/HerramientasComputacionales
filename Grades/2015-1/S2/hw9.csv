@@ -1,0 +1,25 @@
+,,,,,,,,,,
+,Nombre: ,1a(10),1b(15),1c(10),1d(15),2a(15),2b(5),2c(30),Total,Comentarios
+,"ARDILA SUAREZ, SEBASTIAN",,,,,,,,0,
+,"BURBANO ALDANA, IVAN M.",10,14,10,11,15,5,24,89,1B fuera de rango la acoplacion de la gaussiana en la grafica. 11- Implicaciones en la distribucion encontrada? 2C.Agrega elementos innecearios al arreglos de las distribciones que dañan el compoartamietno extremal. 
+,"BURITICA BUITRAGO, CARLOS F.",,,,,,,,0,
+,"CALDERON ZAMUDIO, JUAN C.",,,,,,,,0,
+,"GALLEGO GALLON, JUAN C.",,,,,,,,0,
+,"GARZON MORA, SOFIA",10,10,10,15,15,5,30,95,1B. No discute la relacion entre gaussiana e histogramas.Falta grafica.
+,"GIRALDO LOZANO, JUAN C.",,,,,,,,0,
+,"GOODING RIOS, NICHOLAS",10,13,10,15,15,5,30,98,"1B. Falta relacionar los datos de la gaussiana y los histogramas, analisis. "
+,"GRACIA SUAREZ, MARIA D.",,,,,,,,0,
+,"GUARIN ROJAS, DAVID G.",10,13,10,2,15,5,30,85,1B. No discute la relacion entre gaussiana e histogramas. 1D. No explica estadisticamente montaña y plana.
+,"HERNANDEZ CHARPAK, YVAN D.",,,,,,,,0,
+,"HERNANDEZ MACHADO, CARLOS J.",,,,,,,,0,
+,"LOZADA CORTES, ALEJANDRO",10,15,10,10,15,5,25,90,"1D. Cual es la diferencia abismal a la que se refiere. 2C. No calcula que numeros, solo la probabilidad. "
+,"MARTINEZ CARDENAS, TANIA C.",10,15,10,15,15,5,20,90,"2C. La intencion era calcular numeros que esten detro de esa probabilidad, no solo la probabilidad de  ellos . "
+,"NUÑEZ BARRERO, JULIAN D.",,,,,,,,0,
+,"OCHOA TAMAYO, DANIEL E.",10,15,7,15,15,5,30,97,1C. Noramliza mal para generar la grafica.
+,"RAMIREZ MILANO, DIEGO L.",10,3,10,10,15,5,30,83,1B Falta gaussiana. 1D. Como se relaciona con la estadistica. 
+,"RANGEL JURADO, NICOLAS",10,15,10,15,15,5,20,90,"2C. La intencion era calcular numeros que esten detro de esa probabilidad, no solo la probabilidad de  ellos . "
+,"RODRIGUEZ CARDONA, JULIAN L.",10,15,8,15,15,5,20,88,1C. No grafica simultaneamente. 2C. No escribe la funcion propia para encontrar los numeros con valor absoluto. 
+,"RODRIGUEZ PARRA, JUAN P.",3,5,8,15,15,5,15,66,"1A. No grafica tiempo acumulado vs corredores. 1B. No organiza los datos de la guassiana, ni analiza su relacion.2C. Toma una gaussiana en general y evalua dentro del arguemtno, esto cambia el ancho, pero no asegura que puntos estan dentro. Mejor usar Abs entre la diferencia. "
+,"RUBIANO RODRIGUEZ, CAROLINA",,,,,,,,0,
+,"ZAMBRANO SIERRA, DIEGO A.",9,0,10,0,15,5,0,39,2C. No esta la funcion. 1B No hay ajuste gaussiana .1D No hay analisis estadistico. 2C. No hay funcion . 
+,,10,15,10,15,15,5,30,100,

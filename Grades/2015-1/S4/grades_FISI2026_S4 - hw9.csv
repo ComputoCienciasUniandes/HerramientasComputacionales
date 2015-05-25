@@ -1,0 +1,55 @@
+Apellidos,Nombres,1a (10),1b (15),1c (10),1d (15),2a (15),2b (5),2c (30),Total (100),Comentarios
+ACOSTA CASTRO,ANDRES FELIPE,0,0,0,0,0,0,0,0,No entrega tarea
+ARDILA TAFURTH,GUSTAVO ADOLFO,0,0,0,0,0,0,0,0,No entrega tarea
+ARIZA PARDO,ADRIANA,7,10,10,10,15,5,25,82,"1a. No se usan argumentos de la carrera
+1b. No hace suficientes observaciones en la discusion de los resultados
+1c. No hay suficientes argumentos estadisticos
+2c. A value in x_new is below the interpolation range."
+ARIZA ROJAS,MARIA ALEJANDRA,0,0,0,0,0,0,0,0,No entrega tarea
+CASTILLO MANRIQUE,ANDRES FELIPE,8,12,10,15,15,5,5,70,"1a. No se usan argumentos de la carrera
+1b. No hace suficientes observaciones en la discusion de los resultados
+2c. No se crea la funcion que genera los numeros aleatorios. Varios errores de asignacion."
+CELY GOMEZ,DIEGO ALEJANDRO,0,0,0,0,0,0,0,0,No entrega tarea
+ESCALLON BOTERO,DANIEL,7,10,10,15,15,5,15,77,"1a. No hya explicacion del comportamiento
+1b. No se discuten resultados
+2c. 2c. Se plantea una funcion que interpola efectivamente en los valores de la distribucion acumulada pero no se usa para generar numeros aleatorios con la distribucion"
+FERNANDEZ MORENO,JUAN DAVID,7,10,10,15,15,5,15,77,-
+FONSECA PRIETO,LUIS MIGUEL,0,0,0,0,0,0,0,0,No entrega tarea
+FORERO ARIZA,MATEO JULIAN,7,7,7,0,5,5,15,36,"-10 No hay outputs previos
+1a. No se hacen observaciones de los datos
+1b. Error de sintaxis en el plot. No se hacen observaciones del modelo
+1c. Se hace una grafica diferente a la solicitada
+1d. No se hace el punto
+2a. name 'nums' is not defined. name 'union' is not defined
+2c. name 'comb' is not defined"
+GOMEZ NORIEGA,DIEGO FERNANDO,10,15,10,15,15,5,30,100,
+GONZALEZ ORTIZ,CRISTHIAN EDUARDO,9,12,10,12,15,5,27,90,"1a. Mejorar la calidad de la grafica
+1b. Falta discutir sobre la dispersion de los datos
+1d. Falta discutir sobre la dispersion de los datos
+2c. Faltan comentarios explicando el metodo"
+GUARIN ESTRADA,DANIEL FELIPE,9,15,10,15,10,5,15,69,"-10 No hay ningun output previo
+1a. Faltan mas argumentos de la carrera
+2a. Error de sintaxis
+2c. No se define la funcion random_2normal(). La funcion no se utiliza para generar una muestra significativa de numeros aleatorios con la doble distribucionnormal."
+LAGUNA GUANTIVA,MATEO,8,12,7,10,10,5,15,67,"1a. hacen falta rgumentos de la carrera
+1b. hacen falta arguemntos sobre la dispersion
+1c. Se hace una grafica diferente a la solicitada
+1d. No escribe explicitamnete las observaciones estadisticas que permiten diferenciar entre etapa de montaña y etapa plana
+2a. name 'nums' is not defined
+2c. name 'comb' is not defined"
+LINARES ORTEGON,DANIELA,7,10,10,10,15,5,25,82,-
+MEZA CALA,JUAN CAMILO,10,10,10,12,15,5,25,87,"1b. name 'times' is not defined
+1d. Faltan mas argumentos estadisticos
+2c. A value in x_new is below the interpolation range."
+NOGUERA AGUIRRE,DAVID ALEJANDRO,7,10,10,15,15,5,15,77,"1a. No hya explicacion del comportamiento
+1b. No se discuten resultados
+2c. Se plantea una funcion que interpola efectivamente en los valores de la distribucion acumulada pero no se usa para generar numeros aleatorios con la distribucion"
+NUÑEZ CASTAÑO,JULIAN HUMBERTO,0,0,0,0,0,0,0,0,No entrega tarea
+PARADA BELTRAN,JUAN SEBASTIAN,8,12,10,12,15,5,30,89,"1a. Faltan observaciones sobre la dispersion de los datos. Para mostrar texto con formato en cuadernos de ipython se puede usar celdas de markdown
+1b. Falta discutir sobre la semejanza entre el ajuste y los datos
+1d. Falta discutir sobre la dispersion de los datos en el histograma
+2c. Bien por la creatividad para crear la funcion random_2normal. (-3) Faltan comentarios"
+QUIJANO CASTRO,JUAN DIEGO,,,,,,,,0,No entrega tarea
+TORRES QUINTERO,MARIA FERNANDA,8,12,10,15,15,5,5,70,-
+VARGAS LOPEZ,CRISTHIAN CAMILO,9,12,10,12,15,5,27,90,-
+ZULUAGA VELASQUEZ,NICOLAS,10,10,10,12,15,5,25,87,-

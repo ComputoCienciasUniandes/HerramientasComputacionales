@@ -1,0 +1,24 @@
+,,,,,,,,,,
+,Nombre: ,1a(18),1b(18),1c(18),1d(18),1e(10),1f(18),1g(15),Total,Comentarios
+,"ARDILA SUAREZ, SEBASTIAN",,,,,,,,0,
+,"BURBANO ALDANA, IVAN M.",18,18,18,18,10,18,15,115,Excelente 
+,"BURITICA BUITRAGO, CARLOS F.",,,,,,,,0,
+,"CALDERON ZAMUDIO, JUAN C.",,,,,,,,0,
+,"GALLEGO GALLON, JUAN C.",,,,,,,,0,
+,"GARZON MORA, SOFIA",18,15,18,15,10,13,12,101,"1b. Solo hace 25 iteraciones. 1d. El arreglo bidimensional presenta fallas en la orientacion y ademas en la precision del metodo para grandes numeros. 1F y 1G. No genera bien la estrcutura, se corren puntos. "
+,"GIRALDO LOZANO, JUAN C.",18,18,18,18,10,18,15,115,Muy bien. 
+,"GOODING RIOS, NICHOLAS",18,18,18,14,10,18,15,111,1d. La orientacion del plano complejo no esta en el sentido usual sino que despues corrige en la imagen. 
+,"GRACIA SUAREZ, MARIA D.",,,,,,,,0,"El archvo comprimido que envia presenta errores, esta mal. "
+,"GUARIN ROJAS, DAVID G.",18,18,10,18,10,18,0,92,"1d. Utiliza meshgrid, aun cuando puede hacerce con arreglos."
+,"HERNANDEZ CHARPAK, YVAN D.",18,18,18,16,10,18,15,113,1c. Buen ciclo para construir desde el inicio la forma imaginaria. 1d. Mal orientacion del plano complejo. 
+,"HERNANDEZ MACHADO, CARLOS J.",,,,,,,,0,
+,"LOZADA CORTES, ALEJANDRO",18,18,10,15,10,18,15,104,"1c. No utiliza los ciclos alternativos o vectorize 1d. Utiliza meshgrid, no genera arrgelos bidimensionales propios."
+,"MARTINEZ CARDENAS, TANIA C.",18,18,18,18,10,18,15,115,Muy bien 
+,"NUÑEZ BARRERO, JULIAN D.",,,,,,,,0,
+,"OCHOA TAMAYO, DANIEL E.",,,,,,,,0,
+,"RAMIREZ MILANO, DIEGO L.",18,18,10,8,10,18,0,82,"1c. El ciclo para construir es muy lento y evalua matrix incorrecta. 1d. Genera mal el plano complejo, define el tamño de paso mal. "
+,"RANGEL JURADO, NICOLAS",18,18,18,18,10,18,0,100,
+,"RODRIGUEZ CARDONA, JULIAN L.",18,17,10,15,10,18,15,103,"1b. El epsilon no es necesario porque esta alterando la iteracion, mejor crear excepciones para saltar ese punto. 1C y  1d. No utiliza los ciclos alternativos o vectorize "
+,"RODRIGUEZ PARRA, JUAN P.",9,9,10,12,4,18,5,67,"1a. No define la derivada. 1b. Al definir la derivada en el metodo, se hace impreciso y el epsilon falla. 1c. Metodo extremadamente lento, no genera bien en 2 dimensiones.  1d. El arreglo bidimensional se genera en mal orden. 1e. No utiliza angle para la visualizacin. 1f. Si todo funcionara daria bien este punto."
+,"RUBIANO RODRIGUEZ, CAROLINA",,,,,,,,0,
+,"ZAMBRANO SIERRA, DIEGO A.",,,,,,,,0,
