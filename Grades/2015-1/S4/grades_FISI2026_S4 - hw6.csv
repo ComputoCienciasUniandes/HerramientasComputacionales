@@ -4,18 +4,18 @@ ARDILA TAFURTH,GUSTAVO ADOLFO,10,10,4,4,2,2,4,4,4,5,5,5,5,4,5,5,5,2,6,91,"2c. No
 2d. Se requeria que los labels fueran DEC/° RA/°
 3e. Se hacen los calculos con listas
 3i. La leyenda debia ser sin recuadro"
-ARIZA PARDO,ADRIANA,3,10,4,4,4,4,4,2,3,5,5,5,5,5,5,5,5,6,2,14.3,"1a. La matriz se crea 'a mano'
+ARIZA PARDO,ADRIANA,3,10,4,4,4,4,4,2,3,5,5,5,5,5,5,5,5,6,2,86,"1a. La matriz se crea 'a mano'
 2f. No se especifica tamaño para puntos rojos
 2g. Se requeria fontsize=10
 3j. La grafica no se genera completamente en el pdf
 Esta misma solucion se encontro 7 veces en la seccion. Asigno 1/7 de la nota"
-ARIZA ROJAS,MARIA ALEJANDRA,3,10,4,0,4,4,4,4,4,5,5,5,4,4,5,5,5,2,6,80,"(-3) Importa numpy y matplotlib dos veces
+ARIZA ROJAS,MARIA ALEJANDRA,3,10,4,0,4,4,4,4,4,5,5,5,4,4,5,5,5,2,6,83,"(-3) Importa numpy y matplotlib dos veces
 1a. La matriz se construye 'a mano'
 2b. Se debia usar csv.reader
 3d. Los datos debian graficarse sin una linea que los una
 3e. Error de sintaxis al llamar funcion ecuacion1()
 3i. La leyenda debia ir sin recuadro"
-CASTILLO MANRIQUE,ANDRES FELIPE,3,10,4,4,4,4,4,0,3,5,5,3,5,2,5,5,5,6,2,10.9,"(-3)Importa numpy y matplotlib dos veces
+CASTILLO MANRIQUE,ANDRES FELIPE,3,10,4,4,4,4,4,0,3,5,5,3,5,2,5,5,5,6,2,79,"(-3)Importa numpy y matplotlib dos veces
 1a. La matriz se construye 'a mano'
 2g. se requeria fontsize=10
 3c. La fuente de la leyenda tambien debia ser de 15 puntos
@@ -23,12 +23,12 @@ CASTILLO MANRIQUE,ANDRES FELIPE,3,10,4,4,4,4,4,0,3,5,5,3,5,2,5,5,5,6,2,10.9,"(-3
 3j. La grafica no se genera completamente en el pdf
 Esta misma solucion se encontro 7 veces en la seccion. Asigno 1/7 de la nota"
 CELY GOMEZ,DIEGO ALEJANDRO,,,,,,,,,,,,,,,,,,,,0,
-ESCALLON BOTERO,DANIEL,3,10,4,4,4,4,4,2,4,5,5,5,5,5,5,5,5,6,2,12,"(-3) Importa numpy y matplotlib dos veces
+ESCALLON BOTERO,DANIEL,3,10,4,4,4,4,4,2,4,5,5,5,5,5,5,5,5,6,2,87,"(-3) Importa numpy y matplotlib dos veces
 1a. La matriz se construye 'a mano'
 2f. No se especifica tamaño para puntos rojos
 3j. La grafica no se genera completamente en el pdf
 Esta misma solucion se encontro 7 veces en la seccion. Asigno 1/7 de la nota"
-FERNANDEZ MORENO,JUAN DAVID,3,10,0,1,4,4,3,0,1,5,5,5,5,5,5,5,5,6,2,10.1,"(-3)Importa numpy y matplotlib dos veces
+FERNANDEZ MORENO,JUAN DAVID,3,10,0,1,4,4,3,0,1,5,5,5,5,5,5,5,5,6,2,74,"(-3)Importa numpy y matplotlib dos veces
 1a. La matriz se construye 'a mano'
 2 No hay outputs anteriores
 2a. genfromtxt no tiene argumento 'valores'. Consultar ?genfromtxt
@@ -39,17 +39,17 @@ FERNANDEZ MORENO,JUAN DAVID,3,10,0,1,4,4,3,0,1,5,5,5,5,5,5,5,5,6,2,10.1,"(-3)Imp
 3j. El pdf no se genera completo.
 Esta misma solucion se encontro 7 veces en la seccion. Asigno 1/7 de la nota"
 FONSECA PRIETO,LUIS MIGUEL,,,,,,,,,,,,,,,,,,,,0,
-FORERO ARIZA,MATEO JULIAN,3,10,4,0,4,4,4,4,4,4,5,5,5,5,5,5,5,2,6,74,"(-10) No hay comentarios en el cuaderno
+FORERO ARIZA,MATEO JULIAN,3,10,4,0,4,4,4,4,4,4,5,5,5,5,5,5,5,2,6,84,"(-10) No hay comentarios en el cuaderno
 1a. La matriz se construye 'a mano'
 3a. Se realizan operaciones no necesarias para garantizar que los datos esten como arrays. Para validar el tipo de una varialbe, se puede ejeceutar type(mi_variable)
 3i. La leyenda debia ir sin recuadro"
-GOMEZ NORIEGA,DIEGO FERNANDO,10,10,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,97,"(-3) Importa numpy y matplotlib dos veces
+GOMEZ NORIEGA,DIEGO FERNANDO,10,10,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,100,"(-3) Importa numpy y matplotlib dos veces
 "
-GONZALEZ ORTIZ,CRISTHIAN EDUARDO,10,10,4,4,4,2,4,4,4,5,5,5,5,5,5,5,5,2,6,84,"(-10) No hay comentarios en el cuaderno
+GONZALEZ ORTIZ,CRISTHIAN EDUARDO,10,10,4,4,4,2,4,4,4,5,5,5,5,5,5,5,5,2,6,94,"(-10) No hay comentarios en el cuaderno
 2d. Las etiquetas debian ser DEC/° RA/°
 3. No hay outputs anteriores
 3i. La leyenda debe ir sin recuadro"
-GUARIN ESTRADA,DANIEL FELIPE,10,10,4,0,4,4,0,0,0,1,5,4,3,1,5,5,5,5,2,55,"(-3) Importa numpy y matplotlib dos veces
+GUARIN ESTRADA,DANIEL FELIPE,10,10,4,0,4,4,0,0,0,1,5,4,3,1,5,5,5,5,2,68,"(-3) Importa numpy y matplotlib dos veces
 No hay outputs anteriores
 (-10) No hay comentarios en el cuaderno
 2b. error de sintaxis. Falta "":"" en tres for. Errores de indentacion
@@ -62,7 +62,7 @@ No hay outputs anteriores
 3d. Error: Unrecognized character 0 in format string
 3e. Error: 't' is not deined. Error en las magnitudes calculadas, los calculos no se ajustan a los datos experimentales
 3j. La grafica no se genera completamente en el pdf"
-LAGUNA GUANTIVA,MATEO,3,10,4,0,3,4,4,4,4,4,5,5,5,5,5,5,5,2,6,73,"(-19) No hay comentarios en el cuaderno
+LAGUNA GUANTIVA,MATEO,3,10,4,0,3,4,4,4,4,4,5,5,5,5,5,5,5,2,6,83,"(-19) No hay comentarios en el cuaderno
 No hay outputs anteriores
 1a. La matriz se construye 'a mano'
 2b. Se debia usar csv.reader
@@ -70,7 +70,7 @@ No hay outputs anteriores
 3a. Se realizan operaciones no necesarias para garantizar que los datos esten como arrays. Para validar el tipo de una varialbe, se puede ejeceutar type(mi_variable)
 
 3i. La leyenda debia ir sin recuadro"
-LINARES ORTEGON,DANIELA,3,10,4,4,4,4,4,2,3,5,5,3,5,5,5,5,5,5,2,11.4,"(-3) Importa numpy y matplotlib dos veces
+LINARES ORTEGON,DANIELA,3,10,4,4,4,4,4,2,3,5,5,3,5,5,5,5,5,5,2,83,"(-3) Importa numpy y matplotlib dos veces
 1a. La matriz se construye 'a mano'
 2f. No s especifica tamaño para los puntos rojos
 2g. Se requeria fontsize=10
@@ -82,7 +82,7 @@ MEZA CALA,JUAN CAMILO,10,10,4,0,4,4,4,4,4,5,5,3,5,5,5,5,5,2,2,86,"2b. Se debia u
 3c. La fuente de la leyenda tambien debia ser de 15 puntos
 3i. La leyenda debia ser sin recuadro
 3j. La grafica no se genera completamente en el pdf"
-NOGUERA AGUIRRE,DAVID ALEJANDRO,5,10,4,4,0,2,4,2,4,5,5,3,5,5,5,5,5,5,2,59.9,"(-3) Importa matplotlib dos veces
+NOGUERA AGUIRRE,DAVID ALEJANDRO,5,10,4,4,0,2,4,2,4,5,5,3,5,5,5,5,5,5,2,80,"(-3) Importa matplotlib dos veces
 1a. El algoritmo para crear la matriz debe ser completamente automatico
 2d. Los labels debian ser RA/° DEC/°
 2f. No se especifica tamañao para los puntos rojos
@@ -91,11 +91,11 @@ NOGUERA AGUIRRE,DAVID ALEJANDRO,5,10,4,4,0,2,4,2,4,5,5,3,5,5,5,5,5,5,2,59.9,"(-3
 Esta misma solucion se encontro 7 veces en la seccion. Asigno 1/7 de la nota
 *Corrijo Nota por correo de reclamo. Tras inspeccion detallada concluyo que la solucion de puntos 1 y 3 es diferente de las otras tareas señaladas. Puntos 1 y 3 suman normal, pero punto 2 va dividido entre 7"
 NUÑEZ CASTAÑO,JULIAN HUMBERTO,,,,,,,,,,,,,,,,,,,,0,
-PARADA BELTRAN,JUAN SEBASTIAN,10,10,4,4,4,4,4,4,4,5,5,5,5,3,5,5,5,2,6,91,"(-3) Importa csv tres veces
+PARADA BELTRAN,JUAN SEBASTIAN,10,10,4,4,4,4,4,4,4,5,5,5,5,3,5,5,5,2,6,94,"(-3) Importa csv tres veces
 3e. Hace los calculos con listas
 3i. Se esperaba la leyenda sin recuadro"
 QUIJANO CASTRO,JUAN DIEGO,,,,,,,,,,,,,,,,,,,,0,
-TORRES QUINTERO,MARIA FERNANDA,10,10,4,4,4,4,4,2,3,5,5,3,5,5,2,5,5,6,2,29.7,"(-3) Importa numpy y matplotlib dos veces
+TORRES QUINTERO,MARIA FERNANDA,10,10,4,4,4,4,4,2,3,5,5,3,5,5,2,5,5,6,2,88,"(-3) Importa numpy y matplotlib dos veces
 2f. No se especifica tamaño para puntos rojos
 2g. Se requeria fontsize=10
 3c. La fuente de la leyenda tambien debe ser de 15 puntos
@@ -103,7 +103,7 @@ TORRES QUINTERO,MARIA FERNANDA,10,10,4,4,4,4,4,2,3,5,5,3,5,5,2,5,5,6,2,29.7,"(-3
 3h. La grafica no se genera completamente en el pdf.
 Esta misma solucion se encontro 7 veces en la seccion. Asigno 1/7 de la nota
 *Corrijo: Tras inspeccion detallada de las 7 tareas involucradas, concluyo que punto 1 de esta tarea es diferente a las demas. Puntos 2 y 3 can divididos en 7"
-VARGAS LOPEZ,CRISTHIAN CAMILO,10,10,4,4,0,0,4,2,4,5,5,5,5,5,5,5,5,2,6,76,"(-3) Importa numpy y matplotlib dos veces
+VARGAS LOPEZ,CRISTHIAN CAMILO,10,10,4,4,0,0,4,2,4,5,5,5,5,5,5,5,5,2,6,86,"(-3) Importa numpy y matplotlib dos veces
 (-7) Los comentarios que pone no son suficientes
 3i. La leyenda debia ser sin recuadro
 "
