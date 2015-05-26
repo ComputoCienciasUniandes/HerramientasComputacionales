@@ -1,0 +1,106 @@
+\documentclass[letterpaper,10pt,onecolumn]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{empheq}
+\usepackage{enumitem}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{calligra}
+\usepackage{algpseudocode} 
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+\newcommand{\scripty}[1]{\ensuremath{\mathcalligra{#1}}}
+\lstloadlanguages{[5.2]Mathematica}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\textwidth}{490pt}
+\setlength{\textheight}{690pt}
+\setlength{\topmargin}{-60pt}
+\addtolength{\hoffset}{-0.3cm}
+\addtolength{\textheight}{4cm}
+\usepackage[absolute]{textpos} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{marvosym} %use this pack
+\usepackage{xcolor} %for color
+\usepackage{dtklogos}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{flushleft}
+
+\textsc{\LARGE Herramientas Computacionales}\\[0.01cm]
+
+\Large \textsc{Programa}\\[0.1cm]
+\normalsize (FISI 2028) \\
+Curso de vacaciones 2015 \\
+Profesor: Juan David Lizarazo \\
+Horario de Atención: jueves 10 - 12 @ I-113
+
+\end{flushleft}
+
+		\begin{textblock*}{20mm}(145mm,11mm)
+  			\includegraphics[height=29 mm]{andes.png}
+		\end{textblock*}
+
+\vspace{0.2cm}
+\newcounter{mysection}
+\addtocounter{mysection}{0}
+
+\normalsize Los computadores nos ayudan a organizar, comunicar y procesar información, y hoy en día son esenciales en los mundos de la ciencia, la academia y la técnica. Este curso enseña algunas herramientas  básicas para hacer de los computadores herramientas útiles: las funciones y características básicas de UNIX, la elaboración de documentos en \LaTeX $\,$ y el lenguaje de programación Python. Además de estas herramientas también se exponen numerosos ejemplos que ejemplifican su uso y que muestran la amplitud de los problemas que pueden resolverse con la ayuda de los computadores. 
+
+ Las clases inician con una exposición sobre los temas del día y terminan con cada grupo trabajando en el taller de ejercicios de la semana. A menudo se harán exámenes cortos al terminar la clase. 
+
+ La nota final del curso obedece a los siguientes porcentajes: exámenes cortos (30\%) y talleres (70\%). En las notas de los talleres se quita la mejor y la peor nota.\\[0.1cm]
+
+
+\noindent\normalsize \textbf{\textsc{Clase 1 y 2}} [Unix] Introducción a UNIX: filosofía, comandos básicos, editores de texto, control de procesos, redirección y acceso remoto (\verb+ssh+).\\[-0.3cm]
+
+\noindent\textbf{\textsc{Clases 3 y 4}} [\LaTeX] Lógica de compilación, tipos de documentos, secciones, ecuaciones, tablas y figuras. Manejo de bibliografía con \BibTeX.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Clase 5}} [Python] Introducción: filosofía, sintaxis básica, operaciones aritméticas, operaciones con cadenas de caracteres, listas, condicionales y estructuras iterativas.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Clase 6}} [Python] Definición de funciones, tipos de variables, recursividad. Instalación (\verb+pip+) e importación de módulos. Cuadernos de iPython.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Clases 7 y 8}} [Python] Introducción a NumPy.  Importación de datos. Visualización de datos con \verb+matplotlib+: \verb+plot, scatter, imshow, subplot+. Uso de \verb+basemap+.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Clases 9 y 10}} [Python] Análisis numérico: métodos de bisección, método de Newton-Raphson. Introducción a SciPy. Cálculo simbólico. Ajustes polinomiales y no polinomiales.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Clases 11 y 12}} [Python] Herramientas estadísticas: funciones estadísticas, histogramas y ejemplos de distribuciones.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Clase 13}} [Python] Métodos de Monte Carlo: integración y simulación.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Clase 14}} [Python] Álgebra lineal: operaciones entre matrices, inversión de matrices, valores y vectores propios.\\[-0.3cm]
+
+\noindent\textbf{\textsc{Clase 15}} Introducción a {\it Mathematica}.\\[+0.1cm]
+
+\noindent\normalsize Bibliografía principal:
+
+%\href{http://www.wikibooks.org}{\color{blue}\looparrowright}
+
+\begin{itemize}
+	\item H. P. Langtangen. \textit{A Primer on Scientific Programming with Python}, 2009.\\
+	\href{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-3-642-18366-9}{\nolinkurl{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-3-642-18366-9}}\\[-0.6cm]
+\end{itemize}
+
+\noindent\normalsize Bibliografía complementaria:
+
+\begin{itemize}
+	\item J. V. Guttag. \textit{Introduction to Computation and Programming Using Python}, 2013.
+	\item K. D. Lee. \textit{Python Programming Fundamentals}, 2011. \\
+	\href{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-1-84996-537-8}{\nolinkurl{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-1-84996-537-8}}\\[-0.6cm]
+	\item C. Johnson. \textit{Pro Bash Programming}, 2009. \\
+	\href{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-1-4302-1998-9}{\nolinkurl{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-1-4302-1998-9}}
+	\item S. van Vugt. \textit{Beginning the Linux Command Line}, 2009.\\
+	\href{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-1-4302-1890-6}{\nolinkurl{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-1-4302-1890-6}}\\[-0.6cm]
+	\item G. Gr\"atzer. \textit{More Math Into  \LaTeX}, 2007.\\
+	\href{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-0-387-68852-7}{\nolinkurl{http://link.springer.com.ezproxy.uniandes.edu.co:8080/book/10.1007\%2F978-0-387-68852-7}}
+\end{itemize}
+
+\end{document}
