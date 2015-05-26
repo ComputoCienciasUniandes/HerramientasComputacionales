@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: referencias.aux
+The style file: plain.bst
+Database file #1: referencias.bib.bib
+Warning--empty title in gs
+Warning--empty title in bell
+Warning--empty title in jma
+Warning--empty title in jmar
+Warning--empty title in jfa
+Warning--empty title in epr
+Warning--empty title in mpma
+Warning--empty title in ets
+Warning--empty title in apm
+Warning--empty title in ppa
+Warning--empty title in wg
+Warning--empty title in ejh
+Warning--empty title in ml
+Warning--empty title in kg
+Warning--empty title in bd
+You've used 15 entries,
+            2118 wiz_defined-function locations,
+            575 strings with 4805 characters,
+and the built_in function-call counts, 4451 in all, are:
+= -- 398
+> -- 233
+< -- 0
++ -- 91
+- -- 76
+* -- 365
+:= -- 788
+add.period$ -- 30
+call.type$ -- 15
+change.case$ -- 68
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 165
+empty$ -- 340
+format.name$ -- 76
+if$ -- 880
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 15
+newline$ -- 63
+num.names$ -- 30
+pop$ -- 83
+preamble$ -- 1
+purify$ -- 68
+quote$ -- 0
+skip$ -- 95
+stack$ -- 0
+substring$ -- 237
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 60
+warning$ -- 15
+while$ -- 45
+width$ -- 17
+write$ -- 137
+(There were 15 warnings)

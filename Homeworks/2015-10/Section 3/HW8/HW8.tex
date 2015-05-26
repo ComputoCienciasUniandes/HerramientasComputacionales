@@ -1,0 +1,87 @@
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Herramientas Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{mdframed}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\mdfdefinestyle{mystyle}{leftmargin=1cm,rightmargin=1cm,linecolor=red}
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+\usepackage{hyperref}
+\decimalpoint
+
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+\renewcommand{\solutiontitle}{}
+\SolutionEmphasis{\color{blue}}
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+\begin{center}
+{\Large Herramientas Computacionales} \\
+Taller 8 - \textsc{Python - Scipy, Ajustes Lineales y No-lineales} \\
+{\small \it Abril de 2015}
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.pdf}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(161mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.pdf}
+\end{textblock*}
+
+\vspace{1cm}
+
+La solución de este taller debe ser presentada en un solo archivo comprimido con nombre \verb+NombreApellido_HW8.zip,+ en el cual estén contenidas las respuestas a los ejercicios, bien sea en scripts, bien sea en notebooks de iPython. Recuerde que toda vez que se solicite un ajuste se debe hacer una gráfica que contenga los datos originales y también los datos correspondientes al ajuste.
+
+\begin{questions}
+
+\question[100] {\bf Desminado Humanitario} En Colombia existe un problema agudo de minas antipersonales, resultado de la acción de grupos armados ilegales. En los últimos meses, se ha hablado mucho acerca del desminado humanitaro y de las consecuencias que eso tiene para la vida de los colombianos\footnote{Puede consultar más información acerca del desminado en: \url{http://www.accioncontraminas.gov.co/Paginas/aicma.aspx}}. Sin embargo, este proceso no es nuevo; las fuerzas militares llevan varios años intentando desminar diversas zonas del país. En este taller observaremos como ha evolucionado el desminado y sus consecuencias en función del tiempo en nuestro país.
+
+
+\begin{parts}
+\part[10] El archivo \verb+desminadohumanitario.csv+ \footnote{El archivo fue obtenido a partir de \url{http://datosabiertoscolombia.cloudapp.net/frm/buscador/frmBuscador.aspx}} contiene 4 columnas con la siguiente información sobre el desminado: año, mes, artefactos destruídos en el mes y área despejada acumulada ($\textrm{hm}^2$) desde diciembre de 2005. Grafique la evolución en el tiempo de los artefactos destruídos por mes. Puede estimar que un mes es un doceavo de año.
+%\emph{Nota: puede usar el primer día de cada mes para construir elementos \textbf{datetime}}.
+\part[20] Hacer un ajuste lineal por mínimos cuadrados sobre los datos. ¿Cuál es el número esperado de minas desactivadas en mayo de 2002 y en mayo de 2015? Comente el resultado.
+\part[20] Hacer ajustes polinómicos de orden 9 y 17. ¿Cuál es el número esperado de minas desactivadas en mayo de 2002 y en mayo de 2015? Comente el resultado.
+\part[5] ¿Cuál estimado es mejor? Explique sus razones.
+\part[25] Grafique la evolución en el tiempo del área acumulada desminada.  Ajuste un modelo logístico a los datos presentados, de la forma 
+
+$$f(t) = \frac{L}{1 + \mathrm e^{-k(t-t_0)}}$$ 
+
+Donde: 
+\begin{itemize}
+\item $t_0$ = valor en $t$ del punto medio
+\item $L$ = valor máximo de la curva
+\item $\frac{k L}{4}$ = pendiente de la curva en $t_0$
+\end{itemize}
+
+\part[20] ¿En qué fecha el área despejada acumulada será igual a $300\,\textrm{hm}^2$? (use el método de Newton-Raphson)
+
+\end{parts} 
+
+
+
+\end{questions}
+\end{document}
