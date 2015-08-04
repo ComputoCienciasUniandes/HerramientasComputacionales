@@ -1,0 +1,70 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015, curso de vacaciones
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+{\Large Herramientas Computacionales} \\
+Tarea 1 - \textsc{Comandos b\'asicos de UNIX}\\
+2015-Ago-04.\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar la clase.
+\noindent
+Los dos archivos c\'odigo fuente deben subirse en un \'unico archivo
+\verb".zip" con el nombre \verb"NombreApellido_hw1.zip", por ejemplo
+yo deber\'ia subir el zip \verb"FelipeGomez_hw1.zip".
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+\question[(40)] {\bf{Estudiantes de Mec\'anica :)}}
+
+Escriba un script llamado \verb"mecanica.sh" que descargue el archivo de notas,
+genere un archivo 
+(\verb"mecanica.txt") en el que se escriban nombre, apellido y nota definitiva
+de los estudiantes de mecánica que pasaron la materia.
+
+
+\question[60]{\bf{Sort}}
+
+Escriba un script llamado \verb"definitivas.sh" que descarge el archivo de notas, genere un listado 
+(\verb"definitivas.txt") con las notas de todos los estudiantes que pasaron 
+la materia, organizadas de mayor a menor usando el comando \verb"sort".
+
+
+
+\end{questions}
+
+\end{document}
