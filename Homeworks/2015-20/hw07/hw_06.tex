@@ -1,0 +1,117 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015-10
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+\begin{center}
+{\Large Herramientas Computacionales} \\
+Taller 6 \\
+Profesor: Felipe G\'omez\\
+Fecha de Publicación: {\small \it Septiembre 8 de 2015}\\
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(161mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar 
+el horario de clase.
+\noindent
+Primero debe crearse una carpeta de trabajo llamada \verb"NombreApellido_hw6"
+dentro de la cual se deben crear los archivos \verb"fibonacci.py" y
+\verb"euclides.py". Una vez haya terminado de trabajar, comprimir la carpeta
+desde la consola con el comando:
+
+\verb"zip -r NombreApellido_hw6.zip NombreApellido_hw6"
+
+\noindent Enviar el archivo comprimido \verb"NombreApellido_hw6.zip" por SICUA. 
+Es importante realizar estos pasos correctamente, ya que se calificará con un
+script que asigna la nota 0.0 si los archivos no están correctamente nombrados.
+
+
+
+
+\begin{questions}
+
+\question[50] {\bf{Serie de Fibonacci}} En un archivo llamado \verb"fibonacci.py" 
+escribir una función llamada \verb"fib()" que tenga como entrada un número entero 
+positivo $n$, como salida imprima los números de la serie de Fibonacci menores que 
+$n$. La función debe tener estructura iterativa.
+
+\medskip
+La serie $F_n$ tiene las siguientes propiedades:
+\begin{enumerate}[I.)]
+	\item $F_0 = 0$
+	\item $F_1 = 1$
+	\item $F_n = F_{n-1} +F_{n-2}$
+\end{enumerate}
+
+\question[50] {\bf{Algoritmo de Euclides para hallar MCD}} 
+En un archivo llamado \verb"euclides.py"  escribir una función llamada \verb"mcd()"
+que tenga como entrada dos números enteros, como salida el máximo común divisor
+calculado con el algoritmo de Euclides y que tenga estructura iterativa.
+
+\medskip
+\textit{``The Euclidean algorithm is the granddaddy of all algorithms, because is
+the oldest nontrivial algorithm that has survived to the present day.'' - Donald
+Knuth}.
+\medskip
+
+El algoritmo de Euclides para encontrar el máximo común divisor entre dos 
+enteros positivos, $m$ y $n$, con la condición $m>=n$, puede escribirse así:
+
+\begin{enumerate}[I.)]
+	\item Dividir $m$ entre $n$ y tomar $r$ como el residuo de la división.
+
+	\item Si $r$ es cero, $n$ es la respuesta; si no, continuar al siguiente paso.
+
+	\item Hacer $m=n$ y $n=r$. Volver al paso 1.
+\end{enumerate}
+
+\end{questions}
+
+
+\end{document}
