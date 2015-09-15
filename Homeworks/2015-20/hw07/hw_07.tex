@@ -1,0 +1,113 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015-10
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+\begin{center}
+{\Large Herramientas Computacionales} \\
+Taller 7 \\
+Profesor: Felipe G\'omez\\
+Fecha de Publicación: {\small \it Septiembre 15 de 2015}\\
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(161mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar 
+el horario de clase.
+\noindent
+Primero debe crearse una carpeta de trabajo llamada \verb"NombreApellido_hw7"
+dentro de la cual deben estar los archivos \verb"resorte.py" y una gráfica. 
+Una vez haya terminado de trabajar, comprimir la carpeta
+desde la consola con el comando:
+
+\verb"zip -r NombreApellido_hw7.zip NombreApellido_hw7"
+
+\noindent Enviar el archivo comprimido \verb"NombreApellido_hw7.zip" por SICUA. 
+Es importante realizar estos pasos correctamente, ya que se calificará con un
+script que asigna la nota 0.0 si los archivos no están correctamente nombrados.
+
+
+
+
+\begin{questions}
+
+\question[50] {\bf{Ley de Hooke I.}} En este ejercicio estudiaremos el movimiento 
+armónico simple en un sistema masa-resorte. Para eso trabajaremos en el archivo 
+llamado \verb"resorte.py" donde crearán una clase de objetos llamada \verb"masa",
+esta masa debe tener los siguientes atributos:
+\begin{itemize}
+	\item Posición $x$
+	\item Velocidad $V_x$
+	\item Aceleración $a_x$
+	\item Constante de resorte $k$
+\end{itemize}
+
+La clase \verb"masa" debe tener los métodos:
+
+\begin{itemize}
+	\item  \verb"__init__": Carga las condiciones iniciales del objeto.
+	\item  \verb"CalculaFuerza": Utiliza la ley de Hooke para calcular la fuerza
+	como una función que depende de $x$ de la forma $ F = -kx$
+	\item  \verb"Muevete": Utilizando el método de Euler, actualiza la posición y la velocidad en cada $\Delta t$.
+	\item  \verb"Imprime": Imprime el instante $t$ y la posición $x$.
+\end{itemize}
+
+
+
+\question[50]{\bf{Gráfica}} 
+El script debe iniciarse con una masa de 0.200kg en la posición 0.01m, en reposo y 
+un resorte con constante $k=0.5N/m$. Debe oscilar durante 5.0s. Los datos pueden redirigirse
+hacia un archivo \verb"trayectoria.dat" y estos deben graficarse en un archivo \verb"trayectoria.png". También es válido (sólo por esta clase) trabajar en LibreOffice y
+entregar un archivo \verb"trayectoria.ods" o \verb"trayectoria.xls"
+
+
+
+\end{questions}
+
+
+\end{document}
