@@ -12,11 +12,7 @@ Juan David Orjuela - Felipe Gómez
 
 [Presentación PDF UNIX II.](https://github.com/ComputoCienciasUniandes/HerramientasComputacionales/raw/master/Lectures/02.Unix-TextEditors/02%20emacs%2C%20scripts%2C%20redir%20%26%20pipelines.pdf)
 
-##Semana 3: LaTeX I
-
-
-
-##Semana 4: LaTeX II
+##Semanas 3 y 4: LaTeX
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=y5jXAv3as6I
 " target="_blank"><img src="http://img.youtube.com/vi/y5jXAv3as6I/0.jpg" 
