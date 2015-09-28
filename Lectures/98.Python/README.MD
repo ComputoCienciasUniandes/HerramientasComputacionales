@@ -79,5 +79,5 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 " target="_blank"><img src="http://img.youtube.com/vi/IpyG-1Ied3w/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-<center> [POO en Pyhton - Juan David Orjuela - https://youtu.be/IpyG-1Ied3w](https://youtu.be/IpyG-1Ied3w) </center>
+<center> [Módulos, PIP y cuadernos de Jupyter - Felipe Gómez - https://youtu.be/IpyG-1Ied3w](https://youtu.be/IpyG-1Ied3w) </center>
 
