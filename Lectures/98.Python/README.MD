@@ -72,3 +72,12 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 <center> [POO en Pyhton - Juan David Orjuela - https://youtu.be/C-siW0pLQ_E](https://youtu.be/C-siW0pLQ_E) </center>
+
+##Semana 9: Python - Módulos, PIP y cuadernos de Jupyter
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=IpyG-1Ied3w
+" target="_blank"><img src="http://img.youtube.com/vi/IpyG-1Ied3w/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+<center> [POO en Pyhton - Juan David Orjuela - https://youtu.be/IpyG-1Ied3w](https://youtu.be/IpyG-1Ied3w) </center>
+
