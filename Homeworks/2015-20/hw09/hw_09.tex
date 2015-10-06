@@ -1,0 +1,107 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015-10
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+
+\begin{center}
+{\Large Herramientas Computacionales \\
+ Taller 9}\\
+Profesores: \\ Felipe G\'omez\\ Juan David Orjuela \\
+Fecha de Publicación: {\small \it Octubre 6 de 2015}\\
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(161mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar 
+el horario de clase.
+\noindent
+Primero debe crearse una carpeta de trabajo llamada \verb"NombreApellido_hw9"
+dentro de la cual deben estar los siguientes archivos: un Ipython notebook 
+y una gráfica en formato png. Una vez haya terminado de trabajar, debe 
+comprimir la carpeta desde la consola con el comando:
+
+\verb"zip -r NombreApellido_hw9.zip NombreApellido_hw9"
+
+\noindent Debe enviar el archivo comprimido \verb"NombreApellido_hw9.zip" por SICUA. 
+Es importante realizar estos pasos correctamente, ya que se calificará con un
+script que asigna la nota 0.0 si los archivos no están correctamente nombrados.
+
+\noindent La imágen \verb"circulos.png" se encuentra disponible en el siguente \burlalt{enlace.}{https://raw.githubusercontent.com/ComputoCienciasUniandes/HerramientasComputacionalesDatos/master/Homework/hw09/circulos.png}
+
+\begin{questions}
+
+\question[70] {\bf{Encontrar centros de masa}} 
+
+Cree un Ipython Notebook llamado \verb"centros_de_masa.ipynb", allí
+debe leer el archivo de imágen \verb"circulos.png" que tiene tres círculos blancos 
+sobre un fondo en negro como un array. Muéstrela con el método
+\verb"imshow()"
+
+Siguiendo el concepto de centro de masa, calcule el centro de cada círculo.
+Imprima los resultados en una celda.
+
+
+\question[30]{\bf{Gráfica}} 
+
+Utilizando los comandos \verb"axvline()" y \verb"axhline()" trace líneas verticales
+y horizontales que muestren los centros de los tres círculos. 
+Grabe la imágen que usted ha creado con \texttt{savefig("solucion.png")}
+
+\begin{figure}[hb]
+\begin{centering}
+\includegraphics[scale=0.5]{sol}
+\caption{Ejemplo de marcado del centro de un círculo.}
+\end{centering}
+\end{figure}
+\end{questions}
+
+
+\end{document}
