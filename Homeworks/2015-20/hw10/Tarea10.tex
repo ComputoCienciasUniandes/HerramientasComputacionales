@@ -1,0 +1,90 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015-10
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+
+\begin{center}
+{\Large Herramientas Computacionales \\
+ Taller 10}\\
+Profesores: \\ Felipe G\'omez\\ Juan David Orjuela \\
+Fecha de Publicación: {\small \it Octubre 13 de 2015}\\
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(161mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar 
+el horario de clase.
+\noindent
+Consiste de un IPython Notebook con el nombre
+\verb"NombreApellido_hw10"
+el cual debe contener todas las intrucciones necesarias del ejercicio.
+
+Es importante realizar estos pasos correctamente, ya que se calificará con un
+script que asigna la nota 0.0 si los archivos no están correctamente nombrados.
+
+%\noindent La imágen \verb"circulos.png" se encuentra disponible en el siguente \burlalt{enlace.}{https://raw.githubusercontent.com/ComputoCienciasUniandes/HerramientasComputacionalesDatos/master/Homework/hw10/munich.txt}
+
+\noindent El archivo de Temperaturas \verb"munich.txt" se encuentra disponible en el siguente \burlalt{enlace.}{https://xurl.es/munich.txt}
+
+\begin{questions}
+
+\question[50] {\bf{Comparar temperaturas para primer y último años completos}} 
+
+Genere una grafica de las temperaturas para el primer y último años completos, preferiblemente en la misma figura del cuaderno de IPython. Si no puede hacerlo en la misma figura, hágalo en figuras consecutivas. En cualquier caso utilice los comandos de Matplolib para títulos, nombras los ejes adecuadamente, etc., que se enseñaron en el video.
+
+\question[50]{\bf{Histogramas}} 
+
+Haga un histograma para las Temperaturas del mes de Enero de todos los años y uno para el mes de Julio. Puede suponer que cada mes representa aproximadamente un doceavo del año.
+
+\end{questions}
+
+\end{document}
+
