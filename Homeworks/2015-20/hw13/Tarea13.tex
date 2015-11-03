@@ -1,0 +1,89 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015-10
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+
+\begin{center}
+{\Large Herramientas Computacionales \\
+ Taller 13}\\
+Profesores: \\ Felipe G\'omez\\ Juan David Orjuela \\
+Fecha de Publicación: {\small \it Noviembre 3 de 2015}\\
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(161mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar 
+el horario de clase.
+\noindent
+Consiste de un IPython Notebook con el nombre
+\verb"NombreApellido_hw13"
+el cual debe contener todas las intrucciones necesarias del ejercicio.
+
+Es importante realizar estos pasos correctamente, ya que se calificará con un
+script que asigna la nota 0.0 si los archivos no están correctamente nombrados.
+
+\begin{questions}
+
+\question[50]{\bf{Sumando números aleatorios}} 
+
+Descargue el archivo de datos 
+\href{https://github.com/ComputoCienciasUniandes/HerramientasComputacionales/blob/master/Lectures/98.Python/EjercicioHerramientasEstadisticas.ipynb}{EjercicioHerramientasEstadisticas.ipynb}.
+
+Este cuaderno de IPython tiene 4 funciones, para la primera parte use las dos primeras: \textit{lanzamientos} llama \textit{RanSum}. Su finalidad es generar N números aleatorios que luego son sumados para ser guardados en una lista, haciendo el experimento M veces, y luego hacer un histograma con esos resultados. Haga una gráfica y un ajuste de los parámetros. ¿De qué tipo de distribución de probabilidad se trata? ¿Qué parámetros tiene?
+
+\question[50] {\bf{Lanzamiento de una moneda}} 
+
+Similarmente, \textit{realizaciones} llama \textit{coinflip}. En este caso, se lanza una moneda N veces y se guarda la frecuencia relativa con que sale \textit{cara}, luego se hace el experimento M veces y se guardan los resultados. Haga una gráfica y un ajuste de los parámetros. ¿De qué tipo de distribución de probabilidad se trata? ¿Qué parámetros tiene? ¿Es igual a la anterior? Si se diferencia, ¿en qué se diferencia y cuál puede ser la causa?
+
+\end{questions}
+
+\end{document}
+
