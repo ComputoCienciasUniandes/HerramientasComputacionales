@@ -123,6 +123,10 @@ alt="IMAGE ALT TEXT HERE" width="320" height="240" border="10" /></a>
 Material antiguo
 
 [Métodos de Monte Carlo - IPython NB](http://nbviewer.ipython.org/github/ComputoCienciasUniandes/HerramientasComputacionales/blob/master/Lectures/12.Monte-Carlo/MC-presentation.ipynb)
+
+
 [Markov Chain Monte Carlo - IPython NB](http://nbviewer.ipython.org/github/ComputoCienciasUniandes/HerramientasComputacionales/blob/master/Lectures/13.MCMC/MCMC.ipynb)
+
+
 [Más ejemplos - IPython NB](http://nbviewer.ipython.org/github/ComputoCienciasUniandes/HerramientasComputacionales/blob/master/Lectures/12.Monte-Carlo/Python - 9 - Montecarlo.ipynb)
 
