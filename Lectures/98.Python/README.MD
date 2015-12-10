@@ -5,6 +5,20 @@ Juan David Orjuela - Felipe Gómez
 
 ##Semana 1: UNIX
 
+
+<center> [UNIX - Parte 1 https://youtu.be/_DZSo25BHA0] (https://youtu.be/_DZSo25BHA0) </center>
+
+<a href="https://youtu.be/_DZSo25BHA0
+" target="_blank"><img src="http://img.youtube.com/vi/_DZSo25BHA0/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="320" height="240" border="10" /></a>
+
+<center> [UNIX - Parte 2 https://youtu.be/FnD-EgcFBqk] (https://youtu.be/FnD-EgcFBqk) </center>
+
+<a href="https://youtu.be/FnD-EgcFBqk
+" target="_blank"><img src="http://img.youtube.com/vi/FnD-EgcFBqk/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="320" height="240" border="10" /></a>
+
+
 [Presentación PDF UNIX I.](https://github.com/ComputoCienciasUniandes/HerramientasComputacionales/raw/master/Lectures/01.Unix-Console/Lecture/01%20UNIX.pdf)
 
 
