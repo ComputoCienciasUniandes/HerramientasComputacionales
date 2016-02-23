@@ -1,0 +1,74 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015, curso de vacaciones
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+%\usepackage{breakurl}
+\decimalpoint
+
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 5} \\
+\textsc{Semana 6 - Funciones y recursividad}\\
+2016-I\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+El c\'odigo fuente debe subirse a Sicua plus como un \'unico archivo
+\verb".py" con el nombre del estudiante en el formato \verb"NombreApellido_hw5.py" antes que termine la clase.
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+\question[5.0] {\bf{Tri\'angulo de Pascal}}
+
+Escriba un script de Python que contenga una funci\'on que calcule los elementos de un tri\'angulo de Pascal recursivamente y los imprima hasta cierto orden n (dado como argumento a dicha funci\'on). Por ejemplo, si hago un llamado a \verb+ Pascal(4) +, se deber\'ia imprimir un mensaje en pantalla similar al siguiente:
+
+
+\begin{center}
+
+\begin{tabular}{rccccccccc}
+$n=0$:&    &    &    &    &  1\\\noalign{\smallskip\smallskip}
+$n=1$:&    &    &    &  1 &    &  1\\\noalign{\smallskip\smallskip}
+$n=2$:&    &    &  1 &    &  2 &    &  1\\\noalign{\smallskip\smallskip}
+$n=3$:&    &  1 &    &  3 &    &  3 &    &  1\\\noalign{\smallskip\smallskip}
+$n=4$:&  1 &    &  4 &    &  6 &    &  4 &    &  1\\\noalign{\smallskip\smallskip}
+\end{tabular}
+\end{center}
+
+
+Recuerde que debe definir el caso base y el caso recursivo correctamente. Tal vez la funci\'on necesite imprimir parte del tri\'angulo dentro de la misma y retornar la \'ultima fila como resultado de la funci\'on, eso est\'a permitido. 
+
+\end{questions}
+
+\end{document}
