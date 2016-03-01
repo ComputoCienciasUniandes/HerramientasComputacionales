@@ -1,0 +1,77 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015, curso de vacaciones
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+%\usepackage{breakurl}
+\decimalpoint
+
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 6} \\
+\textsc{Semana 7 - Programaci\'on orientada a objetos}\\
+2016-I\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+La soluci\'on al problema debe subirse a Sicua Plus como una carpeta comprimida de extensi\'on \verb".zip" con el nombre del estudiante en el formato \verb"NombreApellido_hw6.zip" antes que termine la clase.
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+\question[3.0] {\bf{Ley de Hooke}}
+
+Alterar el c\'odigo dado en el video (\verb"baloncito.py") para solucionar el problema de un resorte que se mueve bajo la ley de Hooke. Tenga en cuenta que la fuerza ahora no es constante sino que depende de la posici\'on, por lo que debe recalcularse cada vez que se vaya a hacer la evoluci\'on del sistema.
+
+\begin{equation}
+F_{Hooke}=-kX
+\end{equation}
+
+
+\question[2.0] {\bf{A jugar}}
+
+Corra el programa y redirija el resultado a un archivo de texto para luego graficarlo usando Grace o el programa de su predilecci\'on. Guarde esa gr\'afica y vuelva a correr el programa cambiando las constantes que inicializan el resorte de manera que la nueva frecuencia angular sea el doble de la anterior. Recuerde que:
+
+
+\begin{equation}
+\omega=\sqrt{\frac{k}{m}}
+\end{equation}
+
+\begin{equation}
+\omega_{1}=\omega_{2}
+\end{equation}
+
+
+\end{questions}
+
+\end{document}
