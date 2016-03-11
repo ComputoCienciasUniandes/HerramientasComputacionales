@@ -1,0 +1,1 @@
+It might be interesting to analize the punctuation marks relative abundance in some given text. Inspired by: https://github.com/adamjcalhoun/punctuation/ and https://neuroecology.wordpress.com/2016/02/15/punctuation-in-novels-2/
