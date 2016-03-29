@@ -1,0 +1,72 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015, curso de vacaciones
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\decimalpoint
+
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales \\
+ Tarea 9} \\
+\textsc{Semana 10 - Importaci\'on de datos. Visualizaci\'on de datos con Matplotlib }\\
+2016-I\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar 
+el horario de clase.
+\noindent
+Consiste de un IPython Notebook con el nombre
+\verb"NombreApellido_hw9"
+el cual debe contener todas las intrucciones necesarias del ejercicio.
+
+%\noindent La imágen \verb"circulos.png" se encuentra disponible en el siguente \burlalt{enlace.}{https://raw.githubusercontent.com/ComputoCienciasUniandes/HerramientasComputacionalesDatos/master/Homework/hw10/munich.txt}
+
+\noindent El archivo de Temperaturas \verb"munich.txt" se encuentra disponible en el siguente \burlalt{enlace.}{https://raw.githubusercontent.com/ComputoCienciasUniandes/HerramientasComputacionalesDatos/master/Homework/hw9/munich.txt}
+
+\begin{questions}
+
+\question[50] {\bf{Comparar temperaturas para primer y último años completos}} 
+
+Genere una gr\'afica de las temperaturas para el primer y último años completos, preferiblemente en la misma figura del cuaderno de IPython. Si no puede hacerlo en la misma figura, h\'agalo en figuras consecutivas. En cualquier caso utilice los comandos de Matplolib para t\'itulos, nombrar los ejes adecuadamente, etc., que se ense\~naron en el video.
+
+\question[50]{\bf{Histogramas}} 
+
+Haga un histograma para las Temperaturas del mes de Enero de todos los años y uno para el mes de Julio. Puede suponer que cada mes representa aproximadamente un doceavo del a\~no.
+
+\end{questions}
+
+\end{document}
