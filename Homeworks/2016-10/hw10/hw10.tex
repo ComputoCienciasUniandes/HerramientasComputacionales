@@ -1,0 +1,73 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015, curso de vacaciones
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\decimalpoint
+
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales \\
+ Tarea 10} \\
+\textsc{Semana 11 - Métodos numéricos: método de la bisección y de Newton-Raphson }\\
+2016-I\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar 
+el horario de clase.
+\noindent
+Consiste de un IPython Notebook con el nombre
+\verb"NombreApellido_hw10"
+el cual debe contener todas las intrucciones necesarias del ejercicio.
+
+\begin{questions}
+
+\question[50] {\bf{Raíces de un número}} 
+
+Encuentre la $\sqrt[7]{7} $ usando el método de la bisección con una precisión de 5 cifras significativas.
+
+Note que esto es equivalente a encontrar la soluci\'on a 
+\begin{equation}
+x^{7} - 7 = 0
+\end{equation}
+
+\question[50]{\bf{Ceros de un polinomio}} 
+
+Encuentre todas las soluciones a la ecuación $3x^5 + 20x^4 -10x^3 -240x^2 -250x +200 = 0$ usando el método de Newton-Raphson. Eso es equivalente a encontrar los ceros del polinomio. Recuerde que cada punto inicial lo llevará, en caso que haya convergencia, a un cero, por lo que necesita definir 5 puntos iniciales adecuados. Para eso haga primero una inspección visual que le permita encontrar buenos puntos iniciales para el algoritmo, y a partir de eso justifique sus elecciones.
+
+\end{questions}
+
+\end{document}
