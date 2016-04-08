@@ -1,0 +1,72 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015, curso de vacaciones
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+%\usepackage{breakurl}
+\decimalpoint
+
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 8} \\
+\textsc{Semana 9 - Numpy. Arrays y sus operaciones}\\
+2016-I\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+La soluci\'on al problema debe subirse a Sicua Plus como una carpeta comprimida de extensi\'on \verb".zip" con el nombre del estudiante en el formato \verb"NombreApellido_hw8.zip" antes que termine la clase. Los archivos necesarios son las dos im\'agenes (original y editada) y el cuaderno de IPython (extensi\'on \verb".ipynb")
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+\question[1.0] {\bf{Cargar la imagen}}
+
+Descargue la imagen en su directorio de trabajo y c\'arguela en el cuaderno de IPython como un arreglo. Mire sus dimensiones y note que la imagen tiene 4 capas, correspondientes a los tres colores por separado (RGB) y una capa de transparencia (esta \'ultima puede ser ignorada).
+
+\question[2.5] {\bf{Encontrar los centros de masa para cada imagen}}
+
+Encuentre el centro de masa de cada una de las figuras (no del sistema de las tres figuras, sino de cada una por separado). Recuerde el concepto de centro de masa e implemente una soluci\'on para encontrarlo usando las funcionalidades de los arreglos de Numpy.
+
+\begin{equation}
+\vec{R}_{CM}=\frac{1}{M}\sum\limits_{i=1}^{n} m_i \vec{r}_i
+\end{equation}
+
+Piense cu\'al es el equivalente a la masa y las coordenadas espaciales en este caso.
+
+\question[1.5] {\bf{Marcar los centros}}
+
+Con lineas horizontales y verticales (puede buscar c\'omo se usan \verb"plt.axhline()" y \verb"plt.axvline()") marque los centros de masa encontrados para cada una de las figuras sobre la imagen original provista y guarde la imagen en formato \verb"NombreApellido_hw8.png" (la funci\'on para guardar la imagen es \verb"savefig('NombreApellido_hw8.png')").
+
+\end{questions}
+
+\end{document}
