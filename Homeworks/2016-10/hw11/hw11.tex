@@ -1,0 +1,79 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015, curso de vacaciones
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\decimalpoint
+
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+\pointname{ puntos}
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales \\
+ Tarea 11} \\
+\textsc{Semana 12 - Introducción a SciPy. Ajustes polinomiales y no polinomiales}\\
+2016-I\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar 
+el horario de clase.
+\noindent
+Consiste de un IPython Notebook con el nombre
+\verb"NombreApellido_hw11"
+el cual debe contener todas las intrucciones necesarias del ejercicio.
+
+\begin{questions}
+
+\question[50]{\bf{Gaussiana + Recta}} 
+
+Descargue el archivo de datos 
+\href{https://raw.githubusercontent.com/ComputoCienciasUniandes/HerramientasComputacionalesDatos/master/Homework/hw11/gauss_line.txt}{gauss-line.txt}.
+Haga una inspección visual del conjunto de datos y observe el comportamiento que tiene. Utilizando el módulo \verb|scipy.optimize.curve_fit| ajuste los datos a un modelo con cinco parámetros: una recta (dos parámetros) más una gaussiana (tres parámetros). Grafique el modelo de ajuste sobre los datos originales.
+
+\question[50] {\bf{Temperaturas de Munich}} 
+
+Descargue el archivo de temperaturas de Munich 
+\href{http://www2.mpia-hd.mpg.de/~robitaille/PY4SCI_SS_2014/_static/data/munich_temperatures_average_with_bad_data.txt}{(munich.txt)} con el que ya se trabajó una vez. Empiece limpiando los datos (remueva los datos defectuosos, i.e. $T=99$ y $T =-99$).
+
+Ajuste los datos a la función de tres parámetros:
+$$ f(t; a,b,c) = a \cos\left( 2\pi t + b \right) + c $$
+
+Grafique el modelo de ajuste sobre los datos originales ya limpios.
+
+\end{questions}
+
+\end{document}
