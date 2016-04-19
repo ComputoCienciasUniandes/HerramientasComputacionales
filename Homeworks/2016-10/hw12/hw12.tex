@@ -1,0 +1,86 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015-10
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+
+\begin{center}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales \\
+ Tarea 12} \\
+\textsc{Semana 13: Herramientas estadísticas} \\
+Funciones estadísticas, histogramas y ejemplos de distribuciones\\
+2016-I\\
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(161mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes.png}
+\end{textblock*}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar 
+el horario de clase.
+\noindent
+Consiste de un IPython Notebook con el nombre
+\verb"NombreApellido_hw12"
+el cual debe contener todas las intrucciones necesarias del ejercicio.
+
+\begin{questions}
+
+\question[40]{\bf{Sumando números aleatorios}} 
+
+Escriba una función que haga la suma de N números (cada uno entre 0 y 1) generados aleatoriamente (para eso puede usar la función \verb+random.random()+). A eso nos referimemos como un experimento y tendrá como resultado un número entre 0 y N. Ahora repita el experimento M veces guardando cada vez el resultado. Observe que se obtiene una distribución gaussiana. 
+
+\question[60] {\bf{Ahora el experimento}} 
+
+Ahora veamos cómo se comporta la distribución en función de N. Para eso fijaremos M=1000 y usamos tres valores diferentes para N, a saber 100, 1000 y 10000. Si su implementación se demora mucho en correr hágalo con 10, 100 y 1000. Ahora encuentre los parámetros para la distribución en cada caso haciendo un fit a una función gaussiana. Comente brevemente sobre los resultados observados.
+
+\end{questions}
+
+\end{document}
+
