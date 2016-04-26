@@ -1,0 +1,96 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015-10
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+
+\decimalpoint
+%\usepackage{pst-barcode}
+%\usepackage{auto-pst-pdf}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+%\extrawidth{0.75in}
+%\extrafootheight{-0.5in}
+\extraheadheight{-0.15in}
+%\pagestyle{head}
+
+%\noprintanswers
+%\printanswers
+
+
+\usepackage{upquote,textcomp}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+\begin{document}
+
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales \\
+ Tarea 13} \\ 
+ \medskip
+\textsc{Semana 14: Métodos de Monte Carlo: Métodos de integración} \\
+2016-I\\
+\end{center}
+
+\vspace{0.5cm}
+
+{\Large Instrucciones de Entrega}\\
+
+\noindent
+La solución a este taller debe subirse por SICUA antes de terminar 
+el horario de clase.
+\noindent
+Consiste de un IPython Notebook con el nombre
+\verb"NombreApellido_hw13"
+el cual debe contener todas las intrucciones necesarias del ejercicio.
+
+\begin{questions}
+
+\question[60]{\bf{La integración}} 
+
+Escriba una función que haga la integral:
+
+\begin{equation}
+\int\displaylimits^1_0 \int\displaylimits^1_0 \ldots \int\displaylimits^1_0 (x_1+x_1+ \ldots + x_{10})^2 \, \mathrm{d} x_1 \mathrm{d} x_2 \ldots \mathrm{d} x_{10}
+\end{equation}
+
+Mediante el método de Sampling (mostrado en el video). Recuerde que la integral puede aproximarse eligiendo N vectores $\vec{x}=(x_1,x_2,\ldots,x_{10})$ aleatoriamente en el intervalo 
+
+\[ ([a_1,b_1],[a_2,b_2],\ldots,[a_{10},b_{10}]) \]
+
+(note que es algo fácil de hacer, simplemente eligiendo un punto aleatorio para cada dimensión), y evaluando:
+
+\begin{equation}
+I \approx \frac{(b_1-a_1) \times (b_2-a_2) \time \ldots (b_{10}-a_{10})}{N} \sum_{i=1}^N f(\vec{x}_i)
+\end{equation}
+
+Puede comparar su resultado con el valor de la integral calculado analíticamente, $I=155/6$
+
+\question[40] {\bf{El error}} 
+
+Ahora observemos el comportamiento del error para N=100 y N=10000. Calcule el valor de la integral muchas veces de manera que pueda observar un histograma razonable. ¿Es razonable pensar que el error es proporcional a $1/\sqrt{N}$?
+
+\end{questions}
+
+\end{document}
+
