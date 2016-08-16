@@ -1,0 +1,60 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015, curso de vacaciones
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 1} \\
+\textsc{Semana 3 - Comandos b\'asicos de UNIX}\\
+2016-II\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+Los dos archivos c\'odigo fuente deben subirse a Sicua plus en un \'unico archivo
+\verb".zip" con el nombre del estudiante en el formato \verb"NombreApellido_hw1.zip" antes que termine la clase.
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+\question[5.0] {\bf{Pilos de Matem\'aticas}}
+
+Escriba un script llamado \verb"matematicas.sh" que primero descargue el archivo de \burlalt{notas.}{https://raw.githubusercontent.com/ComputoCienciasUniandes/HerramientasComputacionalesDatos/master/Homework/hw1/01_notas.tsv},
+y genere un archivo (\verb"pasaron.txt") con el número de estudiantes de matemáticas que pasaron la materia.
+Es válido pero no necesario generar otros archivos auxiliares para pasos intermedios.
+
+
+\end{questions}
+
+\end{document}
