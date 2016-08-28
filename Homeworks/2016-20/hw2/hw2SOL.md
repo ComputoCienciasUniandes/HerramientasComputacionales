@@ -1,4 +1,4 @@
-## Soluci\'on Tarea 2
+## Solución Tarea 2
 
 Para realizar esta tarea pudieron haber usado, cualquier plantilla de Overleaf que pueden encontrar en este [enlace](https://www.overleaf.com/gallery/tagged/cv) y reacomodarlo según su información.
 
