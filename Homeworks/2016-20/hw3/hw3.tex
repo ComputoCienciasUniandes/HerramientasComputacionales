@@ -1,0 +1,65 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+% 2015, curso de vacaciones
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{hyperref}
+\usepackage{breakurl}
+
+\decimalpoint
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 3} \\
+\textsc{Semana 4 - Introducci\'on a Python}\\
+2016-II\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+El problema de esta semana est\'a relacionado con un interesante problema matem\'atico que lleva muchos nombres, entre ellos la conjetura de \burlalt{Collatz}{https://es.wikipedia.org/wiki/Conjetura_de_Collatz} o de Ulam, o problema de Siracusa. El algoritmo es simple, empezando en cualquier n\'umero entero positivo, si es par se divide entre dos, si es impar se multiplica por 3 y se le suma 1. Se construye una secuencia siguiendo ese procedimiento iterativamente, y la conjetura dice que siempre se llegará a 1 en un n\'umero finito de pasos. Por ejemplo si empezamos con seis, dado que es par lo dividimos entre dos, obteniendo tres, que es impar, por lo que $3 \times 3+1=10$, diez es par por lo que sigue cinco, de cinco saltamos a 16 ($3\times 5 + 1=16$), que es un n\'umero bastante par, por lo que la sucesi\'on finaliza con ocho, cuatro, dos y uno. As\'i las cosas, empezando en 6, la sucesi\'on para la conjetura de Collatz se ver\'ia as\'i: 6, 3, 10, 5, 16, 8, 4, 2, 1. En el art\'iculo de Wikipedia puede ver otros ejemplos.
+
+El ejercicio ser\'a implementar un c\'odigo en Python que muestre en pantalla la sucesi\'on. El c\'odigo fuente debe subirse a Sicua plus con el nombre del estudiante en el formato \verb"NombreApellido_hw3.py" antes que termine la clase. 
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+\question[3.0] {\bf{La conjetura}}
+
+Escriba un script de Python que imprima la secuencia empezando en un n\'umero inicial que usted puede definir en una variable dentro del c\'odigo. Puede suponer que el n\'umero ser\'a un entero positivo. Para hacer pruebas observe los ejemplos de Wikipedia para la secuencia iniciando en seis y once, deber\'ia ser capaz de reproducir los resultados.
+
+\question[2.0]{\bf{Tiempo de \'orbita}}
+
+En el mismo c\'odigo, implemente un contador que le permita saber el tiempo de \'orbita, es decir, el n\'umero de iteraciones necesarias para alcanzar la unidad. Haga que su programa imprima este n\'umero despu\'es de imprimir la sucesi\'on. De nuevo puede hacer pruebas con los n\'umeros seis y once, cuyas secuencias est\'an en Wikipedia. Muestre que empezando en veintisiete (27), la sucesi\'on tiene ciento doce (112) pasos. 
+
+
+\end{questions}
+
+\end{document}
