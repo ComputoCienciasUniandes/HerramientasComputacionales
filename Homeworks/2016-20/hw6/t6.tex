@@ -1,0 +1,71 @@
+\documentclass[11pt,letterpaper]{exam}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 6}
+2016-II
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+Los archivo del c\'odigo fuente debe subirse a Sicua plus en un \'unico archivo
+\verb".zip" con el nombre del estudiante en el formato \verb"NombreApellido_hw6.zip" antes que termine la clase.
+
+El objetivo de este ejercicio es modificar la clase \verb"Balon" introducida en el video para que incluya tambi\'en la direcci\'on horizontal y calcule la trayectoria en un tiro parab\'olico.
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+\question[2.5] {\bf{Implementaci\'on de la clase \verb"Balon"}}
+
+Escriba un script de Python (\verb'.py') o un notebook de Jupyter (\verb".ipynb") donde implemente la clase \verb"Balon" con las siguientes adiciones
+
+\begin{itemize}
+\item El constructor \verb'__init__' recibe como par\'ametros \verb'x0, vx0, y0, vy0, m0': las posiciones y velocidades iniciales del bal\'on, y su masa.
+
+\item Los atributos son las posiciones y velocidades actuales \verb'x, vx, y, vy', la masa \verb'm' y las \textbf{listas} de tiempos, posiciones y velocidades \verb'T, X, Vx, Y, Vy'.
+
+\item Los atributos mencionados deben ser correctamente inicializados en el constructor. All\'i mismo debe ser asignado el primer elemento de \verb'T' a \verb'0', y los primeros elementos de las dem\'as listas seg\'un las condiciones iniciales.
+
+\item El m\'etodo \verb'muevete' debe incluir tambi\'en la evoluci\'on de la posici\'on horizontal \verb'x' que se realiza de manera casi id\'entica a la evoluci\'on de \verb'y'.
+
+\item El m\'etodo \verb'imprime' ahora se llamar\'a \verb'guarda' y ahora debe guardar los valores de \verb't, x, vx, y, vy' en las respectivas listas. Puede usar la funci\'on \verb'append' para hacerlo.
+\end{itemize}
+\question[1.5] {\bf{Creaci\'on del objeto y evoluci\'on}}
+
+En un notebook de Jupyter, cree un objeto de la clase \verb'Balon', y realize la evoluci\'on similarmente a como se hizo en el video de preparaci\'on para un \verb'Deltat = 0.01' hasta un tiempo final de \verb'2.0'. Luego del ciclo las listas deben contener todos los valores de tiempos, posiciones y velocidades en el intervalo de tiempo considerado.
+
+\question[1.0] {\bf{Gr\'afica}}
+
+Realice una gr\'afica de $Y$ contra $X$ utilizando la misma sintaxis del video de preparaci\'on de tal forma que se vea la trayectoria parab\'olica del bal\'on.
+
+No olvide escribir \verb'%pylab inline' al comienzo de su notebook para visualizar.
+
+\end{questions}
+
+\end{document}
