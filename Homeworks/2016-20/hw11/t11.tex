@@ -1,0 +1,64 @@
+\documentclass[11pt,letterpaper]{exam}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 11}\\
+2016-II
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+El c\'odigo fuente debe subirse a Sicua plus en un \'unico archivo
+\verb".ipynb" con el nombre del estudiante en el formato \verb"NombreApellido_hw11.ipynb" antes que termine la clase.
+
+\vspace{0.5cm}
+
+Escriba un notebook de ipython con los siguientes pasos
+
+\begin{questions}
+
+\question[0.5]\textbf{Suma de n\'umeros aleatorios}
+
+Una funci\'on que calcule y retorne la suma de \verb'n' n\'umeros aleatorios, cada uno distribu\'ido uniformemente entre $0$ y $1$. Cada uno de estos n\'umeros se generan utilizando la funci\'on \verb'np.random.random()'. El n\'umero \verb'n' debe ser par\'ametro de la funci\'on.
+
+\question[2.0]\textbf{10000 sumas de n\'umeros aleatorios - Histogramas}
+
+Una funci\'on que corra \verb'10000' veces la funci\'on anterior y vaya almacenando los resultados en un arreglo. Esta funci\'on recibe como par\'ametro el n\'umero \verb'n' de elementos a sumar en cada una de las \verb'10000' iteraciones.
+
+La funci\'on debe graficar un histograma del arreglo de sumas utilizando $50$ bins, y retornar dicho arreglo. 
+
+\question[1.5]\textbf{Estad\'isticas}
+
+Ejecute la funci\'on anterior para \verb'n = 50, 100, 200, 400' de tal forma que se muestren los $4$ histogramas. Para cada una de las ejecuciones calcule el promedio y la desviaci\'on est\'andar y realice un \verb'scatter' de desviaci\'on est\'andar (eje $y$) vs. promedio (eje $x$) que muestre los $4$ puntos correspondientes.
+
+\question[1.0]\textbf{Ajuste}
+
+Realice un fit de los puntos anteriores a la función $y = a\sqrt{x}$ utilizando \verb'curve_fit',  y grafique el fit junto con la gr\'afica realizada en el punto anterior.
+
+\end{questions}
+
+\end{document}

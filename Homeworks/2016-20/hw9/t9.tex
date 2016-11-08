@@ -1,0 +1,65 @@
+\documentclass[11pt,letterpaper]{exam}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 9}\\
+2016-II
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+Los archivo del c\'odigo fuente debe subirse a Sicua plus en un \'unico archivo
+\verb".zip" con el nombre del estudiante en el formato \verb"NombreApellido_hw9.zip" antes que termine la clase.
+
+
+Considere un tiro parab\'olico desde una altura inicial \verb'y0 = 10' metros hasta una altura final \verb'yf = 0'. La velocidad inicial es de \verb'v0 = 4' m/s y el \'angulo \verb'theta' es un par\'ametro variable. El objetivo de este ejercicio es hallar el alcance m\'aximo en funci\'on del \'angulo de tiro. Recordemos que las ecuaciones para la altura \verb'y' y el dezplazamiento horizontal \verb'x' son
+
+\begin{align}
+y &= y_0 + v_0\sin\theta \cdot t -\frac{1}{2}gt^2\label{1}\\
+x &= v_0\cos\theta \cdot t\label{2}
+\end{align}
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+
+\question[1.0] {Funciones}
+
+Implemente las funciones \verb'fy' y \verb'fx' que reciben como par\'ametros el tiempo y el \'angulo y retornan la posici\'on vertical (eq. \ref{1}) y horizontal (eq. \ref{2}). Respectivamente.
+
+\question[1.5] {Newton-Raphson, una iteraci\'on}
+
+Utilice el m\'etodo de Newton para hallar e imprimir el tiempo de vuelo y el alcance horizontal m\'aximo a un \'angulo de tiro de $\pi/4$.
+
+\question[2.5] {Newton-Raphson, varias iteraciones}
+
+Utilice m\'ultiples veces el m\'etodo de Newton para hallar el tiempo de vuelo y el alcance horizontal m\'aximo a $15$ \'angulos de tiro equidistantes entre $0$ y $\pi/2$ (no incluya los valores l\'imite). Almacene los \'angulos, tiempos y alcances m\'aximos en listas y grafique utilizando \verb'scatter' tiempo vs. \'angulo de tiro y alcance m\'aximo vs. \'angulo de tiro en gr\'aficas separadas.
+
+\end{questions}
+
+\end{document}
