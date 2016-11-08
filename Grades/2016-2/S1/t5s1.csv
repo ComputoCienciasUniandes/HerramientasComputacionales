@@ -1,0 +1,23 @@
+ID de alumno,Diagnostico (20%),Tarea 3 (20%),Tarea 5 (20%),Comentarios Tarea 5
+201519536,5,5,1.5,"sobre cupo de stack, función mal definida"
+201411794,5,5,2,función mal implementada
+201515480,5,5,2,"la función está mal implementada, aunque corra, no devuelve lo que debería"
+201415329,5,5,1,"no lee bien la lista, está pasando strings en vez de int, además definió la recursión al revés."
+201514934,5,5,5,
+201223884,5,5,0,
+201423234,5,5,5,
+201425650,5,5,5,
+201413837,5,5,3,acotó la función al revés y no entrega lo que es
+201521275,5,5,2,"no definió bien la recursión, aunque entregue ""9773"", no es porque lo halla pasado sino porque simplemente devuelve ese parámetro"
+201517561,5,5,5,
+201215953,5,5,1.5,"implementa mal la función, pues siempre re-asigna los límites a los valores iniciales, nunca llega a ningún lado (loop infinito) además hay errores de sintaxis"
+201531559,5,5,5,
+201423871,5,5,5,
+201422410,5,5,5,
+201422464,5,5,1.5,"implementa mal la función, llama objetos que no ha creado, y tiene errores de sintaxis, no sirve el script"
+201426137,5,5,5,
+201315485,5,2,0,
+201424402,5,5,5,
+201425553,5,5,1.5,"función mal implementada, no hay recursión ni nada que se le parezca"
+201216512,5,5,1.5,no implementó la función
+200825302,5,5,4,"no regresa el índice del objeto encontrado, aunque sí lo encuentra"

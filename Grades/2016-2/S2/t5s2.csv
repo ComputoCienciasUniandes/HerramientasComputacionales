@@ -1,0 +1,20 @@
+ID de alumno,Diagnostico (20%),Tarea 3 (20%),Tarea 5 (20%),Comentarios Tarea 5
+201618954,5,5,2,"sobrecupo de stack, función  mal implementada"
+201514936,5,5,1.5,la función está muy mal definida
+201425623,5,5,2,"función mal implementada llama a otra función ""buscar"" (sin definir) desde ""encontrar"", no cambia los límites de búsqueda apropiadamente"
+201313427,5,5,5,
+201510548,5,5,2,no define bien la función no entra en recursión
+201518139,5,5,2,función mal implementada
+201224021,5,5,2,"no define bien la función, pone el return de primero en cada condicional, ignorando las asignaciones"
+201326239,5,5,4,la función sirve pero por su implementación no se da el índice apropiado
+201326309,5,5,4,la función sirve pero por su implementación no se da el índice apropiado
+201317343,5,5,4,no define bien el límite inferior entonces este siempre es 0
+201421830,5,5,2.5,la función no sirve pues redefine los límites al valor inicial dentro de la función
+201423810,5,5,2,no define bien la función
+201415889,5,5,2,no define bien la función
+201414460,5,5,5,
+201518778,5,5,0,
+201616879,5,5,0,
+201519363,5,0,0,
+201225248,5,5,1,no lee bien la lista y no hizo la función
+201317962,5,2,2,"ingresa 9773 cómo ""parámetro"" al definir la función, así que no sirve"
