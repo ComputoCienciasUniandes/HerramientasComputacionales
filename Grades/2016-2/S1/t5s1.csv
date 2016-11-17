@@ -1,7 +1,7 @@
 ID de alumno,Diagnostico (20%),Tarea 3 (20%),Tarea 5 (20%),Comentarios Tarea 5
 201519536,5,5,1.5,"sobre cupo de stack, función mal definida"
 201411794,5,5,2,función mal implementada
-201515480,5,5,2,"la función está mal implementada, aunque corra, no devuelve lo que debería"
+201515480,5,5,5,
 201415329,5,5,1,"no lee bien la lista, está pasando strings en vez de int, además definió la recursión al revés."
 201514934,5,5,5,
 201223884,5,5,0,
