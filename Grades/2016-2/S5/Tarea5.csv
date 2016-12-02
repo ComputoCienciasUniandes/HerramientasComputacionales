@@ -12,7 +12,7 @@ ID de alumno    ,Ejercicio 5 ,Comentarios
 201532062,	2,	No terminó la función o la hizo mal
 201512298,	1.5,	Función mal implementada y con errores de sintaxis
 201513558,	0.5,	No lee la lista y la función no sirve
-201413062,	NA,	Función mal implementada llama a otra función "buscar" (sin definir) desde "encontrar". no cambia los límites de búsqueda apropiadamente
+201413062,	NA,	Función mal implementada llama a otra función -buscar- (sin definir) desde -encontrar-. no cambia los límites de búsqueda apropiadamente
 201517250,	0.5,	No lee la lista y la función no sirve
 201533975,	0.5,	No llama bien la lista. añade textos dentro del script que lo hacen colapsar y no le puso la extensión .py. además de varios errores de sintaxis
 201114992,	5,	
