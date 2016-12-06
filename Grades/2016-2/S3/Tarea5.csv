@@ -1,0 +1,15 @@
+ID de alumno    , Ejercicio 5, Comentarios
+201313006	,		1.5	, No define bien la función y por ende no sirve
+201125674	,		2.5	, Código no funciona
+201313816	,       3   , El else-if tiene la misma condición del if. por eso no funciona
+201620216		,	5	,
+201422249	,		2	, No llama la función y la implementa mal. no habrá recursión pues la función termina antes de volver a llamarse
+201620969	,	,		
+201523617	,		2	, Loop infinito
+201615332	,		1	, No lee bien la lista. no llama el método. su implementación no es clara
+201216203	,		5   ,	
+201015735	,		5	,
+201513563	,		4.5	, Faltó el último índice
+201218391	,		1	, No lee bien la lista. no llama el método. su implementación no es clara
+201418451	,		,
+

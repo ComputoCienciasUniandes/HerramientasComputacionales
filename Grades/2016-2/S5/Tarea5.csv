@@ -1,0 +1,22 @@
+ID de alumno    ,Ejercicio 5 ,Comentarios
+201620424,	5,	
+201611290,	2,	Función mal implementada. confunde parámetros con objetos externos del script. no sirve
+201619128,	4,	La función está bien implementada. pero no devuelve el número final ni su índice
+201613924,	2,	Función mal implementada. confunde parámetros con objetos externos del script. no sirve
+201513008,	1.5,	La función ni siquiera fue terminada. además que nombra mal los objetos y otros graves errores de sintaxis
+201516503,	5,	
+201425077,	0.5,	No lee la lista y la función no sirve
+201615855,	2,	Función mal implementada y con errores de sintaxis y indexOutOfBound exception
+201424162,	3.0	,
+201514567,	2,	Función no fue terminada
+201532062,	2,	No terminó la función o la hizo mal
+201512298,	1.5,	Función mal implementada y con errores de sintaxis
+201513558,	0.5,	No lee la lista y la función no sirve
+201413062,	NA,	Función mal implementada llama a otra función -buscar- (sin definir) desde -encontrar-. no cambia los límites de búsqueda apropiadamente
+201517250,	0.5,	No lee la lista y la función no sirve
+201533975,	0.5,	No llama bien la lista. añade textos dentro del script que lo hacen colapsar y no le puso la extensión .py. además de varios errores de sintaxis
+201114992,	5,	
+201517402,	5,	
+201532432,	5,	
+201618267,	2.5,	Función no sirve. no define bien los cambios en los límites
+201530579,	2,	No implementa bien la función.
