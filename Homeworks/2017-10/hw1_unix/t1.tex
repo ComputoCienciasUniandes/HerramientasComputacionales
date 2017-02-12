@@ -1,0 +1,82 @@
+\documentclass[11pt,letterpaper]{exam}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 1} \\
+\textsc{Semana 2 - UNIX}\\
+2017-I\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+El archivo del c\'odigo fuente debe subirse a Sicua plus en un \'unico archivo \verb'.sh' con el nombre del estudiante en el formato \verb"NombreApellido.sh" antes que termine la clase.
+
+El enlace del archivo que vamos a utilizar es:
+
+\url{https://raw.githubusercontent.com/ComputoCienciasUniandes/MetodosComputacionalesDatos/master/homework/2014-20/hw_1/notas_fisicaII_201320.dat}
+
+El archivo contiene las notas de un curso de F\'isica 2. Las primeras tres columnas son las notas de los parciales, la cuarta columna es la nota del final y la sexta columna es la nota definitiva. Todas las notas se encuentran sobre 100. Una nota aprobatoria corresponde a 60 puntos o m\'as.
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+\question[2.5]
+
+Imprima el string \verb'1.', luego imprima el n\'umero de estudiantes que ganaron el primero, segundo y tercer parcial. La salida se debe ver de la siguiente forma:
+
+\begin{verbatim}
+1.
+n11
+estudiantes ganaron el primer parcial.
+n12
+estudiantes ganaron el segundo parcial.
+n13
+estudiantes ganaron el tercer parcial.
+\end{verbatim}
+
+donde \verb'n11', \verb'n12' y \verb'n13' corresponden a las cantidades a imprimir.
+
+\question[2.0]
+
+Imprima el string \verb'2.', luego imprima el n\'umero de estudiantes que perdieron exactamente un parcial y ganaron la materia. La salida debe verse de la siguiente forma:
+
+\begin{verbatim}
+2.
+n2
+estudiantes perdieron exactamente un parcial y ganaron la materia.
+\end{verbatim}
+
+donde \verb'n2' corresponde a la cantidad solicitada.
+
+\question[0.5]
+
+Incluya en el script los comandos necesarios para eliminar el archivo descargado y todos los archivos auxiliares.
+
+\end{questions}
+
+\end{document}
