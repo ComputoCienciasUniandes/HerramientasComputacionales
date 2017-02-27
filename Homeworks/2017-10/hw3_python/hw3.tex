@@ -1,0 +1,124 @@
+\documentclass[11pt,letterpaper]{exam}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 3} \\
+\textsc{Semana 5 - Python}\\
+2017-I\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+El archivo del c\'odigo fuente debe subirse a Sicua plus en un \'unico archivo \verb'.py' con el nombre del estudiante en el formato \verb"NombreApellido.py" antes que termine la clase.
+
+Todos los puntos deben resolverse secuencialmente en el mismo archivo \verb'.py'.
+
+Deben llamar siempre la variable \verb'a' en todos los puntos, de tal forma que al cambiar su valor se obtengan los resultados esperados. Utilice n\'umeros menores que \verb'1000' para los valores de \verb'a'. Igualmente para \verb'b' en la pregunta 4.
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+\question[0.5]
+
+Defina una variable \verb'a' de tal forma que sea un entero positivo. Luego imprima el siguiente mensaje
+
+\begin{verbatim}
+	El numero es 'valor de a'
+\end{verbatim}
+
+donde \verb'valor de a' es el valor que tiene asignado la variable a.
+
+\question[1.0]
+
+Escriba una rutina que verifique si la variable \verb'a' es par o impar. Si \verb'a' es par, debe imprimir:
+
+\begin{verbatim}
+	El numero 'valor de a' es par
+\end{verbatim}
+
+o bien,
+
+\begin{verbatim}
+	El numero 'valor de a' es impar
+\end{verbatim}
+
+seg\'un sea el caso. \verb'valor de a' es el valor que tiene asignada la variable a.
+
+\question[1.5]
+
+Ahora, escriba una rutina que imprima todos los divisores de \verb'a'. La salida se debe ver de la siguiente manera
+
+\begin{verbatim}
+	Los divisores de 'valor de a' son:
+	1
+	d2
+	d3
+	.
+	.
+	.
+	a
+\end{verbatim}
+
+donde \verb'1, d2, d3,..., a' son los divisores del n\'umero. Recuerde que el menor divisor de cualquier n\'umero positivo es $1$ y el mayor es el mismo n\'umero.
+
+\iffalse
+\question[1.0]
+
+Imprima la cantidad de divisores obtenidos en el punto anterior con un mensaje de la siguiente forma:
+
+\begin{verbatim}
+	El n\'umero 'valor de a' tiene n divisores.
+\end{verbatim}
+
+Donde \verb'n' es el n\'umero de divisores. 
+
+\question[1.0]
+
+Imprima la suma de los divisores obtenidos en el punto anterior con un mensaje de la siguiente forma:
+
+\begin{verbatim}
+	La suma de los divisores de 'valor de a' es n.
+\end{verbatim}
+
+Donde \verb'n' es la suma de los divisores de \verb'a'. 
+\fi
+
+\question[2.0]
+
+Defina una nueva variable \verb'b' con las mismas caracter\'isticas de \verb'a', luego escriba una rutina que calcule el m\'aximo com\'un divisor entre \verb'a' y \verb'b'. Se debe mostrar el siguiente mensaje.
+
+\begin{verbatim}
+	El maximo comun divisor entre 'valor de a' y 'valor de b' es n
+\end{verbatim}
+
+donde \verb'valor de a' y \verb'valor de b' son los valores de las respectivas variables y \verb'n' es el valor del m\'aximo com\'un divisor.
+
+\end{questions}
+
+\hspace{-6mm} Verifique que todos los puntos funcionen para varios valores de \verb'a' y \verb'b'.
+\end{document}
