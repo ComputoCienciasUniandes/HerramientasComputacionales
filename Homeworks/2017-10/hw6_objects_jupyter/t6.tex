@@ -1,0 +1,80 @@
+\documentclass[11pt,letterpaper]{exam}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\decimalpoint
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Tarea 6} \\
+\textsc{Semana 8 - Programaci\'on Orientada a Objetos y Cuadernos de Jupyter}\\
+2017-I\\
+\end{center}
+
+%\begin{textblock*}{40mm}(10mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+%\begin{textblock*}{40mm}(164mm,20mm)
+%  \includegraphics[width=3cm]{logoUniandes.png}
+%\end{textblock*}
+
+\vspace{0.5cm}
+
+\noindent
+Los archivo del c\'odigo fuente debe subirse a Sicua plus en un \'unico archivo
+\verb".ipynb" con el nombre del estudiante en el formato \verb"NombreApellido_hw6.ipynb" antes que termine la clase.
+
+El ejercicio debe ser resuelto en un notebook de Jupyter (\verb'.ipynb').
+	
+El objetivo de este ejercicio es implementar la clase \verb'Pendulo' de manera similar a como se implementa la clase \verb'Balon' en el video.
+
+No olvide escribir \verb'%pylab inline' al comienzo de su notebook para visualizar.
+
+\vspace{0.5cm}
+
+\begin{questions}
+ 
+\question[2.5] {\bf{Implementaci\'on de la clase \verb"Pendulo"}}
+
+Implemente la clase \verb"Pendulo" con las siguientes caracter\'isticas
+
+\begin{itemize}
+\item El constructor \verb'__init__' recibe como par\'ametros \verb'x0, v0, l0': la posici\'on, la velocidad inicial y la longitud de la cuerda.
+
+\item Los atributos incializados en el constructor son la posici\'on y velocidad actuales \verb'x, v', la longitud \verb'l' y las \textbf{listas} de tiempo, posici\'on y velocidad \verb'T, X, V'.
+
+\item Los atributos mencionados deben ser correctamente inicializados en el constructor. All\'i mismo debe ser asignado el primer elemento de \verb'T' a \verb'0', y los primeros elementos de las dem\'as listas seg\'un las condiciones iniciales.
+
+\item Escribir el m\'etodo \verb'calculaAceleracion', el cual calcula la aceleraci\'on del p\'endulo y la guarda como un atributo \verb'a'. La aceleraci\'on de un p\'endulo est\'a dada por 
+
+$$ a = - \frac{g}{l} x $$
+
+
+\item Escribir el m\'etodo \verb'muevete' an\'alogamente a como estaba en el video. Recuerde que los cambios en velocidad y posici\'on se pueden aproximar como $dv \approx a\cdot dt$ y $dx \approx v\cdot dt$.
+
+\item El m\'etodo \verb'imprime' ahora se llamar\'a \verb'guarda' y ahora debe guardar los valores de \verb't, x, v' en las respectivas listas. Puede usar la funci\'on \verb'append' para hacerlo.
+
+\end{itemize}
+\question[1.5] {\bf{Creaci\'on del objeto y evoluci\'on}}
+
+Cree un objeto de la clase \verb'Pendulo' y desarrolle la evoluci\'on similarmente a como se hizo en el video de preparaci\'on para un \verb'Deltat = 0.01' hasta un tiempo final de \verb'12.0'. Luego del ciclo las listas deben contener todos los valores de tiempos, posiciones y velocidades en el intervalo de tiempo considerado.
+
+\question[1.0] {\bf{Gr\'afica}}
+
+Realice una gr\'afica de $X$ contra $T$ utilizando la misma sintaxis del video de preparaci\'on de tal forma que se vea el comportamiento esperado del p\'endulo.
+
+\end{questions}
+
+\end{document}
