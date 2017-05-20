@@ -1,0 +1,19 @@
+Apellidos,Nombre,Nombre de usuario,ID de alumno,Diagnostico (/5),Taller 3 (/5),Taller 8 (/5),Taller 9 (/5),Final (/5),Definitiva,Comentarios Taller 9
+Bautista Acosta,Omar David joel,dj.bautista10,201512756,5,0,2.5,2,1.875,2.275,"3,4. No estan"
+Bermudez Valderrama,Julian Andres,ja.bermudez10,201519648,5,3.5,0,2.3,2.5,2.66,"1. Funcion mal definida 3,4. No define segunda derivada, grafica incompleta. No calcula Newton"
+Cardenas Landazabal,Sergio Eduardo,se.cardenas,201613444,5,5,5,5,5,5,
+Castillo Meneses,Juan Manuel,jm.castillo12,201514994,5,5,5,5,3.4375,4.6875,
+Cendales Barrera,Luis Carlos,lc.cendales10,201224021,5,0,4.5,4.8,5,3.86,4. Falta grafica de derivada
+Cordoba Porras,Manuel Fernando,mf.cordoba,201619132,5,5,5,5,3.125,4.625,
+Gonzalez Beltran,Brian Stiben,bs.gonzalez12,201511835,5,5,1.7,3.5,1.25,3.29,
+Mantilla Calderon,Luis Carlos,lc.mantilla,201631487,5,5,5,5,4.0625,4.8125,
+Martinez Valencia,Diego Felipe,df.martinezv,201615563,5,3,4.3,4,1.875,3.635,1. Derivada mal definida (parentesis) 4. Mala condicion inicial
+Perez Becerra,Juan Carlos,jc.perez18,201616584,5,5,5,4.8,2.5,4.46,4. Falta grafica de derivada
+Rengifo Montilla,Pablo Felipe,pf.rengifo10,201514616,5,4.7,0,2.5,1.875,2.815,1. Funcion mal definida. 3. No define segunda derivada. 4. No hay graficas. Resultado invalido.
+Reyes Muñoz,David Alfonso,da.reyes12,201512298,5,3,5,5,2.1875,4.0375,
+Rojas Mendoza,Andres Mauricio,am.rojas262,201023855,5,0,0,0,0,1,
+Segura Morales,Santiago Alfonso,sa.segura10,201617653,5,5,5,5,2.5,4.5,
+Sepulveda Velasquez,Sergio,s.sepulveda10,201617671,5,5,5,5,1.875,4.375,
+Triana Brigante,Carlos Alberto,ca.triana957,201216512,5,5,5,5,2.5,4.5,
+VELASCO GONZALEZ,Andres Ricardo,ar.velasco10,201414968,5,5,0,0,2.8125,2.5625,
+Vera Fonseca,Maria Manuela,mm.vera,201618246,5,3.7,2.5,2.4,2.1875,3.1575,2. Funcion mal definida. 3. Funcion mal definida. 4. No hay graficas ni calculo
