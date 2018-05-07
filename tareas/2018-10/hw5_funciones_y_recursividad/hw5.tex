@@ -1,0 +1,151 @@
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage[utf8]{inputenc}
+%\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{amsmath,amssymb}
+\usepackage{bigints}
+%\decimalpoint
+
+\begin{document}
+\begin{center}
+{\Large Herramientas Computacionales} \\
+Tarea 5 - \textsc{Python: Funciones y Recursividad}\\
+01-2018\\
+\end{center}
+
+\begin{textblock*}{40mm}(10mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes}
+\end{textblock*}
+
+\begin{textblock*}{40mm}(164mm,20mm)
+  \includegraphics[width=3cm]{logoUniandes}
+\end{textblock*}
+
+\vspace{0.3cm}
+
+\noindent
+La soluci\'on a este taller debe subirse por SICUA antes de terminada la clase.
+%\noindent
+%Si la soluci\'on est\'a en SICUA
+%antes de las 8:30AM del domingo 31 de Enero del 2016 se calificar\'a
+%el taller sobre 125 puntos. 
+\noindent
+Los archivos c\'odigo fuente deben subirse en un \'unico archivo
+\verb".py" con el nombre \verb"NombreApellido_hw5.py", por ejemplo
+yo deber\'ia subir el zip \verb"JesusPrada_hw5.py". Recuerden que es un trabajo individual y debe ser realizado en un script de python (.py).
+
+\vspace{0.3cm}
+
+\LARGE \textbf{Aclaraciones sobre python: El alcance(scope) de las variables}\\
+
+\normalsize
+
+En python y en general en la mayor\'ia de lenguajes de programaci\'on hay dos tipos de variables importantes: las variables \textbf{LOCALES} y las variables \textbf{GLOBALES}.\\
+
+Las variables \textbf{globales} son declaradas por fuera de funciones. \textbf{Una buena manera de saber si una variable es global es si no est\'a indentada}. Estas variables son accesibles por todos las funciones, ciclos, etc.\\
+
+Las variables \textbf{locales} son declaradas adentro de una funci\'on, o como par\'ametro. Estas variables son accesibles \'unicamente adentro de la funci\'on en la que fueron declaradas.\\
+
+Ahora, en python la sintaxis intuitiva y poco exigente, en donde \textbf{la asignaci\'on de variables autom\'aticamente las declara}, se presta para confusiones con las variables locales y globales. Es decir, en python es posible definir una variable global y luego definir una variable local con el mismo nombre. En este caso, no es claro si la variable queda local o global. Demostr\'emoslo!\\
+
+\begin{questions}
+
+\question[0.5] {\bf{Comentarios}}
+
+Por favor comenten todo su c\'odigo. Espec\'ificamente, a cada variable importante o cuyo significado no es evidente deben comentarle su significado. A cada funci\'on deben comentarle su prop\'osito principal y el significado de sus par\'ametros de entrada y sus retornos. A cada iteraci\'on deben comentarle su objetivo. Se acepta declarar variables con nombre evidente como \verb"number" en lugar de comentar su significado.
+
+\question[0.2] {\bf{Declarar variables globales}}
+
+Declare una variable global llamada \verb"var1" y otra llamada \verb"var2". Estas variables deben tener el contenido \verb"'variable 1 global'" y \verb"'variable 2 global'" .
+
+\question[0.2] {\bf{Declarar una variable local (1)}}
+
+Como vimos anteriormente, hay dos maneras de declarar una variable local. Una es asign\'andole un valor adentro de la funci\'on. \\
+
+Defina una funci\'on llamada \verb"fun1()". Adentro de la funci\'on declare una variable local llamada \verb"var1" con el contenido \verb"'variable 1 local'". Inmediatamente despu\'es esta funci\'on debe \textbf{IMPRIMIR} la variable \verb"var1".\\
+
+Cabe aclarar que definir una funci\'on \textbf{NO} la ejecuta. El contenido de una funci\'on es ejecutado \'unicamente al \textbf{LLAMAR} la funci\'on, no al \textbf{DEFINIRLA}.
+
+\question[0.2] {\bf{Declarar una variable local (2)}}
+
+Otra manera de declarar una variable local es declar\'andola como par\'ametro de una funci\'on. \\
+
+Defina una funci\'on llamada \verb"fun2(var2)" que tome como par\'ametro una variable llamada \verb"var2" y la \textbf{IMPRIMA}.
+
+
+\question[0.5]{\bf{Globales o locales?}}
+
+Imprima \verb"'Ejecutando fun1()'", luego, en el siguiente rengl\'on, \textbf{EJECUTE} la funci\'on \verb"fun1()". Imprima \verb"'Imprimiendo var1'", luego, en el siguiente rengl\'on, imprima la variable \verb"var1". \\
+
+Imprima \verb"'Ejecutando fun2()'", luego, en el siguiente rengl\'on, \textbf{EJECUTE} la funci\'on\\ \verb"fun2('variable 2 local')". Imprima \verb"'Imprimiendo var2'", luego, en el siguiente rengl\'on, imprima la variable \verb"var2". \\
+
+Ejecute el c\'odigo.\\
+
+Hemos declarado una variable global y luego hemos declarado una variable local con el mismo nombre (de dos maneras distintas). Imprima un mensaje en el que comente si las variables son locales, globales o ambas, seg\'un lo que usted concluy\'o al correr el c\'odigo.
+
+\question[0.4]{\bf{Se puede asignar un valor a una variable global dentro de una funci\'on?}}
+
+Como vimos anteriormente, al asignarle el valor a una variable adentro de una funci\'on, se est\'a declarando como local. Esto significa que esa asignaci\'on s\'olo es v\'alida dentro de la funci\'on. Esta confusi\'on se puede arreglar trabajando con nombres diferentes de variables. Es decir, si se declara una variable (global) por fuera de una funci\'on, es mejor NO declarar/asignar una variable (local) con el mismo nombre adentro de la funci\'on.\\
+
+Sin embargo, a veces es necesario asignar o cambiar el valor de una variable global adentro de una funci\'on. Recordando que asignar el valor de una variable adentro de una funci\'on la declara como local, esto es un problema que no se puede solucionar cambiando el nombre de las variables. En caso de que se quiera modificar una variable global \textbf{adentro} de una funci\'on, es necesario, antes de modificarla, recordarle a python que se modificar\'a la variable global y no una versi\'on local. Para esto, se usa la siguiente l\'inea de c\'odigo para la variable \verb"var" \textbf{ADENTRO} de la funci\'on:
+
+\begin{verbatim}
+global var
+\end{verbatim}
+
+Declare una funci\'on llamada \verb"fun3()". Adentro de la funci\'on modifique la variable global llamada \verb"var1" con el contenido \verb"'variable 1 global modificada'". Inmediatamente despu\'es esta funci\'on debe imprimir la variable \verb"var1".\\  
+
+Imprima \verb"'Ejecutando fun3()'", luego, en el siguiente rengl\'on, \textbf{ejecute} la funci\'on \verb"fun3()". Imprima \verb"'Imprimiendo var1'", luego, en el siguiente rengl\'on, imprima la variable \verb"var1". Note la diferencia con el punto anterior y d\'ejela expresada en un mensaje que imprimir\'a.\\
+
+Ejecute el c\'odigo.\\
+
+Cabe aclarar que establecer una variable \verb"var" como pra\'ametro de una funci\'on autom\'aticamente la hace local. Dado que \verb"global var" tiene que ser ejecutado antes de que la variable sea declarada local, modificar una variable global llamada \verb"var" dentro de una funci\'on que tiene como par\'ametro la variable \verb"var" es imposible.\\
+
+\LARGE \textbf{Recursividad}\\
+
+\normalsize
+
+\question[2.5]{\bf{La conjetura de Collatz}}
+
+
+Podemos generar una secuencia de n\'umeros a partir de un n\'umero \verb"n" de la siguiente manera:
+
+\begin{equation*}
+a_0 = n
+\end{equation*}
+
+
+\begin{equation*}
+a_{i+1} =
+\left\{
+	\begin{array}{ll}
+		\frac{a_i}{2}  & \mbox{si } a_i\ es\ Par \\
+		3a_i+1 & \mbox{si } a_i\ es\ Impar
+	\end{array}
+\right.
+\end{equation*}
+
+La conjetura establece que no importa cu\'al sea el \verb"n" que escojamos, la secuencia eventualmente caer\'a en el ciclo \verb"4,2,1,4,2,1,4,2,1....".\\
+
+Cree una funci\'on \textbf{RECURSIVA} llamada \verb"Collatz()" que imprima la secuencia asociada a un n\'umero \verb"n". La funci\'on debe parar cuando $a_i=1$. \\
+
+\question[0.5] {\bf{Las primeras 20 secuencias}}
+
+Imprima la secuencia de los primeros $20$ enteros, una debajo de otra. Para evitar confusiones y por orden, antes de llamar la funci\'on \verb"Collatz()" imprima un mensaje que especifique sobre qu\'e n\'umero \verb"n" se calcula la secuencia.\\
+
+\end{questions}
+
+\end{document}
