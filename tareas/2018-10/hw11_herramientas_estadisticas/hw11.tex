@@ -1,0 +1,93 @@
+\documentclass[11pt,letterpaper]{exam}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel} % espaÃ±ol
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen en posiciones arbitrarias
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\usepackage[spanish]{babel}
+
+\decimalpoint	%para que los números decimales estén separados por punto
+
+
+\pointpoints{punto}{puntos}	%para que los textos de puntajes salgan en espaÃ±ol. http://www-math.mit.edu/~psh/exam/examdoc.pdf
+\footer{}{P\'agina \thepage}{}%para que pie de pagina salga en espaÃ±ol
+
+
+\begin{document}
+
+\begin{center}
+
+\includegraphics[width=16cm]{header.png}
+
+\vspace{1.0cm}
+{\Large Herramientas Computacionales - Taller 11} \\
+\textsc{Semana 13 - Herramientas estad\'isticas}\\
+2018-I\\
+\end{center}
+
+
+\vspace{0.5cm}
+
+\noindent
+
+La soluci\'on debe subirse a SicuaPlus en un \'unico archivo de \verb"IPython Notebook" con el nombre
+\verb"NombreApellido_taller11.ipynb", el cual debe contener toda la soluci\'on del taller.\\ 
+
+\vspace{0.3cm}
+
+\begin{questions}
+
+\question[0.5] {\bf{Comentarios}}
+
+Comente su c\'odigo.
+
+\LARGE \textbf{El Teorema del L\'imite Central}\\
+
+\normalsize
+
+En un juego de mesa hay un momento crucial de la partida en que un jugador debe lanzar 10 veces un dado de 6 caras y sumar todos sus resultados. El dado est\'a cargado de tal manera que la probabilidad de obtener cada n\'umero es $P([1,2,3,4,5,6]) = [0.2,0.1,0.2,0.3,0.1,0.1]$. El jugador gana la partida si obtiene una suma mayor a 40.\\
+
+En este taller queremos verificar cualitativamente cu\'anto es la probabilidad de obtener una suma mayor a 40. Para ello tenemos que simular muchas ($M\approx 10000$) sumas y realizar un histograma. La raz\'on entre el n\'umero de sumas que caen en una barra y el n\'umero total es aproximadamente la probabilidad de obtener una suma en el intervalo de dicha barra.\\
+
+\question[2.0] {\bf{Generar datos}}
+
+Para simular muchas sumas de lanzamiento de dados, primero tenemos que simular los lanzamientos del dado cargado. Para esto, cree una funci\'on llamada \verb"get_sum(N)" que dado un n\'umero entero $N$ retorne la suma de $N$ n\'umeros aleatorios siguiendo la distribuci\'on $P([1,2,3,4,5,6]) = [0.2,0.1,0.2,0.3,0.1,0.1]$.\\
+
+\textbf{Ayuda:} Revise la documentaci\'on de numpy.random.choice.\\
+
+\question[1.5] {\bf{Generar datos 2}}
+
+Ahora que podemos simular la suma de $N=10$ lanzamientos de dados, debemos repetir el procedimiento para simular $M=10000$ sumas y de esta manera poder realizar el histograma.\\
+
+Para esto, cree una funci\'on llamada \verb"repeat_sum(M,N)" que llame $M$ veces la funci\'on \verb"get_sum(N)", cada vez guardando el resultado en una lista. Esta funcion debe retornar una lista de $M$ elementos donde cada elemento es el resultado de una suma $S_N$, dada por la funci\'on \verb"get_sum(N)".\\
+
+\question[1.0] {\bf{An\'alisis de datos y gr\'aficas}}
+
+Una de las herramientas m\'as poderosas de la estad\'istica es el Teorema del L\'imite Central (TLC). Este teorema establece que si generamos un n\'umero aleatorio $N$ veces y sumamos estos valores, la probabilidad de obtener cierto valor de la suma est\'a aproximado por una gaussiana sin importar la distribuci\'on de probabilidad de donde vengan los n\'umeros.\\
+
+En este caso, el TLC nos dice que sin importar c\'omo el dado est\'e cargado, la probabilidad de obtener una suma $S_N$ de $N$ lanzamientos de dados, est\'a dada por una gaussiana:
+
+\begin{equation}
+P(S_N) \approx  \sqrt{\frac{1}{2\pi\sigma^2}}\exp\left[{-\frac{\left(S_N-\bar{\chi}\right)^2}{\sigma^2}}\right],
+\end{equation}
+
+donde $\sigma$ es la desviaci\'on est\'andar y $\bar{\chi}$ es el promedio.\\
+
+Usando la funci\'on del punto $3$, obtenga $M=10000$ valores $S_N$ con $N=10$. Imprima un mensaje que deje claro cu\'al el valor promedio y la desviaci\'on est\'andar de la lista de 10000 valores $S_N$.\\
+
+Grafique el histograma normalizado de esta lista de valores. Adicionalmente grafique la curva gaussiana con los valores que acaba de obtener.\\
+
+As\'i podemos verificar las posibilidades que tiene este jugador de ganar la partida.\\
+
+\textbf{Ayuda:} Utilice la funci\'on \verb"plt.hist(lista_vals, bins = 20, normed = True)" para graficar un histograma normalizado de 20 barras a partir de la lista llamada \verb"lista_vals"
+
+\textbf{Ayuda:} Grafique primero el histograma y luego verifique el rango de valores para poder graficar la gaussiana haciendo uso de un \verb"linspace".
+
+\end{questions}
+
+\end{document}
