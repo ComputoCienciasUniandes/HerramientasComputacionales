@@ -1,0 +1,72 @@
+%Soluci\'on del taller 2
+%Herramientas computacionales
+%2018-1
+%
+%Soluci\'on preparada por David Guzm\'an
+
+\documentclass[letterpaper]{article}
+
+\begin{document}
+
+\section{Informaci\'on del estudiante}
+
+%Punto 2:
+
+\begin{itemize}
+  \item {\bf Nombre:} Juan P\'erez
+  \item {\bf C\'odigo:} 201528945
+  \item {\bf Programa:} arquitectura
+  \item {\bf Edad:} 20 a\~nos
+\end{itemize}
+
+\section{Materias 2017-2}
+
+%Punto 3:
+\begin{table}[h!] %el comando h! indica que debe poner la tabla aqui (here)
+ 
+\begin{tabular}{|l|r|r|}
+ \hline
+ Materia & Cr\'editos & Nota \\
+ \hline
+ C\'alculo diferencial & 3 & 3.5\\
+ Constituci\'on y democracia & 3 & 5\\
+ F\'isica 1 & 3 & 4.1\\
+ F\'isica experimental 1 & 1 & 3.8\\
+ Introducci\'on a la econom\'{\i}a colombiana & 3 & 4.3\\
+ Qu\'{\i}mica general & 3 & 2.8\\
+ Laboratorio de qu\'{\i}mica general & 1 & 4.5\\
+ \hline
+\end{tabular}
+\caption[]{Notas 2017-2 de Juan P\'erez}\label{tab:notas}
+\end{table}
+
+\section{Promedio 2017-2}
+
+%Punto 4a:
+
+Para calcular el promedio ponderado del semestre se usa la ecuaci\'on
+
+\begin{equation}
+  \textrm{promedio} = \frac{\sum_{i=1}^m n_i \cdot c_i}{\sum_{i=1}^m c_i}
+\end{equation}
+
+donde $m$ es el n\'umero de materias inscritas, $n_i$ es la nota de cada materia y $c_i$ son los cr\'editos de cada materia.
+
+%Punto 4b:
+\begin{equation}
+  \textrm{promedio} = \frac{(3.5\cdot3) + (5\cdot3) + (4.1\cdot3) + (3.8\cdot1) + (4.3\cdot3) + (2.8\cdot3) + (4.5\cdot1) }{3 + 3 + 3 + 1 + 3 + 3 + 1}
+\end{equation}
+
+\begin{equation}
+  \textrm{promedio} = \frac{10.5 + 15 + 12.3 + 3.8 + 12.9 + 8.4 + 4.5}{17}
+\end{equation}
+
+\begin{equation}
+  \textrm{promedio} = \frac{67.4}{17}
+\end{equation}
+
+\begin{equation}
+  \textrm{promedio} = 3.96
+\end{equation}
+
+\end{document}
